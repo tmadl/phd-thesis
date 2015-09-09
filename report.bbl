@@ -1,43 +1,217 @@
-\begin{thebibliography}{GMS94}
-
-\bibitem[BT88]{boyle}
-R.~D. Boyle and R.~C. Thomas.
-\newblock {\em Computer Vision - A First Course}.
-\newblock Blackwell Scientific Publications, 1988.
-
-\bibitem[DD87]{occam}
-D.Pountain and D.May.
-\newblock {\em A tutorial introduction to occam programming}.
-\newblock Blackwell Scientific Publications, 1987.
-
-\bibitem[Dyk94]{rd-only}
-William Dyke.
-\newblock The nutter's guide to {\LaTeX}.
-\newblock {\em Read Only}, (7), May 1994.
-
-\bibitem[GMS94]{companion}
-Michel Goosens, Frank Mittelbach, and Alexander Samarin.
-\newblock {\em The {\LaTeX} Companion}.
-\newblock Addison-Wesley, 1994.
-
-\bibitem[KD93]{kopka-old}
-Helmut Kopka and Patrick~W. Daly.
-\newblock {\em A guide to {\LaTeX}}.
-\newblock Addison-Wesley, 1993.
-
-\bibitem[KD95]{kopka}
-Helmut Kopka and Patrick~W. Daly.
-\newblock {\em A guide to {\LaTeXe}}.
-\newblock Addison-Wesley, 2nd edition, 1995.
-
-\bibitem[Lam94]{lamport}
-Leslie Lamport.
-\newblock {\em {\LaTeX} -- A document preparation system}.
-\newblock Addison-Wesley, 2nd edition, 1994.
-
-\bibitem[Tea12]{url-cite}
-{\LaTeX}~Team.
-\newblock {URL}s in {BibTeX} bibliographies.
-\newblock \url{http://www.tex.ac.uk/cgi-bin/texfaq2html?label=citeURL}, 2012.
+\begin{thebibliography}{25}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Chater et~al.(2010)Chater, Oaksford, Hahn \&
+  Heit}]{chater2010bayesian}
+\bibinfo{author}{Chater, N.}, \bibinfo{author}{Oaksford, M.},
+  \bibinfo{author}{Hahn, U.}, \& \bibinfo{author}{Heit, E.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Bayesian models of cognition}.
+\newblock {\it \bibinfo{journal}{Wiley Interdisciplinary Reviews: Cognitive
+  Science}\/},  {\it \bibinfo{volume}{1}\/}, \bibinfo{pages}{811--823}.
+%Type = Article
+\bibitem[{Cheng et~al.(2007)Cheng, Shettleworth, Huttenlocher \&
+  Rieser}]{cheng2007bayesian}
+\bibinfo{author}{Cheng, K.}, \bibinfo{author}{Shettleworth, S.~J.},
+  \bibinfo{author}{Huttenlocher, J.}, \& \bibinfo{author}{Rieser, J.~J.}
+  (\bibinfo{year}{2007}).
+\newblock \bibinfo{title}{Bayesian integration of spatial information.}
+\newblock {\it \bibinfo{journal}{Psychological bulletin}\/},  {\it
+  \bibinfo{volume}{133}\/}, \bibinfo{pages}{625}.
+%Type = Article
+\bibitem[{Ernst(2006)}]{ernst2006bayesian}
+\bibinfo{author}{Ernst, M.~O.} (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{A bayesian view on multimodal cue integration}.
+\newblock {\it \bibinfo{journal}{Human body perception from the inside out}\/},
+   (pp. \bibinfo{pages}{105--131}).
+%Type = Inproceedings
+\bibitem[{Goertzel et~al.(2013)Goertzel, Ke, Lian, O'Neill, Sadeghi, Wang,
+  Watkins \& Yu}]{goertzel2013cogprime}
+\bibinfo{author}{Goertzel, B.}, \bibinfo{author}{Ke, S.},
+  \bibinfo{author}{Lian, R.}, \bibinfo{author}{O'Neill, J.},
+  \bibinfo{author}{Sadeghi, K.}, \bibinfo{author}{Wang, D.},
+  \bibinfo{author}{Watkins, O.}, \& \bibinfo{author}{Yu, G.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{The cogprime architecture for embodied artificial
+  general intelligence}.
+\newblock In {\it \bibinfo{booktitle}{Computational Intelligence for Human-like
+  Intelligence (CIHLI), 2013 IEEE Symposium on}\/} (pp.
+  \bibinfo{pages}{60--67}).
+\newblock \bibinfo{organization}{IEEE}.
+%Type = Inproceedings
+\bibitem[{Harrison et~al.(2003)Harrison, Schunn et~al.}]{harrison2003act}
+\bibinfo{author}{Harrison, A.~M.}, \bibinfo{author}{Schunn, C.~D.} et~al.
+  (\bibinfo{year}{2003}).
+\newblock \bibinfo{title}{{ACT-R/S}: Look ma, no" cognitive-map}.
+\newblock In {\it \bibinfo{booktitle}{International conference on cognitive
+  modeling}\/} (pp. \bibinfo{pages}{129--134}).
+%Type = Article
+\bibitem[{Hartley et~al.(2014)Hartley, Lever, Burgess \&
+  O'Keefe}]{hartley2014space}
+\bibinfo{author}{Hartley, T.}, \bibinfo{author}{Lever, C.},
+  \bibinfo{author}{Burgess, N.}, \& \bibinfo{author}{O'Keefe, J.}
+  (\bibinfo{year}{2014}).
+\newblock \bibinfo{title}{Space in the brain: how the hippocampal formation
+  supports spatial cognition}.
+\newblock {\it \bibinfo{journal}{Philosophical Transactions of the Royal
+  Society of London B: Biological Sciences}\/},  {\it \bibinfo{volume}{369}\/},
+  \bibinfo{pages}{20120510}.
+%Type = Article
+\bibitem[{Hirtle \& Jonides(1985)}]{hirtle1985evidence}
+\bibinfo{author}{Hirtle, S.}, \& \bibinfo{author}{Jonides, J.}
+  (\bibinfo{year}{1985}).
+\newblock \bibinfo{title}{Evidence of hierarchies in cognitive maps}.
+\newblock {\it \bibinfo{journal}{Memory \& Cognition}\/},  {\it
+  \bibinfo{volume}{13}\/}, \bibinfo{pages}{208--217}.
+%Type = Article
+\bibitem[{Knill \& Pouget(2004)}]{knill2004bayesian}
+\bibinfo{author}{Knill, D.~C.}, \& \bibinfo{author}{Pouget, A.}
+  (\bibinfo{year}{2004}).
+\newblock \bibinfo{title}{The bayesian brain: the role of uncertainty in neural
+  coding and computation}.
+\newblock {\it \bibinfo{journal}{TRENDS in Neurosciences}\/},  {\it
+  \bibinfo{volume}{27}\/}, \bibinfo{pages}{712--719}.
+%Type = Article
+\bibitem[{K{\"o}rding \& Wolpert(2004)}]{kording2004bayesian}
+\bibinfo{author}{K{\"o}rding, K.~P.}, \& \bibinfo{author}{Wolpert, D.~M.}
+  (\bibinfo{year}{2004}).
+\newblock \bibinfo{title}{Bayesian integration in sensorimotor learning}.
+\newblock {\it \bibinfo{journal}{Nature}\/},  {\it \bibinfo{volume}{427}\/},
+  \bibinfo{pages}{244--247}.
+%Type = Article
+\bibitem[{Kuipers(2000)}]{kuipers2000spatial}
+\bibinfo{author}{Kuipers, B.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{The spatial semantic hierarchy}.
+\newblock {\it \bibinfo{journal}{Artificial intelligence}\/},  {\it
+  \bibinfo{volume}{119}\/}, \bibinfo{pages}{191--233}.
+%Type = Article
+\bibitem[{Langley et~al.(2009)Langley, Laird \& Rogers}]{langley2009cognitive}
+\bibinfo{author}{Langley, P.}, \bibinfo{author}{Laird, J.~E.}, \&
+  \bibinfo{author}{Rogers, S.} (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{Cognitive architectures: Research issues and
+  challenges}.
+\newblock {\it \bibinfo{journal}{Cognitive Systems Research}\/},  {\it
+  \bibinfo{volume}{10}\/}, \bibinfo{pages}{141--160}.
+%Type = Techreport
+\bibitem[{Marr \& Poggio(1976)}]{marr1976understanding}
+\bibinfo{author}{Marr, D.}, \& \bibinfo{author}{Poggio, T.}
+  (\bibinfo{year}{1976}).
+\newblock {\it \bibinfo{title}{From Understanding Computation to Understanding
+  Neural Circuitry.}\/}.
+\newblock \bibinfo{type}{Technical Report} DTIC Document.
+%Type = Article
+\bibitem[{McNamara et~al.(1989)McNamara, Hardy \&
+  Hirtle}]{mcnamara1989subjective}
+\bibinfo{author}{McNamara, T.~P.}, \bibinfo{author}{Hardy, J.~K.}, \&
+  \bibinfo{author}{Hirtle, S.~C.} (\bibinfo{year}{1989}).
+\newblock \bibinfo{title}{Subjective hierarchies in spatial memory.}
+\newblock {\it \bibinfo{journal}{Journal of Experimental Psychology: Learning,
+  Memory, and Cognition}\/},  {\it \bibinfo{volume}{15}\/},
+  \bibinfo{pages}{211}.
+%Type = Article
+\bibitem[{Nardini et~al.(2008)Nardini, Jones, Bedford \&
+  Braddick}]{nardini2008development}
+\bibinfo{author}{Nardini, M.}, \bibinfo{author}{Jones, P.},
+  \bibinfo{author}{Bedford, R.}, \& \bibinfo{author}{Braddick, O.}
+  (\bibinfo{year}{2008}).
+\newblock \bibinfo{title}{Development of cue integration in human navigation}.
+\newblock {\it \bibinfo{journal}{Current biology}\/},  {\it
+  \bibinfo{volume}{18}\/}, \bibinfo{pages}{689--693}.
+%Type = Article
+\bibitem[{Newell(1973)}]{newell1973you}
+\bibinfo{author}{Newell, A.} (\bibinfo{year}{1973}).
+\newblock \bibinfo{title}{You can't play 20 questions with nature and win:
+  Projective comments on the papers of this symposium}, .
+%Type = Book
+\bibitem[{Oaksford \& Chater(2007)}]{oaksford2007bayesian}
+\bibinfo{author}{Oaksford, M.}, \& \bibinfo{author}{Chater, N.}
+  (\bibinfo{year}{2007}).
+\newblock {\it \bibinfo{title}{Bayesian rationality: The probabilistic approach
+  to human reasoning}\/}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+%Type = Article
+\bibitem[{Poggio \& Marr(1977)}]{marr1977understanding}
+\bibinfo{author}{Poggio, T.}, \& \bibinfo{author}{Marr, D.}
+  (\bibinfo{year}{1977}).
+\newblock \bibinfo{title}{From understanding computation to understanding
+  neural circuitry}.
+\newblock {\it \bibinfo{journal}{Neurosciences Research Program Bulletin}\/},
+  {\it \bibinfo{volume}{15}\/}, \bibinfo{pages}{470--488}.
+%Type = Article
+\bibitem[{Reid et~al.(2012)Reid, Latty, Dussutour \& Beekman}]{reid2012slime}
+\bibinfo{author}{Reid, C.~R.}, \bibinfo{author}{Latty, T.},
+  \bibinfo{author}{Dussutour, A.}, \& \bibinfo{author}{Beekman, M.}
+  (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{Slime mold uses an externalized spatial “memory”
+  to navigate in complex environments}.
+\newblock {\it \bibinfo{journal}{Proceedings of the National Academy of
+  Sciences}\/},  {\it \bibinfo{volume}{109}\/}, \bibinfo{pages}{17490--17494}.
+%Type = Inproceedings
+\bibitem[{Samsonovich(2011)}]{samsonovich2011comparative}
+\bibinfo{author}{Samsonovich, A.~V.} (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{Comparative analysis of implemented cognitive
+  architectures.}
+\newblock In {\it \bibinfo{booktitle}{BICA}\/} (pp. \bibinfo{pages}{469--479}).
+%Type = Article
+\bibitem[{Schultheis \& Barkowsky(2011)}]{schultheis2011casimir}
+\bibinfo{author}{Schultheis, H.}, \& \bibinfo{author}{Barkowsky, T.}
+  (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{Casimir: an architecture for mental spatial knowledge
+  processing}.
+\newblock {\it \bibinfo{journal}{Topics in Cognitive Science}\/},  {\it
+  \bibinfo{volume}{3}\/}, \bibinfo{pages}{778--795}.
+%Type = Article
+\bibitem[{Sun \& Zhang(2004)}]{sun2004top}
+\bibinfo{author}{Sun, R.}, \& \bibinfo{author}{Zhang, X.}
+  (\bibinfo{year}{2004}).
+\newblock \bibinfo{title}{Top-down versus bottom-up learning in cognitive skill
+  acquisition}.
+\newblock {\it \bibinfo{journal}{Cognitive Systems Research}\/},  {\it
+  \bibinfo{volume}{5}\/}, \bibinfo{pages}{63--89}.
+%Type = Incollection
+\bibitem[{Thrun \& Leonard(2008)}]{thrun2008simultaneous}
+\bibinfo{author}{Thrun, S.}, \& \bibinfo{author}{Leonard, J.~J.}
+  (\bibinfo{year}{2008}).
+\newblock \bibinfo{title}{Simultaneous localization and mapping}.
+\newblock In {\it \bibinfo{booktitle}{Springer handbook of robotics}\/} (pp.
+  \bibinfo{pages}{871--889}).
+\newblock \bibinfo{publisher}{Springer}.
+%Type = Article
+\bibitem[{Wiener \& Mallot(2003)}]{wiener2003fine}
+\bibinfo{author}{Wiener, J.~M.}, \& \bibinfo{author}{Mallot, H.~A.}
+  (\bibinfo{year}{2003}).
+\newblock \bibinfo{title}{'fine-to-coarse'route planning and navigation in
+  regionalized environments}.
+\newblock {\it \bibinfo{journal}{Spatial cognition and computation}\/},  {\it
+  \bibinfo{volume}{3}\/}, \bibinfo{pages}{331--358}.
+%Type = Inproceedings
+\bibitem[{Wurm et~al.(2010)Wurm, Hornung, Bennewitz, Stachniss \&
+  Burgard}]{wurm2010octomap}
+\bibinfo{author}{Wurm, K.~M.}, \bibinfo{author}{Hornung, A.},
+  \bibinfo{author}{Bennewitz, M.}, \bibinfo{author}{Stachniss, C.}, \&
+  \bibinfo{author}{Burgard, W.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Octomap: A probabilistic, flexible, and compact 3d
+  map representation for robotic systems}.
+\newblock In {\it \bibinfo{booktitle}{Proc. of the ICRA 2010 workshop on best
+  practice in 3D perception and modeling for mobile manipulation}\/}.
+\newblock volume~\bibinfo{volume}{2}.
+%Type = Article
+\bibitem[{Yuille \& Kersten(2006)}]{yuille2006vision}
+\bibinfo{author}{Yuille, A.}, \& \bibinfo{author}{Kersten, D.}
+  (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{Vision as bayesian inference: analysis by synthesis?}
+\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+  \bibinfo{volume}{10}\/}, \bibinfo{pages}{301--308}.
 
 \end{thebibliography}

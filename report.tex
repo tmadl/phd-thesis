@@ -1,4 +1,4 @@
-\documentclass[12pt,MSc,twoside]{muthesis}
+\documentclass[12pt,PhD,twoside]{muthesis}
 % The regulations say that 12pt should be used
 % Change the MSc option to MPhil, MRes or PhD if appropriate
 
@@ -6,6 +6,9 @@
 \usepackage{graphicx}
 \usepackage{url} % typeset URL's reasonably
 \usepackage{listings}
+
+\usepackage{tabu}
+\usepackage{natbib}
 
 \usepackage{pslatex} % Use Postscript fonts
 
@@ -32,10 +35,10 @@
 %\tablespagefalse
 %\copyrightfalse
 
-\title{How to Write Theses\\
-  With Two Line Titles}
-\author{John Henry Candidate}
-\principaladviser{John Parker}
+\title{Bayesian mechanisms in spatial cognition:\\
+Towards real-world capable computational cognitive models of spatial memory}
+\author{Tamas Madl}
+\principaladviser{Ke Chen}
 
 \beforeabstract
 
@@ -50,13 +53,13 @@ I would like to thank...
 
 % These include the actual text
 \include{chapter1}
-\include{chapter2}
-\include{chapter3}
+%\include{chapter2}
+%\include{chapter3}
 
 
 \bibliography{refs}    % this causes the references to be listed
 
-\bibliographystyle{alpha}
+\bibliographystyle{model5-names}
 %% the bibliography style determines the format  in which both citations and references are printed,
 %% other possible values are plain and abbrv
 %%
@@ -68,5 +71,5 @@ I would like to thank...
 
 % Appendices start here
 \appendix
-\include{appendix1}
+%\include{appendix1}
 \end{document}

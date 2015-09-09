@@ -2,16 +2,16 @@
 % Single spacing can be turned on for the abstract
 %
 {\singlespacing
-The aim of the thesis is to investigate the performance of Gismos and
-to design and construct a super multi-functional Gismo.
+Computational cognitive models of spatial memory often neglect difficulties posed by the real world, such as sensory noise, uncertainty, and high spatial complexity. However, since cognition and its neural bases have been shaped by the structure and challenges of the physical world, cognitive models should take these into account as well.
 
-The novel aspects of the new Gismo are described. The abstract should
-perhaps be about half a page long.
+This work takes an interdisciplinary approach towards developing a cognitively plausible spatial memory model able to function in real-world environments, despite the sensory noise and high spatial complexity. We investigated how spatially relevant brain areas might maintain an accurate location estimate of mammals, despite accumulating sensory noise, hypothesizing that hippocampal place cells might perform Bayesian cue integration, and that hippocampal reverse replay might play a role in cognitive map correction. We proposed biologically plausible mechanisms facilitating these statistically near-optimal mechanisms, and reported modelling results of single-neuron recordings from rats and behaviour data from humans acquired outside this PhD to support the former, and sketch map accuracy data collected in experiments performed online supporting the latter hypothesis. 
 
-The results of testing, which show the abject failure of the Gismo,
-are presented.
+In addition to dealing with sensory noise and uncertainty, in realistic environments, large-scale representations also have to be stored and used efficiently. Hierarchical spatial representations help dealing with large amounts of spatial information by increasing the speed and efficiency of retrieval search and of route planning, as well as facilitating economical storage. It has been suggested that cognitive maps in humans are hierarchical, but the computational principles underlying these hierarchies have received little attention. We investigated features influencing cognitive map structure using collected spatial memory data concerning real-world and virtual reality environments, and proposed a computational mechanism (clustering in psychological space) which might give rise to sub-map structures. We validated our proposed mechanism using spatial memories of human subjects in over a hundred cities world-wide, and implemented a computational model able to predict, in advance, their sub-map structures based on our hypothesis.
 
-In the conclusions proposals for rectifying the deficiences are
-outlined.
+
+{
+%\setstretch{1.0}
+
+Based on these insights, we developed a spatial memory module for a general cognitive architecture (the LIDA model of cognition), integrating it with the other cognitive mechanisms built into LIDA. We demonstrated the ability of the resulting model to deal with the challenges of the real world by running it in simulated environments, modelled after our participants’ actual urban environments, using high-fidelity robotic simulation software (including a physics engine) which provides the same interfaces as a real robot. Our LIDA-based spatial memory model could reproduce the spatial representation errors of human participants in different recreated environments, substantiating the plausibility of the computational implementation of our hypotheses.
 }
 
