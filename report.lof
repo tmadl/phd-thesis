@@ -1,7 +1,23 @@
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Motivation for proposing new computational cognitive models of spatial memory}}{13}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Motivation for proposing new computational cognitive models of spatial memory}}{14}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces {Grid cells, place cells, boundary-related cells, head-direction cells, and the neuronal basis of self-motion information (p. 21)}\relax }}{23}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces {Overview of symbolic models evaluated in real-world environments (p. 25)}\relax }}{23}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces {Overview of symbolic models evaluated in simulated environments (p. 28)}\relax }}{23}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces {Two navigation strategies (p. 29)}\relax }}{23}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces {Overview of neural network models evaluated in real-world environments (p. 30)}\relax }}{23}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces {Overview of neural network models evaluated in simulated environments 1 (p. 32)}\relax }}{23}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces {Overview of neural network models evaluated in simulated environments 2 (p. 32)}\relax }}{23}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces {Overview of cognitive architectures evaluated in simulations 1 (p. 35)}\relax }}{23}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces {Overview of cognitive architectures evaluated in simulations 2 (p. 35)}\relax }}{23}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces {Place field sizes, and predicted uncertainty, on an empty rectangular track (p. 4)}\relax }}{24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces {Place field sizes, and predicted uncertainty, on a circular track with objects (p. 5)}\relax }}{24}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces {Predicted and recorded place fields in environment B (p. 6)}\relax }}{24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces {Neuronal implementation of Bayesian inference based on coincidence detection (p. 8)}\relax }}{24}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces {Density of place cell spikes, and predicted uncertainty, on a circular track with objects (p. 9)}\relax }}{24}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces {Place field sizes, and predicted uncertainty, on a circular track with objects, using the extended model (p. 10)}\relax }}{24}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces {Errors of coincidence-based multiplication based on a simple integrate-and-fire model (p. 11)}\relax }}{24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

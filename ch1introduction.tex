@@ -20,7 +20,7 @@ In artificial intelligence (AI) and robotics research, probabilistic models have
 \section{Motivation}
 \label{sec:intro:motivation}
 
-Despite of this success and of the suitability of probabilistic models to deal with uncertain and noisy spatial information, there have been few attempts to use them for modelling spatial memory within cognitive modelling, the branch of cognitive science concerned with computationally simulating mental processes. There is a gap in literature between probabilistic spatial models in robotics (called Simultaneous Localization and Mapping or SLAM) \citep{thrun2008simultaneous}, which are capable of dealing with real-world noise, uncertainty, and complexity to some extent, but are cognitively implausible\footnote{In our usage of the terms, a computational model is `psychologically plausible' (or `cognitively plausible') to the extent that it is consistent with psychological findings and can accurately reproduce psychology data, i.e. behaviours. Analogously, it is `biologically plausible' (or `neurally plausible') to the extent that it is consistent with neuroscience and can reproduce neural data, e.g. single-cell recordings or brain imaging results.}, and between computational cognitive models of spatial memory, which are designed to model biological spatial cognition, but cannot deal with all of these challenges, and are thus confined to simplistic simulations (see Chapter TODO for a review). 
+Despite of this success and of the suitability of probabilistic models to deal with uncertain and noisy spatial information, there have been few attempts to use them for modelling spatial memory within cognitive modelling, the branch of cognitive science concerned with computationally simulating mental processes. There is a gap in literature between probabilistic spatial models in robotics (called Simultaneous Localization and Mapping or SLAM) \citep{thrun2008simultaneous}, which are capable of dealing with real-world noise, uncertainty, and complexity to some extent, but are cognitively implausible\footnote{In our usage of the terms, a computational model is `psychologically plausible' (or `cognitively plausible') to the extent that it is consistent with psychological findings and can accurately reproduce psychology data, i.e. behaviours. Analogously, it is `biologically plausible' (or `neurally plausible') to the extent that it is consistent with neuroscience and can reproduce neural data, e.g. single-cell recordings or brain imaging results.}, and between computational cognitive models of spatial memory, which are designed to model biological spatial cognition, but cannot deal with all of these challenges, and are thus confined to simplistic simulations (see Chapter \ref{cha:nnreview} for a review). 
 
 %There is also a dearth of models of \textit{how} neurons could be able to perform Bayesian inference to improve spatial representations, and of evidence on a neuronal level (as opposed to behavioural) that they can. 
 
@@ -31,7 +31,7 @@ The deprioritization of the problems of uncertainty and noise in favour of tract
 
 \clearpage
 
-The present work was motivated by these gaps in literature, and aims to take computational cognitive models of navigation-scale\footnote{Human cognition needs to keep track of the space of navigation as well as the spaces immediately around the body (e.g. reachable objects) and of the body (e.g. body-part configurations). Although uncertainty and noise play are important in the latter two spaces as well, we will confine ourselves to navigation-scale spatial mechanisms in this work.} spatial memory one step closer to modelling behaviour in realistic environments, such as high-fidelity robotic simulations or physical environments, by means of proposing probabilistic mechanisms of spatial cognition which are implementable in brains and can reproduce behaviour data. Situated within cognitive modelling and cognitive architectures, the goal of this work is to contribute to the understanding of information processing in human cognition. As such, although it is computational in nature, the extent of its success is determined by its ability to predict and explain the kinds of behaviour data it is intended to model, as well as its consistency with established findings in psychology and neuroscience. It is not aiming for performance, or accuracy of learned spatial representations (these are the domains of robotics), or for maximizing neurobiological fidelity at the cellular level or below. Although building on neuroscientific evidence, our concern is modelling spatial information processing on Marr's algorithmic level of analysis \citep{marr1976understanding, marr1977understanding}, as opposed to e.g. biological neural networks - see Table \ref{tbl:marr} -, with a single exception. 
+The present work was motivated by these gaps in literature, and aims to take computational cognitive models of navigation-scale\footnote{Human cognition needs to keep track of the space of navigation as well as the spaces immediately around the body (e.g. reachable objects) and of the body (e.g. body-part configurations). Although uncertainty and noise play are important in the latter two spaces as well, we will confine ourselves to navigation-scale spatial mechanisms in this work.} spatial memory one step closer to modelling behaviour in realistic environments, such as high-fidelity robotic simulations or physical environments. It aims to do so by means of proposing probabilistic mechanisms of spatial cognition which are implementable in brains and can reproduce behaviour data, and by computationally implementing these mechanisms, in the form of cognitive models and within an existing cognitive architecture. Situated within the computational sub-fields of cognitive science (cognitive modelling and cognitive architectures), the goal of this work is to contribute to the understanding of information processing in human cognition. As such, although it is computational in nature, the extent of its success is determined by its ability to predict and explain the kinds of behaviour data it is intended to model, as well as its consistency with established findings in psychology and neuroscience. It is not aiming for performance, or accuracy of learned spatial representations (these are the domains of robotics), or for maximizing neurobiological fidelity at the cellular level or below. Although building on neuroscientific evidence, our concern is modelling spatial information processing on Marr's algorithmic level of analysis \citep{marr1976understanding, marr1977understanding}, as opposed to e.g. biological neural networks - see Table \ref{tbl:marr} -, with a single exception. 
 
 \begin{table*}[h]
 	\centering
@@ -48,7 +48,7 @@ The present work was motivated by these gaps in literature, and aims to take com
 \end{table*}
 %\begin{tabular}[c]{@{}c@{}} Approximately Bayes- \\optimal integration\\of information \end{tabular}
 
-Unlike the rest of our work, we have investigated the plausibility of Bayesian spatial cue integration on Marr's implementation level (see Chapter TODO), in order to maintain the desirable criteria of both psychological and neural plausibility for our other models. Although this mechanism has been empirically substantiated on a behavioural level \citep{cheng2007bayesian, nardini2008development}, its neural implementation has remained in doubt, with current mechanistic models of Bayesian inference in brains making assumptions not fully consistent with the anatomy or activity of the hippocampal complex (the major brain areas representing world-centered spatial information) - see next Section. This doubt of biological implementability has motivated our investigation of single-cell electrophysiological data (acquired outside this PhD) to provide the first evidence for Bayesian updating in the hippocampus on a neuronal level, and our proposal of a plausible mechanism for implementing it. This evidence, presented in Chapter TODO, affords a degree of biological plausibility to the models utilizing Bayesian mechanisms in the rest of our work (which is concerned with processes on the algorithmic/representational level).
+Unlike the rest of our work, we have investigated the plausibility of Bayesian spatial cue integration both on Marr's algorithmic (Chapter \ref{cha:lida}) and implementation level (Chapter \ref{cha:bayespc}), in order to maintain the desirable criteria of both psychological and neural plausibility for our other models. Although this mechanism has been empirically substantiated on a behavioural level before \citep{cheng2007bayesian, nardini2008development}, its neural implementation has remained in doubt, with current mechanistic models of Bayesian inference in brains making assumptions not fully consistent with the anatomy or activity of the hippocampal complex (the major brain areas representing world-centered spatial information) - see next Section. This doubt of biological implementability has motivated our investigation of single-cell electrophysiological data (acquired outside this PhD) to provide the first evidence for Bayesian updating in the hippocampus on a neuronal level, and our proposal of a plausible mechanism for implementing it. This evidence, presented in Chapter \ref{cha:bayespc}, affords a degree of biological plausibility to the models utilizing Bayesian mechanisms in the rest of our work (which is concerned with processes on the algorithmic/representational level).
 
 %especially if behavioural evidence is inconclusive or insufficient to constrain the space of possible models to a concrete implementation
 
@@ -57,9 +57,9 @@ Unlike the rest of our work, we have investigated the plausibility of Bayesian s
 
 Although the focus of most of this work is on modelling behaviour data, we would like the employed mechanisms to be plausibly implementable in the parts of the brain they functionally correspond to. Apart from the lack of neuronal-level evidence that the hippocampal complex may perform Bayesian inference or even represent uncertainty, the possibility of the implementation of such a mechanism given the anatomical and electrophysiological constraints of this network of brain cells is also unclear. 
 
-Below, we briefly review probabilistic neural spatial models which have been proposed in literature (Chapter TODO provides more general review of computational cognitive models of spatial memory). We start with normative models of dealing with spatial uncertainty, which derive optimal solutions to the problem a system might be solving (Marr's computational level), and then continue describing mechanistic (implementation level) models which might facilitate these, and their consistency with what is known about the hippocampal complex. More extensive review of Bayesian models in brains can be found in \citep{pouget2013probabilistic, vilares2011bayesian}. There is currently little experimental support for any of the proposed neural uncertainty representations. % \citep{pouget2013probabilistic}. 
+Below, we briefly review probabilistic neural spatial models which have been proposed in literature (Chapter \ref{cha:nnreview} provides more general review of computational cognitive models of spatial memory). We start with normative models of dealing with spatial uncertainty, which derive optimal solutions to the problem a system might be solving (Marr's computational level), and then continue describing mechanistic (implementation level) models which might facilitate these, and their consistency with what is known about the hippocampal complex. More extensive review of Bayesian models in brains can be found in \citep{pouget2013probabilistic, vilares2011bayesian}. There is currently little experimental support for any of the proposed neural uncertainty representations. % \citep{pouget2013probabilistic}. 
 
-%In addition to a large number of non-probabilistic computational cognitive models focusing on accounting for specific mechanisms of spatial cognition (see Chapter TODO for a review), a few authors have suggested probabilistic mechanisms the brain might employ which can be used to model spatial cognition.
+%In addition to a large number of non-probabilistic computational cognitive models focusing on accounting for specific mechanisms of spatial cognition (see Chapter \ref{cha:nnreview} for a review), a few authors have suggested probabilistic mechanisms the brain might employ which can be used to model spatial cognition.
 
 Models of probabilistic estimation of spatial information have been pioneered by \citep{bousquet1997hippocampus}, who suggested to use a Kalman filter to model localization in the hippocampus. A Kalman filter is a dynamic Bayesian inference algorithm for estimating the values of unknown, not directly observable variables (such as location) from noisy observations, yielding statistically optimal estimates if the noise is normally distributed \citep{kalman1960new}. \citet{macneilage2008computational} also put forth arguments for dynamic Bayesian inference as a model of spatial orientation, mentioning both Kalman filters and particle filtering (a related Bayesian filtering algorithm using samples instead of parameters to represent probability distributions) and leaving the question of their neural implementation open. Particle filter-based models of localization on the algorithmic level have been suggested by \citep{fox2010hippocampus, cheung2012maintaining}. \citet{osborn2010kalman} went beyond localization, suggesting a Kalman filtering approach to also account for localizing objects in the environment. Recently, \citet{penny2013forward} argued that if one presupposes the existence of `observation' and `dynamic' models\footnote{Observation models and dynamic models are mathematical functions mapping from true states to observed states, and from pre-motion to post-motion states, respectively.}, required by Kalman filters, one might as well extend the inference to also use them for model selection (`which environment am I in?'), motor planning (`how do I get to place X?'), and to construct sensory imagery (`what does place X look like?') in addition to localization. They have combined these functions in a single probabilistic model, and argued that it is consistent with findings of pattern replay in the brain. An even more general probabilistic formulation based on dynamic Bayesian inference is the Free-Energy Principle \citep{friston2006free}, which aspires to provide a unified theory of brain function, and has been argued to be consistent with aspects of hippocampal processing \citep{friston2011action}.
 
@@ -89,7 +89,7 @@ In addition to such normative models, a number of mechanistic (implementation-le
 
 \end{itemize}
 
-How the brain might encode and utilize uncertainty is still an open question \citep{pouget2013probabilistic}, but based on the observations regarding the hippocampus outlined above, we argue that a sampling-based code is most suitable in this brain area; in terms of violating as few empirical observations as possible. We will provide electrophysiological evidence of Bayesian inference from single neurons, and propose a possible sampling-based mechanism, in Chapter TODO.
+How the brain might encode and utilize uncertainty is still an open question \citep{pouget2013probabilistic}, but based on the observations regarding the hippocampus outlined above, we argue that a sampling-based code is most suitable in this brain area; in terms of violating as few empirical observations as possible. We will provide electrophysiological evidence of Bayesian inference from single neurons, and propose a possible sampling-based mechanism, in Chapter \ref{cha:bayespc} (and in more detail in Appendix TODO).
 
 
 %bousquet et al kalman filter
@@ -109,7 +109,7 @@ How the brain might encode and utilize uncertainty is still an open question \ci
 \section{Hypotheses}
 \label{sec:intro:hypotheses}
 
-To achieve goals in a spatially extended, realistic environment, at a minimum, an agent (e.g. a biological agent such as an animal, or an artificial agent such as a robot) must be able to 1) move, and keep track of its movements, 2) sense, and interpret its sensations, 3) represent spatial locations in its environment, e.g. of itself and its goal, 4) update these representations when changes occur in the environment, and 5) utilize these representations to achieve its goals (e.g. navigate to its goal location, avoiding dangers). Extensive work on all levels of analysis has been carried out for 1)-3), with the most recent Nobel prize in physiology or medicine awarded on the topic of 3) to John O'Keefe, May-Britt Moser and Edvard I Moser for the discovery of \textit{`cells that constitute a positioning system in the brain'} \citep{burgess2014nobel} - see Chapter TODO below. 
+To achieve goals in a spatially extended, realistic environment, at a minimum, an agent (e.g. a biological agent such as an animal, or an artificial agent such as a robot) must be able to 1) move, and keep track of its movements, 2) sense, and interpret its sensations, 3) represent spatial locations in its environment, e.g. of itself and its goal, 4) update these representations when changes occur in the environment, and 5) utilize these representations to achieve its goals (e.g. navigate to its goal location, avoiding dangers). Extensive work on all levels of analysis has been carried out for 1)-3), with the most recent Nobel prize in physiology or medicine awarded on the topic of 3) to John O'Keefe, May-Britt Moser and Edvard I Moser for the discovery of \textit{`cells that constitute a positioning system in the brain'} \citep{burgess2014nobel} - see Chapter \ref{cha:nnreview} below. 
 
 We have argued above that despite of the variety of existing models regarding 4)+5), new models are needed to move towards biological and psychological plausibility as well as real-world capability at the same time (since biological cognition has been shaped by the constraints and challenges of the real world, these should not be neglected in models of cognition). In particular, in accordance with the `Bayesian brain' \citep{knill2004bayesian} and `Bayesian cognition' \citep{chater2010bayesian} paradigms, we have suggested approximate Bayesian inference to be a well-suited mechanism for tackling these challenges. Models on Marr's algorithmic (and implementation) level which utilize such a mechanism require a number of underlying assumptions, some of which can be stated and evaluated as hypotheses. 
 
@@ -123,10 +123,10 @@ We summarize major hypotheses in one place in Table \ref{tbl:hyp} below, and exp
 	\hline
 	
 	1 Hippocampal place cells can perform approximate Bayesian inference & {Place field size depends on uncertainty (e.g. proximity of landmarks) in a} & {Place field sizes (recorded from hippocampal neurons of behaving rats) are cor-} \\ \cline{1-1} 
-	2 Spatial uncertainty is represented as the size of place cell firing fields & Bayesian fashion & related with uncertainties predicted by a Bayesian model (Chapter TODO) \\ \hline
-	3 When revisiting a place, estimates of recently traversed locations and encountered landmarks are updated in an approx. Bayes-optimal fashion & After revisiting parts of an environment, place fields should shift, and recently active place cells should re-activate. Errors should conform to Bayesian predictions & Neural: none in this work, but place fields seem to shift after revisits \citep{mehta2000experience}, and recently active place cells do reactivate (`replay') \citep{carr2011hippocampal}. Behavioural: errors correlate with predictions (Chapter TODO) \\ \hline % TODO
+	2 Spatial uncertainty is represented as the size of place cell firing fields & Bayesian fashion & related with uncertainties predicted by a Bayesian model (Chapter \ref{cha:bayespc}) \\ \hline
+	3 When revisiting a place, estimates of recently traversed locations and encountered landmarks are updated in an approx. Bayes-optimal fashion & After revisiting parts of an environment, place fields should shift, and recently active place cells should re-activate. Errors should conform to Bayesian predictions & Neural: none in this work, but place fields seem to shift after revisits \citep{mehta2000experience}, and recently active place cells do reactivate (`replay') \citep{carr2011hippocampal}. Behavioural: errors correlate with predictions (Chapter \ref{cha:lida}) \\ \hline 
 	4 The structure of spatial representations arises from clustering & Landmarks which are co-represented (belong together) in participants' & Neural: none in this work. Behavioural: the probability of two landmarks being \\ \cline{1-1}
-	5 This clustering mechanism operates on features including Euclidean distance, path distance, boundaries, visual and functional similarity & spatial memory should be closer in these features than those not belonging together & co-represented is strongly correlated with distances along these specific features. These distances allow prediction of participant representation structure (Chapter TODO) \\
+	5 This clustering mechanism operates on features including Euclidean distance, path distance, boundaries, visual and functional similarity & spatial memory should be closer in these features than those not belonging together & co-represented is strongly correlated with distances along these specific features. These distances allow prediction of participant representation structure (Chapter \ref{cha:structure}) \\
 	
 	\hline
 	\captionsetup{width=\textwidth}
@@ -138,149 +138,21 @@ We summarize major hypotheses in one place in Table \ref{tbl:hyp} below, and exp
 \section{Outline and Contributions}
 \label{sec:intro:outline}
 
-This thesis is presented in the Alternative Format allowed by the University of Manchester presentation of theses policy \footnote{http://documents.manchester.ac.uk/DocuInfo.aspx?DocID=7420}, which allows incorporating sections in a format suitable for publication in peer-reviewed journals. We chose the alternative format to more easily accommodate already published work, to reduce risks of self-plagiarism,  and because of the largely self-contained nature of our individual results chapters. Thus, in what follows, the literature review (Chapter TODO) and the three chapters (TODO) reporting the results, are copies of papers either accepted by or submitted to peer-reviewed journals. The following list summarizes these papers and the contributions\footnote{In all publications, Madl wrote the draft of the paper, developed the software and/or designed the experiments, recruited and tested the participants, and analysed the data. Corrections suggested by Chen, Montaldi, and Franklin were incorporated into the final drafts by Madl after discussions with these co-authors. All publications were supervised by Chen and Montaldi, with Chen mainly commenting on mathematical and computational issues, and Montaldi on psychological and neuroscientific issues.} therein:
+This thesis is presented in the Alternative Format allowed by the University of Manchester presentation of theses policy \footnote{http://documents.manchester.ac.uk/DocuInfo.aspx?DocID=7420}, which allows incorporating sections in a format suitable for publication in peer-reviewed journals. We chose the alternative format to more easily accommodate already published work, to reduce risks of self-plagiarism,  and because of the largely self-contained nature of our individual results chapters. Thus, in what follows, the literature review (Chapter \ref{cha:nnreview}) and the three chapters (\ref{cha:bayespc}-\ref{cha:lida}) reporting the results, are copies of papers either accepted by or submitted to peer-reviewed journals. The following list summarizes these papers and the contributions\footnote{In all publications, Madl wrote the draft of the paper, developed the software and/or designed the experiments, recruited and tested the participants, and analysed the data. Corrections suggested by Chen, Montaldi, and Franklin were incorporated into the final drafts by Madl after discussions with these co-authors. All publications were supervised by Chen and Montaldi, with Chen mainly commenting on mathematical and computational issues, and Montaldi on psychological and neuroscientific issues.} therein:
 
 \begin{itemize}
-	\item Chapter TODO: Madl T., Chen K., Montaldi D. \& Trappl R., 2015. Computational cognitive models of spatial memory in navigation space: A review. \textit{Neural Networks, 65, 18-43.}
+	\item Chapter \ref{cha:nnreview}: Madl T., Chen K., Montaldi D. \& Trappl R., 2015. Computational cognitive models of spatial memory in navigation space: A review. \textit{Neural Networks, 65, 18-43.}
 	\\ Contributions: 1) a systematic review of representative cognitive models concerned with navigation-scale spatial memory, falling into symbolic, neural network, or cognitive architecture models, including a comparative table of the characteristics of these models.
-	\item Chapter TODO: Madl T., Franklin S., Chen K., Montaldi D. \& Trappl R., 2014. Bayesian Integration of Information in Hippocampal Place Cells. \textit{PLoS ONE 9(3), e89762}
+	\item Chapter \ref{cha:bayespc}: Madl T., Franklin S., Chen K., Montaldi D. \& Trappl R., 2014. Bayesian Integration of Information in Hippocampal Place Cells. \textit{PLoS ONE 9(3), e89762}
 	\\ Contributions: 2) first quantitative electrophysiological validation of the representation of spatial uncertainty in the brain, and of Bayesian integration of spatial information in the brain, in three different environments (using data acquired outside this PhD). 3) Formulation and empirical support for an inference mechanism based on coincidence detection (falling into the camp of sampling-based models of neural inference)
-	\item Chapter TODO: Madl T., Franklin S., Chen K., Trappl R. \& Montaldi D., submitted. Exploring the structure of spatial representations. \textit{Cognitive Processing}
+	\item Chapter \ref{cha:structure}: Madl T., Franklin S., Chen K., Trappl R. \& Montaldi D., submitted. Exploring the structure of spatial representations. \textit{Cognitive Processing}
 	\\ Contributions: 4) behavioural evidence for clustering as the normative principle underlying spatial representation structure, and 5) the first computational model of navigation-scale spatial representation structure on the individual level (able to predict this structure in participants' long-term spatial memory from the geospatial properties of an environment)
-	\item Chapter TODO: Madl T, Franklin S, Chen K, Montaldi D \& Trappl R, submitted. Towards real-world capable spatial memory in the LIDA\footnote{LIDA stands for Learning Intelligent Distribution Agent, and is reviewed in a paper co-authored during this PhD but not included in this thesis: \citep{franklin2013lida}} cognitive architecture. \textit{Biologically Inspired Cognitive Architectures}
+	\item Chapter \ref{cha:lida}: Madl T, Franklin S, Chen K, Montaldi D \& Trappl R, submitted. Towards real-world capable spatial memory in the LIDA\footnote{LIDA stands for Learning Intelligent Distribution Agent, and is reviewed in a paper co-authored during this PhD but not included in this thesis: \citep{franklin2013lida}} cognitive architecture. \textit{Biologically Inspired Cognitive Architectures}
 	\\ Contributions: 6) integration of three spatial mechanisms capable of dealing with uncertainty and noise into a comprehensive cognitive architecture (localization, map structuring, map correction), and 7) embodying this architecture on a robot, allowing demonstration of the model functionality in a realistic robotic simulator. 8) proposal of a biologically plausible mechanism for correcting errors in learned maps when revisiting an already known place (the `loop closure' problem, well known in robotics, but neglected in cognitive science), and evaluation against behaviour data regarding cognitive map accuracy in human subjects.
 \end{itemize}
 
-The model best accounting for spatial memory structure presented in Chapter TODO also constitutes a novel kind of metric learning in machine learning, based on the idea of learning a similarity function in the space of absolute pairwise differences (as opposed to e.g. a Mahalanobis distance function). Although proposed before in a similar form for person re-identification in the computer vision community \citep{zheng2011person}, the insight that this space contains neglected information which can be utilized to improve performance in general (not just on image data), and the general formulation allowing arbitrary constituent models for learning a metric in this space, are a novel contribution (9). Since it is too far from the topic of this thesis, metric learning in absolute pairwise difference space is only described briefly (to the extent required to model cognitive map structure) in Chapter TODO. Applications and results on other kinds of data, with other constituent models, and in a semi-supervised setting, and are briefly summarized in Appendix TODO.
+The model best accounting for spatial memory structure presented in Chapter \ref{cha:structure} also constitutes a novel kind of metric learning in machine learning, based on the idea of learning a similarity function in the space of absolute pairwise differences (as opposed to e.g. a Mahalanobis distance function). Although proposed before in a similar form for person re-identification in the computer vision community \citep{zheng2011person}, the insight that this space contains neglected information which can be utilized to improve performance in general (not just on image data), and the general formulation allowing arbitrary constituent models for learning a metric in this space, are a novel contribution (9). Since it is too far from the topic of this thesis, metric learning in absolute pairwise difference space is only described briefly (to the extent required to model cognitive map structure) in Chapter \ref{cha:structure}. Applications and results on other kinds of data, with other constituent models, and in a semi-supervised setting, and are briefly summarized in Appendix TODO.
 
-After presenting the mentioned papers constituting the literature review and results chapters, we present an analysis of the methods employed during this research in Chapter TODO. We continue to discuss the implications of our results and the neural implementability of the mechanisms for which a concrete implementation has not already been presented in the results in Chapter TODO. We conclude in Chapter TODO with a conclusion and an outline of potential future work opened up by this research. 
+After presenting the mentioned papers constituting the literature review and results chapters, we present an analysis of the methods employed during this research in Chapter \ref{cha:methods}. We continue to discuss the implications of our results and the neural implementability of the mechanisms for which a concrete implementation has not already been presented in the results in Chapter \ref{cha:discussion}. We conclude in Chapter \ref{cha:conclusion} with a conclusion and an outline of potential future work opened up by this research. 
 
-We note that the line of criticism mentioned regarding the neural implementability of the high-level probabilistic models of localization in the previous section also apply to our proposed mechanism of cognitive map structuring (Chapter TODO). Although it is intended to be a cognitive and not a neural model, we have argued that consistency with the underlying neuroscience can and should play a role in constraining the space of possible models, and evaluating models, even on the algorithmic level. But the map structuring mechanism in Chapter TODO is, to our knowledge, the first formal model of the observed structure in cognitive maps, both on Marr's computational and algorithmic levels. We did not have the time and resources to extend it down to include a plausible neural implementation within this PhD.
-
-%In addition to the above-mentioned publications, the following work has been published but not included in this thesis (the former because it is a review paper not focusing on spatial memory, and the latter because it is a conference paper, as such not suitable for inclusion in Alternative Format theses according to University policy):
-%
-%\begin{itemize}
-%	\item Franklin, S., Madl, T., D'Mello, S. \& Snaider, J., 2013. LIDA: A Systems-level Architecture for Cognition, Emotion, and Learning. \textit{IEEE TAMD 6(1), pp. 19-41}
-%	\item ICCM paper
-%\end{itemize}
-
-
-
-
-
-% list of publications, contributions; publications outside of thesis (summary paper, ICCM paper)
-
-%\section{How to read this document}
-%This document attempts to do two things
-%\begin{itemize}
-%\item Provide a starting point from which you can construct your
-%  report.
-%\item Explain how one or two useful \LaTeX\ tricks work.
-%\end{itemize}
-%This means that you actually need to read it in two ways
-%\begin{itemize}
-%\item Read a printed, or previewed version to see \emph{what} can be done.
-%\item Read the source to see \emph{how} it's done.
-%\end{itemize}
-%If you have any comments on this document, please post them to the QandA site
-% \texttt{qanda.cs.man.ac.uk}.
-%
-%\section{Aim}
-%\label{sec:aim}
-%
-%The aim of the project is to create a wonderful gismo.
-%
-%A blank line is used to separate paragraphs. The chapters, sections
-%and subsections are numbered and added to the table of contents
-%automatically.
-%
-%\section{Driving Latex}
-%
-%\LaTeX\ is not a WYSIWYG system. You first prepare source files,
-%\textsf{report.tex} etc., similar to the ones here, using your
-%favourite text editor.
-%
-%The UNIX commands you need to drive \LaTeX\ are:
-%\begin{enumerate}
-%\item \texttt{latex.} Output from \texttt{latex} can be previewed on
-%  the screen with \texttt{xdvi} or \texttt{gsprev} (under X), and printed on the laserprinter using  \texttt{dvips}.
-%  \texttt{latex} produces \textsf{.dvi} files which are used by
-%  \texttt{xdvi} or \texttt{gsprev} and \texttt{dvipr}.  To get all the
-%  cross references and the table of contents correct you sometimes
-%  need to run this command twice in succession.  Keep on re-running
-%  until the advice to rerun at the end of the output goes away.
-%
-%  Many people now use \texttt{pdflatex} instead of \texttt{latex} to produce \texttt{pdf} files directly.
-%  
-%\item \texttt{xdvi} or \texttt{gsprev}. Previews the document on the
-%  screen, again the parameter is \textsf{report}.
-%  
-%\item \texttt{dvips.} This is used to print on the laserprinter.  The
-%  parameter is again \texttt{report}. 
-%  
-%\item \texttt{xfig}. Can be used to produce diagrams, see
-%  section~\ref{sec:diagrams}.
-%
-%\end{enumerate}
-%There are on-line manual pages for each of the commands described above.
-%
-%The set of files used to produce this document is in
-%\textsf{/opt/info/doc/latex} (in one of the subdirectories
-%\textsf{3rd-yr} or \textsf{MU-Thesis}).  They are also on the web at \url{http://csis.cs.manchester.ac.uk/software/contrib/latex/}. 
-%
-%You will find that for more detailed points you will need to refer to
-%Lamport's `\LaTeX\ a document preparation system'~\cite{lamport}
-%(Copies in the library  in Blackwell's).
-%This example has been written using the most recent version of \LaTeX
-%(LaTeX2e), which is described in the \emph{2nd edition} of Lamport's
-%book. Buying a cheap copy of the 1st edition is probably not a good
-%investment. An alternative to Lamport's book, which some people
-%prefer, is `A guide to {\LaTeXe}' by Kopka and Daly~\cite{kopka}. The
-%older `A guide to {\LaTeX}'~\cite{kopka-old} by the same authors is
-%now obsolete. There is also pleanty of support material for \LaTeX\ on the web.
-%
-%\section{Software Environment}
-%\subsection{Occam}
-%
-%Here is some more example text, showing various \LaTeX\ facilities
-%you may need.  The project was mostly programmed in
-%\textbf{Occam}~\cite{occam}.  (A citation has been created  here to an
-%entry in the bibliography at the end of the report. See
-%chapter~\ref{cha:bib} for more details on how to do this).
-%
-%Note the way of getting boldface, \textit{textit} is used for italic.
-%\emph{emph} is used for emphasis and is the same as italic except when
-%already in italic.  Note the cross reference to the bibliography.
-%This is how you create a footnote: DMA\footnote{Direct Memory Access.
-%  Footnotes can stretch over more than one line if you have a lot to
-%  say, but be careful not to overdo them.}.
-%
-%Here is a reference to a figure. See figure~\ref{pipeline}.
-%\begin{figure}[htbp]
-%  \centering
-%  \input{pipeline}
-%  \caption{A Pipeline of processors
-%    \label{pipeline}}           %  this label must appear after the
-%                                %  \caption, and before the end of the
-%                                %  figure
-%\end{figure}
-%The picture in this figure was created the hard way using the picture
-%facility of \LaTeX. It is \emph{much} easier to use \texttt{xfig}, as
-%described in section~\ref{sec:diagrams}.  Whatever its contents, a
-%figure `floats' to a `suitable' point in the text and is never split
-%across a page boundary. (\LaTeX's idea of what constitutes a suitable
-%point may not coincide with yours)
-%
-%
-%Now we have a verbatim environment; this is a useful way of including
-%snippits of program, printed in a fixed width font exactly as typed:
-%
-%\begin{verbatim}
-%{{{ An example of some folds
-%...  This is some folded code
-%  {{{ This is another fold
-%  This is text within the fold that has now been
-%  opened so that the text can be read.
-%  }}}
-%}}}
-%\end{verbatim}
+We note that the line of criticism mentioned regarding the neural implementability of the high-level probabilistic models of localization in the previous section also apply to our proposed mechanism of cognitive map structuring (Chapter \ref{cha:structure}). Although it is intended to be a cognitive and not a neural model, we have argued that consistency with the underlying neuroscience can and should play a role in constraining the space of possible models, and evaluating models, even on the algorithmic level. But the map structuring mechanism in Chapter \ref{cha:structure} is, to our knowledge, the first formal model of the observed structure in cognitive maps, both on Marr's computational and algorithmic levels. We did not have the time and resources to extend it down to include a plausible neural implementation within this PhD.

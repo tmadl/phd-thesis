@@ -477,12 +477,12 @@ of \degreetitle.
         \newpage
         \iftablespage
                 \addvspace{10pt}
-                \listoftables
+                \listoftables \let\thefootnote\relax\footnotetext{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
                 \newpage
         \fi
         \iffigurespage
                 \addvspace{10pt}
-                \listoffigures
+                \listoffigures \let\thefootnote\relax\footnotetext{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
                 \newpage
         \fi}
 

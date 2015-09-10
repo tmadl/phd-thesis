@@ -18,6 +18,10 @@
 
 \usepackage{pslatex} % Use Postscript fonts
 
+\usepackage{tocloft}
+\setlength{\cfttabindent}{0in}
+\setlength{\cftfigindent}{0in}
+
 % Uncomment the next line if you want subsubsections to be numbered
 %\setcounter{secnumdepth}{3}
 % Uncomment the next line if you want subsubsections to be appear in
@@ -65,30 +69,51 @@ I would like to thank...
 
 \textbf{Publication 1 / 4.} Madl T., Chen K., Montaldi D. \& Trappl R., 2015. Computational cognitive models of spatial memory in navigation space: A review. \textit{Neural Networks, 65, 18-43.}
 
-\includepdf[pages={-}
-%,
-%addtolist={
-%	3, figure, Schematic representation of the complete condition monitoring process., jps3:fig1,
-%	4, table,  Archimedean copulas., jps3:tab1,
-%	5, figure, Regions of best performance for different Archimedean copulas., jps3:fig2,
-%	5, figure, Fully nested Archimedean copula., jps3:fig3,
-%	5, figure, Nyquist plot of the PEM fuel cell impedance., jps3:fig4,
-%	6, figure, Measurement sequences in time., jps3:fig5,
-%	6, figure, Description of the regions for high and low copula outputs., jps3:fig6,
-%	6, figure, Example of current and voltage signals during the experiment., jps3:fig7,
-%	7, figure, Evolution of the health index (copula output)., jps3:fig8         
-%}
-]{papers/chap2_nnreview.pdf}
+\newpage
 
-\addtocounter{page}{-26}
+\addtocounter{page}{-1}
+
+\includepdf[pages={-}, 
+addtolist={
+	1, figure, {Grid cells, place cells, boundary-related cells, head-direction cells, and the neuronal basis of self-motion information (p. 21)}, fig:nnrev:gcpcbvc,
+	1, figure, {Overview of symbolic models evaluated in real-world environments (p. 25)}, fig:nnrev:symrl,
+	1, figure, {Overview of symbolic models evaluated in simulated environments (p. 28)}, fig:nnrev:symsim,
+	1, figure, {Two navigation strategies (p. 29)}, fig:nnrev:navstrat,
+	1, figure, {Overview of neural network models evaluated in real-world environments (p. 30)}, fig:nnrev:nnrl,
+	1, figure, {Overview of neural network models evaluated in simulated environments 1 (p. 32)}, fig:nnrev:nnsim1,
+	1, figure, {Overview of neural network models evaluated in simulated environments 2 (p. 32)}, fig:nnrev:nnsim2,
+	1, figure, {Overview of cognitive architectures evaluated in simulations 1 (p. 35)}, fig:nnrev:cogarch1,
+	1, figure, {Overview of cognitive architectures evaluated in simulations 2 (p. 35)}, fig:nnrev:cogarch2,
+	1, table, {Characteristics of the reviewed models (pp. 38-39)}, tbl:nnrev:char
+}]{papers/chap2_nnreview.pdf}
+
+\addtocounter{page}{-25}
 
 \chapter{Bayesian integration of information in hippocampal place cells}
 \label{cha:bayespc}
 
 \textbf{Publication 2 / 4.} Madl T., Franklin S., Chen K., Montaldi D. \& Trappl R., 2014. Bayesian Integration of Information in Hippocampal Place Cells. \textit{PLoS ONE 9(3), e89762}
 
+\vspace{1cm}
+ 
+\textit Note: the manuscript was originally published with incorrect figure ordering. The correct figure order was published as a correction (doi: 10.1371/journal.pone. 0136128), but PLOS has decided to maintain the old manuscript with incorrect ordering online. The reprint below contains the corrected figure order. No other changes have been made to the online version.
+
 \newpage
 
+\addtocounter{page}{-1}
+
+\includepdf[pages={-}, 
+addtolist={
+	1, figure, {Place field sizes, and predicted uncertainty, on an empty rectangular track (p. 4)}, fig:bayespc:pfrect,
+	1, figure, {Place field sizes, and predicted uncertainty, on a circular track with objects (p. 5)}, fig:bayespc:pfcirc,
+	1, figure, {Predicted and recorded place fields in environment B (p. 6)}, fig:bayespc:pfb,
+	1, figure, {Neuronal implementation of Bayesian inference based on coincidence detection (p. 8)}, fig:bayespc:cd,
+	1, figure, {Density of place cell spikes, and predicted uncertainty, on a circular track with objects (p. 9)}, fig:bayespc:density,
+	1, figure, {Place field sizes, and predicted uncertainty, on a circular track with objects, using the extended model (p. 10)}, fig:bayespc:pfextended,
+	1, figure, {Errors of coincidence-based multiplication based on a simple integrate-and-fire model (p. 11)}, fig:nnrev:cderr
+}]{papers/chap3_bayespc.pdf}
+
+\addtocounter{page}{-15}
 \chapter{The structure of spatial representations}
 \label{cha:structure}
 
