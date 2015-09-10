@@ -24,7 +24,7 @@ Despite of this success and of the suitability of probabilistic models to deal w
 
 %There is also a dearth of models of \textit{how} neurons could be able to perform Bayesian inference to improve spatial representations, and of evidence on a neuronal level (as opposed to behavioural) that they can. 
 
-In addition, although spatial representations in humans have been argued early to be hierarchical \citep{hirtle1985evidence, mcnamara1989subjective, wiener2003fine}, similarly to some robotic implementations having to deal with large, complex environments \citep{kuipers2000spatial, wurm2010octomap}, it is not known how (by which process) these hierarchical spatial maps might be structured. Although many computational models of spatial memory running in simplified environments exist, there is a lack of biologically and psychologically plausible `algorithms' serving as models of human cognitive computations related to spatial information processing which can function in realistic, uncertain, complex environments.
+In addition, although spatial representations in humans have been argued early to be hierarchical \citep{hirtle1985evidence, mcnamara1989subjective, greenauer2010micro}, similarly to some robotic implementations having to deal with large, complex environments \citep{kuipers2000spatial, wurm2010octomap}, it is not known how (by which process) these hierarchical spatial maps might be structured. Although many computational models of spatial memory running in simplified environments exist, there is a lack of biologically and psychologically plausible `algorithms' serving as models of human cognitive computations related to spatial information processing which can function in realistic, uncertain, complex environments.
 
 The deprioritization of the problems of uncertainty and noise in favour of tractably modelling other human cognitive mechanisms is also pronounced in cognitive architectures, which try to account for a large number of mental processes in a unified, comprehensive, systems-level model (as opposed to computational cognitive models, which usually focus on a single phenomenon). In their overview of the field, \cite{langley2009cognitive} argue that \textit{`` we should attempt to unify many findings into a single theoretical framework, then proceed to test and refine that theory''}, supporting the arguments of \cite{newell1973you} that \textit{``you can't play 20 questions with nature and win''}, highlighting the importance of systems-level research in the cognitive sciences. Although a few such cognitive architectures do model spatial mechanisms in navigation space \citep{harrison2003act,schultheis2011casimir,sun2004top}, they all run in simple, noise-free environments. According to a comparative table of cognitive architectures \citep{samsonovich2011comparative} available in updated form online\footnote{http://bicasociety.org/cogarch/architectures.htm}, there is currently no cognitive architecture implementing both Bayesian update and an empirically validated, psychologically plausible `cognitive map' at the same time.
 %\footnote{CogPrime \citep{goertzel2013cogprime} claims to implement both Bayesian update and cognitive maps, but neither of these mechanisms have been evaluated against human data, or indeed claim to be modelling human cognitive phenomena at all. Instead, CogPrime aims for artificial general intelligence, as opposed to closely adhering to human cognition.}.
@@ -106,6 +106,34 @@ How the brain might encode and utilize uncertainty is still an open question \ci
 
 % implicitly - RatSLAM
 
+\section{Hypotheses}
+\label{sec:intro:hypotheses}
+
+To achieve goals in a spatially extended, realistic environment, at a minimum, an agent (e.g. a biological agent such as an animal, or an artificial agent such as a robot) must be able to 1) move, and keep track of its movements, 2) sense, and interpret its sensations, 3) represent spatial locations in its environment, e.g. of itself and its goal, 4) update these representations when changes occur in the environment, and 5) utilize these representations to achieve its goals (e.g. navigate to its goal location, avoiding dangers). Extensive work on all levels of analysis has been carried out for 1)-3), with the most recent Nobel prize in physiology or medicine awarded on the topic of 3) to John O'Keefe, May-Britt Moser and Edvard I Moser for the discovery of \textit{`cells that constitute a positioning system in the brain'} \citep{burgess2014nobel} - see Chapter TODO below. 
+
+We have argued above that despite of the variety of existing models regarding 4)+5), new models are needed to move towards biological and psychological plausibility as well as real-world capability at the same time (since biological cognition has been shaped by the constraints and challenges of the real world, these should not be neglected in models of cognition). In particular, in accordance with the `Bayesian brain' \citep{knill2004bayesian} and `Bayesian cognition' \citep{chater2010bayesian} paradigms, we have suggested approximate Bayesian inference to be a well-suited mechanism for tackling these challenges. Models on Marr's algorithmic (and implementation) level which utilize such a mechanism require a number of underlying assumptions, some of which can be stated and evaluated as hypotheses. 
+
+We summarize major hypotheses in one place in Table \ref{tbl:hyp} below, and expand on them in the respective results chapters below. The first two concern the representation and manipulation of uncertainty in the hippocampus (required for maintaining approximately accurate location estimates despite noisy sensors and accumulating errors). Hypothesis 3 is needed since unless all remembered landmark locations are corrected at every moment (which would likely be intractable), a discrepancy between remembered and actual locations might arise when revisiting a location encountered previously (when traversing a `loop' in the environment). This discrepancy necessitates a backward correction of multiple recent self and landmark locations to maintain consistent representations. The last two are needed to formulate a computational mechanism of spatial representation structure. Structured, hierarchical representations provide clear computational advantages, such as increased speed and efficiency of retrieval search, and economical storage. However, although strong neural \citep{derdikman2010manifold} and behavioural \citep{hirtle1985evidence, mcnamara1989subjective, greenauer2010micro} evidence exists for such structure, underlying computational principles have remained largely unknown.
+
+\setlength\tabcolsep{4pt}
+%\small
+\begin{longtable}{|p{4.5cm}|p{4.5cm}|p{4.6cm}|}
+	\hline
+	\textbf{Hypothesis} & \textbf{Prediction} & \textbf{Empirical support} \\
+	\hline
+	
+	1 Hippocampal place cells can perform approximate Bayesian inference & {Place field size depends on uncertainty (e.g. proximity of landmarks) in a} & {Place field sizes (recorded from hippocampal neurons of behaving rats) are cor-} \\ \cline{1-1} 
+	2 Spatial uncertainty is represented as the size of place cell firing fields & Bayesian fashion & related with uncertainties predicted by a Bayesian model (Chapter TODO) \\ \hline
+	3 When revisiting a place, estimates of recently traversed locations and encountered landmarks are updated in an approx. Bayes-optimal fashion & After revisiting parts of an environment, place fields should shift, and recently active place cells should re-activate. Errors should conform to Bayesian predictions & Neural: none in this work, but place fields seem to shift after revisits \citep{mehta2000experience}, and recently active place cells do reactivate (`replay') \citep{carr2011hippocampal}. Behavioural: errors correlate with predictions (Chapter TODO) \\ \hline % TODO
+	4 The structure of spatial representations arises from clustering & Landmarks which are co-represented (belong together) in participants' & Neural: none in this work. Behavioural: the probability of two landmarks being \\ \cline{1-1}
+	5 This clustering mechanism operates on features including Euclidean distance, path distance, boundaries, visual and functional similarity & spatial memory should be closer in these features than those not belonging together & co-represented is strongly correlated with distances along these specific features. These distances allow prediction of participant representation structure (Chapter TODO) \\
+	
+	\hline
+	\captionsetup{width=\textwidth}
+	\caption[Hypotheses of the models presented in this work]{\textbf{Hypotheses of the models presented in this work, and empirical support}. Place cell electrophysiological recording data was acquired outside this PhD. All other data has been collected by the author, unless otherwise specified.}
+	\label{tbl:hyp}
+\end{longtable}
+
 
 \section{Outline and Contributions}
 \label{sec:intro:outline}
@@ -136,34 +164,7 @@ We note that the line of criticism mentioned regarding the neural implementabili
 %	\item ICCM paper
 %\end{itemize}
 
-\section{Hypotheses}
-\label{sec:intro:hypotheses}
 
-To achieve goals in a spatially extended, realistic environment, at a minimum, an agent (e.g. a biological agent such as an animal, or an artificial agent such as a robot) must be able to 1) move, and keep track of its movements, 2) sense, and interpret its sensations, 3) represent spatial locations in its environment, e.g. of itself and its goal, 4) update these representations when changes occur in the environment, and 5) utilize these representations to achieve its goals (e.g. navigate to its goal location, avoiding dangers). Extensive work on all levels of analysis has been carried out for 1)-3), with the most recent Nobel prize in physiology or medicine awarded on the topic of 3) to John O'Keefe, May-Britt Moser and Edvard I Moser for the discovery of \textit{`cells that constitute a positioning system in the brain'} \citep{burgess2014nobel} - see Chapter TODO below. 
-
-We have argued above that despite of the variety of existing models regarding 4)+5), new models are needed to move towards biological and psychological plausibility as well as real-world capability at the same time (since biological cognition has been shaped by the constraints and challenges of the real world, these should not be neglected in models of cognition). In particular, in accordance with the `Bayesian brain' \citep{knill2004bayesian} and `Bayesian cognition' \citep{chater2010bayesian} paradigms, we have suggested approximate Bayesian inference to be a well-suited mechanism for tackling these challenges. Models on Marr's algorithmic (and implementation) level which utilize such a mechanism require a number of underlying assumptions, some of which can be stated and evaluated as hypotheses. 
-
-We summarize major hypotheses in one place in Table \ref{tbl:hyp} below, and expand on them in the respective results chapters below. The first two concern the representation and manipulation of uncertainty in the hippocampus (required for maintaining approximately accurate location estimates despite noisy sensors and accumulating errors), hypothesis 3-4 
-
-\setlength\tabcolsep{4pt}
-\begin{longtable}{|p{4.5cm}|p{4.5cm}|p{4.6cm}|}
-	\hline
-	\textbf{Hypothesis} & \textbf{Prediction} & \textbf{Empirical support} \\
-	\hline
-\small {
-	1. Hippocampal place cells can perform approximate Bayesian inference & {Place field size depends on uncertainty (e.g. proximity of landmarks) in a} & {Place field sizes (recorded from hippocampal neurons of behaving rats) are cor-} \\ \cline{1-1} 
-	2. Spatial uncertainty is represented as the size of place cell firing fields & Bayesian fashion & related with uncertainties predicted by a Bayesian model (Chapter TODO) \\ \hline
-	3. Estimates of recently traversed locations and encountered landmarks are updated in an approx. Bayes-optimal fashion & & \\ \hline
-	4. The structure of spatial representations arises from clustering & Landmarks which are co-represented (belong together) in participants' & The probability of two landmarks being co-represented is strongly \\ \cline{1-1}
-	5. This clustering mechanism operates on features including Euclidean distance, path distance, boundaries, visual and functional similarity & spatial memory should be closer in these features than those not belonging together & correlated with distances along these specific features (Chapter TODO) \\
-}
-	\hline
-	\captionsetup{width=\textwidth}
-	\caption[Hypotheses of the models presented in this work]{\textbf{Hypotheses of the models presented in this work, and empirical support}. Place cell electrophysiological recording data was acquired outside this PhD. All other data has been collected by the author, unless otherwise specified.}
-	\label{tbl:hyp}
-\end{longtable}
-
-%	%some of which we could substantiate with data (parts of it collected by us and parts kindly provided by other research groups), some of which are strengthened by existing work, as well as some for which only tentative support exists currently
 
 
 

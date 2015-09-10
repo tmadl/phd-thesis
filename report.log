@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  10 SEP 2015 20:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  10 SEP 2015 22:01
 entering extended mode
 **report.tex
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.tex
@@ -103,67 +103,135 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2015/08/16 v0.5c Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count97
+\calc@Bcount=\count98
+\calc@Adimen=\dimen109
+\calc@Bdimen=\dimen110
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count99
+\calc@Cskip=\skip45
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+\AM@pagewidth=\dimen111
+\AM@pageheight=\dimen112
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2015/08/16 v0.5c Pdfpages driver for pdfTeX (AM)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+))
+\AM@pagebox=\box28
+\AM@toc@title=\toks18
+\c@AM@survey=\count100
+\AM@templatesizebox=\box29
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen109
-\extrarowheight=\dimen110
-\NC@list=\toks18
-\extratabsurround=\skip43
-\backup@length=\skip44
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks19
+\extratabsurround=\skip46
+\backup@length=\skip47
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box28
-\sift@deathcycles=\count97
-\@vwid@loff=\dimen111
-\@vwid@roff=\dimen112
+\@vwid@box=\box30
+\sift@deathcycles=\count101
+\@vwid@loff=\dimen115
+\@vwid@roff=\dimen116
 )
-\c@taburow=\count98
-\tabu@nbcols=\count99
-\tabu@cnt=\count100
-\tabu@Xcol=\count101
-\tabu@alloc=\count102
-\tabu@nested=\count103
-\tabu@target=\dimen113
-\tabu@spreadtarget=\dimen114
-\tabu@naturalX=\dimen115
-\tabucolX=\dimen116
-\tabu@Xsum=\dimen117
-\extrarowdepth=\dimen118
-\abovetabulinesep=\dimen119
-\belowtabulinesep=\dimen120
-\tabustrutrule=\dimen121
-\tabu@thebody=\toks19
-\tabu@footnotes=\toks20
-\tabu@box=\box29
-\tabu@arstrutbox=\box30
-\tabu@hleads=\box31
-\tabu@vleads=\box32
-\tabu@cellskip=\skip45
+\c@taburow=\count102
+\tabu@nbcols=\count103
+\tabu@cnt=\count104
+\tabu@Xcol=\count105
+\tabu@alloc=\count106
+\tabu@nested=\count107
+\tabu@target=\dimen117
+\tabu@spreadtarget=\dimen118
+\tabu@naturalX=\dimen119
+\tabucolX=\dimen120
+\tabu@Xsum=\dimen121
+\extrarowdepth=\dimen122
+\abovetabulinesep=\dimen123
+\belowtabulinesep=\dimen124
+\tabustrutrule=\dimen125
+\tabu@thebody=\toks20
+\tabu@footnotes=\toks21
+\tabu@box=\box31
+\tabu@arstrutbox=\box32
+\tabu@hleads=\box33
+\tabu@vleads=\box34
+\tabu@cellskip=\skip48
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip46
-\LTright=\skip47
-\LTpre=\skip48
-\LTpost=\skip49
-\LTchunksize=\count104
-\LTcapwidth=\dimen122
-\LT@head=\box33
-\LT@firsthead=\box34
-\LT@foot=\box35
-\LT@lastfoot=\box36
-\LT@cols=\count105
-\LT@rows=\count106
-\c@LT@tables=\count107
-\c@LT@chunks=\count108
-\LT@p@ftn=\toks21
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count108
+\LTcapwidth=\dimen126
+\LT@head=\box35
+\LT@firsthead=\box36
+\LT@foot=\box37
+\LT@lastfoot=\box38
+\LT@cols=\count109
+\LT@rows=\count110
+\c@LT@tables=\count111
+\c@LT@chunks=\count112
+\LT@p@ftn=\toks22
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen123
+\bigstrutjot=\dimen127
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -171,15 +239,15 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen124
-\captionmargin@=\dimen125
-\captionwidth=\dimen126
-\caption@tempdima=\dimen127
-\caption@indent=\dimen128
-\caption@parindent=\dimen129
-\caption@hangindent=\dimen130
+\captionmargin=\dimen128
+\captionmargin@=\dimen129
+\captionwidth=\dimen130
+\caption@tempdima=\dimen131
+\caption@indent=\dimen132
+\caption@parindent=\dimen133
+\caption@hangindent=\dimen134
 )
-\c@ContinuedFloat=\count109
+\c@ContinuedFloat=\count113
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -188,10 +256,10 @@ Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip50
-\bibsep=\skip51
+\bibhang=\skip53
+\bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count110
+\c@NAT@ctr=\count114
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
@@ -229,49 +297,53 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
 )
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.aux
-(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\chapter1.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch1introduction.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch6methods.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch7discussion.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch8conclusion.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 35.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 35
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 37
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count111
-\scratchdimen=\dimen131
-\scratchbox=\box37
-\nofMPsegments=\count112
-\nofMParguments=\count113
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count114
-\MPscratchDim=\dimen132
-\MPnumerator=\count115
-\makeMPintoPDFobject=\count116
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count115
+\scratchdimen=\dimen135
+\scratchbox=\box39
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen136
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks24
 )
-\c@lstlisting=\count117
+\c@lstlisting=\count121
+\AtBeginShipoutBox=\box40
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -301,28 +373,29 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 )
 \tf@toc=\write3
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-
- []
-
-runsystem(perl ./texcount.pl -1 -sum -relaxed -inc report.tex > word.count)...d
-isabled (restricted).
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
 
  []
 
 [2
 
-] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.lot)
+]
+runsystem(perl ./texcount.pl -1 -sum -relaxed -inc report.tex > word.count)...d
+isabled (restricted).
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--49
+
+ []
+
+[3] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.lot)
 \tf@lot=\write4
- [3
+ [4
 
 ]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.lof)
 \tf@lof=\write5
- [4
+ [5
 
 ]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\abstract.tex
@@ -333,38 +406,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--4
 
 Underfull \vbox (badness 1796) has occurred while \output is active []
 
- [5
+ [6
 
 ]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 )
-[6] [7
+[7] [8
 
 ]
-Overfull \hbox (1.14229pt too wide) in paragraph at lines 52--52
+Overfull \hbox (1.14229pt too wide) in paragraph at lines 54--54
 \OT1/ptm/m/n/12 right works in the the-sis, for ex-am-ple graphs and ta-bles (`
 `Re-pro-duc-tions''), which
  []
 
 
-Overfull \hbox (23.54704pt too wide) in paragraph at lines 52--52
+Overfull \hbox (23.54704pt too wide) in paragraph at lines 54--54
 \OT1/ptm/m/n/12 ver-sity Li-brary, The Uni-ver-sity Li-brary's reg-u-la-tions (
 see $\OT1/pcr/m/n/12 http : / / www . manchester .$
  []
 
 
-Overfull \hbox (3.37596pt too wide) in paragraph at lines 52--52
+Overfull \hbox (3.37596pt too wide) in paragraph at lines 54--54
 $\OT1/pcr/m/n/12 ac . uk / library / aboutus / regulations$\OT1/ptm/m/n/12 ) an
 d in The Uni-ver-sity's pol-icy on pre-
  []
 
-[8
+[9
 
-] [9
+] [10
 
-] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\chapter1.tex
+] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch1introduction.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
@@ -372,7 +445,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
-<img/motivation.png, id=33, 1304.875pt x 903.375pt>
+<img/motivation.png, id=36, 1304.875pt x 903.375pt>
 File: img/motivation.png Graphic file (type png)
  <use img/motivation.png>
 Package pdftex.def Info: img/motivation.png used on input line 15.
@@ -383,84 +456,866 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-[10
+[11
 
 
-] [11] [12 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/motivation.png>]
+] [12] [13 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/motivation.png>]
 Overfull \hbox (5.19524pt too wide) in paragraph at lines 39--46
  [][] 
  []
 
-[13
+[14
 
-] [14]
+] [15]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 79.
- [15] [16] [17]
-Overfull \hbox (4.51218pt too wide) in paragraph at lines 126--127
-[]\OT1/ptm/m/n/12 The model best ac-count-ing for spa-tial mem-ory struc-ture p
-re-sented in Chap-ter TODO
- []
-
-[18]
-! Missing } inserted.
-<inserted text> 
-                }
-l.154 ... perform approximate Bayesian inference &
-                                                   {Place field size depends...
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-
-Underfull \hbox (badness 4328) in paragraph at lines 153--154
-[]| \OT1/ptm/m/n/10.95 1. Hip-pocam-pal place
+ [16] [17]
+Underfull \hbox (badness 3525) in paragraph at lines 126--126
+[]|\OT1/ptm/m/n/12 2 Spa-tial un-cer-tainty is
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 153--154
-\OT1/ptm/m/n/10.95 cells can per-form ap-prox-i-
- []
-
-
-Underfull \hbox (badness 1881) in paragraph at lines 155--155
+Underfull \hbox (badness 1881) in paragraph at lines 126--126
 []|\OT1/ptm/m/n/12 related with un-cer-tain-ties
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 155--155
+Underfull \hbox (badness 2556) in paragraph at lines 126--126
 \OT1/ptm/m/n/12 pre-dicted by a Bayesian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+\OT1/ptm/m/n/12 es-ti-mates of re-cently
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 \OT1/ptm/m/n/12 tra-versed lo-ca-tions and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
 \OT1/ptm/m/n/12 en-coun-tered land-marks
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 1681) in paragraph at lines 127--127
+\OT1/ptm/m/n/12 but place fields seem to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 []|\OT1/ptm/m/n/12 Landmarks which are
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 128--128
 \OT1/ptm/m/n/12 co-represented (be-long
  []
 
 
-Underfull \hbox (badness 7397) in paragraph at lines 157--157
-[]|\OT1/ptm/m/n/12 The prob-a-bil-ity of two
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\OT1/ptm/m/n/12 in-clud-ing Eu-clidean
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
-\OT1/ptm/m/n/12 land-marks be-ing co-
+Underfull \hbox (badness 7030) in paragraph at lines 129--129
+\OT1/ptm/m/n/12 dis-tance, path dis-tance,
  []
 
 
-Underfull \hbox (badness 10000) in paragra
+Underfull \hbox (badness 10000) in paragraph at lines 129--129
+\OT1/ptm/m/n/12 bound-aries, vi-sual and
+ []
+
+
+Underfull \hbox (badness 3954) in paragraph at lines 129--129
+\OT1/ptm/m/n/12 closer in these fea-tures
+ []
+
+
+Underfull \hbox (badness 3323) in paragraph at lines 129--130
+\OT1/ptm/m/n/12 cor-re-lated with dis-tances
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 129--130
+\OT1/ptm/m/n/12 along these spe-cific fea-
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 129--130
+\OT1/ptm/m/n/12 pant rep-re-sen-ta-tion struc-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 135
+ []
+
+[18] [19]
+Overfull \hbox (4.51218pt too wide) in paragraph at lines 154--155
+[]\OT1/ptm/m/n/12 The model best ac-count-ing for spa-tial mem-ory struc-ture p
+re-sented in Chap-ter TODO
+ []
+
+[20]) [21]
+Chapter 2.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=75, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf>
+Package pdftex.def Info: papers/chap2_nnreview.pdf used on input line 81.
+(pdftex.def)             Requested size: 597.50584pt x 796.67543pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+<use papers/chap2_nnreview.pdf>
+Package pdftex.def Info: papers/chap2_nnreview.pdf used on input line 81.
+(pdftex.def)             Requested size: 597.50584pt x 796.67543pt.
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=78, page=1, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 1>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 597.50584pt x 796.67543pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 1>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [22
+
+
+]
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 1>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 1>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 1>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page1 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [23 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=398, page=2, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 2>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page2 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 2>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page2 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 2>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page2 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [24 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=402, page=3, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 3>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page3 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 3>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page3 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 3>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page3 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [25 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=407, page=4, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 4>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page4 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 4>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page4 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 4>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page4 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [26 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=414, page=5, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 5>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page5 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 5>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page5 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 5>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page5 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [27 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=418, page=6, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 6>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page6 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 6>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page6 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 6>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page6 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [28 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=422, page=7, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 7>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page7 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 7>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page7 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 7>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page7 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [29 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=426, page=8, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 8>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page8 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 8>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page8 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 8>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page8 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [30 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=433, page=9, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 9>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page9 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 9>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page9 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 9>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page9 used on input line 81
+.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [31 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=438, page=10, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 10>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page10 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 10>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page10 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 10>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page10 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [32 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=442, page=11, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 11>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page11 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 11>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page11 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 11>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page11 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [33 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=449, page=12, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 12>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page12 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 12>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page12 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 12>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page12 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [34 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=456, page=13, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 13>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page13 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 13>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page13 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 13>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page13 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [35 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=463, page=14, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 14>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page14 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 14>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page14 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 14>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page14 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [36 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=467, page=15, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 15>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page15 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 15>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page15 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 15>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page15 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [37 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=478, page=16, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 16>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page16 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 16>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page16 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 16>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page16 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [38 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=482, page=17, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 17>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page17 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 17>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page17 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 17>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page17 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [39 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=486, page=18, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 18>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page18 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 18>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page18 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 18>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page18 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [40 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=496, page=19, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 19>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page19 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 19>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page19 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 19>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page19 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [41 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=500, page=20, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 20>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page20 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 20>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page20 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 20>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page20 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [42 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=504, page=21, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 21>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page21 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 21>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page21 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 21>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page21 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [43 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=514, page=22, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 22>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page22 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 22>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page22 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 22>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page22 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [44 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=518, page=23, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 23>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page23 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 23>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page23 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 23>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page23 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [45 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=522, page=24, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 24>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page24 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 24>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page24 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 24>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page24 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [46 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=526, page=25, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 25>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page25 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 25>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page25 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 25>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page25 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [47 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/chap2_nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
+sion <1.5> allowed
+<papers/chap2_nnreview.pdf, id=530, page=26, 597.50731pt x 796.67737pt>
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 26>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page26 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 26>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page26 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/chap2_nnreview.pdf Graphic file (type pdf)
+
+<use papers/chap2_nnreview.pdf, page 26>
+Package pdftex.def Info: papers/chap2_nnreview.pdf, page26 used on input line 8
+1.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [48 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/chap2_nnreview.pdf>]
+Chapter 3.
+[23
+
+]
+Chapter 4.
+[24
+
+]
+Chapter 5.
+[25
+
+] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch6methods.tex
+Chapter 6.
+) [26
+
+
+] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch7discussion.tex
+Chapter 7.
+) [27
+
+
+
+] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch8conclusion.tex
+Chapter 8.
+) [28
+
+
+
+] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.bbl [29
+
+
+] [30] [31]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ú in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ù in font ptmr7t!
+
+Underfull \hbox (badness 3895) in paragraph at lines 414--421
+[]\OT1/ptm/m/n/12 Sanborn, A. N. (2015).  Types of ap-prox-i-ma-tion for prob-a
+-bilis-tic cog-ni-
+ []
+
+
+Underfull \hbox (badness 3803) in paragraph at lines 414--421
+\OT1/ptm/m/n/12 tion: Sam-pling and vari-a-tional.  \OT1/ptm/m/it/12 Brain and 
+Cog-ni-tion\OT1/ptm/m/n/12 , . URL: $\OT1/pcr/m/n/12 http :$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 414--421
+$\OT1/pcr/m/n/12 / / www . sciencedirect . com / science / article / pii / S027
+8262615300038$\OT1/ptm/m/n/12 .
+ []
+
+[32]) [33] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1.tex
+Appendix A.
+) [34
+
+
+] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.aux
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch1introduction.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch6methods.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch7discussion.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch8conclusion.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1.aux)) )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 4 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 6704 strings out of 493921
+ 104118 string characters out of 3144881
+ 181755 words of memory out of 3000000
+ 9854 multiletter control sequences out of 15000+200000
+ 43480 words of font info for 84 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 39i,18n,46p,2208b,555s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
+enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/urw/times/utmri8a.pfb>
+Output written on report.pdf (60 pages, 3391368 bytes).
+PDF statistics:
+ 595 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 151 words of extra memory for PDF output out of 10000 (max. 10000000)
+

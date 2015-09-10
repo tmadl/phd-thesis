@@ -1,4 +1,4 @@
-\begin{thebibliography}{55}
+\begin{thebibliography}{58}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -63,6 +63,14 @@
 \newblock {\it \bibinfo{journal}{NeuroImage}\/},  {\it \bibinfo{volume}{67}\/},
   \bibinfo{pages}{375--384}.
 %Type = Article
+\bibitem[{Carr et~al.(2011)Carr, Jadhav \& Frank}]{carr2011hippocampal}
+\bibinfo{author}{Carr, M.~F.}, \bibinfo{author}{Jadhav, S.~P.}, \&
+  \bibinfo{author}{Frank, L.~M.} (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{Hippocampal replay in the awake state: a potential
+  substrate for memory consolidation and retrieval}.
+\newblock {\it \bibinfo{journal}{Nature neuroscience}\/},  {\it
+  \bibinfo{volume}{14}\/}, \bibinfo{pages}{147--153}.
+%Type = Article
 \bibitem[{Chater et~al.(2010)Chater, Oaksford, Hahn \&
   Heit}]{chater2010bayesian}
 \bibinfo{author}{Chater, N.}, \bibinfo{author}{Oaksford, M.},
@@ -90,6 +98,13 @@
   fuse boundary knowledge with path integration}.
 \newblock {\it \bibinfo{journal}{PLoS Comput. Biol}\/},  {\it
   \bibinfo{volume}{8}\/}, \bibinfo{pages}{e1002651}.
+%Type = Article
+\bibitem[{Derdikman \& Moser(2010)}]{derdikman2010manifold}
+\bibinfo{author}{Derdikman, D.}, \& \bibinfo{author}{Moser, E.~I.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{A manifold of spatial maps in the brain}.
+\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+  \bibinfo{volume}{14}\/}, \bibinfo{pages}{561--569}.
 %Type = Article
 \bibitem[{Ernst(2006)}]{ernst2006bayesian}
 \bibinfo{author}{Ernst, M.~O.} (\bibinfo{year}{2006}).
@@ -155,6 +170,15 @@
 \newblock \bibinfo{title}{Action understanding and active inference}.
 \newblock {\it \bibinfo{journal}{Biological cybernetics}\/},  {\it
   \bibinfo{volume}{104}\/}, \bibinfo{pages}{137--160}.
+%Type = Article
+\bibitem[{Greenauer \& Waller(2010)}]{greenauer2010micro}
+\bibinfo{author}{Greenauer, N.}, \& \bibinfo{author}{Waller, D.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Micro-and macroreference frames: Specifying the
+  relations between spatial categories in memory.}
+\newblock {\it \bibinfo{journal}{Journal of Experimental Psychology: Learning,
+  Memory, and Cognition}\/},  {\it \bibinfo{volume}{36}\/},
+  \bibinfo{pages}{938}.
 %Type = Inproceedings
 \bibitem[{Harrison et~al.(2003)Harrison, Schunn et~al.}]{harrison2003act}
 \bibinfo{author}{Harrison, A.~M.}, \bibinfo{author}{Schunn, C.~D.} et~al.
@@ -290,6 +314,14 @@
 \newblock {\it \bibinfo{journal}{Journal of Experimental Psychology: Learning,
   Memory, and Cognition}\/},  {\it \bibinfo{volume}{15}\/},
   \bibinfo{pages}{211}.
+%Type = Article
+\bibitem[{Mehta et~al.(2000)Mehta, Quirk \& Wilson}]{mehta2000experience}
+\bibinfo{author}{Mehta, M.~R.}, \bibinfo{author}{Quirk, M.~C.}, \&
+  \bibinfo{author}{Wilson, M.~A.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Experience-dependent asymmetric shape of hippocampal
+  receptive fields}.
+\newblock {\it \bibinfo{journal}{Neuron}\/},  {\it \bibinfo{volume}{25}\/},
+  \bibinfo{pages}{707--715}.
 %Type = Article
 \bibitem[{Nardini et~al.(2008)Nardini, Jones, Bedford \&
   Braddick}]{nardini2008development}
@@ -434,14 +466,6 @@
   uncertainty, behavior, and the brain}.
 \newblock {\it \bibinfo{journal}{Annals of the New York Academy of
   Sciences}\/},  {\it \bibinfo{volume}{1224}\/}, \bibinfo{pages}{22--39}.
-%Type = Article
-\bibitem[{Wiener \& Mallot(2003)}]{wiener2003fine}
-\bibinfo{author}{Wiener, J.~M.}, \& \bibinfo{author}{Mallot, H.~A.}
-  (\bibinfo{year}{2003}).
-\newblock \bibinfo{title}{'fine-to-coarse'route planning and navigation in
-  regionalized environments}.
-\newblock {\it \bibinfo{journal}{Spatial cognition and computation}\/},  {\it
-  \bibinfo{volume}{3}\/}, \bibinfo{pages}{331--358}.
 %Type = Inproceedings
 \bibitem[{Wurm et~al.(2010)Wurm, Hornung, Bennewitz, Stachniss \&
   Burgard}]{wurm2010octomap}

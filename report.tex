@@ -7,6 +7,8 @@
 \usepackage{url} % typeset URL's reasonably
 \usepackage{listings}
 
+\usepackage{pdfpages}
+
 \usepackage{tabu}
 \usepackage{longtable}
 \usepackage{multirow}
@@ -42,7 +44,7 @@
 \title{Bayesian mechanisms in spatial cognition:\\
 Towards real-world capable computational cognitive models of spatial memory}
 \author{Tamas Madl}
-\principaladviser{Ke Chen}
+%\principaladviser{Ke Chen}
 
 \beforeabstract
 
@@ -56,9 +58,56 @@ I would like to thank...
 \afterpreface
 
 % These include the actual text
-\include{chapter1}
-%\include{chapter2}
-%\include{chapter3}
+\include{ch1introduction}
+
+\chapter{Review of computational cognitive models of spatial memory}
+\label{cha:nnreview}
+
+\textbf{Publication 1 / 4.} Madl T., Chen K., Montaldi D. \& Trappl R., 2015. Computational cognitive models of spatial memory in navigation space: A review. \textit{Neural Networks, 65, 18-43.}
+
+\includepdf[pages={-}
+%,
+%addtolist={
+%	3, figure, Schematic representation of the complete condition monitoring process., jps3:fig1,
+%	4, table,  Archimedean copulas., jps3:tab1,
+%	5, figure, Regions of best performance for different Archimedean copulas., jps3:fig2,
+%	5, figure, Fully nested Archimedean copula., jps3:fig3,
+%	5, figure, Nyquist plot of the PEM fuel cell impedance., jps3:fig4,
+%	6, figure, Measurement sequences in time., jps3:fig5,
+%	6, figure, Description of the regions for high and low copula outputs., jps3:fig6,
+%	6, figure, Example of current and voltage signals during the experiment., jps3:fig7,
+%	7, figure, Evolution of the health index (copula output)., jps3:fig8         
+%}
+]{papers/chap2_nnreview.pdf}
+
+\addtocounter{page}{-26}
+
+\chapter{Bayesian integration of information in hippocampal place cells}
+\label{cha:bayespc}
+
+\textbf{Publication 2 / 4.} Madl T., Franklin S., Chen K., Montaldi D. \& Trappl R., 2014. Bayesian Integration of Information in Hippocampal Place Cells. \textit{PLoS ONE 9(3), e89762}
+
+\newpage
+
+\chapter{The structure of spatial representations}
+\label{cha:structure}
+
+\textbf{Publication 3 / 4.} Madl T., Franklin S., Chen K., Trappl R. \& Montaldi D., submitted. Exploring the structure of spatial representations. \textit{Cognitive Processing}
+
+\newpage
+
+\chapter{Towards real-world capable spatial memory in the LIDA cognitive architecture}
+\label{cha:lida}
+
+\textbf{Publication 4 / 4.} Madl T, Franklin S, Chen K, Montaldi D \& Trappl R, submitted. Towards real-world capable spatial memory in the LIDA cognitive architecture. \textit{Biologically Inspired Cognitive Architectures}
+
+\newpage
+
+\include{ch6methods}
+
+\include{ch7discussion}
+
+\include{ch8conclusion}
 
 
 \bibliography{refs}    % this causes the references to be listed

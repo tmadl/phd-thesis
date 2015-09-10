@@ -1,0 +1,17 @@
+\contentsline {chapter}{Abstract}{6}
+\contentsline {chapter}{Declaration}{8}
+\contentsline {chapter}{Copyright}{9}
+\contentsline {chapter}{Acknowledgements}{10}
+\contentsline {chapter}{\numberline {1}Introduction}{11}
+\contentsline {section}{\numberline {1.1}Motivation}{12}
+\contentsline {section}{\numberline {1.2}Probabilistic models of space in brains and minds}{15}
+\contentsline {section}{\numberline {1.3}Hypotheses}{17}
+\contentsline {section}{\numberline {1.4}Outline and Contributions}{19}
+\contentsline {chapter}{\numberline {2}Review of computational cognitive models of spatial memory}{22}
+\contentsline {chapter}{\numberline {3}Bayesian integration of information in hippocampal place cells}{23}
+\contentsline {chapter}{\numberline {4}The structure of spatial representations}{24}
+\contentsline {chapter}{\numberline {5}Towards real-world capable spatial memory in the LIDA cognitive architecture}{25}
+\contentsline {chapter}{\numberline {6}Methods}{26}
+\contentsline {chapter}{\numberline {7}Discussion}{27}
+\contentsline {chapter}{\numberline {8}Conclusion}{28}
+\contentsline {chapter}{\numberline {A}Probabilistic neural models and their plausibility}{34}
