@@ -1,10 +1,15 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
 A level-1 auxiliary file: chapter1.aux
 The style file: model5-names.bst
+A level-1 auxiliary file: appendix1.aux
 Database file #1: refs.bib
-Repeated entry---line 74 of file refs.bib
+Repeated entry---line 206 of file refs.bib
+ : @article{pouget2013probabilistic
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 404 of file refs.bib
  : @incollection{newell1973you
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in newell1973you
-(There was 1 error message)
+(There were 2 error messages)

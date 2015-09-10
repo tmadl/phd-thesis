@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  9 SEP 2015 13:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  10 SEP 2015 20:20
 entering extended mode
 **report.tex
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.tex
@@ -144,12 +144,54 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \tabu@vleads=\box32
 \tabu@cellskip=\skip45
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count104
+\LTcapwidth=\dimen122
+\LT@head=\box33
+\LT@firsthead=\box34
+\LT@foot=\box35
+\LT@lastfoot=\box36
+\LT@cols=\count105
+\LT@rows=\count106
+\c@LT@tables=\count107
+\c@LT@chunks=\count108
+\LT@p@ftn=\toks21
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen123
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen124
+\captionmargin@=\dimen125
+\captionwidth=\dimen126
+\caption@tempdima=\dimen127
+\caption@indent=\dimen128
+\caption@parindent=\dimen129
+\caption@hangindent=\dimen130
+)
+\c@ContinuedFloat=\count109
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip46
-\bibsep=\skip47
+\bibhang=\skip50
+\bibsep=\skip51
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count104
+\c@NAT@ctr=\count110
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
@@ -187,46 +229,49 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 75.
 )
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.aux
-(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\chapter1.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 31.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 31
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\chapter1.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 35.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 35
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
-\scratchdimen=\dimen122
-\scratchbox=\box33
-\nofMPsegments=\count106
-\nofMParguments=\count107
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count108
-\MPscratchDim=\dimen123
-\MPnumerator=\count109
-\makeMPintoPDFobject=\count110
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count111
+\scratchdimen=\dimen131
+\scratchbox=\box37
+\nofMPsegments=\count112
+\nofMParguments=\count113
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count114
+\MPscratchDim=\dimen132
+\MPnumerator=\count115
+\makeMPintoPDFobject=\count116
+\everyMPtoPDFconversion=\toks23
 )
-\c@lstlisting=\count111
+\c@lstlisting=\count117
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 43.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 47.
 
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -256,7 +301,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 )
 \tf@toc=\write3
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
  []
 
@@ -264,7 +309,7 @@ runsystem(perl ./texcount.pl -1 -sum -relaxed -inc report.tex > word.count)...d
 isabled (restricted).
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
 
  []
 
@@ -298,19 +343,19 @@ Missing character: There is no ô in font ptmr7t!
 [6] [7
 
 ]
-Overfull \hbox (1.14229pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.14229pt too wide) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 right works in the the-sis, for ex-am-ple graphs and ta-bles (`
 `Re-pro-duc-tions''), which
  []
 
 
-Overfull \hbox (23.54704pt too wide) in paragraph at lines 48--48
+Overfull \hbox (23.54704pt too wide) in paragraph at lines 52--52
 \OT1/ptm/m/n/12 ver-sity Li-brary, The Uni-ver-sity Li-brary's reg-u-la-tions (
 see $\OT1/pcr/m/n/12 http : / / www . manchester .$
  []
 
 
-Overfull \hbox (3.37596pt too wide) in paragraph at lines 48--48
+Overfull \hbox (3.37596pt too wide) in paragraph at lines 52--52
 $\OT1/pcr/m/n/12 ac . uk / library / aboutus / regulations$\OT1/ptm/m/n/12 ) an
 d in The Uni-ver-sity's pol-icy on pre-
  []
@@ -327,56 +372,95 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+<img/motivation.png, id=33, 1304.875pt x 903.375pt>
+File: img/motivation.png Graphic file (type png)
+ <use img/motivation.png>
+Package pdftex.def Info: img/motivation.png used on input line 15.
+(pdftex.def)             Requested size: 412.56496pt x 285.62602pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
 [10
 
 
-] [11]
-Overfull \hbox (5.19524pt too wide) in paragraph at lines 35--42
-[][]
+] [11] [12 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/motivation.png>]
+Overfull \hbox (5.19524pt too wide) in paragraph at lines 39--46
+ [][] 
+ []
+
+[13
+
+] [14]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 79.
+ [15] [16] [17]
+Overfull \hbox (4.51218pt too wide) in paragraph at lines 126--127
+[]\OT1/ptm/m/n/12 The model best ac-count-ing for spa-tial mem-ory struc-ture p
+re-sented in Chap-ter TODO
+ []
+
+[18]
+! Missing } inserted.
+<inserted text> 
+                }
+l.154 ... perform approximate Bayesian inference &
+                                                   {Place field size depends...
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Underfull \hbox (badness 4328) in paragraph at lines 153--154
+[]| \OT1/ptm/m/n/10.95 1. Hip-pocam-pal place
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--42
-
+Underfull \hbox (badness 1509) in paragraph at lines 153--154
+\OT1/ptm/m/n/10.95 cells can per-form ap-prox-i-
  []
 
-[12]) [13] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.bbl [14
+
+Underfull \hbox (badness 1881) in paragraph at lines 155--155
+[]|\OT1/ptm/m/n/12 related with un-cer-tain-ties
+ []
 
 
-]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-) [15]
-(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.aux
-(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\chapter1.aux)) )
-(\end occurred inside a group at level 1)
+Underfull \hbox (badness 2556) in paragraph at lines 155--155
+\OT1/ptm/m/n/12 pre-dicted by a Bayesian
+ []
 
-### simple group (level 1) entered at line 4 ({)
-### bottom level 
-Here is how much of TeX's memory you used:
- 4024 strings out of 493921
- 57379 string characters out of 3144881
- 121057 words of memory out of 3000000
- 7267 multiletter control sequences out of 15000+200000
- 42550 words of font info for 81 fonts, out of 3000000 for 9000
- 841 hyphenation exceptions out of 8191
- 30i,17n,32p,1798b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/urw/times/utmri8a.pfb>
-Output written on report.pdf (15 pages, 108930 bytes).
-PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/ptm/m/n/12 tra-versed lo-ca-tions and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/ptm/m/n/12 en-coun-tered land-marks
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+[]|\OT1/ptm/m/n/12 Landmarks which are
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\OT1/ptm/m/n/12 co-represented (be-long
+ []
+
+
+Underfull \hbox (badness 7397) in paragraph at lines 157--157
+[]|\OT1/ptm/m/n/12 The prob-a-bil-ity of two
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--157
+\OT1/ptm/m/n/12 land-marks be-ing co-
+ []
+
+
+Underfull \hbox (badness 10000) in paragra
