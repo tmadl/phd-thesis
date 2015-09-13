@@ -1,4 +1,4 @@
-\begin{thebibliography}{68}
+\begin{thebibliography}{86}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -21,6 +21,14 @@
   trial-dependent features through rate remapping}.
 \newblock {\it \bibinfo{journal}{The Journal of Neuroscience}\/},  {\it
   \bibinfo{volume}{32}\/}, \bibinfo{pages}{14752--14766}.
+%Type = Article
+\bibitem[{Baghshah \& Shouraki(2010)}]{baghshah2010kernel}
+\bibinfo{author}{Baghshah, M.~S.}, \& \bibinfo{author}{Shouraki, S.~B.}
+  (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Kernel-based metric learning for semi-supervised
+  clustering}.
+\newblock {\it \bibinfo{journal}{Neurocomputing}\/},  {\it
+  \bibinfo{volume}{73}\/}, \bibinfo{pages}{1352--1361}.
 %Type = Article
 \bibitem[{Bailey \& Durrant-Whyte(2006)}]{bailey2006simultaneous}
 \bibinfo{author}{Bailey, T.}, \& \bibinfo{author}{Durrant-Whyte, H.}
@@ -46,6 +54,37 @@
   stimulus-response models of neural spiking activity}.
 \newblock {\it \bibinfo{journal}{Journal of neuroscience methods}\/},  {\it
   \bibinfo{volume}{105}\/}, \bibinfo{pages}{25--37}.
+%Type = Article
+\bibitem[{Bengio et~al.(2015)Bengio, Lee, Bornschein \&
+  Lin}]{bengio2015towards}
+\bibinfo{author}{Bengio, Y.}, \bibinfo{author}{Lee, D.-H.},
+  \bibinfo{author}{Bornschein, J.}, \& \bibinfo{author}{Lin, Z.}
+  (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{Towards biologically plausible deep learning}.
+\newblock {\it \bibinfo{journal}{arXiv preprint arXiv:1502.04156}\/}, .
+%Type = Article
+\bibitem[{Bensmail \& Celeux(1996)}]{bensmail1996regularized}
+\bibinfo{author}{Bensmail, H.}, \& \bibinfo{author}{Celeux, G.}
+  (\bibinfo{year}{1996}).
+\newblock \bibinfo{title}{Regularized gaussian discriminant analysis through
+  eigenvalue decomposition}.
+\newblock {\it \bibinfo{journal}{Journal of the American statistical
+  Association}\/},  {\it \bibinfo{volume}{91}\/}, \bibinfo{pages}{1743--1748}.
+%Type = Article
+\bibitem[{Blei et~al.(2006)Blei, Jordan et~al.}]{blei2006variational}
+\bibinfo{author}{Blei, D.~M.}, \bibinfo{author}{Jordan, M.~I.} et~al.
+  (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{Variational inference for dirichlet process
+  mixtures}.
+\newblock {\it \bibinfo{journal}{Bayesian analysis}\/},  {\it
+  \bibinfo{volume}{1}\/}, \bibinfo{pages}{121--143}.
+%Type = Book
+\bibitem[{Borg \& Groenen(2005)}]{borg2005modern}
+\bibinfo{author}{Borg, I.}, \& \bibinfo{author}{Groenen, P.~J.}
+  (\bibinfo{year}{2005}).
+\newblock {\it \bibinfo{title}{Modern multidimensional scaling: Theory and
+  applications}\/}.
+\newblock \bibinfo{publisher}{Springer Science \& Business Media}.
 %Type = Inproceedings
 \bibitem[{Bousquet et~al.(1997)Bousquet, Balakrishnan \&
   Honavar}]{bousquet1997hippocampus}
@@ -70,6 +109,14 @@
   postnatal changes in the developing rodent brain with mri}.
 \newblock {\it \bibinfo{journal}{NeuroImage}\/},  {\it \bibinfo{volume}{67}\/},
   \bibinfo{pages}{375--384}.
+%Type = Inproceedings
+\bibitem[{Canini et~al.(2010)Canini, Shashkov \&
+  Griffiths}]{canini2010modeling}
+\bibinfo{author}{Canini, K.~R.}, \bibinfo{author}{Shashkov, M.~M.}, \&
+  \bibinfo{author}{Griffiths, T.~L.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Modeling transfer learning in human categorization
+  with the hierarchical dirichlet process.}
+\newblock In {\it \bibinfo{booktitle}{ICML}\/} (pp. \bibinfo{pages}{151--158}).
 %Type = Article
 \bibitem[{Carr et~al.(2011)Carr, Jadhav \& Frank}]{carr2011hippocampal}
 \bibinfo{author}{Carr, M.~F.}, \bibinfo{author}{Jadhav, S.~P.}, \&
@@ -106,6 +153,18 @@
   fuse boundary knowledge with path integration}.
 \newblock {\it \bibinfo{journal}{PLoS Comput. Biol}\/},  {\it
   \bibinfo{volume}{8}\/}, \bibinfo{pages}{e1002651}.
+%Type = Inproceedings
+\bibitem[{Chitta et~al.(2011)Chitta, Jin, Havens \&
+  Jain}]{chitta2011approximate}
+\bibinfo{author}{Chitta, R.}, \bibinfo{author}{Jin, R.},
+  \bibinfo{author}{Havens, T.~C.}, \& \bibinfo{author}{Jain, A.~K.}
+  (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{Approximate kernel k-means: Solution to large scale
+  kernel clustering}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the 17th ACM SIGKDD
+  international conference on Knowledge discovery and data mining}\/} (pp.
+  \bibinfo{pages}{895--903}).
+\newblock \bibinfo{organization}{ACM}.
 %Type = Article
 \bibitem[{Derdikman \& Moser(2010)}]{derdikman2010manifold}
 \bibinfo{author}{Derdikman, D.}, \& \bibinfo{author}{Moser, E.~I.}
@@ -194,12 +253,26 @@
 \newblock {\it \bibinfo{journal}{Biological cybernetics}\/},  {\it
   \bibinfo{volume}{104}\/}, \bibinfo{pages}{137--160}.
 %Type = Article
+\bibitem[{Gershman \& Blei(2012)}]{gershman2012tutorial}
+\bibinfo{author}{Gershman, S.~J.}, \& \bibinfo{author}{Blei, D.~M.}
+  (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{A tutorial on bayesian nonparametric models}.
+\newblock {\it \bibinfo{journal}{Journal of Mathematical Psychology}\/},  {\it
+  \bibinfo{volume}{56}\/}, \bibinfo{pages}{1--12}.
+%Type = Article
 \bibitem[{Ghahramani(2015)}]{ghahramani2015probabilistic}
 \bibinfo{author}{Ghahramani, Z.} (\bibinfo{year}{2015}).
 \newblock \bibinfo{title}{Probabilistic machine learning and artificial
   intelligence}.
 \newblock {\it \bibinfo{journal}{Nature}\/},  {\it \bibinfo{volume}{521}\/},
   \bibinfo{pages}{452--459}.
+%Type = Article
+\bibitem[{Gibson et~al.(2013)Gibson, Rogers \& Zhu}]{gibson2013human}
+\bibinfo{author}{Gibson, B.~R.}, \bibinfo{author}{Rogers, T.~T.}, \&
+  \bibinfo{author}{Zhu, X.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Human semi-supervised learning}.
+\newblock {\it \bibinfo{journal}{Topics in cognitive science}\/},  {\it
+  \bibinfo{volume}{5}\/}, \bibinfo{pages}{132--172}.
 %Type = Article
 \bibitem[{Greenauer \& Waller(2010)}]{greenauer2010micro}
 \bibinfo{author}{Greenauer, N.}, \& \bibinfo{author}{Waller, D.}
@@ -234,6 +307,14 @@
 \newblock \bibinfo{title}{Evidence of hierarchies in cognitive maps}.
 \newblock {\it \bibinfo{journal}{Memory \& Cognition}\/},  {\it
   \bibinfo{volume}{13}\/}, \bibinfo{pages}{208--217}.
+%Type = Inproceedings
+\bibitem[{Hughes \& Sudderth(2013)}]{hughes2013memoized}
+\bibinfo{author}{Hughes, M.~C.}, \& \bibinfo{author}{Sudderth, E.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Memoized online variational inference for dirichlet
+  process mixture models}.
+\newblock In {\it \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}\/} (pp. \bibinfo{pages}{1133--1141}).
 %Type = Article
 \bibitem[{Kalman(1960)}]{kalman1960new}
 \bibinfo{author}{Kalman, R.~E.} (\bibinfo{year}{1960}).
@@ -379,6 +460,13 @@
 \newblock {\it \bibinfo{journal}{Current biology}\/},  {\it
   \bibinfo{volume}{18}\/}, \bibinfo{pages}{689--693}.
 %Type = Article
+\bibitem[{Neal(2000)}]{neal2000markov}
+\bibinfo{author}{Neal, R.~M.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Markov chain sampling methods for dirichlet process
+  mixture models}.
+\newblock {\it \bibinfo{journal}{Journal of computational and graphical
+  statistics}\/},  {\it \bibinfo{volume}{9}\/}, \bibinfo{pages}{249--265}.
+%Type = Article
 \bibitem[{Newell(1973)}]{newell1973you}
 \bibinfo{author}{Newell, A.} (\bibinfo{year}{1973}).
 \newblock \bibinfo{title}{You can't play 20 questions with nature and win:
@@ -402,6 +490,23 @@
 \newblock {\it \bibinfo{title}{Bayesian rationality: The probabilistic approach
   to human reasoning}\/}.
 \newblock \bibinfo{publisher}{Oxford University Press}.
+%Type = Inproceedings
+\bibitem[{Olson et~al.(2006)Olson, Leonard \& Teller}]{olson2006fast}
+\bibinfo{author}{Olson, E.}, \bibinfo{author}{Leonard, J.}, \&
+  \bibinfo{author}{Teller, S.} (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{Fast iterative alignment of pose graphs with poor
+  initial estimates}.
+\newblock In {\it \bibinfo{booktitle}{Robotics and Automation, 2006. ICRA 2006.
+  Proceedings 2006 IEEE International Conference on}\/} (pp.
+  \bibinfo{pages}{2262--2269}).
+\newblock \bibinfo{organization}{IEEE}.
+%Type = Inproceedings
+\bibitem[{Ong et~al.(2005)Ong, Williamson \& Smola}]{ong2005learning}
+\bibinfo{author}{Ong, C.~S.}, \bibinfo{author}{Williamson, R.~C.}, \&
+  \bibinfo{author}{Smola, A.~J.} (\bibinfo{year}{2005}).
+\newblock \bibinfo{title}{Learning the kernel with hyperkernels}.
+\newblock In {\it \bibinfo{booktitle}{Journal of Machine Learning Research}\/}
+  (pp. \bibinfo{pages}{1043--1071}).
 %Type = Article
 \bibitem[{Osborn(2010)}]{osborn2010kalman}
 \bibinfo{author}{Osborn, G.~W.} (\bibinfo{year}{2010}).
@@ -441,6 +546,12 @@
   rats with spatial learning deficits}.
 \newblock {\it \bibinfo{journal}{Proceedings of the National Academy of
   Sciences}\/},  {\it \bibinfo{volume}{93}\/}, \bibinfo{pages}{9926--9930}.
+%Type = Inproceedings
+\bibitem[{Rasmussen(1999)}]{rasmussen1999infinite}
+\bibinfo{author}{Rasmussen, C.~E.} (\bibinfo{year}{1999}).
+\newblock \bibinfo{title}{The infinite gaussian mixture model.}
+\newblock In {\it \bibinfo{booktitle}{NIPS}\/} (pp. \bibinfo{pages}{554--560}).
+\newblock volume~\bibinfo{volume}{12}.
 %Type = Article
 \bibitem[{Reid et~al.(2012)Reid, Latty, Dussutour \& Beekman}]{reid2012slime}
 \bibinfo{author}{Reid, C.~R.}, \bibinfo{author}{Latty, T.},
@@ -472,6 +583,14 @@
   processing}.
 \newblock {\it \bibinfo{journal}{Topics in Cognitive Science}\/},  {\it
   \bibinfo{volume}{3}\/}, \bibinfo{pages}{778--795}.
+%Type = Inproceedings
+\bibitem[{Shi \& Griffiths(2009)}]{shi2009neural}
+\bibinfo{author}{Shi, L.}, \& \bibinfo{author}{Griffiths, T.~L.}
+  (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{Neural implementation of hierarchical bayesian
+  inference by importance sampling}.
+\newblock In {\it \bibinfo{booktitle}{Advances in neural information processing
+  systems}\/} (pp. \bibinfo{pages}{1669--1677}).
 %Type = Article
 \bibitem[{Shi et~al.(2010)Shi, Griffiths, Feldman \& Sanborn}]{shi2010exemplar}
 \bibinfo{author}{Shi, L.}, \bibinfo{author}{Griffiths, T.~L.},
@@ -503,6 +622,16 @@
   acquisition}.
 \newblock {\it \bibinfo{journal}{Cognitive Systems Research}\/},  {\it
   \bibinfo{volume}{5}\/}, \bibinfo{pages}{63--89}.
+%Type = Article
+\bibitem[{Tenenbaum et~al.(2011)Tenenbaum, Kemp, Griffiths \&
+  Goodman}]{tenenbaum2011grow}
+\bibinfo{author}{Tenenbaum, J.~B.}, \bibinfo{author}{Kemp, C.},
+  \bibinfo{author}{Griffiths, T.~L.}, \& \bibinfo{author}{Goodman, N.~D.}
+  (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{How to grow a mind: Statistics, structure, and
+  abstraction}.
+\newblock {\it \bibinfo{journal}{science}\/},  {\it \bibinfo{volume}{331}\/},
+  \bibinfo{pages}{1279--1285}.
 %Type = Book
 \bibitem[{Thrun et~al.(2005)Thrun, Burgard \& Fox}]{thrun2005probabilistic}
 \bibinfo{author}{Thrun, S.}, \bibinfo{author}{Burgard, W.}, \&
@@ -536,6 +665,17 @@
   uncertainty, behavior, and the brain}.
 \newblock {\it \bibinfo{journal}{Annals of the New York Academy of
   Sciences}\/},  {\it \bibinfo{volume}{1224}\/}, \bibinfo{pages}{22--39}.
+%Type = Article
+\bibitem[{Williams et~al.(2009)Williams, Cummins, Neira, Newman, Reid \&
+  Tard{\'o}s}]{williams2009comparison}
+\bibinfo{author}{Williams, B.}, \bibinfo{author}{Cummins, M.},
+  \bibinfo{author}{Neira, J.}, \bibinfo{author}{Newman, P.},
+  \bibinfo{author}{Reid, I.}, \& \bibinfo{author}{Tard{\'o}s, J.}
+  (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{A comparison of loop closing techniques in monocular
+  slam}.
+\newblock {\it \bibinfo{journal}{Robotics and Autonomous Systems}\/},  {\it
+  \bibinfo{volume}{57}\/}, \bibinfo{pages}{1188--1197}.
 %Type = Misc
 \bibitem[{Wu(2004)}]{wu2004properties}
 \bibinfo{author}{Wu, J.} (\bibinfo{year}{2004}).
@@ -551,6 +691,15 @@
 \newblock In {\it \bibinfo{booktitle}{Proc. of the ICRA 2010 workshop on best
   practice in 3D perception and modeling for mobile manipulation}\/}.
 \newblock volume~\bibinfo{volume}{2}.
+%Type = Inproceedings
+\bibitem[{Xing et~al.(2002)Xing, Jordan, Russell \& Ng}]{xing2002distance}
+\bibinfo{author}{Xing, E.~P.}, \bibinfo{author}{Jordan, M.~I.},
+  \bibinfo{author}{Russell, S.}, \& \bibinfo{author}{Ng, A.~Y.}
+  (\bibinfo{year}{2002}).
+\newblock \bibinfo{title}{Distance metric learning with application to
+  clustering with side-information}.
+\newblock In {\it \bibinfo{booktitle}{Advances in neural information processing
+  systems}\/} (pp. \bibinfo{pages}{505--512}).
 %Type = Article
 \bibitem[{Yuille \& Kersten(2006)}]{yuille2006vision}
 \bibinfo{author}{Yuille, A.}, \& \bibinfo{author}{Kersten, D.}

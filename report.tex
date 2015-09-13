@@ -27,6 +27,21 @@
 
 \usepackage{pseudocode}
 
+\DeclareMathOperator*{\argmin}{arg\,min}
+\DeclareMathOperator*{\argmax}{arg\,max}
+
+\def\approxprop{%
+	\def\p{%
+		\setbox0=\vbox{\hbox{$\propto$}}%
+		\ht0=0.6ex \box0 }%
+	\def\s{%
+		\vbox{\hbox{$\sim$}}%
+	}%
+	\mathrel{\raisebox{0.7ex}{%
+			\mbox{$\underset{\s}{\p}$}%
+		}}%
+	}
+
 \usepackage{tocloft}
 \setlength{\cfttabindent}{0in}
 \setlength{\cftfigindent}{0in}

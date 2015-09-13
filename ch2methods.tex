@@ -147,11 +147,11 @@ $\bm v' = \bm v_{true} \cdot \mathcal{N}(1, \begin{bmatrix}\sigma_v^2 & 0\\ 0 & 
 
 where $ \sigma_v^2 $ and $ \sigma_\omega^2 $ are model parameters representing the variance in the linear and angular speeds, respectively. Since the estimate of $\bm v$ is noisy, accumulating errors would lead to an increase of uncertainty and the corruption of the distribution represented by the set of particles, which is why correction with the sensor model is required. 
 
-Under Gaussian assumptions, this correction can be implemented simply by multiplying a path integration prior and a number of sensory likelihoods and solving for the means and variances (Equation \ref{bayes2}). The ensuing algorithm for Bayesian localization is trivial. When using samples instead of a Gaussian to represent the posterior, the correction can be implemented by rejection sampling \citep{doucet2000sequential}, i.e. by deleting hypotheses inconsistent with sensory measurements (see Figure \ref{fig:bayesloc}). Details regarding how brains could implement this algorithm are discussed in Chapter \ref{cha:bayespc}.
+Under Gaussian assumptions, this correction can be implemented simply by multiplying a path integration prior and a number of sensory likelihoods and solving for the means and variances (Equation \ref{bayes2}). The ensuing algorithm for Bayesian localization is trivial. When using samples instead of a Gaussian to represent the posterior, the correction can be implemented by rejection sampling \citep{doucet2000sequential}, i.e. by deleting hypotheses inconsistent with sensory measurements (see Figure \ref{fig:bayesloc}). The derivation of why this rejection sampling scheme approximates the true Bayesian posterior can be found in Appendix TODO. Details regarding how brains could implement this algorithm are discussed in Chapter \ref{cha:bayespc}.
 
 \begin{figure}[h]
 	\begin{pseudocode}{movement}{samples, \textbf{v}, N}
-		1: prevmean = mean(samples) \\
+		1: prevmean \GETS mean(samples) \\
 		2: newsamples \GETS \{ \} \\
 		3: \FOREACH particle \in samples \\
 		4: \quad newsamples \GETS newsamples \cup {motionModel(particle, \textbf{v})} \\
@@ -162,15 +162,15 @@ Under Gaussian assumptions, this correction can be implemented simply by multipl
 	\begin{pseudocode}{correction}{samples, \textbf{O}, \textbf{L}}
 		1: newsamples \GETS \{ \} \\
 		2: \FOREACH particle \in samples \\
-		3: \quad likelihood = sensorModel(particle, \textbf{O}, \textbf{L}) \\
+		3: \quad likelihood \GETS sensorModel(particle, \textbf{O}, \textbf{L}) \\
 		4: \quad \IF random() < likelihood \\
 		5: \quad \quad newsamples \GETS newsamples \cup {particle} \\
 		6: return(newsamples)
 	\end{pseudocode}
 	\begin{pseudocode}{localizationStep}{posteriorsamples, \textbf{v}, \textbf{O}, \textbf{L}, N}
 		1: timestep++ \\
-		2: movedsamples = movement(posteriorsamples, \textbf{v}, N) \\
-		3: correctedsamples =  correction(movedsamples, \textbf{O}, \textbf{L}) \\
+		2: movedsamples \GETS movement(posteriorsamples, \textbf{v}, N) \\
+		3: correctedsamples \GETS  correction(movedsamples, \textbf{O}, \textbf{L}) \\
 		4: return(correctedsamples)
 	\end{pseudocode}
 	\centering
@@ -179,15 +179,148 @@ Under Gaussian assumptions, this correction can be implemented simply by multipl
 	\label{fig:bayesloc}
 \end{figure}
 
+\clearpage
+
 %To correct this distribution, and to estimate the target posterior distribution \eqref{bayeslocsolution}, each particle is weighted according to the likelihood of the perceived sensory measurements from the location hypothesis represented by the particle, i.e. according to the sensor model: 
 %$\bm w_t^i=p(\bm O_t|\bm x_t^i, \bm O_{t-1}, \bm m_t)$. This approach of estimating a target distribution is called importance sampling (see e.g. \cite{montemerlo2007fastslam, thrun2005probabilistic} for the derivation).
 
 \section{Maximum likelihood map error correction}
 
+Landmark location estimates can be updated in the same way as the agents' location estimates $\bm x$, by integrating new observations into the posterior distribution representing these locations (either in the form of Gaussians or of samples from this distribution). With infinitely many particles, the algorithm presented in Figure \ref{fig:bayesloc} would suffice to maintain correct location estimates. 
 
+However, there are practical limits on the particle budget (due to limited computational resources in computers, and due to limited firing rates in neurons). This necessarily leads to errors whenever there is no particle at the unobservable true location. Unfortunately, these errors add up as well. They become most pronounced when revisiting an already known part of the environment, i.e. when traversing a loop - although the agent has returned to its starting location, it will think that it is at a new location, and form new representations of the same place. Multiple such loops can lead to multiple redundant, erroneous representations. 
 
+The problem of how to correct spatial representations when revisiting a known place (not only the location estimate but also the estimated recent path and landmark locations) is the `loop closing' problem in robotics (see e.g. \citep{williams2009comparison, thrun2008simultaneous}). Brains need to solve this problem as well - although human spatial representations are not perfectly accurate, humans are able to correct mistaken estimates when they recognize a revisited place. Interestingly, despite the abundant robotics literature on the topic of closing loops, this problem has been largely neglected in cognitive science literature. 
 
-\section{Bayesian nonparametric clustering}
+Our cognitive model of loop closing is described in more detail Chapter \ref{cha:lida}. Here, we will briefly summarize its purely computational and mathematical aspects. We will assume that it is sufficient to correct the route taken during the loop. When performing large-scale loop closing, the model in Chapter \ref{cha:lida} applies the same correction to a position and the local landmarks around it (a simplification justified based on neuroscientific evidence in that chapter). We also make the assumption that correction only concerns position representations and not angular representations, once again based on neural evidence. Hippocampal `reverse replay' \citep{carr2011hippocampal} (the re-activation of recently active place cells) is a plausible mechanism for correcting the recent route when revisiting a location, as argued in Chapter \ref{cha:lida}, but such a mechanism has not been found for neurons with direction-specific firing.
+
+When revisiting a known place, the recently traversed path has to be corrected using the discrepancy between the previously and recently estimated location of the revisited place. Naturally, the recent estimate has to be reset to be equivalent to the previous one, but it is not obvious how to correct the other recently visited locations $\bm x_0, ..., \bm x_m \in X$ along the recent path $X$. Let $\bm c_1, ... \bm c_m \in C$ denote a set of vectors, each specifying the difference between two locations $\bm c=\bm x_a-\bm x_b$, and each associated with a measurement uncertainty $S_c$ in the form of the covariance matrix of a normal distribution. For locations traversed in sequence, $\bm c$ and $S_c$ is given by the motion model (by path integration). For revisited locations, $\bm c$ is zero. 
+
+According to Bayes' theorem, and assuming that constraints are independent given the location, the recent path depends on the product of the constraint distributions; and the best path estimate is the one that maximizes:
+
+\begin{equation}
+\label{loopprob}
+P(X|C) \propto \prod_{i=1}^{m} P(\bm c_i|X) 
+\end{equation}
+
+Each $P(\bm c_i|X)$ expresses the likelihood that this constraint is satisfied by the path $X$, as a Gaussian distribution: $P(\bm c_i|X)\propto\mathcal{N}(\bm x_a-\bm x_b;\bm c_i, S_i)$ (where $\bm x_a$ and $\bm x_b$ are the location estimates which should have the distance $\bm c_i$ according to this constraints). We are interested in the maximum of Equation \ref{loopprob}, which is equivalent to the minimum of its negative logarithm. If we define $\bm d_i=\bm x_a - \bm x_b - \bm c_i$ as the discrepancy between the constraint and the locations it concerns within the path, then this solution is given by:
+
+\begin{equation}
+\label{mleq}
+X_{ml} = \argmax_X P(X|C) = \argmin_X -log P(X|C) = \argmin_X \sum_{i=1}^{m} ||\bm d_i||_{S_i^{-1}}.
+\end{equation}
+
+Equation \ref{mleq} mathematically describes the maximum likelihood error correction problem for loop closing. It tries to minimize the discrepancies between the constraints and the estimated locations, taking into account the constraint uncertainties $S_i$ by utilizing the Mahalanobis distance\footnote{The Mahalanobis distance is defined as $||\bm x_1-\bm x_2||_C = \sqrt{(\bm x_1-\bm x_2)^TC(\bm x_1-\bm x_2)}$} to measure the discrepancy.
+
+There are several ways to solve Equation \ref{mleq}. We chose sequential gradient descent because it can be implemented in biological neurons \citep{bengio2015towards}. \citep{olson2006fast} derive this solution, giving the following gradient with respect to constraint $i$, depending on a learning rate $\alpha$, a full Jacobian $J$ of the constraints with respect to the path, and the Jacobian $J_i$ of constraint $i$:
+
+\begin{equation}
+\label{gradient}
+\Delta X \approx \alpha (JS^{-1}J)^{-1}J_i^TS_i^{-1} \bm d_i.
+\end{equation}
+
+Because of the incremental structure of the Jacobian, it is possible to simplify this expression (see Chapter \ref{cha:lida}). Making use of this structure, and defining a loop precision parameter $A_i=S_i/S_P$ specifying the ratio of the uncertainties of loop closure constraints (added when revisiting a place) and path integration constraints, the gradient for each individual location within the loop becomes:
+
+\begin{equation}
+\label{correction}
+\Delta \bm x_j \approx \alpha d_i \frac{\sum_{k=a+1}^{j} S_i^{-1}}{\sum_{k=a+1}^{min(j,b)} S_P^{-1}} = \alpha A_i \bm d_i p_j,
+\end{equation}
+
+where $p_j=(min(j,b_i)-a_i-1)/(b_i-a_i-1)$ denotes how far $x_j$ lies along the loop, with $0 \leq p_j \leq 1$. Unlike usual gradient descent procedures, in this particular case we know that $\Delta \bm x \leq \bm d_i $ must hold, and can prevent the algorithm from overshooting, accelerating its convergence. Figure \ref{fig:sgdslam} contains the algorithm using this gradient to correct location estimates when revisiting a place.
+
+\begin{figure}[h]
+	\begin{pseudocode}{correctPath}{X, loopConstraints, \alpha, A, N}
+		1: \WHILE i < N \AND \NOT converged \\
+		2: \quad i++ \\
+		3: \quad \FOREACH a,b \in loopConstraints \\
+		4: \quad \quad discrepancy \GETS X_a - X_b \\
+		5: \quad \quad \FOREACH j \in (a,b] \\
+		6: \quad \quad \quad p \GETS (min(j,b)-a-1)/(b-a-1) \\
+		7: \quad \quad \quad \beta \GETS min(\alpha A \cdot discrepancy, discrepancy) \\
+		8:\quad\quad\quad X_j \GETS X_j + \beta p \\
+		9: return(X)
+	\end{pseudocode}
+	\caption[Algorithm for correcting location estimates when revisiting places]{\textbf{Algorithm for correcting location estimates when revisiting places (`loop closing'),} producing a corrected path given the estimates of locations $X$ along that path (from Bayesian localization), a list of loop constraints indicating the same (revisited) places (from landmark recognition or place recognition), a learning rate $\alpha$, a loop precision parameter $A$ and an iteration budget $N$}
+	\label{fig:sgdslam}
+\end{figure}
+
+\section{Bayesian nonparametrics for map structuring}
+
+It has been suggested that map-like spatial representations are structured hierarchically \citep{hirtle1985evidence,mcnamara1989subjective,greenauer2010micro}, but no formal model has been put forth for a process that might account for this structure. We hypothesize in Chapter \ref{cha:structure} that this process might be clustering. Computationally, we chose a Dirichlet Process Gaussian Mixture Model (DP-GMM) to account for the behaviour data we collected (see Chapter \ref{cha:structure}), for two reasons. First, DP-GMMs (unlike most clustering algorithms) are able to infer the number of clusters, not just cluster memberships; and are infinitely extensible \citep{rasmussen1999infinite}. Second, Bayesian nonparametric models with Dirichlet priors have a successful history in psychological modelling, e.g. of category learning and causal learning \citep{tenenbaum2011grow}, transfer learning \citep{canini2010modeling}, and human semi-supervised learning \citep{gibson2013human}.
+
+A number of features can influence spatial representation structure, including spatial distance and visual and functional similarity of landmarks. The importance of these features varies across participants, and these subject-specific importances have to be accounted for before the clustering process. We chose to implement a new metric learning method to do so (see below). Our model of spatial representation structure consists of these two components: a subject-specific metric, expressing the `similarity function' between two buildings, and the DP-GMM model for clustering buildings under this metric.
+
+As noted in the Introduction, unlike the rest of our work, we have not shown what the neural implementation of such a structuring process might look like. Some prior work exists showing the possibility of inference in hierarchical Bayesian models such as the DP-GMM, e.g. \citep{shi2009neural} - see \citep{sanborn2015types} for a review. We have substantiated the psychological plausibility of this model by showing that it can explain and predict human behavior data (Chapter \ref{cha:structure}), and leave the investigation of the biological plausibility of this specific mechanism for future work.
+
+\subsection{Dirichlet Process Gaussian Mixture Models for clustering}
+
+We will only describe the DP-GMM model very briefly, since it is a well-established model and since we did not implement it ourselves in this work (we used the $bnpy$ Python library instead). See e.g. \citep{rasmussen1999infinite} for its introduction, or \citep{gershman2012tutorial} for a tutorial. The DP-GMM model can be defined as follows:
+
+\begin{equation}
+\label{eq:dpgmm}
+\begin{array}{rcl}
+\phi_k   \sim Beta(1, \alpha_1) \\
+\mu_k    \sim Normal(0,  \mathbf{I}) \\
+\Sigma_k \sim Wishart(D, \mathbf{I}) \\
+\pi_{k}  \sim SBP(\phi) \\
+x_t \sim Normal(\mu_{z_i},  \Sigma_{z,i}^{-1}),
+\end{array}
+\end{equation}
+
+where SBP stands for the stick-breaking process for generating mixture weights: $\pi_k=v_k \prod_{j=1}^{k-1} (1-v_j)$. Data can be generated from this model by first choosing a cluster with probabilities specified by mixture weights: $z \sim Cat(\pi)$, and then drawing an observation from the parameters of that cluster $x \sim Normal(\mu_z, \Sigma_z)$.
+
+Given the data, the parameters of this model can be inferred using either a Monte Carlo chain sampling method \citep{neal2000markov} or variational inference \citep{blei2006variational}. We did not implement an inference algorithm in this work; instead, we have used the $bnpy$ Python library for this purpose. See \citep{hughes2013memoized} for implementation details.
+
+\subsection{Metric learning in absolute pairwise difference space}
+
+In order to learn a suitable metric for our data, we had to develop a novel metric learning method, since the assumptions made by existing methods do not hold in our case. Neither the linear separability assumption (made by linear metric learning), nor the prerequisite of roughly isotropic variances along the features (made by RBF-based methods \citep{ong2005learning}) is the case for all subjects in our dataset. Furthermore, a GDA-based metric can naturally incorporate the hypothesis that same sub-map building pair differences should be located close to the origin, and should be separable from different-map building pairs (these two distributions of pair differences can be naturally modelled using Gaussian distributions) - see Figure 5 in the main text. 
+
+Our proposed method can be seen as a novel approach to perform non-linear metric learning using weak supervision in the form of pairwise constraints, in order to improve clustering performance, as pioneered by \cite{xing2002distance}. The problem to be solved can be defined as follows. Let $\mathcal{X}=(\boldsymbol x_i, ..., \boldsymbol x_n)$ be the feature vector representation of $n$ objects which are to be clustered, where $x_i \in \mathbb{R}^D$ are vectors with $D$ dimensions. Let the set of $m$ given labelled pairwise co-representation constraints be denoted by $\mathcal{C}$, where $ \lvert \mathcal{C} \lvert = m $, and $c_{i,j} \in \mathcal{C}$ is
+
+\begin{equation}
+c_{i,j}=
+\begin{cases}
+1, & \text{if $i$ and $j$ belong to the same sub-map (co-represented)} \\
+0, & \text{if $i$ and $j$ belong to different sub-maps (not co-represented)}
+\end{cases}
+\end{equation}
+
+Our ultimate goal is to group the $n$ objects into $K$ clusters (`sub-maps'), such that objects of the same cluster are more similar to each other than to those of different clusters; taking into account the provided pairwise constraints to learn a good similarity metric for the given data.
+
+Conventional approaches leveraging non-linear metric learning for this problem try to find a kernel $\Phi$ such that the clustering resulting from using the distance metric defined by that kernel, $d^2(x_1, x_2)=(\Phi(x_1)-\Phi(x_2))^T(\Phi(x_1)-\Phi(x_2))$, does not violate the provided constraints (ensures co-represented pairs are closer than other pairs, if possible), and often employ RBF kernels for this purpose, e.g. \citep{baghshah2010kernel, chitta2011approximate}. 
+
+In contrast, the proposed framework aims to learn the distribution of co-representation probabilities (whether or not two object should be linked) from the provided set of constraints, and constructs a pseudo-metric based on a generative model of co-representation probabilities. Crucially, this probabilistic model is defined on the vector space of absolute pairwise differences (APD), which allows learning the importance of each feature (a challenge for RBF kernels for data with non-isotropic variance). The metric based on this generative model is a pseudo-metric, because it does not satisfy the conditions of subadditivity, $d(x, z) \leq d(x, y)+d(y,z)$ and the identity of discernibles, $d(x, y) = 0 \enskip \text{if and only if} \enskip x = y$.
+
+Let $[\Delta \boldsymbol{x_{i,j}}]_+ = \big( \lvert \boldsymbol{x_{i,k}} - \boldsymbol{x_{j,k}} \lvert \big)_{k=1}^m $ be the representation of each pair of objects $(i,j)$ in APD vector space. The co-representation probability distribution, i.e. the posterior probability of any pair of objects belonging to the same cluster, given a pair of objects and some model parameters $\boldsymbol{\theta}$ is then 
+
+\begin{equation}
+\label{eq:linkprob}
+p(c=1|\Delta \boldsymbol{x}, \boldsymbol{\theta}) \propto p(\Delta \boldsymbol{x} | c=1, \boldsymbol{\theta}) p(c=1|\boldsymbol{\theta})
+\end{equation}
+
+The likelihood $ p(c=1|\Delta \boldsymbol{x}, \boldsymbol{\theta}) $, the model parameters $ \boldsymbol{\theta} $ (as well as the prior) can be estimated from $\mathcal{X}$ and $\mathcal{C}$, even in closed form, using Gaussian Discriminant Analysis (GDA). This yields a suitable non-linear pseudo-metric based on this probability distribution - see Equation \ref{eq:metric} -, such that objects likely to belong to the same cluster will be close, and those likely to belong to different clusters will be far apart; with these distances directly depending on co-representation probabilities. 
+
+\begin{equation}
+\label{eq:metric}
+d_m(\boldsymbol x_1, \boldsymbol x_2; \boldsymbol{\theta}) = 1 - p(c=1|\Delta \boldsymbol x, \boldsymbol{\theta}) = p(c=0|\Delta \boldsymbol x, \boldsymbol{\theta})
+\end{equation}
+
+A metric is well-suited for clustering if within-cluster instances are closer than across-cluster instances according to it; i.e. if for any $\Delta \boldsymbol x_m \in \mathcal{M}, \Delta \boldsymbol x_c \in \mathcal{C} $ it holds that $ d_m(\boldsymbol x_{m,1}, \textbf x_{m,2}; \boldsymbol{\theta}) < d_m(\boldsymbol x_{c,1}, \textbf x_{c,2}; \boldsymbol{\theta}) $. It follows from Equation \ref{eq:metric} that this is the case if the generative model learns to optimally separate the absolute differences of within-cluster instance pairs from across-cluster pairs.
+
+In the generative \textbf{GDA} model \citep{bensmail1996regularized}, the likelihoods of a pair of instances either being co-represented (i.e. belonging to the same sub-map), or not being co-represented (i.e. belonging to different sub-maps) are each modelled using a multivariate Gaussian: 
+
+\begin{equation}
+\label{eq:mvnormal}
+p( \Delta \textbf x | c=i; \mu_i, \Sigma_i) = (2\pi)^{-\frac{D}{2}}|\boldsymbol\Sigma_i|^{-\frac{1}{2}}\, e^{ -\frac{1}{2}(\Delta \mathbf{x}-\boldsymbol\mu_i)^\intercal\boldsymbol\Sigma_i^{-1}(\Delta \mathbf{x}-\boldsymbol\mu_i) },
+\end{equation}
+
+where $i \in \{0,1\}$. $(\mu_1, \Sigma_1)$ are the means and covariances of the APD distances of co-represented pairs, and $(\mu_0, \Sigma_0)$ those of not co-represented pairs (see the two Gaussian contours in Figure 5 in the main text). These parameters can be easily estimated from the two given sets of co-represented and not co-represented object pairs, respectively, by calculating their means and covariances.
+
+Finally, the trained GDA-model defined in Equation \ref{eq:mvnormal} can be used to calculate distances between all pairs of objects in any testing data set. The data is projected under this metric using distance-preserving embedding. We have used multi-dimensional scaling for this purpose \citep{borg2005modern}. The result of this projection is a data set embedded such that Euclidean pairwise distances therein reflect the distances \ref{eq:metric} in the original dataset.
+
+We subsequently perform clustering of this resulting data, using a Dirichlet Process Gaussian Mixture Model (DP-GMM) \citep{rasmussen1999infinite}, since the number of clusters is unknown (see previous section).
+
+\section{Image processing, segmentation, and recognition}
 
 %point out comp aspects WHEREVER POSSIBLE / APPROPRIATE 
 
