@@ -6,16 +6,16 @@ A level-1 auxiliary file: ch8conclusion.aux
 The style file: model5-names.bst
 A level-1 auxiliary file: appendix1.aux
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 115 of file refs.bib
+I was expecting a `,' or a `}'---line 135 of file refs.bib
  :  
  :  year={2013}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 356 of file refs.bib
+Repeated entry---line 376 of file refs.bib
  : @article{pouget2013probabilistic
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 554 of file refs.bib
+Repeated entry---line 574 of file refs.bib
  : @incollection{newell1973you
  :                            ,
 I'm skipping whatever remains of this entry

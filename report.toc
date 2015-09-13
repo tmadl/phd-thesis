@@ -11,12 +11,12 @@
 \contentsline {section}{\numberline {2.1}Probabilistic modelling}{24}
 \contentsline {section}{\numberline {2.2}Bayesian cue integration}{25}
 \contentsline {section}{\numberline {2.3}Bayesian localization}{26}
-\contentsline {section}{\numberline {2.4}Bayesian nonparametric clustering}{26}
-\contentsline {section}{\numberline {2.5}Maximum likelihood map error correction}{26}
-\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{27}
-\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{28}
-\contentsline {chapter}{\numberline {5}The structure of spatial representations}{29}
-\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{30}
-\contentsline {chapter}{\numberline {7}Discussion}{31}
-\contentsline {chapter}{\numberline {8}Conclusion}{32}
-\contentsline {chapter}{\numberline {A}Probabilistic neural models and their plausibility}{38}
+\contentsline {section}{\numberline {2.4}Maximum likelihood map error correction}{28}
+\contentsline {section}{\numberline {2.5}Bayesian nonparametric clustering}{28}
+\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{30}
+\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{31}
+\contentsline {chapter}{\numberline {5}The structure of spatial representations}{32}
+\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{33}
+\contentsline {chapter}{\numberline {7}Discussion}{34}
+\contentsline {chapter}{\numberline {8}Conclusion}{35}
+\contentsline {chapter}{\numberline {A}Probabilistic neural models and their plausibility}{42}
