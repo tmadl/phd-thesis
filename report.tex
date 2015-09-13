@@ -18,6 +18,13 @@
 
 \usepackage{pslatex} % Use Postscript fonts
 
+% amsmath package, useful for mathematical formulas
+\usepackage{amsmath}
+% amssymb package, useful for mathematical symbols
+\usepackage{amssymb}
+
+\usepackage{bm}
+
 \usepackage{tocloft}
 \setlength{\cfttabindent}{0in}
 \setlength{\cftfigindent}{0in}
@@ -64,6 +71,8 @@ I would like to thank...
 % These include the actual text
 \include{ch1introduction}
 
+\include{ch2methods} 
+
 \chapter{Review of computational cognitive models of spatial memory}
 \label{cha:nnreview}
 
@@ -85,7 +94,7 @@ addtolist={
 	1, figure, {Overview of cognitive architectures evaluated in simulations 1 (p. 35)}, fig:nnrev:cogarch1,
 	1, figure, {Overview of cognitive architectures evaluated in simulations 2 (p. 35)}, fig:nnrev:cogarch2,
 	1, table, {Characteristics of the reviewed models (pp. 38-39)}, tbl:nnrev:char
-}]{papers/chap2_nnreview.pdf}
+}]{papers/nnreview.pdf}
 
 \addtocounter{page}{-25}
 
@@ -111,15 +120,39 @@ addtolist={
 	1, figure, {Density of place cell spikes, and predicted uncertainty, on a circular track with objects (p. 9)}, fig:bayespc:density,
 	1, figure, {Place field sizes, and predicted uncertainty, on a circular track with objects, using the extended model (p. 10)}, fig:bayespc:pfextended,
 	1, figure, {Errors of coincidence-based multiplication based on a simple integrate-and-fire model (p. 11)}, fig:nnrev:cderr
-}]{papers/chap3_bayespc.pdf}
+}]{papers/bayespc.pdf}
 
 \addtocounter{page}{-15}
+
 \chapter{The structure of spatial representations}
 \label{cha:structure}
 
 \textbf{Publication 3 / 4.} Madl T., Franklin S., Chen K., Trappl R. \& Montaldi D., submitted. Exploring the structure of spatial representations. \textit{Cognitive Processing}
 
 \newpage
+
+\addtocounter{page}{-1}
+
+\includepdf[pages={-}, 
+addtolist={
+	1, figure, {Formalizing relative feature importances for grouping objects (p. 4)}, fig:mapstructure:formalizing,
+	1, figure, {A part of the real-world memories experiment interface of Experiments 1 and 3 (p. 5)}, fig:mapstructure:rlscrn,
+	1, figure, {A part of the virtual reality experiment interface of Experiment 2 (p. 6)}, fig:mapstructure:vrscrn,
+	1, figure, {The recall sequence-based method used to extract cognitive map structure (p. 8)}, fig:mapstructure:recallsequence,
+	1, figure, {Overview over the 149 cities in which participants' memory structures were inferred (p. 9)}, fig:mapstructure:map149,
+	1, figure, {Correlations between probabilities of being on the same sub-map, and distances along each feature, (p. 16)}, fig:mapstructure:corr1,
+	1, figure, {Variability of features inﬂuencing cognitive map structure (p. 17)}, fig:mapstructure:variability,
+	1, figure, {The decision hyperplane method for inferring feature importances and generating environments (p. 19)}, fig:mapstructure:dechyp,
+	1, figure, {Results of a predictive clustering model using subjects' feature importances, learned using the decision hyperplane approach (p. 22)}, fig:mapstructure:dechypresults,
+	1, figure, {Learning subject-speciﬁc models for predicting cognitive map structure (p. 24)}, fig:mapstructure:gdaopt,
+	1, figure, {Estimated maximum possible prediction rate using the data in Experiment 3 (p. 26)}, fig:mapstructure:maxpred,
+	1, figure, {Accuracies obtained by predicting participant’s map structures using DP-GMM clustering under the learned subject-speciﬁc models (p. 29)}, fig:mapstructure:accuracies,
+	1, figure, {Possible obstacles to predicting subject cognitive map structures (p. 33)}, fig:mapstructure:obstacles,
+	1, table, {Effects of spatial representation structure on distance estimation, walking time estimation, and response times (p. 13)}, tbl:mapstructure:effects,
+	1, table, {Prediction accuracies (and Rand indices) in Experiment 3 (p. 28)}, tbl:mapstructure:predacc
+}]{papers/mapstructure.pdf}
+
+\addtocounter{page}{-36}
 
 \chapter{Towards real-world capable spatial memory in the LIDA cognitive architecture}
 \label{cha:lida}
@@ -128,9 +161,9 @@ addtolist={
 
 \newpage
 
-\include{ch6methods}
-
 \include{ch7discussion}
+
+% have to properly discuss BVC model
 
 \include{ch8conclusion}
 

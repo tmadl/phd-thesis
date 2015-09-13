@@ -1,0 +1,124 @@
+\chapter{Computational Methods}
+\label{cha:methods}
+
+This section briefly reviews the computational methods employed in this thesis, and their advantages and limitations. Figure \ref{fig:methods} shows an overview over all employed methods, and the way they are utilized to support the mechanisms, algorithms, and cognitive models presented below. More specific and detailed descriptions of each method, including the empirical methods used to gather data for testing hypotheses for which no existing datasets could be found, are described in the respective result chapters. Chapter \ref{cha:bayespc} contains descriptions of the place cell firing data and its computational modelling, and Chapter \ref{cha:structure} the collection of data regarding spatial memory structure and accuracy data and its modelling. Chapter \ref{cha:lida} integrates the models in the same architecture, and interfaces them to a robotic simulator.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{img/methodsfigure2}
+	\caption[Overview of how the methods in this thesis help support real-world capable models of cognition]{\textbf{Overview of how the methods in this thesis help support real-world capable models of cognition,} roughly divided into empirical methods (bottom half) and computational methods (top half). Gray boxes with italic text contain data/code used to substantiate or implement some models, but not gathered/implemented by us.} 
+	\label{fig:methods}
+\end{figure}
+
+\section{Probabilistic modelling}
+
+Probabilistic models use probability distributions to represent quantities and the uncertainties associated with them, utilizing probability theory to manipulate these distributions \citep{ghahramani2015probabilistic}. Two basic rules provide the foundation, and together yield Bayes' theorem, which underlies Bayesian modelling. The \textit{sum rule} takes the form
+
+\begin{equation}
+\label{sumrule}
+p(Y) = \sum_{X} p(Y, X),
+\end{equation}
+
+where $p(X,Y)$ is the joint probability (i.e. the probability of X and Y) and the summation is over all values which $Y$ could possibly take. $p(X)$ is also referred to as the marginal probability, and the summation in Equation \ref{sumrule} is also called marginalization (which is especially useful to make inferences about variables of interest by summing out all other variables). The \textit{product rule} states that
+
+\begin{equation}
+\label{productrule}
+p(Y,X) = p(Y|X)p(X) = p(X|Y)p(Y),
+\end{equation}
+
+where $p(Y|X)$ is the conditional probability (i.e. the probability of Y given X). Combined, they yield \textit{Bayes' theorem}:
+
+\begin{equation}
+\label{bayesrule}
+p(Y|X) = \frac{p(X|Y)p(Y)}{p(X)} = \frac{p(X|Y)p(Y)}{\sum_{Y} p(X, Y)}.
+\end{equation}
+
+In the context of a probabilistic model, defined by a number of parameters encoded in $Y$, and given some observed data encoded in $X$, we can use Equation \ref{bayesrule} to calculate a \textit{posterior} probability distribution of model parameters, combining \textit{prior} knowledge (or assumptions) $p(Y)$ with the \textit{likelihood} $p(X|Y)$.
+
+The sections below summarize normative solutions to the problems required for real-world spatial cognition outlined in Chapter \ref{cha:intro} in this probabilistic framework. As mentioned there, the goal of this work is contributing to the understanding of spatial information processing in brains and minds, and not finding particularly good solutions to these problems. Numerous algorithms capable of much more accurate localization and mapping and making less restrictive assumptions have been proposed in probabilistic robotics \citep{thrun2005probabilistic}, more specifically simultaneous localization and mapping (SLAM) - see \citep{thrun2008simultaneous,durrant2006simultaneous,bailey2006simultaneous} for reviews and \citep{tuna2012evaluations} for a more recent evaluation. 
+
+Our particular computational-level solutions for estimating locations are not novel, and very simple compared to the state of the art in SLAM. We are applying existing computational and mathematical tools to cognitive and neural mechanisms, following a long and successful history of this approach in the field of computational cognitive modelling \citep{sun2008introduction}. In this field, simplicity and restrictive approximations can be assets - a simpler, sub-optimal model which nevertheless explains empirical data better, and is more consistent with neural anatomy, is superior to an intractable or implausible optimal model at modelling cognition. Furthermore, the implementation of these abstract methods in a way consistent with the neuroscience and psychology of spatial memory is novel, as is their integration with a comprehensive cognitive architecture and their substantiation with empirical data (see Section \ref{sec:intro:outline} for the full list of novel contributions). 
+
+\section{Bayesian cue integration}
+
+One concrete application of Equation \ref{bayesrule} is the inference of the most likely current location of an animal, given some observations regarding the distance of a number of landmarks. For simplicity, we assume 1) a uniform prior over these observations, and 2) conditional independence of the observations given the location. The posterior probability of the current location $p(\bm x | \bm O)$, given a location prior $p(\bm x)$ and some observations $o_1, ..., o_N \in \bm O$, is 
+
+\begin{equation}\label{bayes1}
+p( \bm x | \bm O ) = \frac{p( \bm x ) p( \bm O | \bm x )}{p(\bm O)} = \gamma p( \bm x ) p( \bm O | \bm x )
+\end{equation}
+
+The prior can be obtained by adding up self-motion signals (a process called `path integration' or dead reckoning - see Chapter \ref{cha:nnreview}). Individual observation distributions can express distance measurements to landmarks, and can be multiplied due to their conditional independence:
+
+\begin{equation}\label{bayes2}
+p( \bm x | \bm O ) = \gamma p( \bm x ) \prod_{i=1}^{N} p( \bm o_i | \bm x ).
+\end{equation}
+
+For now, we further assume that each of these variables is normally distributed. This makes it straightforward to derive the variance $C_L$ of the normal/Gaussian posterior location distribution $p( \bm x | \bm O ) = \mathcal{N}(\bm x ; \mu_L, C_L)$ from the variances of the prior and of the likelihood distributions $C_x$ and $C_{o,i}$ (see e.g. \cite{wu2004properties} for the derivation of the parameters of products of Gaussian distributions):
+
+\begin{equation}\label{bayes3}
+C_{L}=(C_x^{-1}+\sum_{i=1}^{N} C_{o,i}^{-1})^{-1}
+\end{equation}
+
+In the one-dimensional case, the variance is the square of the standard deviation $\sigma$. We can say that the standard deviation of a Gaussian distribution is a measure of the `uncertainty' associated with it (as it measures the spread among possible values - the more certainly a value is known, the lower the associated $\sigma$ of the distribution describing it). Assuming that the observation uncertainties $\sigma_{o,i}$ depend linearly on the respective distances $d_{i}$, such that $\sigma_{o,i}=s \cdot d_{i}$ (Chapter \ref{cha:bayespc} provides justifications and evidence for this linear relationship), we obtain the standard deviation of the location posterior for a given set of measurement distances:
+
+\begin{equation}\label{bayes4}
+\sigma_{L}(d_1, ..., d_N)=\sqrt{(\sigma_x^{-2}+s \sum_{i=1}^{N} d_{i}^{-2})^{-1}}.
+\end{equation}
+
+Chapter \ref{cha:bayespc} uses equation \ref{bayes4} to test the hypotheses that place cells may represent uncertainty and perform Bayesian cue integration. Although place cells constitute a two-dimensional representation, this one-dimensional treatment of observation likelihoods is an acceptable approximation in the kinds of environments from which the data was collected (rectangular boxes without landmarks, where the axes can be assumed to be independent as they are orthogonal, and a very narrow, circular track with landmarks, where the width can be neglected as it is less than $3\%$ of the length). 
+
+
+
+%Figure \ref{fig:bayescue}
+
+%\begin{table*}[h]
+%	\centering
+%	{\renewcommand{\arraystretch}{1.2}
+%		\begin{tabu}{c|c}
+%			$\downarrow$ {Dimensions} & {Variance of the location posterior}\\ \tabucline[3pt]{-}
+%			1D & $\sigma^2_{L1D}=(\frac{1}{\sigma_x^2}+\sum_{i=1}^{N} \frac{1}{\sigma_{o,i}^2})^{-1}$ \\
+%			2D & $C_{L2D}=(C_x^{-1}+\sum_{i=1}^{N} C_{o,i}^{-1})^{-1}$ \\
+%		\end{tabu}
+%	}
+%	\caption[Variance of the posterior location estimate under Gaussian assumptions]{\textbf{Variance of the posterior location estimate under Gaussian assumptions}. $\sigma$ stands for scalar standard deviations, and $C \in \mathbb{R}^{2x2}$ for covariance matrices.}
+%	\label{tbl:bayescue}
+%\end{table*}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{img/bayesian_localization3}
+	\caption{\textbf{Bayesian cue integration for localization.} Illustration of how an animal might use its prior location belief (blue) estimated from its movement, and distance distributions e.g. to a boundary (green) to obtain a corrected location estimate (red) using Bayesian inference.} 
+	\label{fig:bayescue}
+\end{figure}
+
+
+
+
+
+%
+
+\section{Bayesian localization}
+
+\section{Bayesian nonparametric clustering}
+
+\section{Maximum likelihood map error correction}
+
+%point out comp aspects WHEREVER POSSIBLE / APPROPRIATE 
+
+%review of methods point out COMP./MATH
+
+%point out what you can get / what you cant get, specifically saying limitations
+
+%limitations 
+
+%\section{Empirical methods}
+%
+%\subsection{Bayesian localization}
+%
+%The computational models presented below are based on the hypotheses summarized in Table \ref{tbl:hyp} in the Introduction. Previously gathered and published data was available for testing the hypotheses that hippocampal place cells might encode uncertainty and use it for approximate Bayesian inference, in the form of neural activity recorded using head-mounted intracranial electrodes in behaving rats in multiple environments, collected outside this PhD by \citep{burke2011influence, okeefe1996geometric, Odobescu2010} - see Chapter \ref{cha:bayespc}. Place cells also play a crucial role in human spatial memory \citep{ekstrom2003cellular}. But since the cognitive models below are concerned with human cognition, we additionally used human behaviour data published by \citep{nardini2008development} to evaluate the Bayesian localization model on a behavioural level. In this  see Chapter \ref{cha:lida}.
+%
+%\subsection{Bayesian nonparametric clustering}
+%
+%Although 
+%
+%\section{Computational methods}

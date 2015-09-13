@@ -1,4 +1,4 @@
-\begin{thebibliography}{58}
+\begin{thebibliography}{66}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -21,6 +21,14 @@
   trial-dependent features through rate remapping}.
 \newblock {\it \bibinfo{journal}{The Journal of Neuroscience}\/},  {\it
   \bibinfo{volume}{32}\/}, \bibinfo{pages}{14752--14766}.
+%Type = Article
+\bibitem[{Bailey \& Durrant-Whyte(2006)}]{bailey2006simultaneous}
+\bibinfo{author}{Bailey, T.}, \& \bibinfo{author}{Durrant-Whyte, H.}
+  (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{Simultaneous localization and mapping (slam): Part
+  ii}.
+\newblock {\it \bibinfo{journal}{IEEE Robotics \& Automation Magazine}\/},
+  {\it \bibinfo{volume}{13}\/}, \bibinfo{pages}{108--117}.
 %Type = Article
 \bibitem[{Barber et~al.(2003)Barber, Clark \& Anderson}]{barber2003neural}
 \bibinfo{author}{Barber, M.~J.}, \bibinfo{author}{Clark, J.}, \&
@@ -106,6 +114,13 @@
 \newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
   \bibinfo{volume}{14}\/}, \bibinfo{pages}{561--569}.
 %Type = Article
+\bibitem[{Durrant-Whyte \& Bailey(2006)}]{durrant2006simultaneous}
+\bibinfo{author}{Durrant-Whyte, H.}, \& \bibinfo{author}{Bailey, T.}
+  (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{Simultaneous localization and mapping: part i}.
+\newblock {\it \bibinfo{journal}{Robotics \& Automation Magazine, IEEE}\/},
+  {\it \bibinfo{volume}{13}\/}, \bibinfo{pages}{99--110}.
+%Type = Article
 \bibitem[{Ernst(2006)}]{ernst2006bayesian}
 \bibinfo{author}{Ernst, M.~O.} (\bibinfo{year}{2006}).
 \newblock \bibinfo{title}{A bayesian view on multimodal cue integration}.
@@ -170,6 +185,13 @@
 \newblock \bibinfo{title}{Action understanding and active inference}.
 \newblock {\it \bibinfo{journal}{Biological cybernetics}\/},  {\it
   \bibinfo{volume}{104}\/}, \bibinfo{pages}{137--160}.
+%Type = Article
+\bibitem[{Ghahramani(2015)}]{ghahramani2015probabilistic}
+\bibinfo{author}{Ghahramani, Z.} (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{Probabilistic machine learning and artificial
+  intelligence}.
+\newblock {\it \bibinfo{journal}{Nature}\/},  {\it \bibinfo{volume}{521}\/},
+  \bibinfo{pages}{452--459}.
 %Type = Article
 \bibitem[{Greenauer \& Waller(2010)}]{greenauer2010micro}
 \bibinfo{author}{Greenauer, N.}, \& \bibinfo{author}{Waller, D.}
@@ -288,6 +310,14 @@
   transfer functions to dynamic bayesian inference}.
 \newblock {\it \bibinfo{journal}{Journal of neurophysiology}\/},  {\it
   \bibinfo{volume}{100}\/}, \bibinfo{pages}{2981--2996}.
+%Type = Inproceedings
+\bibitem[{Madl et~al.()Madl, Franklin, Chen \& Trappl}]{madl2013spatial}
+\bibinfo{author}{Madl, T.}, \bibinfo{author}{Franklin, S.},
+  \bibinfo{author}{Chen, K.}, \& \bibinfo{author}{Trappl, R.} ().
+\newblock \bibinfo{title}{Spatial working memory in the lida cognitive
+  architecture}.
+\newblock In {\it \bibinfo{booktitle}{Proc. international conference on
+  cognitive modelling}\/} (pp. \bibinfo{pages}{384--389}).
 %Type = Techreport
 \bibitem[{Marr \& Poggio(1976)}]{marr1976understanding}
 \bibinfo{author}{Marr, D.}, \& \bibinfo{author}{Poggio, T.}
@@ -443,6 +473,12 @@
 \newblock {\it \bibinfo{journal}{Journal of Comparative Neurology}\/},  {\it
   \bibinfo{volume}{379}\/}, \bibinfo{pages}{482--494}.
 %Type = Article
+\bibitem[{Sun(2008)}]{sun2008introduction}
+\bibinfo{author}{Sun, R.} (\bibinfo{year}{2008}).
+\newblock \bibinfo{title}{Introduction to computational cognitive modeling}.
+\newblock {\it \bibinfo{journal}{Cambridge handbook of computational
+  psychology}\/},  (pp. \bibinfo{pages}{3--19}).
+%Type = Article
 \bibitem[{Sun \& Zhang(2004)}]{sun2004top}
 \bibinfo{author}{Sun, R.}, \& \bibinfo{author}{Zhang, X.}
   (\bibinfo{year}{2004}).
@@ -450,6 +486,13 @@
   acquisition}.
 \newblock {\it \bibinfo{journal}{Cognitive Systems Research}\/},  {\it
   \bibinfo{volume}{5}\/}, \bibinfo{pages}{63--89}.
+%Type = Book
+\bibitem[{Thrun et~al.(2005)Thrun, Burgard \& Fox}]{thrun2005probabilistic}
+\bibinfo{author}{Thrun, S.}, \bibinfo{author}{Burgard, W.}, \&
+  \bibinfo{author}{Fox, D.} (\bibinfo{year}{2005}).
+\newblock {\it \bibinfo{title}{Probabilistic Robotics (Intelligent Robotics and
+  Autonomous Agents)}\/}.
+\newblock \bibinfo{publisher}{The MIT Press}.
 %Type = Incollection
 \bibitem[{Thrun \& Leonard(2008)}]{thrun2008simultaneous}
 \bibinfo{author}{Thrun, S.}, \& \bibinfo{author}{Leonard, J.~J.}
@@ -458,6 +501,16 @@
 \newblock In {\it \bibinfo{booktitle}{Springer handbook of robotics}\/} (pp.
   \bibinfo{pages}{871--889}).
 \newblock \bibinfo{publisher}{Springer}.
+%Type = Inproceedings
+\bibitem[{Tuna et~al.(2012)Tuna, Gulez, Gungor \& Mumcu}]{tuna2012evaluations}
+\bibinfo{author}{Tuna, G.}, \bibinfo{author}{Gulez, K.},
+  \bibinfo{author}{Gungor, V.~C.}, \& \bibinfo{author}{Mumcu, T.~V.}
+  (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{Evaluations of different simultaneous localization
+  and mapping (slam) algorithms}.
+\newblock In {\it \bibinfo{booktitle}{IECON 2012-38th Annual Conference on IEEE
+  Industrial Electronics Society}\/} (pp. \bibinfo{pages}{2693--2698}).
+\newblock \bibinfo{organization}{IEEE}.
 %Type = Article
 \bibitem[{Vilares \& Kording(2011)}]{vilares2011bayesian}
 \bibinfo{author}{Vilares, I.}, \& \bibinfo{author}{Kording, K.}
@@ -466,6 +519,10 @@
   uncertainty, behavior, and the brain}.
 \newblock {\it \bibinfo{journal}{Annals of the New York Academy of
   Sciences}\/},  {\it \bibinfo{volume}{1224}\/}, \bibinfo{pages}{22--39}.
+%Type = Misc
+\bibitem[{Wu(2004)}]{wu2004properties}
+\bibinfo{author}{Wu, J.} (\bibinfo{year}{2004}).
+\newblock \bibinfo{title}{Some properties of the gaussian distribution}.
 %Type = Inproceedings
 \bibitem[{Wurm et~al.(2010)Wurm, Hornung, Bennewitz, Stachniss \&
   Burgard}]{wurm2010octomap}
