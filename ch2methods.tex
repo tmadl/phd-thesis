@@ -1,12 +1,13 @@
 \chapter{Computational Methods}
 \label{cha:methods}
 
-This section briefly reviews the computational methods employed in this thesis, and their advantages and limitations. Figure \ref{fig:methods} shows an overview over all employed methods, and the way they are utilized to support the mechanisms, algorithms, and cognitive models presented below. More specific and detailed descriptions of each method, including the empirical methods used to gather data for testing hypotheses for which no existing datasets could be found, are described in the respective result chapters. Chapter \ref{cha:bayespc} contains descriptions of the place cell firing data and its computational modelling, and Chapter \ref{cha:structure} the collection of data regarding spatial memory structure and accuracy data and its modelling. Chapter \ref{cha:lida} integrates the models in the same architecture, and interfaces them to a robotic simulator.
+This section briefly reviews the computational methods employed in this thesis. Figure \ref{fig:methods} shows an overview over all employed methods, and the way they are utilized to support the mechanisms, algorithms, and cognitive models presented below. More specific and detailed descriptions of each method, including the empirical methods used to gather data for testing hypotheses for which no existing datasets could be found, are described in the respective result chapters. Chapter \ref{cha:bayespc} contains descriptions of the place cell firing data and its computational modelling, and Chapter \ref{cha:structure} the collection of data regarding spatial memory structure and accuracy data and its modelling. Chapter \ref{cha:lida} integrates the models in the same architecture, and interfaces them to a robotic simulator. 
+Describing the details of the LIDA (Learning Intelligent Distribution Agent) cognitive architecture \citep{franklin2013lida}, within which these cognitively plausible Bayesian mechanisms have been computationally realized, is outside the scope of this thesis.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{img/methodsfigure2}
-	\caption[Overview of how the methods in this thesis help support real-world capable models of cognition]{\textbf{Overview of how the methods in this thesis help support real-world capable models of cognition,} roughly divided into empirical methods (bottom half) and computational methods (top half). Gray boxes with italic text contain data/code used to substantiate or implement some models, but not gathered/implemented by us.} 
+	\caption[Overview of how the methods in this thesis help support real-world capable models of cognition]{\textbf{Overview of how the methods in this thesis help support real-world capable models of cognition,} roughly divided into empirical methods (bottom half) and computational methods (top half). Gray boxes contain data/code used to substantiate or implement some models, but not gathered/implemented by us.} 
 	\label{fig:methods}
 \end{figure}
 
@@ -35,9 +36,9 @@ p(Y|X) = \frac{p(X|Y)p(Y)}{p(X)} = \frac{p(X|Y)p(Y)}{\sum_{Y} p(X, Y)}.
 
 In the context of a probabilistic model, defined by a number of parameters encoded in $Y$, and given some observed data encoded in $X$, we can use Equation \ref{bayesrule} to calculate a \textit{posterior} probability distribution of model parameters, combining \textit{prior} knowledge (or assumptions) $p(Y)$ with the \textit{likelihood} $p(X|Y)$.
 
-The sections below summarize normative solutions to the problems required for real-world spatial cognition outlined in Chapter \ref{cha:intro} in this probabilistic framework. As mentioned there, the goal of this work is contributing to the understanding of spatial information processing in brains and minds, and not finding particularly good solutions to these problems. Numerous algorithms capable of much more accurate localization and mapping and making less restrictive assumptions have been proposed in probabilistic robotics \citep{thrun2005probabilistic}, more specifically simultaneous localization and mapping (SLAM) - see \citep{thrun2008simultaneous,durrant2006simultaneous,bailey2006simultaneous} for reviews and \citep{tuna2012evaluations} for a more recent evaluation. 
+The sections below summarize computational-level solutions to the problems required for real-world spatial cognition outlined in Chapter \ref{cha:intro} in this probabilistic framework. As mentioned there, the goal of this work is contributing to the understanding of spatial information processing in brains and minds, and not finding particularly good solutions to these problems. Numerous algorithms capable of much more accurate localization and mapping and making less restrictive assumptions have been proposed in probabilistic robotics \citep{thrun2005probabilistic}, more specifically simultaneous localization and mapping (SLAM) - see \citep{thrun2008simultaneous,durrant2006simultaneous,bailey2006simultaneous} for reviews and \citep{tuna2012evaluations} for a more recent evaluation. 
 
-Our particular computational-level solutions for estimating locations are not novel, and very simple compared to the state of the art in SLAM. We are applying existing computational and mathematical tools to cognitive and neural mechanisms, following a long and successful history of this approach in the field of computational cognitive modelling \citep{sun2008introduction}. In this field, simplicity and restrictive approximations can be assets - a simpler, sub-optimal model which nevertheless explains empirical data better, and is more consistent with neural anatomy, is superior to an intractable or implausible optimal model at modelling cognition. Furthermore, the implementation of these abstract methods in a way consistent with the neuroscience and psychology of spatial memory is novel, as is their integration with a comprehensive cognitive architecture and their substantiation with empirical data (see Section \ref{sec:intro:outline} for the full list of novel contributions). 
+Our particular computational-level solutions for estimating locations are not novel, and utilize stronger simplifications compared to the state of the art in SLAM. We are applying existing computational and mathematical tools to cognitive and neural mechanisms, following a long and successful history of this approach in the field of computational cognitive modelling \citep{sun2008introduction}, which can be seen as a branch of applied computer science. In this field, simplicity and approximations can be assets; since humans are unlikely to use computationally complex, optimal statistical models (see e.g. \citep{van2008tractable,simon1955behavioral}). A simpler, sub-optimal model which nevertheless explains empirical data better, and is more consistent with neural anatomy, is better suited to modelling cognition than an intractable or implausible optimal model. Furthermore, the implementation of these abstract methods in a way consistent with the neuroscience and psychology of spatial memory is novel, as is their integration with a comprehensive cognitive architecture and their substantiation with empirical data (see Section \ref{sec:intro:outline} for the full list of novel contributions). 
 
 \section{Bayesian cue integration}
 
@@ -87,8 +88,8 @@ Chapter \ref{cha:bayespc} uses Equation \ref{bayes4} to test the hypotheses that
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{img/bayesian_localization3}
-	\caption{\textbf{Bayesian cue integration for localization.} Illustration of how an animal might use its prior location belief (blue) estimated from its movement, and distance distributions e.g. to a boundary (green) to obtain a corrected location estimate (red) using Bayesian inference.} 
-	\label{fig:bayescue}
+	\caption[Bayesian cue integration for localization]{\textbf{Bayesian cue integration for localization.} Illustration of how an animal might use its prior location belief (blue) estimated from its movement, and distance distributions e.g. to a boundary (green) to obtain a corrected location estimate (red) using Bayesian inference.} 
+	\label{fig:bayescue} 
 \end{figure}
 
 %
@@ -248,6 +249,8 @@ where $p_j=(min(j,b_i)-a_i-1)/(b_i-a_i-1)$ denotes how far $x_j$ lies along the 
 
 It has been suggested that map-like spatial representations are structured hierarchically \citep{hirtle1985evidence,mcnamara1989subjective,greenauer2010micro}, but no formal model has been put forth for a process that might account for this structure. We hypothesize in Chapter \ref{cha:structure} that this process might be clustering. Computationally, we chose a Dirichlet Process Gaussian Mixture Model (DP-GMM) to account for the behaviour data we collected (see Chapter \ref{cha:structure}), for two reasons. First, DP-GMMs (unlike most clustering algorithms) are able to infer the number of clusters, not just cluster memberships; and are infinitely extensible \citep{rasmussen1999infinite}. Second, Bayesian nonparametric models with Dirichlet priors have a successful history in psychological modelling, e.g. of category learning and causal learning \citep{tenenbaum2011grow}, transfer learning \citep{canini2010modeling}, and human semi-supervised learning \citep{gibson2013human}.
 
+By `map structure', here and in Chapter \ref{cha:structure}, we mean sub-map memberships. There is evidence that human spatial maps are hierarchical \citep{hirtle1985evidence,mcnamara1989subjective,greenauer2010micro}, just as geographical maps are - e.g. there is a map of the country and a map of the cities therein; and any given building may be represented not only on the country map but also on one of the city maps. Similarly, any object (e.g. building) memorized by a participant belongs to her map-like spatial representation (`cognitive map'), as well as to one of its sub-maps. We only consider a two-level hierarchy (map and sub-maps); thus, sub-map memberships fully describe our modelled map structure.
+
 A number of features can influence spatial representation structure, including spatial distance and visual and functional similarity of landmarks. The importance of these features varies across participants, and these subject-specific importances have to be accounted for before the clustering process. We chose to implement a new metric learning method to do so (see below). Our model of spatial representation structure consists of these two components: a subject-specific metric, expressing the `similarity function' between two buildings, and the DP-GMM model for clustering buildings under this metric.
 
 As noted in the Introduction, unlike the rest of our work, we have not shown what the neural implementation of such a structuring process might look like. Some prior work exists showing the possibility of inference in hierarchical Bayesian models such as the DP-GMM, e.g. \citep{shi2009neural} - see \citep{sanborn2015types} for a review. We have substantiated the psychological plausibility of this model by showing that it can explain and predict human behavior data (Chapter \ref{cha:structure}), and leave the investigation of the biological plausibility of this specific mechanism for future work.
@@ -273,7 +276,7 @@ Given the data, the parameters of this model can be inferred using either a Mont
 
 \subsection{Metric learning in absolute pairwise difference space}
 
-In order to learn a suitable metric for our data, we had to develop a novel metric learning method, since the assumptions made by existing methods do not hold in our case. Neither the linear separability assumption (made by linear metric learning), nor the prerequisite of roughly isotropic variances along the features (made by RBF-based methods \citep{ong2005learning}) is the case for all subjects in our dataset. Furthermore, a GDA-based metric can naturally incorporate the hypothesis that same sub-map building pair differences should be located close to the origin, and should be separable from different-map building pairs (these two distributions of pair differences can be naturally modelled using Gaussian distributions) - see Figure 5 in the main text. 
+In order to learn a suitable metric for our data, we had to develop a novel metric learning method, since the assumptions made by existing methods do not hold in our case. Neither the linear separability assumption (made by linear metric learning), nor the prerequisite of roughly isotropic variances along the features (made by RBF-based methods \citep{ong2005learning}) is the case for all subjects in our dataset. Furthermore, a GDA-based metric can naturally incorporate the hypothesis that same sub-map building pair differences should be located close to the origin, and should be separable from different-map building pairs (these two distributions of pair differences can be naturally modelled using Gaussian distributions) - see Chapter \ref{cha:structure}. 
 
 Our proposed method can be seen as a novel approach to perform non-linear metric learning using weak supervision in the form of pairwise constraints, in order to improve clustering performance, as pioneered by \cite{xing2002distance}. The problem to be solved can be defined as follows. Let $\mathcal{X}=(\boldsymbol x_i, ..., \boldsymbol x_n)$ be the feature vector representation of $n$ objects which are to be clustered, where $x_i \in \mathbb{R}^D$ are vectors with $D$ dimensions. Let the set of $m$ given labelled pairwise co-representation constraints be denoted by $\mathcal{C}$, where $ \lvert \mathcal{C} \lvert = m $, and $c_{i,j} \in \mathcal{C}$ is
 
@@ -289,7 +292,7 @@ Our ultimate goal is to group the $n$ objects into $K$ clusters (`sub-maps'), su
 
 Conventional approaches leveraging non-linear metric learning for this problem try to find a kernel $\Phi$ such that the clustering resulting from using the distance metric defined by that kernel, $d^2(x_1, x_2)=(\Phi(x_1)-\Phi(x_2))^T(\Phi(x_1)-\Phi(x_2))$, does not violate the provided constraints (ensures co-represented pairs are closer than other pairs, if possible), and often employ RBF kernels for this purpose, e.g. \citep{baghshah2010kernel, chitta2011approximate}. 
 
-In contrast, the proposed framework aims to learn the distribution of co-representation probabilities (whether or not two object should be linked) from the provided set of constraints, and constructs a pseudo-metric based on a generative model of co-representation probabilities. Crucially, this probabilistic model is defined on the vector space of absolute pairwise differences (APD), which allows learning the importance of each feature (a challenge for RBF kernels for data with non-isotropic variance). The metric based on this generative model is a pseudo-metric, because it does not satisfy the conditions of subadditivity, $d(x, z) \leq d(x, y)+d(y,z)$ and the identity of discernibles, $d(x, y) = 0 \enskip \text{if and only if} \enskip x = y$.
+In contrast, the proposed framework aims to learn the distribution of co-representation probabilities (whether or not two object should be linked) from the provided set of constraints, and constructs a pseudo-metric based on a generative model of co-representation probabilities. Crucially, this probabilistic model is defined on the vector space of absolute pairwise differences (APD), which allows learning the importance of each feature (a challenge for RBF kernels for data with non-isotropic variance). Learning in APD space has been proposed before by \cite{zheng2011person} (specifically for person re-identification in computer vision), but not as a general metric learning method. The metric based on this generative model is a pseudo-metric, because it does not satisfy the conditions of subadditivity, $d(x, z) \leq d(x, y)+d(y,z)$ and the identity of discernibles, $d(x, y) = 0 \enskip \text{if and only if} \enskip x = y$.
 
 Let $[\Delta \boldsymbol{x_{i,j}}]_+ = \big( \lvert \boldsymbol{x_{i,k}} - \boldsymbol{x_{j,k}} \lvert \big)_{k=1}^m $ be the representation of each pair of objects $(i,j)$ in APD vector space. The co-representation probability distribution, i.e. the posterior probability of any pair of objects belonging to the same cluster, given a pair of objects and some model parameters $\boldsymbol{\theta}$ is then 
 
@@ -314,13 +317,50 @@ In the generative \textbf{GDA} model \citep{bensmail1996regularized}, the likeli
 p( \Delta \textbf x | c=i; \mu_i, \Sigma_i) = (2\pi)^{-\frac{D}{2}}|\boldsymbol\Sigma_i|^{-\frac{1}{2}}\, e^{ -\frac{1}{2}(\Delta \mathbf{x}-\boldsymbol\mu_i)^\intercal\boldsymbol\Sigma_i^{-1}(\Delta \mathbf{x}-\boldsymbol\mu_i) },
 \end{equation}
 
-where $i \in \{0,1\}$. $(\mu_1, \Sigma_1)$ are the means and covariances of the APD distances of co-represented pairs, and $(\mu_0, \Sigma_0)$ those of not co-represented pairs (see the two Gaussian contours in Figure 5 in the main text). These parameters can be easily estimated from the two given sets of co-represented and not co-represented object pairs, respectively, by calculating their means and covariances.
+where $i \in \{0,1\}$. $(\mu_1, \Sigma_1)$ are the means and covariances of the APD distances of co-represented pairs, and $(\mu_0, \Sigma_0)$ those of not co-represented pairs. These parameters can be easily estimated from the two given sets of co-represented and not co-represented object pairs, respectively, by calculating their means and covariances.
 
-Finally, the trained GDA-model defined in Equation \ref{eq:mvnormal} can be used to calculate distances between all pairs of objects in any testing data set. The data is projected under this metric using distance-preserving embedding. We have used multi-dimensional scaling for this purpose \citep{borg2005modern}. The result of this projection is a data set embedded such that Euclidean pairwise distances therein reflect the distances \ref{eq:metric} in the original dataset.
+From Equation \ref{eq:mvnormal} and Bayes' theorem, we obtain the generative probability required for the metric in \ref{eq:metric}, which then becomes:
 
-We subsequently perform clustering of this resulting data, using a Dirichlet Process Gaussian Mixture Model (DP-GMM) \citep{rasmussen1999infinite}, since the number of clusters is unknown (see previous section).
+\begin{equation}
+\label{eq:adsgda}
+d_m(\boldsymbol x_1, \boldsymbol x_2; \boldsymbol{\theta}) = 1 - \frac{p( \Delta \textbf x | c=1; \mu_1, \Sigma_1)}{\sum_{i \in \{0,1\}} {p( \Delta \textbf x | c=i; \mu_i, \Sigma_i)}}
+\end{equation}
 
-\section{Image processing, segmentation, and recognition}
+Thus, the trained GDA-model can be used to calculate distances (Equation \ref{eq:adsgda}) between all pairs of objects in any testing data set. The data is projected under this metric using distance-preserving embedding. We have used multi-dimensional scaling (MDS) for this purpose \citep{borg2005modern}. The result of this projection is a data set embedded such that Euclidean pairwise distances therein reflect the distances \ref{eq:metric} in the original dataset.
+
+We subsequently perform clustering of this resulting data, using a Dirichlet Process Gaussian Mixture Model (DP-GMM) \citep{rasmussen1999infinite}, since the number of clusters is unknown (see previous section). The resulting algorithm for structuring map representations is shown in Figure \ref{fig:structalg}. It requires training data in the form of buildings with known representation structure in this form (acquired from recall lists) - see Chapter \ref{cha:structure}.
+
+We point out that Equation \ref{eq:metric} constitutes a general framework for metric learning using any model capable of producing probability estimates that two instances belong together. This includes the entire family of generative models in machine learning (see e.g. \citep{bishop2006pattern}), as well as any discriminative model when combined with Platt scaling \citep{platt1999probabilistic} for transforming discrete outputs into probabilities. Two example applications of this general metric learning framework are semi-supervised clustering (extending the algorithm in Figure \ref{fig:structalg} by using semi-supervised GDA), or semi-supervised classification. See Appendix TODO for these examples and the evaluation of their performance with different constituent models.
+
+\begin{figure}[h]
+	\begin{pseudocode}{predictMapStructure}{X, knownX, knownStructure}
+		1: corepresented \GETS \{\} \\
+		2: notcorepresented \GETS \{\} \\
+		3: \FOR i \in (1, |knownX|) \\
+		4: \quad \FOR j \in (i+1, |knownX|) \\
+		5: \quad \quad \IF knownStructure_i = knownStructure_j \\
+		6: \quad \quad \quad corepresented \GETS corepresented \cup (knownX_i-knownX_j) \\
+		7: \quad \quad \textbf{else} \\
+		8: \quad \quad \quad notcorepresented \GETS notcorepresented \cup (knownX_i-knownX_j) \\
+		9: \ \ \mu_{co} \GETS mean(corepresented) \\
+		10: \Sigma_{co} \GETS cov(corepresented) \\
+		11: coprior \GETS \frac{|corepresented|}{|knownX|} \\
+		11: \mu_{not} \GETS mean(notcorepresented) \\
+		12: \Sigma_{not} \GETS cov(notcorepresented) \\
+		13: notprior \GETS \frac{|notcorepresented|}{|knownX|} \\
+		14: D \in \mathbb{R}^{|X|x|X|} \\
+		15: \FOR i \in (1, |X|) \\
+		16: \quad \FOR j \in (i+1, |X|) \\
+		17: \quad \quad D_{i,j} \GETS 1 - \frac{coprior \cdot \mathcal{N}((X_i-X_j); \mu_{co}, \Sigma_{co})}{coprior \cdot \mathcal{N}((X_i-X_j); \mu_{co}, \Sigma_{co}) + notprior \cdot \mathcal{N}((X_i-X_j); \mu_{not}, \Sigma_{not})} \\
+		18: embedding \GETS MDS(D) \\
+		19: structure \GETS DPGMM(embedding) \\
+		20: return(structure)
+	\end{pseudocode}
+	\caption[Algorithm for predicting spatial representation structure]{\textbf{Algorithm for predicting participants' spatial representation structure}, given the features of the new buildings to be structured, and given buildings with known structure (from a previous experiment) specifying which of these buildings were co-represented.}
+	\label{fig:structalg}
+\end{figure}
+
+%\section{Image processing, segmentation, and recognition}
 
 %point out comp aspects WHEREVER POSSIBLE / APPROPRIATE 
 

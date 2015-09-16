@@ -1,2 +1,36 @@
 \chapter{Conclusion}
 \label{cha:conclusion}
+
+Humans live and act in a world they can only partially observe through imperfect sensors and process with an inherently noisy information processing system. In mathematics, probability theory has provided a framework for the representation and manipulation of uncertainty \citep{jaynes1996probability}. In this thesis, we have argued for the necessity of such a framework within the field of computational cognitive modelling as well. We have modelled and interpreted neuroscientific evidence in a probabilistic framework, providing one of the first examples of Bayesian inference on a single-neuron level, in order to provide the foundation of this argument (Chapter \ref{cha:bayespc}). 
+
+Simply using existing algorithmic solutions of probabilistic localization, mapping, and clustering does not yield viable models of cognition, since these differ from biological cognitive processes in behaviour, computational requirements, and available information. However, most existing cognitive models of spatial memory, while plausibly modelling cognition, are unable to deal with sensory noise and uncertainty. We have provided a detailed review and comparison of such models in Chapter \ref{cha:nnreview}, and have suggested the ability to function in realistic environments as one of the main gaps in the literature.
+
+In order to take a first step towards filling this gap, we have proposed computational models on Marr's (1976) algorithmic level of
+
+\begin{itemize}
+	\item self-localization (`\textit{where am I?}'),
+	\item object localization (`\textit{where is this object?}'),
+	\item map correction after revisiting a place (`\textit{I've been here before - now how do I fix my map?}'), 
+	\item multi-goal route planning (`\textit{how do I get to these places?}'), and
+	\item map structuring (`\textit{which map does this object belong to?}'),
+\end{itemize}
+
+Although these problems, with the exception of the last, are well-known in robotics, we have provided the - to our knowledge - first computational cognitive models which 1) are implementable in brains, 2) can reproduce behaviour data, 3) are part of a cognitive architecture, integrated with other cognitive processes, and 4) are able to function in realistic environments with noise and uncertainty (in a robotic simulation providing the exact same interfaces as a real robot \citep{rusu2007extending}). 
+
+We have also shown, for the first time since the discovery of hierarchical structure in human spatial representations \citep{hirtle1985evidence}, that such structures are predictable based on geospatial, perceptual, and functional properties of the environment. We have provided evidence that Bayesian nonparametric clustering under a subject-specific distance metric accounts for a large majority of buildings belonging together in participants' established spatial memories.
+
+Our models extend the `Bayesian brain' \citep{knill2004bayesian} and `Bayesian cognition' \citep{chater2010bayesian} paradigms one step towards navigation-space cognitive representations and processes. We hope they will encourage further research on coping with the challenges posed by the real world in computational cognitive models of spatial memory.
+
+
+
+%What is the strongest and most important statement that you can make from your observations? 
+
+%If you met the reader at a meeting six months from now, what do you want them to remember about your paper?
+ 
+%Refer back to problem posed, and describe the conclusions that you reached from carrying out this investigation, summarize new observations, new interpretations, and new insights that have resulted from the present work.
+
+%Include the broader implications of your results. 
+
+
+%\section{Future Work}
+% TODO

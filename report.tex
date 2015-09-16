@@ -178,15 +178,23 @@ addtolist={
 
 \newpage
 
+\addtocounter{page}{-1}
+
+\includepdf[pages={-}, 
+addtolist={
+	1, figure, {Spatially relevant brain areas and LIDA modules (p. 5)}, fig:lida:brain,
+	1, figure, {Extensions to add spatial abilities to LIDA (p. 7)}, fig:lida:extensions,
+	1, figure, {Representations in Extended PAM in a simulated environment (p. 8)}, fig:lida:epam,
+	1, figure, {Approximate Bayesian cue integration in spiking neurons (p. 10)}, fig:lida:apprbayes,
+	1, figure, {Route planning on recurrently interconnected place nodes (p. 10)}, fig:lida:routeplanning,
+	1, figure, {Loop closing performed by the Map correction SBC (p. 12)}, fig:lida:loop,
+	1, figure, {Position errors and standard deviations in the cue integration experiment by Nardini et al. (2008) (p. 14)}, fig:lida:nardini,
+	1, figure, {Comparison with human and model errors over all environments (p. 15)}, fig:lida:comparison
+}]{papers/lidaspm.pdf}
+
+\addtocounter{page}{-17}
+
 \include{ch7discussion}
-
-% neural implementations
-
-% point out that evidence for GC updating has since been found
-
-% caveats, problems
-
-% have to properly discuss BVC model (see Hartley slides)
 
 \include{ch8conclusion}
 
