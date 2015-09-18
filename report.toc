@@ -4,9 +4,9 @@
 \contentsline {chapter}{Acknowledgements}{13}
 \contentsline {chapter}{\numberline {1}Introduction}{14}
 \contentsline {section}{\numberline {1.1}Motivation}{15}
-\contentsline {section}{\numberline {1.2}Probabilistic models of space in brains and minds}{19}
-\contentsline {section}{\numberline {1.3}Hypotheses}{22}
-\contentsline {section}{\numberline {1.4}Outline and Contributions}{23}
+\contentsline {section}{\numberline {1.2}Probabilistic models of space in brains and minds}{18}
+\contentsline {section}{\numberline {1.3}Hypotheses}{21}
+\contentsline {section}{\numberline {1.4}Outline and Contributions}{22}
 \contentsline {chapter}{\numberline {2}Computational Methods}{26}
 \contentsline {section}{\numberline {2.1}Probabilistic modelling}{26}
 \contentsline {section}{\numberline {2.2}Bayesian cue integration}{28}
