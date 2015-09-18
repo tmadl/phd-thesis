@@ -1,4 +1,4 @@
-\begin{thebibliography}{126}
+\begin{thebibliography}{131}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -252,6 +252,14 @@
 \newblock \bibinfo{title}{A manifold of spatial maps in the brain}.
 \newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
   \bibinfo{volume}{14}\/}, \bibinfo{pages}{561--569}.
+%Type = Article
+\bibitem[{Deshmukh \& Knierim(2013)}]{deshmukh2013}
+\bibinfo{author}{Deshmukh, S.~S.}, \& \bibinfo{author}{Knierim, J.~J.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Influence of local objects on hippocampal
+  representations: landmark vectors and memory}.
+\newblock {\it \bibinfo{journal}{Hippocampus}\/},  {\it
+  \bibinfo{volume}{23}\/}, \bibinfo{pages}{253--267}.
 %Type = Article
 \bibitem[{Doeller \& Burgess(2008)}]{doeller2008distinct}
 \bibinfo{author}{Doeller, C.~F.}, \& \bibinfo{author}{Burgess, N.}
@@ -554,6 +562,14 @@
   architecture}.
 \newblock In {\it \bibinfo{booktitle}{Proc. international conference on
   cognitive modelling}\/} (pp. \bibinfo{pages}{384--389}).
+%Type = Article
+\bibitem[{Maguire et~al.(2006)Maguire, Nannery \& Spiers}]{maguire2006}
+\bibinfo{author}{Maguire, E.~A.}, \bibinfo{author}{Nannery, R.}, \&
+  \bibinfo{author}{Spiers, H.~J.} (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{Navigation around london by a taxi driver with
+  bilateral hippocampal lesions}.
+\newblock {\it \bibinfo{journal}{Brain}\/},  {\it \bibinfo{volume}{129}\/},
+  \bibinfo{pages}{2894--2907}.
 %Type = Techreport
 \bibitem[{Marr \& Poggio(1976)}]{marr1976understanding}
 \bibinfo{author}{Marr, D.}, \& \bibinfo{author}{Poggio, T.}
@@ -751,6 +767,28 @@
 \newblock {\it \bibinfo{journal}{Proceedings of the National Academy of
   Sciences}\/},  {\it \bibinfo{volume}{109}\/}, \bibinfo{pages}{17490--17494}.
 %Type = Article
+\bibitem[{Rosenbaum et~al.(2005)Rosenbaum, Gao, Richards, Black \&
+  Moscovitch}]{rosenbaum2005}
+\bibinfo{author}{Rosenbaum, R.~S.}, \bibinfo{author}{Gao, F.},
+  \bibinfo{author}{Richards, B.}, \bibinfo{author}{Black, S.~E.}, \&
+  \bibinfo{author}{Moscovitch, M.} (\bibinfo{year}{2005}).
+\newblock \bibinfo{title}{“where to?” remote memory for spatial relations
+  and landmark identity in former taxi drivers with alzheimer's disease and
+  encephalitis}.
+\newblock {\it \bibinfo{journal}{Journal of cognitive neuroscience}\/},  {\it
+  \bibinfo{volume}{17}\/}, \bibinfo{pages}{446--462}.
+%Type = Article
+\bibitem[{Rosenbaum et~al.(2000)Rosenbaum, Priselac, K{\"o}hler, Black, Gao,
+  Nadel \& Moscovitch}]{rosenbaum2000}
+\bibinfo{author}{Rosenbaum, R.~S.}, \bibinfo{author}{Priselac, S.},
+  \bibinfo{author}{K{\"o}hler, S.}, \bibinfo{author}{Black, S.~E.},
+  \bibinfo{author}{Gao, F.}, \bibinfo{author}{Nadel, L.}, \&
+  \bibinfo{author}{Moscovitch, M.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Remote spatial memory in an amnesic person with
+  extensive bilateral hippocampal lesions}.
+\newblock {\it \bibinfo{journal}{Nature neuroscience}\/},  {\it
+  \bibinfo{volume}{3}\/}, \bibinfo{pages}{1044--1048}.
+%Type = Article
 \bibitem[{Rovine \& Weisman(1989)}]{rovine1989sketch}
 \bibinfo{author}{Rovine, M.~J.}, \& \bibinfo{author}{Weisman, G.~D.}
   (\bibinfo{year}{1989}).
@@ -891,6 +929,14 @@
   abstraction}.
 \newblock {\it \bibinfo{journal}{science}\/},  {\it \bibinfo{volume}{331}\/},
   \bibinfo{pages}{1279--1285}.
+%Type = Article
+\bibitem[{Teng \& Squire(1999)}]{teng1999}
+\bibinfo{author}{Teng, E.}, \& \bibinfo{author}{Squire, L.~R.}
+  (\bibinfo{year}{1999}).
+\newblock \bibinfo{title}{Memory for places learned long ago is intact after
+  hippocampal damage}.
+\newblock {\it \bibinfo{journal}{Nature}\/},  {\it \bibinfo{volume}{400}\/},
+  \bibinfo{pages}{675--677}.
 %Type = Book
 \bibitem[{Thrun et~al.(2005)Thrun, Burgard \& Fox}]{thrun2005probabilistic}
 \bibinfo{author}{Thrun, S.}, \bibinfo{author}{Burgard, W.}, \&

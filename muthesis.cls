@@ -141,6 +141,13 @@
 
 \LoadClass[a4paper]{report}
 
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
 %% Manchester University PhD thesis style -- modifications to the report style
 %%
 \long\def\comment#1{}
@@ -478,12 +485,12 @@ of \degreetitle.
         \iftablespage
                 \addvspace{10pt}
                 %\listoftables \let\thefootnote\relax\footnotetext{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
-                \listoftables \footnote{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
+                \listoftables \blfootnote{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
                 \newpage
         \fi
         \iffigurespage
                 \addvspace{10pt}
-                \listoffigures \footnote{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
+                \listoffigures \blfootnote{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
                 \newpage
         \fi}
 

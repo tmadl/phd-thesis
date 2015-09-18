@@ -1,29 +1,40 @@
-\contentsline {chapter}{Abstract}{8}
-\contentsline {chapter}{Declaration}{10}
-\contentsline {chapter}{Copyright}{11}
-\contentsline {chapter}{Acknowledgements}{12}
-\contentsline {chapter}{\numberline {1}Introduction}{13}
-\contentsline {section}{\numberline {1.1}Motivation}{14}
-\contentsline {section}{\numberline {1.2}Probabilistic models of space in brains and minds}{17}
-\contentsline {section}{\numberline {1.3}Hypotheses}{20}
-\contentsline {section}{\numberline {1.4}Outline and Contributions}{21}
-\contentsline {chapter}{\numberline {2}Computational Methods}{24}
-\contentsline {section}{\numberline {2.1}Probabilistic modelling}{24}
-\contentsline {section}{\numberline {2.2}Bayesian cue integration}{26}
-\contentsline {section}{\numberline {2.3}Bayesian localization}{27}
-\contentsline {section}{\numberline {2.4}Maximum likelihood map error correction}{31}
-\contentsline {section}{\numberline {2.5}Bayesian nonparametrics for map structuring}{33}
-\contentsline {subsection}{\numberline {2.5.1}Dirichlet Process Gaussian Mixture Models for clustering}{34}
-\contentsline {subsection}{\numberline {2.5.2}Metric learning in absolute pairwise difference space}{34}
-\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{38}
-\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{39}
-\contentsline {chapter}{\numberline {5}The structure of spatial representations}{40}
-\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{41}
-\contentsline {chapter}{\numberline {7}Discussion}{42}
-\contentsline {section}{\numberline {7.1}Other mechanisms and representations involved in spatial navigation}{42}
-\contentsline {section}{\numberline {7.2}Limitations and shortcomings}{44}
-\contentsline {subsection}{\numberline {7.2.1}Computational shortcomings}{44}
-\contentsline {subsection}{\numberline {7.2.2}Psychological implausibilities}{46}
-\contentsline {subsection}{\numberline {7.2.3}Neural implausibilities}{47}
-\contentsline {chapter}{\numberline {8}Conclusion}{51}
-\contentsline {chapter}{\numberline {A}TODO}{63}
+\contentsline {chapter}{Abstract}{9}
+\contentsline {chapter}{Declaration}{11}
+\contentsline {chapter}{Copyright}{12}
+\contentsline {chapter}{Acknowledgements}{13}
+\contentsline {chapter}{\numberline {1}Introduction}{14}
+\contentsline {section}{\numberline {1.1}Motivation}{15}
+\contentsline {section}{\numberline {1.2}Probabilistic models of space in brains and minds}{19}
+\contentsline {section}{\numberline {1.3}Hypotheses}{22}
+\contentsline {section}{\numberline {1.4}Outline and Contributions}{23}
+\contentsline {chapter}{\numberline {2}Computational Methods}{26}
+\contentsline {section}{\numberline {2.1}Probabilistic modelling}{26}
+\contentsline {section}{\numberline {2.2}Bayesian cue integration}{28}
+\contentsline {section}{\numberline {2.3}Bayesian localization}{29}
+\contentsline {section}{\numberline {2.4}Maximum likelihood map error correction}{33}
+\contentsline {section}{\numberline {2.5}Bayesian nonparametrics for map structuring}{35}
+\contentsline {subsection}{\numberline {2.5.1}Dirichlet Process Gaussian Mixture Models for clustering}{36}
+\contentsline {subsection}{\numberline {2.5.2}Metric learning in absolute pairwise difference space}{36}
+\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{40}
+\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{41}
+\contentsline {chapter}{\numberline {5}The structure of spatial representations}{42}
+\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{43}
+\contentsline {chapter}{\numberline {7}Discussion}{44}
+\contentsline {section}{\numberline {7.1}Other mechanisms and representations involved in spatial navigation}{44}
+\contentsline {section}{\numberline {7.2}Limitations and shortcomings}{47}
+\contentsline {subsection}{\numberline {7.2.1}Computational shortcomings}{47}
+\contentsline {subsection}{\numberline {7.2.2}Psychological implausibilities}{49}
+\contentsline {subsection}{\numberline {7.2.3}Neural implausibilities}{50}
+\contentsline {chapter}{\numberline {8}Conclusion}{54}
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter 4: Bayesian integration of information in hippocampal place cells}{66}
+\contentsline {section}{\numberline {A.1}Location uncertainty in the two-dimensional case}{66}
+\contentsline {section}{\numberline {A.2}Coincidence detection as rejection sampling and multiplication by coincidence detection}{67}
+\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter 5: The structure of spatial representations}{72}
+\contentsline {section}{\numberline {B.1}Tree analysis algorithm}{72}
+\contentsline {section}{\numberline {B.2}Full list of cities chosen by included subjects}{73}
+\contentsline {section}{\numberline {B.3}Exclusion of learning effects}{74}
+\contentsline {section}{\numberline {B.4}Separability of co-represented and not co-represented building pairs}{74}
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter 6: Towards real-world capable spatial memory in the LIDA cognitive architecture}{77}
+\contentsline {section}{\numberline {C.1}Comparison of hierarchical activation gradient-based route planning with human performance on the TSP task}{77}
+\contentsline {chapter}{\numberline {D}Additional evidence for sampling-based Bayesian localization}{80}
+\contentsline {chapter}{\numberline {E}Performance of metric learning in absolute pairwise difference space}{82}

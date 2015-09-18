@@ -4,28 +4,47 @@ A level-1 auxiliary file: ch2methods.aux
 A level-1 auxiliary file: ch7discussion.aux
 A level-1 auxiliary file: ch8conclusion.aux
 The style file: model5-names.bst
-A level-1 auxiliary file: appendix1.aux
+A level-1 auxiliary file: appendix1_bayespcSI.aux
+A level-1 auxiliary file: appendix2_mapstructureSI.aux
+A level-1 auxiliary file: appendix3_lidaspmSI.aux
+A level-1 auxiliary file: appendix4_pfevidence.aux
+A level-1 auxiliary file: appendix5_adsmetric.aux
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 761 of file refs.bib
+I was expecting a `,' or a `}'---line 772 of file refs.bib
  :  
  :  year={2013}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 775 of file refs.bib
+Repeated entry---line 786 of file refs.bib
  : @article{carr2011hippocampal
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1002 of file refs.bib
+Repeated entry---line 1013 of file refs.bib
  : @article{pouget2013probabilistic
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1200 of file refs.bib
+Repeated entry---line 1211 of file refs.bib
  : @incollection{newell1973you
  :                            ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "teng1999"
-Warning--I didn't find a database entry for "rosenbaum2000"
-Warning--I didn't find a database entry for "rosenbaum2005"
-Warning--I didn't find a database entry for "maguire2006"
+Warning--I didn't find a database entry for "Wiener2009"
+Warning--I didn't find a database entry for "bromiley2003products"
+Warning--I didn't find a database entry for "Wu04someproperties"
+Warning--I didn't find a database entry for "Negenborn2003"
+Warning--I didn't find a database entry for "Thrun2005"
+Warning--I didn't find a database entry for "Liu1996"
+Warning--I didn't find a database entry for "Bishop2006"
+Warning--I didn't find a database entry for "Rossant2011"
+Warning--I didn't find a database entry for "Robert1999"
+Warning--I didn't find a database entry for "Hoyer2003"
+Warning--I didn't find a database entry for "Paulin2005"
+Warning--I didn't find a database entry for "Paulin2011"
+Warning--I didn't find a database entry for "Busing2011"
+Warning--I didn't find a database entry for "Jensen2000"
+Warning--I didn't find a database entry for "Brette2012"
+Warning--I didn't find a database entry for "Hirtle_Jonides_1985"
+Warning--I didn't find a database entry for "mcnamara1986mental"
+Warning--I didn't find a database entry for "van2008visualizing"
+Warning--I didn't find a database entry for "breiman2001random"
 Warning--empty journal in newell1973you
 (There were 4 error messages)

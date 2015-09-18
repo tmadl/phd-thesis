@@ -1,0 +1,165 @@
+\chapter{Supplementary Information for Chapter 4: Bayesian integration of information in hippocampal place cells}
+\label{apx:bayespc}
+
+\section{Location uncertainty in the two-dimensional case}
+
+As described in the Methods section (see equation (3) in the main text), under Gaussian assumptions, the probability distribution of the location given a number of observations can be calculated from 
+
+\begin{equation}\label{bayes3md}
+\mathcal{N}( \hat{ \boldsymbol \mu }, \hat{ \boldsymbol \Sigma } ) = \gamma \mathcal{N}( \boldsymbol \mu_p, \boldsymbol \Sigma_p ) \prod_{i=1}^N { \mathcal{N}( \boldsymbol \mu_{o,i}, \boldsymbol \Sigma_{o,i} ) }
+\end{equation}
+
+Where $ \hat{\boldsymbol \mu} $ is the mean of the posterior or the `best guess' location, $\hat{ \boldsymbol \Sigma }$ the uncertainty (covariance) associated with this location, $\boldsymbol \mu_p$ and $\boldsymbol \Sigma_p$ are the mean and the uncertainty of the prior belief location, $ \boldsymbol \mu_{o,i} $ and $ \boldsymbol \Sigma_{o,i} $ are the means and uncertainties of the individual observations, and $ \gamma $ is a constant for normalization. 
+
+Analogously to univariate Gaussians \cite{bromiley2003products}, the product of a number of multivariate Gaussians is also a multivariate Gaussian. The covariance of the product in equation \eqref{bayes3md}, which contains the uncertainty of the `best guess' location, can be calculated as follows \cite{Wu04someproperties}:
+
+\begin{equation}\label{cov1}
+\hat { \boldsymbol \Sigma  } =(\boldsymbol \Sigma_p ^{ -1 }+\sum _{ i=1 }^{ N }{ \boldsymbol \Sigma _{ o,i }^{ -1 } } )^{ -1 }
+\end{equation}
+
+According to hypothesis 3 (see Hypotheses section), the observation uncertainty is proportional to the distance $ d_i $: $ \sigma_{o,i} = s \cdot d_i $ in the one-dimensional case (where s is a factor modelling how sensory uncertainty depends on distance). In the two-dimensional case, the uncertainty depends on the distances to the landmark in the $ x $ and $ y $ dimensions, $ d_{x, i} $ and $ d_{y, i} $, as well as the factors $ s_x $ and $ s_y $ controlling the dependences of the sensory uncertainties in the $ x $ and $ y $ dimensions, and the correlation $ \rho $ between $x$ and $y$ (see \cite{Negenborn2003, Thrun2005} for more complex sensory uncertainty models).
+
+\begin{equation}\label{dist1}
+\boldsymbol \Sigma_{o, i} = \begin{bmatrix} (s_x  d_{x, i})^2  & (\rho s_x  s_y  d_{x, i}  d_{y, i})  \\ (\rho s_y s_x  d_{y, i}  d_{x, i})  & (s_y  d_{y, i})^2  \end{bmatrix}
+\end{equation}
+
+Thus, the covariance matrix for the `best guess' location estimate can be calculated from the distance measurements $ d_{x, i} $ and $ d_{y, i} $ to each landmark from equations \eqref{cov1} and \eqref{dist1}. The covariance matrix modelling path integration uncertainty, $ \boldsymbol \Sigma_p $, and the factors modelling the sensory uncertainty, $s_x$ and $s_y$ (i.e. controlling how rapidly the accuracy of distance judgements decrease with increasing distances in the x and y dimensions) and the correlation $\rho$ are adjustable parameters.
+
+
+
+\section{Coincidence detection as rejection sampling and multiplication by coincidence detection}
+
+\subsection*{Coincidence detection as rejection sampling}
+
+In the simple three-neuron example shown in Figure 6, the computation performed by the posterior neuron (place cell), taking as inputs a prior (grid cell) and an observation (BVC), can be shown to approximate Bayesian inference (i.e. to implement equation (1) of the main text). Let us consider a temporally constrained spike train, and view each spike within this spike train as a sample taken from a probability distribution - either the spikes of the place cell, sampling the posterior location distribution $ p(x|o) $, or those of the grid cell, sampling the prior location distribution $ p(x) $, or the spikes of the BVC, sampling the observation distribution $ p(o|x) $.
+In this case, the computation performed by the place cell is equivalent to the rejection sampling technique \cite{Liu1996, Bishop2006} used to approximate an unknown distribution. In rejection sampling, in order to approximate an unknown distribution $p_u$, a known distribution $q$ is sampled which satisfies 
+
+\begin{equation}\label{RejSamp}
+\forall z : p_u(z) < Mq(z)
+\end{equation}
+
+Where $M>1$ bounds $p_u(z)/q(z)$. To ensure that the samples approximate $p(z)$, the known $q(z)$ is iteratively sampled, and the samples are accepted with a probability proportional to the ratio 
+
+\begin{equation}\label{AccProb}
+p_A=p(accept|z)=\frac{p_u(z)}{Mq(z)}
+\end{equation}
+
+If each sample is randomly drawn from $q$, and is accepted with probability $p_A$, it is straightforward to show that these samples will approximate $p(z)$ \cite{Liu1996, Bishop2006}. Briefly, the probability distribution over the accepted samples $ p(z|accept) $ has to equal the unknown distribution $p_u$ when using an infinite number of samples for the following reason. Using Bayes' theorem,
+
+\begin{equation}\label{RSProof1}
+p(z|accept)=\frac{p(accept|z) p(z)}{p(accept)} 
+\end{equation}
+
+Where
+\begin{equation}\label{RSProof2}
+p(accept|z)=\frac{p_u(z)}{Mq(z)}
+\end{equation}
+
+And the prior probability of a sample $z$ is given by q: $p(z)=q(z)$. The prior probability of acceptance is given by marginalizing
+
+\begin{equation}\label{RSProof3}
+p(accept)=\int_z{p(accept|z)p(z)dz}=\int_z{\frac{p_u(z)}{Mq(z)} q(z) dz}=\frac{1}{M}\int_z{p_u(z) dz}=\frac{1}{M}
+\end{equation}
+
+Thus, substituting into equation \eqref{RSProof1}, we obtain the required equality.
+
+\begin{equation}\label{RSProof2}
+p(z|accept)=\frac{\frac{p_u(z)}{Mq(z)}q(z)}{\frac{1}{M}}=p_u(z)
+\end{equation}
+
+In our coincidence detection model (Figure 6), the acceptance probability of spikes generated by the grid cell is proportional to the spiking probability of the BVC. This is just the acceptance probability required in order to approximate a Bayesian posterior by rejection sampling, which can be shown as follows. We use the Bayesian posterior as the unknown distribution that is to be approximated (cf. equation (1) in the main text)
+
+\begin{equation}\label{Papprox}
+p_u = p(x|o) = \gamma p(x) p(o|x)
+\end{equation}
+
+Where $\gamma$ is a constant for normalization. We also assume that the grid cell in Figure 6 represents the prior $p(x)$ and that the BVC represents the observation likelihood $ p(o|x) $. Substituting these expressions into equation \eqref{AccProb}, the acceptance probability then becomes
+
+\begin{equation}\label{AccProb2}
+p_A=\frac{p_u(z)}{Mq(z)}=\frac{\gamma p(x) p(o|x)}{Mp(x)}=k p(o|x)
+\end{equation}
+
+Where $k=\frac{\gamma}{M}$. Accepting samples drawn from the prior with this probability $ p_A $ ensures that the accepted samples will approximate the Bayesian posterior. Since in the simple network of Figure 6, the acceptance probability of spikes generated by the prior neuron (grid cell) is proportional to the spiking probability of the observation neuron (BVC) because of coincidence detection \cite{Rossant2011}, as in equation \eqref{AccProb2} - with spiking probability 1, every grid cell spike would be coincident with a BVC spike and thus accepted, and with spiking probability 0, no grid spike would be accepted - the network approximates a Bayesian posterior, just like a rejection sampling algorithm. With infinite firing rates, the network would yield the exact posterior. In realistic cases the errors depend on the membrane time constant and firing threshold (they lie around $5\%$ for the parameters of CA1 place cells - see Results section in the main text). Figure 7 in the main text shows the error rates of an integrate-and-fire spiking neuron with different parameters.
+
+\subsection*{Multiplication by coincidence detection}
+
+This section describes a mathematical model of how coincidence detection in spiking neurons can implement multiplication with any number of inputs, and thus approximate a Bayesian posterior from multiple observations (i.e. implement equation (2) from the main text). In the following we will assume that the spatially localized firing behaviour of place cells can be approximated and modelled by probability distributions, cf. hypothesis 1 in the Introduction of the main paper. 
+
+% TODO rewrite - kernel density estimation
+
+Specifically, we will assume that place cell instantaneous firing rates are proportional to the probability density function representing the probability that the rat is in a particular location: $ r \propto p $. In the one-dimensional case, the probability $ P_{x_A,x_B} $ that a rat is located on a path lying between the points $ x_A $ and $ x_B $ in the environment, which it traverses between times $ t_A $ and $ t_B $ (at which it is at locations $x_A$ and $x_B$ respectively), is proportional to 
+
+\begin{equation}\label{FrEq}
+P_{x_A,x_B} = \int_{x_A}^{x_B}{p(x) \, \mathrm{d}x} \propto \int_{t_A}^{t_B}{r(t) \, \mathrm{d}t}
+\end{equation} 
+
+If the place cell does not fire, the integral on the right yields zero, which under our assumption means that the probability that the rat is in the location represented by the place cell is zero. On the other hand, if the firing rate of the place cell is very high in the time interval during which the rat crosses the place cells represented location, the probability that the rat is in that location is also very high.
+
+One way to approximate integrals with a number of samples randomly drawn from the function to be integrated is called Monte Carlo integration \cite{Robert1999}. If we view individual spikes of a neuron as such samples, then the density of a spike train can be viewed as approximating an integral of the form above (Monte Carlo approximation of probability distributions by spiking neurons has been suggested before, see e.g. \cite{Hoyer2003, Paulin2005, Paulin2011, Busing2011}). 
+
+%The error of such a sample-based approximation of an integral depends on the number of samples and scales with $ \sqrt{N^{-1}} $ \cite{Robert1999} in the case of random i.i.d. samples, although this is not the case with neuronal spiking.
+
+Using a binary function $ S $ to represent a spike train, which at time $ t $ is $ S(t)=1 $ if a neuron has fired a spike within the time interval $ [t, t+\tau) $, and $0$ otherwise, equation \eqref{FrEq} can be approximated by the spike train $ S $ as follows. 
+
+\begin{equation}\label{McEq}
+\int_{t_A}^{t_B}{r \, \mathrm{d}t} \approx \frac{1}{N} \sum_{t \in T_{A,B}}{S(t)}
+\end{equation} 
+
+\begin{equation}\label{SpkEq}
+P_{x_A,x_B} \propto \frac{1}{N} \sum_{t \in T_{A,B}}{S(t)}
+\end{equation} 
+Where $ T_{A,B} $ denotes the interval between $ t_A $ and $ t_B $ (during which the rat was located between $ x_A $ and $ x_B $) in $ \tau $ time steps, and $ N=\frac{t_b-t_a}{\tau} $ is the number of time steps of duration $\tau$ within the interval $T_{A,B}$. In the context of this paper, we can neglect multiplicative constants and work with the proportionality relations, because the most important task of localization is to find the `best guess' location $ \boldsymbol x_b $ in the environment, i.e. the expected value of the location $ \boldsymbol x $, for which the amplitude of the firing rate distribution is unimportant. Finding the maximum can be expressed as in equation \eqref{BgEq}. There is an alternative and possibly more accurate \cite{Jensen2000} way of deriving a `best guess' location from place cell firing, based on theta phase instead of the maximum firing rate (see Discussion), but that way of estimating location does not depend on absolute firing rates either.
+The `best guess' location $\boldsymbol x_b$ based on the expected value of the location distribution can be calculated from the function $S(t)$ representing the spike train, the locations $\boldsymbol x(t)$ at the time of each spike, and the total number of spikes $K$ in this interval, which is the sum of $S(t)$ over $T_{A,B}$: 
+%\boldsymbol x_b = x(\underset{\boldsymbol t}{\operatorname{argmax}} \sum_{t \in T_{A,B}}{S(t)})
+\begin{equation}\label{BgEq}
+\boldsymbol x_b = \mathbb{E}[\boldsymbol x] \approx \frac{1}{K} \sum_{t \in T_{A,B}}{S(t) \boldsymbol x(t)} = \frac{\sum_{t \in T_{A,B}}{S(t) \boldsymbol x(t)}}{\sum_{t \in T_{A,B}}{S(t)}}
+\end{equation} 
+
+The number of spikes is $K=\sum_{t \in T_{A,B}}{S(t)}$. Using standard deviation as a measure of uncertainty, the location uncertainty can be described as
+
+\begin{equation}\label{BgUnc}
+\boldsymbol \sigma_b = \sqrt{\operatorname{Var}(p)} \approx \sqrt{\frac{1}{K} \sum_{t \in T_{A,B}} {(S(t) \boldsymbol x(t) - \boldsymbol x_b)^2} }
+\end{equation}
+
+Using this way of approximating probability distribution functions with spike train densities, coincidence detection in spiking neurons can implement multiplication. Looking at two neurons $A$ and $B$ providing input to a third neuron $C$ which performs coincidence detection, it can be shown that the function represented by $C$'s spike train will approximate the product of the functions approximated by $A$ and $B$. If we set the time discretization parameter $\tau$, to the temporal resolution of coincidence detection (which mainly depends on the membrane potential and signal-to-noise ratio, see \cite{Brette2012} or Figure 7 in the Results for an error analysis), and ensure that $C$'s spike threshold is high enough so that $C$ only fires if input spikes arrive from both $A$ and $B$ within $ \tau $, then the function represented by $C$'s spike train $ S_{C} $ will depend on the product of $ S_{A} $ and $ S_{B} $:
+
+\begin{equation}\label{MultipEq}
+S_{C}(t) = S_{A}(t) S_{B}(t)
+\end{equation} 
+
+Equation \eqref{MultipEq} is also extensible to the multiplication of a larger number $ M $ of input neurons $ Ni $. If the threshold of the output neuron $ N $ is so high as to require synchronous spikes from \textit{all} inputs within a time $ \tau $, it can simply be extended to calculate the function $ S_{O} $ representing the spike train of the output neuron:
+
+\begin{equation}\label{MultEq}
+S_{O}(t) = \prod_i^M S_{Ni}(t)
+\end{equation} 
+
+In general, the threshold will not be so high as equation \eqref{MultEq} assumes. Hence, the output neuron will generally have a threshold such that a proportion $ \alpha=\left( 0, 1 \right] $ of all input neurons $ M $ spiking synchronously can elicit an output spike (i.e. there is an output spike only if $ m > M \alpha $ input spikes arrive within $ \tau $). Then the approximation of a product of multiple input spike trains becomes
+
+\begin{equation}\label{ThrshMultEq}
+S_{O}(t) = \operatorname{H}\Big(\frac{1}{M} \sum_{i=1}^M (S_{i}(t) - \alpha) \Big)
+\end{equation} 
+
+Where $ \operatorname{H}(a)=\Big\{ \: \begin{matrix} 0 & \text{if }a<0 \\ 1 & \text{if }a\ge 0 \end{matrix} \: $ is the Heaviside step function. This equation equals \eqref{MultEq} if $ \alpha=1 $, and approximates it otherwise. It is a simplified formulation of how coincidence detection can perform multiplication in a spiking neuron. We can insert it into equation \eqref{SpkEq} to obtain the approximation of a probability distribution as follows. 
+
+\begin{equation}\label{CDPostEq}
+P_{x_A,x_B} \propto \frac{1}{N} \sum_{t \in T_{A,B}}{S_O(t)}
+\end{equation}  
+
+The expected value of this function, i.e. the represented `best guess' location, will approximate the mean of the product of input functions - see equation \eqref{BgEq}.
+
+%\begin{equation}\label{CDPostEq}
+%\boldsymbol x_b = \mathbb{E}[\boldsymbol x] \approx \frac{1}{K} \sum_{t \in T_{A,B}}{S_{N}(t) \boldsymbol x(t)} = \frac{1}{K} \sum_{t \in T_{A,B}}{ \frac{1}{M} \operatorname{H}\Big(\sum_{i=1}^M (S_{Ni}(t) - \alpha) \Big) \boldsymbol x(t) }
+%\end{equation}  
+
+\begin{equation}\label{CDBgEq}
+\boldsymbol x_b = \mathbb{E}[\boldsymbol x] \approx \frac{1}{K} \sum_{t \in T_{A,B}}{S_{O}(t) \boldsymbol x(t)} = \frac{\sum_{t \in T_{A,B}}{S_{O}(t) \boldsymbol x(t)}}{\sum_{t \in T_{A,B}}{S_{O}(t)}} 
+\end{equation}  
+
+The particular threshold of the output neuron plays a large role in determining the accuracy of this approximation, as do the number of samples (spikes). This computation requires the neuronal parameters influencing temporal resolution and the threshold to be within a certain range to allow for reasonably accurate localization. Our computational simulations indicate that the empirically observed parameters of hippocampal place cells are indeed within a range to allow for statistically near-optimal localization (see the Results section in the main text).
+%Because each input can potentially decrease the firing rate / spike density of the output neuron, the quality of the approximation degrades with the number of inputs. 
+
+% if we use the Bayesian posterior $ p(x|O)=\gamma p_{bvc}p_{gc}/(Mp_{gc}) $ as the unknown distribution $p(x)$ ($\gamma$ being a normalization constant), the acceptance probability of rejection sampling reduces to $ p_A = k p_{bvc} $.
+
+%From a probabilistic point of view, this process is equivalent to the rejection sampling technique \cite{Liu1996, Bishop2006} used to approximate an unknown distribution. This can be shown if we view each spike as a sample taken from a probability distribution - either the spikes of the place cell, sampling the posterior location distribution $ p_{pc} $, or those of the grid cell, sampling the prior location distribution $ p_{gc} $, or the spikes of the BVC, sampling the observation distribution $ p_{bvc} $. In rejection sampling, in order to approximate an unknown distribution $p(z)$, a known distribution $q(z)$ is sampled which satisfies $\forall z : p(z) < Mq(z)$ ($M>1$ bounding $p(z)/q(z)$). To ensure that the samples approximate $p(z)$, the known $q(z)$ is iteratively sampled, and the samples are accepted with a probability proportional to the ratio $ p_A=p(z)/(Mq(z)) $. It is straightforward to show that these samples will approximate $p(z)$ \cite{Liu1996, Bishop2006}. In our coincidence detection model (Figure \ref{fig_neuralbayes}), the acceptance probability of spikes generated by the grid cell is proportional to the spiking probability of the BVC. This is just the acceptance probability required by rejection sampling: if we use the Bayesian posterior $ p(x|O)=\gamma p_{bvc}p_{gc}/(Mp_{gc}) $ as the unknown distribution $p(x)$ ($\gamma$ being a normalization constant), the acceptance probability of rejection sampling reduces to $ p_A = k p_{bvc} $.
+
+%\bibliography{papers2012june16}

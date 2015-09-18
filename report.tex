@@ -4,6 +4,7 @@
 
 \usepackage{verbatim}
 \usepackage{graphicx}
+\graphicspath{ {img/} }
 \usepackage{url} % typeset URL's reasonably
 \usepackage{listings}
 
@@ -11,7 +12,7 @@
 
 \usepackage{tabu}
 \usepackage{longtable}
-\usepackage{multirow}
+\usepackage{multirow, tabularx}
 \usepackage[labelfont=bf]{caption}
 
 \usepackage{natbib}
@@ -41,6 +42,7 @@
 			\mbox{$\underset{\s}{\p}$}%
 		}}%
 	}
+
 
 \usepackage{tocloft}
 \setlength{\cfttabindent}{0in}
@@ -213,5 +215,10 @@ addtolist={
 
 % Appendices start here
 \appendix
-\include{appendix1}
+\include{appendix1_bayespcSI}
+\include{appendix2_mapstructureSI}
+\include{appendix3_lidaspmSI}
+\include{appendix4_pfevidence}
+%\include{appendix5_prelimneg}
+\include{appendix6_adsmetric}
 \end{document}
