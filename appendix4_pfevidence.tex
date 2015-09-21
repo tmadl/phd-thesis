@@ -7,7 +7,7 @@ In Chapter 7, we have addressed the observation that there is a subset of neuron
 
 To show that our sampling-based Bayesian localization model can function even under conditions where a proportion of the samples is corrupted by non-Bayesian processes, we have compared the distribution of uncertainties predicted by the sampling-based model to the distribution of place field sizes.
 
-We have used the implemented sampling-based cognitive model (described in Chapter 6) to replicate the experiment \citep{burke2011influence}. In the experiment, rats were running in circles on a circular track with 106cm diameter, which contained 2 food trays to motivate the rats, and no objects in one condition and 8 pseudorandomly distributed, different objects in another condition. The model performed random trajectories in an environment of the same proportions, with the same landmarks. 
+We have used the implemented sampling-based cognitive model (described in Chapter 6) to replicate the experiment (Burke et al., 2011). In the experiment, rats were running in circles on a circular track with 106cm diameter, which contained 2 food trays to motivate the rats, and no objects in one condition and 8 pseudorandomly distributed, different objects in another condition. The model performed random trajectories in an environment of the same proportions, with the same landmarks. 
 
 Figure \ref{distr} shows the resulting distribution of uncertainties along the track, measured as the standard deviation of all posterior samples (location hypotheses) in the model. These uncertainties are compared to the distribution of place field sizes along the track. Note the matching ratio of the most frequent place field sizes and uncertainties at $21cm$ (objects) and $38cm$ (no objects) respectively, and the roughly matching ratio between all normalized frequencies of occurrence between objects and no objects conditions.
 
@@ -18,7 +18,7 @@ Figure \ref{distr} shows the resulting distribution of uncertainties along the t
 	\caption{
 		{\bf Occurrence frequencies of different place field sizes} in all measured neurons in the no
 		objects (blue) and 8 objects (red) conditions, compared to the frequencies of position uncertainties in
-		the simulation. Data from \citep{burke2011influence}. 
+		the simulation. Data from (Burke et al., 2011). 
 	}
 	\label{distr}
 \end{figure}
@@ -58,3 +58,5 @@ Figure \ref{distr} shows the resulting distribution of uncertainties along the t
 %include sections of code, it does some keyword highlighting.
 %
 %\lstinputlisting[language=C]{hello.c}
+
+%\bibliography{refs}

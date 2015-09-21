@@ -1,3 +1,36 @@
+%\documentclass[12pt,PhD,twoside]{muthesis}
+%\usepackage{verbatim}
+%\usepackage{graphicx}
+%\graphicspath{ {img/} }
+%\usepackage{url} % typeset URL's reasonably
+%\usepackage{listings}
+%\usepackage{pdfpages}
+%\usepackage{tabu}
+%\usepackage{longtable}
+%\usepackage{multirow, tabularx}
+%\usepackage[labelfont=bf]{caption}
+%\usepackage{natbib}
+%\usepackage{pslatex} % Use Postscript fonts
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{bm}
+%\usepackage{pseudocode}
+%\DeclareMathOperator*{\argmin}{arg\,min}
+%\DeclareMathOperator*{\argmax}{arg\,max}
+%\def\approxprop{%
+%	\def\p{%
+%		\setbox0=\vbox{\hbox{$\propto$}}%
+%		\ht0=0.6ex \box0 }%
+%	\def\s{%
+%		\vbox{\hbox{$\sim$}}%
+%	}%
+%	\mathrel{\raisebox{0.7ex}{%
+%			\mbox{$\underset{\s}{\p}$}%
+%		}}%
+%	}
+%\begin{document}
+%\bibliographystyle{model5-names}
+
 \chapter{Supplementary Information for Chapter 5: The structure of spatial representations}
 \label{apx:mapstruture}
 
@@ -48,7 +81,7 @@ List of cities in Experiment 3B: \footnotesize{Algonquin, Ashland, Chicago, Colu
 
 A possible criticism of our results could be the claim that the structure apparent from the recall protocol orderings is being learned by the subjects during the recall process, as opposed to being an inherent property of their long-term memory (LTM). Our analysis procedure assumes one consistent structure in LTM underlying the recall protocols; and excludes possible `outliers' using the jackknifing procedure (i.e. protocols which, when included, would statistically significantly change the resulting structure, are excluded from analysis).
 
-If this assumption was incorrect, and subjects learned the structure during the experiment - or, alternatively, re-learned a different structure, then this would be apparent from the pattern of omitted recall protocols. Specifically, it would mean a significantly larger number of omitted early protocols compared to late protocols (the first, or first few protocols would be inconsistent with the learned structure more often than the last few).
+If this assumption was incorrect, and subjects learned the structure during the experiment - or, alternatively, re-learned a different structure, then this would be apparent from the pattern of omitted recall protocols. Specifically, it would mean a significantly larger number of omitted early protocols compared to late protocols (the first few protocols would be inconsistent with the learned structure more often than the last few).
 
 To test whether this learning effect can be observed, we have tested the distributions of omitted recall protocols against the null hypothesis that the likelihood of omissions was uniform (just as likely to occur for the first few as for the last few protocols), using a chi-square test. The table below shows the results. 
 
@@ -75,7 +108,7 @@ The co-representation correlations reported in Section 3.3 of the main text rais
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{exp2class.png}
-	\caption{Pairs of buildings in the space of all features, and their separability according to co-representation, in Experiment 2 using three different classifiers: logistic regression (left), Support Vector Machine with RBF-kernel (middle) and Random Forest (right). Each point represents a building pair (filled black if both buildings lie on the same sub-map, and white if they do not), with its position being a two-dimensional projection of the full six-dimensional feature space using t-SNE.  Although 2D decision boundaries are visualized, the reported classifier accuracies were obtained in the original feature space, using 10-fold cross validation and after hyperparameter optimization.}
+	\caption{Pairs of buildings in the space of all features, and separability according to co-representation, in Experiment 2 using 3 different classifiers: logistic regression (left), Support Vector Machine with RBF-kernel (middle) and Random Forest (right). Each point represents a building pair (filled black if both buildings lie on the same sub-map, and white if they do not), with its position being a two-dimensional projection of the full six-dimensional feature space using t-SNE.  Although 2D decision boundaries are visualized, the reported classifier accuracies were obtained in the original feature space, using 10-fold cross validation and after hyperparameter optimization.}
 	\label{fig_classify}
 \end{figure}
 
@@ -97,3 +130,59 @@ In the more complex real-world setting of Experiment 3, separating pairs of buil
 %\footnote{Logistic regression performed equally with l1 and l2 regularization, and with any regularization parameter C greater than 1}
 
 %The observation that building pair classification fails altogether \footnote{All approaches yield accuracies around $50\%$ for binary, within vs. between sub-map classification for unnormalized data} when distances are not normalized across buildings of each map (within each subject and environment) provides an important hint as to the reason of why classification is a sub-optimal approach to model and predict cognitive map structure. It implies that \textit{relative} distances are much more relevant than absolute distances. This is another argument in favour of the clustering hypothesis, since in clustering, relative distances are the sole criterion of cluster structure. Furthermore, it illustrates the difficulty of the problem, and the inadequacy of naive approaches for solving it.
+
+\begin{thebibliography}{5}
+	\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+	\providecommand{\url}[1]{\texttt{#1}}
+	\providecommand{\href}[2]{#2}
+	\providecommand{\path}[1]{#1}
+	\providecommand{\DOIprefix}{doi:}
+	\providecommand{\ArXivprefix}{arXiv:}
+	\providecommand{\URLprefix}{URL: }
+	\providecommand{\Pubmedprefix}{pmid:}
+	\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+	\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+	\providecommand{\bibinfo}[2]{#2}
+	\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+	%Type = Article
+	\bibitem[{Breiman(2001)}]{breiman2001random}
+	\bibinfo{author}{Breiman, L.} (\bibinfo{year}{2001}).
+	\newblock \bibinfo{title}{Random forests}.
+	\newblock {\it \bibinfo{journal}{Machine learning}\/},  {\it
+		\bibinfo{volume}{45}\/}, \bibinfo{pages}{5--32}.
+	%Type = Article
+	\bibitem[{Hirtle \& Jonides(1985)}]{Hirtle_Jonides_1985}
+	\bibinfo{author}{Hirtle, S.}, \& \bibinfo{author}{Jonides, J.}
+	(\bibinfo{year}{1985}).
+	\newblock \bibinfo{title}{Evidence of hierarchies in cognitive maps}.
+	\newblock {\it \bibinfo{journal}{Memory \& Cognition}\/},  {\it
+		\bibinfo{volume}{13}\/}, \bibinfo{pages}{208--217}.
+	%Type = Article
+	\bibitem[{Van~der Maaten \& Hinton(2008)}]{van2008visualizing}
+	\bibinfo{author}{Van~der Maaten, L.}, \& \bibinfo{author}{Hinton, G.}
+	(\bibinfo{year}{2008}).
+	\newblock \bibinfo{title}{Visualizing data using t-sne}.
+	\newblock {\it \bibinfo{journal}{Journal of Machine Learning Research}\/},
+	{\it \bibinfo{volume}{9}\/}, \bibinfo{pages}{85}.
+	%Type = Article
+	\bibitem[{McNamara(1986)}]{mcnamara1986mental}
+	\bibinfo{author}{McNamara, T.~P.} (\bibinfo{year}{1986}).
+	\newblock \bibinfo{title}{Mental representations of spatial relations}.
+	\newblock {\it \bibinfo{journal}{Cognitive psychology}\/},  {\it
+		\bibinfo{volume}{18}\/}, \bibinfo{pages}{87--121}.
+	%Type = Article
+	\bibitem[{McNamara et~al.(1989)McNamara, Hardy \&
+		Hirtle}]{mcnamara1989subjective}
+	\bibinfo{author}{McNamara, T.~P.}, \bibinfo{author}{Hardy, J.~K.}, \&
+	\bibinfo{author}{Hirtle, S.~C.} (\bibinfo{year}{1989}).
+	\newblock \bibinfo{title}{Subjective hierarchies in spatial memory.}
+	\newblock {\it \bibinfo{journal}{Journal of Experimental Psychology: Learning,
+			Memory, and Cognition}\/},  {\it \bibinfo{volume}{15}\/},
+	\bibinfo{pages}{211}.
+	
+\end{thebibliography}
+
+
+
+%\bibliography{mapstructure}
+%\end{document}

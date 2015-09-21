@@ -16,6 +16,7 @@
 \usepackage[labelfont=bf]{caption}
 
 \usepackage{natbib}
+%\usepackage{chapterbib}
 
 \usepackage{pslatex} % Use Postscript fonts
 
@@ -86,6 +87,9 @@ Towards real-world capable computational cognitive models of spatial memory}
 \prefacesection{Acknowledgements}
 I would like to thank...
 \afterpreface
+
+
+\bibliographystyle{model5-names}
 
 % These include the actual text
 \include{ch1introduction}
@@ -203,7 +207,6 @@ addtolist={
 
 \bibliography{refs}    % this causes the references to be listed
 
-\bibliographystyle{model5-names}
 %% the bibliography style determines the format  in which both citations and references are printed,
 %% other possible values are plain and abbrv
 %%

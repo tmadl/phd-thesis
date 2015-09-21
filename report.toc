@@ -8,33 +8,33 @@
 \contentsline {section}{\numberline {1.3}Hypotheses}{21}
 \contentsline {section}{\numberline {1.4}Outline and Contributions}{22}
 \contentsline {chapter}{\numberline {2}Computational Methods}{26}
-\contentsline {section}{\numberline {2.1}Probabilistic modelling}{26}
-\contentsline {section}{\numberline {2.2}Bayesian cue integration}{28}
-\contentsline {section}{\numberline {2.3}Bayesian localization}{29}
-\contentsline {section}{\numberline {2.4}Maximum likelihood map error correction}{33}
-\contentsline {section}{\numberline {2.5}Bayesian nonparametrics for map structuring}{35}
-\contentsline {subsection}{\numberline {2.5.1}Dirichlet Process Gaussian Mixture Models for clustering}{36}
-\contentsline {subsection}{\numberline {2.5.2}Metric learning in absolute pairwise difference space}{36}
-\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{40}
-\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{41}
-\contentsline {chapter}{\numberline {5}The structure of spatial representations}{42}
-\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{43}
-\contentsline {chapter}{\numberline {7}Discussion}{44}
-\contentsline {section}{\numberline {7.1}Other mechanisms and representations involved in spatial navigation}{44}
-\contentsline {section}{\numberline {7.2}Limitations and shortcomings}{47}
-\contentsline {subsection}{\numberline {7.2.1}Computational shortcomings}{47}
-\contentsline {subsection}{\numberline {7.2.2}Psychological implausibilities}{49}
-\contentsline {subsection}{\numberline {7.2.3}Neural implausibilities}{50}
-\contentsline {chapter}{\numberline {8}Conclusion}{54}
-\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter 4: Bayesian integration of information in hippocampal place cells}{66}
-\contentsline {section}{\numberline {A.1}Location uncertainty in the two-dimensional case}{66}
-\contentsline {section}{\numberline {A.2}Coincidence detection as rejection sampling and multiplication by coincidence detection}{67}
-\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter 5: The structure of spatial representations}{72}
-\contentsline {section}{\numberline {B.1}Tree analysis algorithm}{72}
-\contentsline {section}{\numberline {B.2}Full list of cities chosen by included subjects}{73}
-\contentsline {section}{\numberline {B.3}Exclusion of learning effects}{74}
-\contentsline {section}{\numberline {B.4}Separability of co-represented and not co-represented building pairs}{74}
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter 6: Towards real-world capable spatial memory in the LIDA cognitive architecture}{77}
-\contentsline {section}{\numberline {C.1}Comparison of hierarchical activation gradient-based route planning with human performance on the TSP task}{77}
-\contentsline {chapter}{\numberline {D}Additional evidence for sampling-based Bayesian localization}{80}
-\contentsline {chapter}{\numberline {E}Performance of metric learning in absolute pairwise difference space}{82}
+\contentsline {section}{\numberline {2.1}Probabilistic modelling}{29}
+\contentsline {section}{\numberline {2.2}Bayesian cue integration}{30}
+\contentsline {section}{\numberline {2.3}Bayesian localization}{32}
+\contentsline {section}{\numberline {2.4}Maximum likelihood map error correction}{36}
+\contentsline {section}{\numberline {2.5}Bayesian nonparametrics for map structuring}{38}
+\contentsline {subsection}{\numberline {2.5.1}Dirichlet Process Gaussian Mixture Models for clustering}{39}
+\contentsline {subsection}{\numberline {2.5.2}Metric learning in absolute pairwise difference space}{39}
+\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{43}
+\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{44}
+\contentsline {chapter}{\numberline {5}The structure of spatial representations}{45}
+\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{46}
+\contentsline {chapter}{\numberline {7}Discussion}{47}
+\contentsline {section}{\numberline {7.1}Other mechanisms and representations involved in spatial navigation}{47}
+\contentsline {section}{\numberline {7.2}Limitations and shortcomings}{49}
+\contentsline {subsection}{\numberline {7.2.1}Computational shortcomings}{49}
+\contentsline {subsection}{\numberline {7.2.2}Psychological implausibilities}{51}
+\contentsline {subsection}{\numberline {7.2.3}Neural implausibilities}{52}
+\contentsline {chapter}{\numberline {8}Conclusion}{56}
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter 4: Bayesian integration of information in hippocampal place cells}{68}
+\contentsline {section}{\numberline {A.1}Location uncertainty in the two-dimensional case}{68}
+\contentsline {section}{\numberline {A.2}Coincidence detection as rejection sampling and multiplication by coincidence detection}{69}
+\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter 5: The structure of spatial representations}{76}
+\contentsline {section}{\numberline {B.1}Tree analysis algorithm}{76}
+\contentsline {section}{\numberline {B.2}Full list of cities chosen by included subjects}{77}
+\contentsline {section}{\numberline {B.3}Exclusion of learning effects}{78}
+\contentsline {section}{\numberline {B.4}Separability of co-represented and not co-represented building pairs}{79}
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter 6: Towards real-world capable spatial memory in the LIDA cognitive architecture}{82}
+\contentsline {section}{\numberline {C.1}Comparison of hierarchical activation gradient-based route planning with human performance on the TSP task}{82}
+\contentsline {chapter}{\numberline {D}Additional evidence for sampling-based Bayesian localization}{86}
+\contentsline {chapter}{\numberline {E}Performance of metric learning in absolute pairwise difference space}{88}

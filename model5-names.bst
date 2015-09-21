@@ -1074,7 +1074,6 @@ FUNCTION {article}
       format.pages output
     }
   if$
-  print.url output
   print.doi output
   print.eprint output
   print.pubmed output
@@ -1115,7 +1114,6 @@ FUNCTION {book}
     }
   if$
   new.block
-  print.url output
   print.doi output
   print.eprint output
   print.pubmed output
@@ -1135,7 +1133,6 @@ FUNCTION {booklet}
   howpublished "howpublished" bibinfo.check output
   address "address" bibinfo.check output
   new.block
-  print.url output
   print.doi output
   print.eprint output
   print.pubmed output
@@ -1166,7 +1163,6 @@ FUNCTION {inbook}
     }
   if$
   new.block
-  print.url output
   print.doi output
   print.eprint output
   print.pubmed output
@@ -1198,7 +1194,6 @@ FUNCTION {incollection}
     }
   if$
   new.block
-  print.url output
   print.doi output
   print.eprint output
   print.pubmed output
@@ -1232,7 +1227,6 @@ FUNCTION {inproceedings}
     }
   if$
   new.block
-  print.url output
   print.doi output
   print.eprint output
   print.pubmed output

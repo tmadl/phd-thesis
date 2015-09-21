@@ -10,16 +10,7 @@ In Chapters \ref{cha:bayespc}-\ref{cha:lida} above, we have argued for the neces
 	\item spatial representation structure arises from clustering under a metric defined over features including distance and visual and functional similarity.
 \end{enumerate}
 
-We have also integrated these suggested probabilistic mechanisms into LIDA, and embodied the resulting cognitive architecture in a robotic simulation. In this Chapter we first briefly outline our tentative neural model of these same mechanisms (Figure \ref{fig:neurimpl}). Subsequently, we discuss the abilities, shortcomings, and missing functionalities of our models, and their consistency with related empirical findings, from a cognitive science perspective. 
-
-\nocite{deshmukh2013}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{img/neurimpl3}
-	\caption[Probabilistic spatial localization and mapping on the neuronal level]{\textbf{Probabilistic spatial localization and mapping on the neuronal level}. A: Neural correlates of localization (see Chapter \ref{cha:nnreview} for details; and (Deshmukh et al., 2013) for evidence of landmark vector cells). B: Probabilistic graphical model of the simultaneous localization and mapping problem \citep{thrun2008simultaneous}. Instead of capturing all correlations introduced through the landmarks, which requires vast computational resources, our model separately solves Bayesian localization with only local landmarks, and map correction (`pose optimization' in SLAM) with only loop closure constraints. See Chapter \ref{cha:methods} for notation and details. C: Illustration of firing fields during localization. Coloured dots represent spikes of the respective cells at specific locations. Path integration (grid cells) and boundary and landmark information (border cells, landmark vector cells) is integrated in place cells, using coincidence detection (rejection sampling) to obtain a near-optimal location estimate. This new estimate is used to update grid cell representations via phase reset to combat accumulating path integration errors (see Chapter \ref{cha:bayespc}). D: Illustration of a small loop (firing fields 1-6) which can be corrected upon recognizing the same landmark at positions 1 and 6 via reverse replay, by reactivating place cells 6-1 and shifting their place fields proportionally (see Chapter \ref{cha:lida}).} 
-	\label{fig:neurimpl}
-\end{figure}
+We have also integrated these suggested probabilistic mechanisms into LIDA, and embodied the resulting cognitive architecture in a robotic simulation. In this Chapter, we discuss the abilities, shortcomings, and missing functionalities of our models, and their consistency with related empirical findings, from a cognitive science perspective. 
 
 %\section{A neural model of Bayesian mechanisms in spatial cognition}
 

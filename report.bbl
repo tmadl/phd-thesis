@@ -1,4 +1,4 @@
-\begin{thebibliography}{131}
+\begin{thebibliography}{135}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -133,8 +133,7 @@
 \newblock \bibinfo{title}{The influence of objects on place field expression
   and size in distal hippocampal {CA1}}.
 \newblock {\it \bibinfo{journal}{Hippocampus}\/},  {\it
-  \bibinfo{volume}{21}\/}, \bibinfo{pages}{783--801}. \URLprefix
-  \url{http://dx.doi.org/10.1002/hipo.20929}.
+  \bibinfo{volume}{21}\/}, \bibinfo{pages}{783--801}.
   \DOIprefix\doi{10.1002/hipo.20929}.
 %Type = Article
 \bibitem[{Bush et~al.(2015)Bush, Barry, Manson \& Burgess}]{bush2015using}
@@ -238,6 +237,13 @@
   international conference on Knowledge discovery and data mining}\/} (pp.
   \bibinfo{pages}{895--903}).
 \newblock \bibinfo{organization}{ACM}.
+%Type = Article
+\bibitem[{Cohen(2000)}]{cohen2000hierarchical}
+\bibinfo{author}{Cohen, G.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Hierarchical models in cognition: Do they have
+  psychological reality?}
+\newblock {\it \bibinfo{journal}{European Journal of Cognitive Psychology}\/},
+  {\it \bibinfo{volume}{12}\/}, \bibinfo{pages}{1--36}.
 %Type = Article
 \bibitem[{Colgin et~al.(2008)Colgin, Moser \& Moser}]{colgin2008understanding}
 \bibinfo{author}{Colgin, L.~L.}, \bibinfo{author}{Moser, E.~I.}, \&
@@ -380,6 +386,16 @@
 \newblock {\it \bibinfo{journal}{Topics in cognitive science}\/},  {\it
   \bibinfo{volume}{5}\/}, \bibinfo{pages}{132--172}.
 %Type = Article
+\bibitem[{Gobet et~al.(2001)Gobet, Lane, Croker, Cheng, Jones, Oliver \&
+  Pine}]{gobet2001chunking}
+\bibinfo{author}{Gobet, F.}, \bibinfo{author}{Lane, P.~C.},
+  \bibinfo{author}{Croker, S.}, \bibinfo{author}{Cheng, P.~C.},
+  \bibinfo{author}{Jones, G.}, \bibinfo{author}{Oliver, I.}, \&
+  \bibinfo{author}{Pine, J.~M.} (\bibinfo{year}{2001}).
+\newblock \bibinfo{title}{Chunking mechanisms in human learning}.
+\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+  \bibinfo{volume}{5}\/}, \bibinfo{pages}{236--243}.
+%Type = Article
 \bibitem[{Greenauer \& Waller(2010)}]{greenauer2010micro}
 \bibinfo{author}{Greenauer, N.}, \& \bibinfo{author}{Waller, D.}
   (\bibinfo{year}{2010}).
@@ -388,6 +404,17 @@
 \newblock {\it \bibinfo{journal}{Journal of Experimental Psychology: Learning,
   Memory, and Cognition}\/},  {\it \bibinfo{volume}{36}\/},
   \bibinfo{pages}{938}.
+%Type = Incollection
+\bibitem[{Griffiths et~al.(2008)Griffiths, Kemp \&
+  Tenenbaum}]{griffiths2008bayesian}
+\bibinfo{author}{Griffiths, T.~L.}, \bibinfo{author}{Kemp, C.}, \&
+  \bibinfo{author}{Tenenbaum, J.~B.} (\bibinfo{year}{2008}).
+\newblock \bibinfo{title}{Bayesian models of cognition}.
+\newblock In \bibinfo{editor}{R.~Sun} (Ed.), {\it \bibinfo{booktitle}{Cambridge
+  handbook of computational cognitive modeling}\/} (pp.
+  \bibinfo{pages}{59--100}).
+\newblock \bibinfo{address}{Cambridge}: \bibinfo{publisher}{Cambridge
+  University Press}.
 %Type = Inproceedings
 \bibitem[{Harrison et~al.(2003)Harrison, Schunn et~al.}]{harrison2003act}
 \bibinfo{author}{Harrison, A.~M.}, \bibinfo{author}{Schunn, C.~D.} et~al.
@@ -796,6 +823,14 @@
   performance}.
 \newblock {\it \bibinfo{journal}{Journal of Environmental Psychology}\/},  {\it
   \bibinfo{volume}{9}\/}, \bibinfo{pages}{217--232}.
+%Type = Book
+\bibitem[{Russell \& Norvig(2009)}]{russell2009ai}
+\bibinfo{author}{Russell, S.}, \& \bibinfo{author}{Norvig, P.}
+  (\bibinfo{year}{2009}).
+\newblock {\it \bibinfo{title}{Artificial Intelligence: A Modern Approach (3rd
+  Edition)}\/}.
+\newblock (\bibinfo{edition}{3rd} ed.).
+\newblock \bibinfo{publisher}{Prentice Hall}.
 %Type = Inproceedings
 \bibitem[{Rusu et~al.(2007)Rusu, Maldonado, Beetz \&
   Gerkey}]{rusu2007extending}
@@ -817,8 +852,7 @@
 \bibinfo{author}{Sanborn, A.~N.} (\bibinfo{year}{2015}).
 \newblock \bibinfo{title}{Types of approximation for probabilistic cognition:
   Sampling and variational}.
-\newblock {\it \bibinfo{journal}{Brain and Cognition}\/}, . \URLprefix
-  \url{http://www.sciencedirect.com/science/article/pii/S0278262615300038}.
+\newblock {\it \bibinfo{journal}{Brain and Cognition}\/}, .
   \DOIprefix\doi{http://dx.doi.org/10.1016/j.bandc.2015.06.008}.
 %Type = Article
 \bibitem[{Schultheis \& Barkowsky(2011)}]{schultheis2011casimir}
@@ -841,8 +875,7 @@
   (\bibinfo{year}{2004}).
 \newblock \bibinfo{title}{{Spatial memory and perspective taking.}}
 \newblock {\it \bibinfo{journal}{Memory \& cognition}\/},  {\it
-  \bibinfo{volume}{32}\/}, \bibinfo{pages}{416--26}. \URLprefix
-  \url{http://www.ncbi.nlm.nih.gov/pubmed/15285125}.
+  \bibinfo{volume}{32}\/}, \bibinfo{pages}{416--26}.
 %Type = Inproceedings
 \bibitem[{Shi \& Griffiths(2009)}]{shi2009neural}
 \bibinfo{author}{Shi, L.}, \& \bibinfo{author}{Griffiths, T.~L.}

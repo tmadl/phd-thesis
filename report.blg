@@ -1,29 +1,29 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: report.aux
+The style file: model5-names.bst
 A level-1 auxiliary file: ch1introduction.aux
 A level-1 auxiliary file: ch2methods.aux
 A level-1 auxiliary file: ch7discussion.aux
 A level-1 auxiliary file: ch8conclusion.aux
-The style file: model5-names.bst
 A level-1 auxiliary file: appendix1_bayespcSI.aux
 A level-1 auxiliary file: appendix2_mapstructureSI.aux
 A level-1 auxiliary file: appendix3_lidaspmSI.aux
 A level-1 auxiliary file: appendix4_pfevidence.aux
-A level-1 auxiliary file: appendix5_adsmetric.aux
+A level-1 auxiliary file: appendix6_adsmetric.aux
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 772 of file refs.bib
+I was expecting a `,' or a `}'---line 814 of file refs.bib
  :  
  :  year={2013}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 786 of file refs.bib
+Repeated entry---line 828 of file refs.bib
  : @article{carr2011hippocampal
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1013 of file refs.bib
+Repeated entry---line 1055 of file refs.bib
  : @article{pouget2013probabilistic
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1211 of file refs.bib
+Repeated entry---line 1253 of file refs.bib
  : @incollection{newell1973you
  :                            ,
 I'm skipping whatever remains of this entry
