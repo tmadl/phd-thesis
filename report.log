@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  21 SEP 2015 17:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  22 SEP 2015 18:21
 entering extended mode
 **report.tex
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.tex
@@ -36,6 +36,16 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count88
+)
+\etb@tempcnta=\count89
+)
+success
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks14
@@ -69,7 +79,7 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count88
+\Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -79,23 +89,23 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
-\lst@mode=\count89
+\lst@mode=\count91
 \lst@gtempboxa=\box26
 \lst@token=\toks17
-\lst@length=\count90
+\lst@length=\count92
 \lst@currlwidth=\dimen105
-\lst@column=\count91
-\lst@pos=\count92
+\lst@column=\count93
+\lst@pos=\count94
 \lst@lostspace=\dimen106
 \lst@width=\dimen107
-\lst@newlines=\count93
-\lst@lineno=\count94
+\lst@newlines=\count95
+\lst@lineno=\count96
 \lst@maxwidth=\dimen108
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count95
-\lst@skipnumbers=\count96
+\c@lstnumber=\count97
+\lst@skipnumbers=\count98
 \lst@framebox=\box27
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -111,15 +121,15 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count97
-\calc@Bcount=\count98
+\calc@Acount=\count99
+\calc@Bcount=\count100
 \calc@Adimen=\dimen109
 \calc@Bdimen=\dimen110
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count99
+\calc@Ccount=\count101
 \calc@Cskip=\skip45
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
@@ -168,7 +178,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
 \AM@pagebox=\box28
 \AM@toc@title=\toks18
-\c@AM@survey=\count100
+\c@AM@survey=\count102
 \AM@templatesizebox=\box29
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tabu\tabu.sty"
@@ -185,16 +195,16 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box30
-\sift@deathcycles=\count101
+\sift@deathcycles=\count103
 \@vwid@loff=\dimen115
 \@vwid@roff=\dimen116
 )
-\c@taburow=\count102
-\tabu@nbcols=\count103
-\tabu@cnt=\count104
-\tabu@Xcol=\count105
-\tabu@alloc=\count106
-\tabu@nested=\count107
+\c@taburow=\count104
+\tabu@nbcols=\count105
+\tabu@cnt=\count106
+\tabu@Xcol=\count107
+\tabu@alloc=\count108
+\tabu@nested=\count109
 \tabu@target=\dimen117
 \tabu@spreadtarget=\dimen118
 \tabu@naturalX=\dimen119
@@ -218,16 +228,16 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTright=\skip50
 \LTpre=\skip51
 \LTpost=\skip52
-\LTchunksize=\count108
+\LTchunksize=\count110
 \LTcapwidth=\dimen126
 \LT@head=\box35
 \LT@firsthead=\box36
 \LT@foot=\box37
 \LT@lastfoot=\box38
-\LT@cols=\count109
-\LT@rows=\count110
-\c@LT@tables=\count111
-\c@LT@chunks=\count112
+\LT@cols=\count111
+\LT@rows=\count112
+\c@LT@tables=\count113
+\c@LT@chunks=\count114
 \LT@p@ftn=\toks22
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
@@ -240,7 +250,7 @@ Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 \TX@old@col=\dimen130
 \TX@target=\dimen131
 \TX@delta=\dimen132
-\TX@cols=\count113
+\TX@cols=\count115
 \TX@ftn=\toks23
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
@@ -257,7 +267,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen138
 \caption@hangindent=\dimen139
 )
-\c@ContinuedFloat=\count114
+\c@ContinuedFloat=\count116
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -269,7 +279,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip53
 \bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count115
+\c@NAT@ctr=\count117
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pslatex\pslatex.sty"
 Package: pslatex 1996/07/24 v1.2 pslatex emulation (DPC)
@@ -326,13 +336,13 @@ Package: amsbsy 1999/11/29 v1.2d
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count116
+\inf@bad=\count118
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count117
-\leftroot@=\count118
+\uproot@=\count119
+\leftroot@=\count120
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count119
-\DOTSCASE@=\count120
+\classnum@=\count121
+\DOTSCASE@=\count122
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
@@ -341,15 +351,15 @@ LaTeX Info: Redefining \cdots on input line 466.
 \big@size=\dimen142
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count121
-\c@MaxMatrixCols=\count122
+\macc@depth=\count123
+\c@MaxMatrixCols=\count124
 \dotsspace@=\muskip11
-\c@parentequation=\count123
-\dspbrk@lvl=\count124
+\c@parentequation=\count125
+\dspbrk@lvl=\count126
 \tag@help=\toks25
-\row@=\count125
-\column@=\count126
-\maxfields@=\count127
+\row@=\count127
+\column@=\count128
+\maxfields@=\count129
 \andhelp@=\toks26
 \eqnshift@=\dimen143
 \alignsep@=\dimen144
@@ -402,8 +412,8 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \Verbatim@Outfile=\write3
 \Verbatim@Infile=\read2
 )
-\c@pseudocode=\count128
-\c@pseudonum=\count129
+\c@pseudocode=\count130
+\c@pseudonum=\count131
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
@@ -436,8 +446,8 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforefigskip=\skip85
 \cftfigindent=\skip86
 \cftfignumwidth=\skip87
-\c@lofdepth=\count130
-\c@lotdepth=\count131
+\c@lofdepth=\count132
+\c@lotdepth=\count133
 \cftbeforelottitleskip=\skip88
 \cftafterlottitleskip=\skip89
 \cftbeforetabskip=\skip90
@@ -463,40 +473,40 @@ Package natbib Warning: Citation `madl2013spatial' multiply defined.
 
 ) (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix4_pfevidence.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix6_adsmetric.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 68
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 73
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omspzccm.fd"
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count132
+\scratchcounter=\count134
 \scratchdimen=\dimen150
 \scratchbox=\box43
-\nofMPsegments=\count133
-\nofMParguments=\count134
+\nofMPsegments=\count135
+\nofMParguments=\count136
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count135
+\MPscratchCnt=\count137
 \MPscratchDim=\dimen151
-\MPnumerator=\count136
-\makeMPintoPDFobject=\count137
+\MPnumerator=\count138
+\makeMPintoPDFobject=\count139
 \everyMPtoPDFconversion=\toks34
 )
-\c@lstlisting=\count138
+\c@lstlisting=\count140
 \AtBeginShipoutBox=\box44
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
@@ -504,7 +514,7 @@ Package caption Info: End \AtBeginDocument code.
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -543,7 +553,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2])
 \tf@toc=\write4
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
 
@@ -551,18 +561,18 @@ runsystem(perl ./texcount.pl -1 -sum -relaxed -inc report.tex > word.count)...d
 isabled (restricted).
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--80
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
 
  []
 
 [3] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.lot)
 \tf@lot=\write5
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
  [4]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.lof [5]
 Missing character: There is no Ô in font ptmr7t!
@@ -583,47 +593,47 @@ Underfull \vbox (badness 2384) has occurred while \output is active []
  [6])
 \tf@lof=\write6
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7]
-[8] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\abstract.tex
+[7] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\abstract.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
 
-[9
+[8
+
+]) [9] [10
 
 ]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
-) [10] [11
-
-]
-Overfull \hbox (1.14229pt too wide) in paragraph at lines 85--85
+Overfull \hbox (1.14229pt too wide) in paragraph at lines 90--90
 \OT1/ptm/m/n/12 right works in the the-sis, for ex-am-ple graphs and ta-bles (`
 `Re-pro-duc-tions''), which
  []
 
 
-Overfull \hbox (23.54704pt too wide) in paragraph at lines 85--85
+Overfull \hbox (23.54704pt too wide) in paragraph at lines 90--90
 \OT1/ptm/m/n/12 ver-sity Li-brary, The Uni-ver-sity Li-brary's reg-u-la-tions (
 see $\OT1/pcr/m/n/12 http : / / www . manchester .$
  []
 
 
-Overfull \hbox (3.37596pt too wide) in paragraph at lines 85--85
+Overfull \hbox (3.37596pt too wide) in paragraph at lines 90--90
 $\OT1/pcr/m/n/12 ac . uk / library / aboutus / regulations$\OT1/ptm/m/n/12 ) an
 d in The Uni-ver-sity's pol-icy on pre-
  []
 
-[12
+[11
 
-] [13
+] [12
 
 ] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch1introduction.tex
 Chapter 1.
-<img/motivation.png, id=47, 1304.875pt x 903.375pt>
+
+Underfull \vbox (badness 3312) has occurred while \output is active []
+
+ [13
+
+
+]
+<img/motivation.png, id=46, 1304.875pt x 903.375pt>
 File: img/motivation.png Graphic file (type png)
  <use img/motivation.png>
 Package pdftex.def Info: img/motivation.png used on input line 15.
@@ -634,24 +644,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-[14
+[14] [15 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/motivation.png>]
+Underfull \vbox (badness 1609) has occurred while \output is active []
 
+ [16
 
-] [15] [16 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/motivation.png>]
+]
 Overfull \hbox (5.19524pt too wide) in paragraph at lines 41--48
  [][] 
  []
 
-[17
+[17]
+Underfull \vbox (badness 1701) has occurred while \output is active []
 
-] [18]
+ [18]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 83.
- [19]
-Underfull \vbox (badness 3536) has occurred while \output is active []
 
- [20]
-[21]
+[19] [20] [21] [22]
 Underfull \hbox (badness 3525) in paragraph at lines 132--132
 []|\OT1/ptm/m/n/12 2 Spa-tial un-cer-tainty is
  []
@@ -736,12 +746,12 @@ Underfull \vbox (badness 10000) detected at line 141
  []
 
 
-Underfull \vbox (badness 1917) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-[23] [24]) [25] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch2methods.tex
+ [23]
+[24] [25]) [26] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch2methods.tex
 Chapter 2.
-<img/methodsfigure2.png, id=88, 2952.53062pt x 1439.3775pt>
+<img/methodsfigure2.png, id=91, 2952.53062pt x 1439.3775pt>
 File: img/methodsfigure2.png Graphic file (type png)
 
 <use img/methodsfigure2.png>
@@ -751,98 +761,108 @@ Package pdftex.def Info: img/methodsfigure2.png used on input line 10.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26
+[27
 
 
 
-] <img/neurimpl3.png, id=93, 530.73282pt x 357.58594pt>
+] <img/neurimpl3.png, id=96, 530.73282pt x 357.58594pt>
 File: img/neurimpl3.png Graphic file (type png)
 
 <use img/neurimpl3.png>
-Package pdftex.def Info: img/neurimpl3.png used on input line 26.
+Package pdftex.def Info: img/neurimpl3.png used on input line 25.
 (pdftex.def)             Requested size: 412.56496pt x 277.97195pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/methodsfigure2.png>] [28 <C:/U
-sers/Tom/Dropbox/PhD/Reports/Thesis/img/neurimpl3.png>] [29
+[28 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/methodsfigure2.png>] [29 <C:/U
+sers/Tom/Dropbox/PhD/Reports/Thesis/img/neurimpl3.png>]
+Overfull \hbox (5.1502pt too wide) in paragraph at lines 33--34
+\OT1/ptm/m/n/12 that hu-man spa-tial mem-o-ries in par-tic-u-lar are or-ga-nize
+d hi-er-ar-chi-cally (Hir-tle & Jonides,
+ []
+
+[30
 
 ]
-Overfull \hbox (3.44289pt too wide) in paragraph at lines 73--74
+Overfull \hbox (3.44289pt too wide) in paragraph at lines 75--76
 []\OT1/ptm/m/n/12 Our par-tic-u-lar computational-level so-lu-tions for es-ti-m
 at-ing lo-ca-tions uti-lize stronger
  []
 
-[30] <img/bayesian_localization3.png, id=110, 414.04688pt x 135.50626pt>
+
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [31]
+[32] <img/bayesian_localization3.png, id=118, 414.04688pt x 135.50626pt>
 File: img/bayesian_localization3.png Graphic file (type png)
 
 <use img/bayesian_localization3.png>
-Package pdftex.def Info: img/bayesian_localization3.png used on input line 123.
+Package pdftex.def Info: img/bayesian_localization3.png used on input line 125.
 
 (pdftex.def)             Requested size: 412.56496pt x 135.02414pt.
-
-Underfull \vbox (badness 5475) has occurred while \output is active []
-
- [31 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/bayesian_localization3.png>]
-Underfull \vbox (badness 1675) has occurred while \output is active []
-
- [32]
-Overfull \hbox (1.69557pt too wide) in paragraph at lines 175--176
+ [33 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/bayesian_localization3.png>] 
+[34]
+Overfull \hbox (1.69557pt too wide) in paragraph at lines 177--178
 \OT1/ptm/m/n/12 2007; Thrun et al., 2005), we ap-prox-i-mate the in-te-gral us-
 ing re-jec-tion sam-pling (Doucet
  []
 
 
-Underfull \vbox (badness 2189) has occurred while \output is active []
+Underfull \vbox (badness 2478) has occurred while \output is active []
 
- [33]
-<img/rejectionsampling.png, id=125, 175.857pt x 91.542pt>
+ [35]
+<img/rejectionsampling.png, id=131, 175.857pt x 91.542pt>
 File: img/rejectionsampling.png Graphic file (type png)
 
 <use img/rejectionsampling.png>
-Package pdftex.def Info: img/rejectionsampling.png used on input line 212.
+Package pdftex.def Info: img/rejectionsampling.png used on input line 214.
 (pdftex.def)             Requested size: 309.4237pt x 161.08089pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[34] [35 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/rejectionsampling.png>]
-[36
-
-]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[37]
+[36] [37 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/rejectionsampling.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 294.
+ [38
 
-[39]
-Overfull \hbox (11.20787pt too wide) in paragraph at lines 331--332
+]
+Underfull \vbox (badness 3557) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 4805) has occurred while \output is active []
+
+ [40]
+[41]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 298.
+ [42]
+Overfull \hbox (11.20787pt too wide) in paragraph at lines 335--336
 []\OT1/ptm/m/n/12 In con-trast, the pro-posed frame-work aims to learn the dis-
 tri-bu-tion of co-representation
  []
 
 
-Overfull \hbox (7.74283pt too wide) in paragraph at lines 331--332
+Overfull \hbox (7.74283pt too wide) in paragraph at lines 335--336
 \OT1/ptm/m/n/12 straints, and con-structs a pseudo-metric based on a gen-er-a-t
 ive model of co-representation
  []
 
+[43]
 
-LaTeX Warning: there is no bold Symbol font on input line 333.
+LaTeX Warning: there is no bold Symbol font on input line 337.
 
 
-Underfull \vbox (badness 3009) has occurred while \output is active []
+Underfull \vbox (badness 2221) has occurred while \output is active []
 
- [40]
-[41]) [42]
+ [44]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [45] [46]
 Chapter 3.
-[43
+[47
 
 
 ]
@@ -850,11 +870,11 @@ Chapter 3.
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=161, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=173, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
 <use papers/nnreview.pdf>
-Package pdftex.def Info: papers/nnreview.pdf used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf used on input line 125.
 (pdftex.def)             Requested size: 597.50584pt x 796.67543pt.
 
 
@@ -863,7 +883,7 @@ rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
 File: papers/nnreview.pdf Graphic file (type pdf)
 <use papers/nnreview.pdf>
-Package pdftex.def Info: papers/nnreview.pdf used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf used on input line 125.
 (pdftex.def)             Requested size: 597.50584pt x 796.67543pt.
 
 
@@ -875,1864 +895,1861 @@ rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=164, page=1, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=176, page=1, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
 <use papers/nnreview.pdf, page 1>
-Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 125.
 (pdftex.def)             Requested size: 597.50584pt x 796.67543pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
  <use papers/nnreview.pdf, page 1>
-Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
 <use papers/nnreview.pdf, page 1>
-Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
  <use papers/nnreview.pdf, page 1>
-Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
 <use papers/nnreview.pdf, page 1>
-Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
- [43 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
-
-pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
-rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
-1.5> allowed
-<papers/nnreview.pdf, id=481, page=2, 597.50731pt x 796.67737pt>
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 2>
-Package pdftex.def Info: papers/nnreview.pdf, page2 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 2>
-Package pdftex.def Info: papers/nnreview.pdf, page2 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 2>
-Package pdftex.def Info: papers/nnreview.pdf, page2 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
- [44 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
-
-pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
-rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
-1.5> allowed
-<papers/nnreview.pdf, id=485, page=3, 597.50731pt x 796.67737pt>
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 3>
-Package pdftex.def Info: papers/nnreview.pdf, page3 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 3>
-Package pdftex.def Info: papers/nnreview.pdf, page3 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 3>
-Package pdftex.def Info: papers/nnreview.pdf, page3 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
- [45 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
-
-pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
-rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
-1.5> allowed
-<papers/nnreview.pdf, id=489, page=4, 597.50731pt x 796.67737pt>
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 4>
-Package pdftex.def Info: papers/nnreview.pdf, page4 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 4>
-Package pdftex.def Info: papers/nnreview.pdf, page4 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 4>
-Package pdftex.def Info: papers/nnreview.pdf, page4 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
- [46 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
-
-pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
-rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
-1.5> allowed
-<papers/nnreview.pdf, id=496, page=5, 597.50731pt x 796.67737pt>
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 5>
-Package pdftex.def Info: papers/nnreview.pdf, page5 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 5>
-Package pdftex.def Info: papers/nnreview.pdf, page5 used on input line 120.
-(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
-File: papers/nnreview.pdf Graphic file (type pdf)
-
-<use papers/nnreview.pdf, page 5>
-Package pdftex.def Info: papers/nnreview.pdf, page5 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page1 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [47 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=500, page=6, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=493, page=2, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 6>
-Package pdftex.def Info: papers/nnreview.pdf, page6 used on input line 120.
+<use papers/nnreview.pdf, page 2>
+Package pdftex.def Info: papers/nnreview.pdf, page2 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 6>
-Package pdftex.def Info: papers/nnreview.pdf, page6 used on input line 120.
+ <use papers/nnreview.pdf, page 2>
+Package pdftex.def Info: papers/nnreview.pdf, page2 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 6>
-Package pdftex.def Info: papers/nnreview.pdf, page6 used on input line 120.
+<use papers/nnreview.pdf, page 2>
+Package pdftex.def Info: papers/nnreview.pdf, page2 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [48 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=505, page=7, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=498, page=3, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 7>
-Package pdftex.def Info: papers/nnreview.pdf, page7 used on input line 120.
+<use papers/nnreview.pdf, page 3>
+Package pdftex.def Info: papers/nnreview.pdf, page3 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 7>
-Package pdftex.def Info: papers/nnreview.pdf, page7 used on input line 120.
+ <use papers/nnreview.pdf, page 3>
+Package pdftex.def Info: papers/nnreview.pdf, page3 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 7>
-Package pdftex.def Info: papers/nnreview.pdf, page7 used on input line 120.
+<use papers/nnreview.pdf, page 3>
+Package pdftex.def Info: papers/nnreview.pdf, page3 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [49 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=509, page=8, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=502, page=4, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 8>
-Package pdftex.def Info: papers/nnreview.pdf, page8 used on input line 120.
+<use papers/nnreview.pdf, page 4>
+Package pdftex.def Info: papers/nnreview.pdf, page4 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 8>
-Package pdftex.def Info: papers/nnreview.pdf, page8 used on input line 120.
+ <use papers/nnreview.pdf, page 4>
+Package pdftex.def Info: papers/nnreview.pdf, page4 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 8>
-Package pdftex.def Info: papers/nnreview.pdf, page8 used on input line 120.
+<use papers/nnreview.pdf, page 4>
+Package pdftex.def Info: papers/nnreview.pdf, page4 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=516, page=9, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=509, page=5, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 9>
-Package pdftex.def Info: papers/nnreview.pdf, page9 used on input line 120.
+<use papers/nnreview.pdf, page 5>
+Package pdftex.def Info: papers/nnreview.pdf, page5 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 9>
-Package pdftex.def Info: papers/nnreview.pdf, page9 used on input line 120.
+ <use papers/nnreview.pdf, page 5>
+Package pdftex.def Info: papers/nnreview.pdf, page5 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 9>
-Package pdftex.def Info: papers/nnreview.pdf, page9 used on input line 120.
+<use papers/nnreview.pdf, page 5>
+Package pdftex.def Info: papers/nnreview.pdf, page5 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [51 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=520, page=10, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=513, page=6, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 10>
-Package pdftex.def Info: papers/nnreview.pdf, page10 used on input line 120.
+<use papers/nnreview.pdf, page 6>
+Package pdftex.def Info: papers/nnreview.pdf, page6 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 10>
-Package pdftex.def Info: papers/nnreview.pdf, page10 used on input line 120.
+ <use papers/nnreview.pdf, page 6>
+Package pdftex.def Info: papers/nnreview.pdf, page6 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 10>
-Package pdftex.def Info: papers/nnreview.pdf, page10 used on input line 120.
+<use papers/nnreview.pdf, page 6>
+Package pdftex.def Info: papers/nnreview.pdf, page6 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [52 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=524, page=11, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=517, page=7, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 11>
-Package pdftex.def Info: papers/nnreview.pdf, page11 used on input line 120.
+<use papers/nnreview.pdf, page 7>
+Package pdftex.def Info: papers/nnreview.pdf, page7 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 11>
-Package pdftex.def Info: papers/nnreview.pdf, page11 used on input line 120.
+ <use papers/nnreview.pdf, page 7>
+Package pdftex.def Info: papers/nnreview.pdf, page7 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 11>
-Package pdftex.def Info: papers/nnreview.pdf, page11 used on input line 120.
+<use papers/nnreview.pdf, page 7>
+Package pdftex.def Info: papers/nnreview.pdf, page7 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [53 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=531, page=12, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=521, page=8, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 12>
-Package pdftex.def Info: papers/nnreview.pdf, page12 used on input line 120.
+<use papers/nnreview.pdf, page 8>
+Package pdftex.def Info: papers/nnreview.pdf, page8 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 12>
-Package pdftex.def Info: papers/nnreview.pdf, page12 used on input line 120.
+ <use papers/nnreview.pdf, page 8>
+Package pdftex.def Info: papers/nnreview.pdf, page8 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 12>
-Package pdftex.def Info: papers/nnreview.pdf, page12 used on input line 120.
+<use papers/nnreview.pdf, page 8>
+Package pdftex.def Info: papers/nnreview.pdf, page8 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=539, page=13, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=529, page=9, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 13>
-Package pdftex.def Info: papers/nnreview.pdf, page13 used on input line 120.
+<use papers/nnreview.pdf, page 9>
+Package pdftex.def Info: papers/nnreview.pdf, page9 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 13>
-Package pdftex.def Info: papers/nnreview.pdf, page13 used on input line 120.
+ <use papers/nnreview.pdf, page 9>
+Package pdftex.def Info: papers/nnreview.pdf, page9 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 13>
-Package pdftex.def Info: papers/nnreview.pdf, page13 used on input line 120.
+<use papers/nnreview.pdf, page 9>
+Package pdftex.def Info: papers/nnreview.pdf, page9 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [55 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=546, page=14, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=533, page=10, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 14>
-Package pdftex.def Info: papers/nnreview.pdf, page14 used on input line 120.
+<use papers/nnreview.pdf, page 10>
+Package pdftex.def Info: papers/nnreview.pdf, page10 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 14>
-Package pdftex.def Info: papers/nnreview.pdf, page14 used on input line 120.
+ <use papers/nnreview.pdf, page 10>
+Package pdftex.def Info: papers/nnreview.pdf, page10 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 14>
-Package pdftex.def Info: papers/nnreview.pdf, page14 used on input line 120.
+<use papers/nnreview.pdf, page 10>
+Package pdftex.def Info: papers/nnreview.pdf, page10 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [56 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=550, page=15, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=537, page=11, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 15>
-Package pdftex.def Info: papers/nnreview.pdf, page15 used on input line 120.
+<use papers/nnreview.pdf, page 11>
+Package pdftex.def Info: papers/nnreview.pdf, page11 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 15>
-Package pdftex.def Info: papers/nnreview.pdf, page15 used on input line 120.
+ <use papers/nnreview.pdf, page 11>
+Package pdftex.def Info: papers/nnreview.pdf, page11 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 15>
-Package pdftex.def Info: papers/nnreview.pdf, page15 used on input line 120.
+<use papers/nnreview.pdf, page 11>
+Package pdftex.def Info: papers/nnreview.pdf, page11 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [57 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=560, page=16, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=544, page=12, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 16>
-Package pdftex.def Info: papers/nnreview.pdf, page16 used on input line 120.
+<use papers/nnreview.pdf, page 12>
+Package pdftex.def Info: papers/nnreview.pdf, page12 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 16>
-Package pdftex.def Info: papers/nnreview.pdf, page16 used on input line 120.
+ <use papers/nnreview.pdf, page 12>
+Package pdftex.def Info: papers/nnreview.pdf, page12 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 16>
-Package pdftex.def Info: papers/nnreview.pdf, page16 used on input line 120.
+<use papers/nnreview.pdf, page 12>
+Package pdftex.def Info: papers/nnreview.pdf, page12 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [58 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=564, page=17, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=551, page=13, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 17>
-Package pdftex.def Info: papers/nnreview.pdf, page17 used on input line 120.
+<use papers/nnreview.pdf, page 13>
+Package pdftex.def Info: papers/nnreview.pdf, page13 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 17>
-Package pdftex.def Info: papers/nnreview.pdf, page17 used on input line 120.
+ <use papers/nnreview.pdf, page 13>
+Package pdftex.def Info: papers/nnreview.pdf, page13 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 17>
-Package pdftex.def Info: papers/nnreview.pdf, page17 used on input line 120.
+<use papers/nnreview.pdf, page 13>
+Package pdftex.def Info: papers/nnreview.pdf, page13 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [59 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=568, page=18, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=558, page=14, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 18>
-Package pdftex.def Info: papers/nnreview.pdf, page18 used on input line 120.
+<use papers/nnreview.pdf, page 14>
+Package pdftex.def Info: papers/nnreview.pdf, page14 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 18>
-Package pdftex.def Info: papers/nnreview.pdf, page18 used on input line 120.
+ <use papers/nnreview.pdf, page 14>
+Package pdftex.def Info: papers/nnreview.pdf, page14 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 18>
-Package pdftex.def Info: papers/nnreview.pdf, page18 used on input line 120.
+<use papers/nnreview.pdf, page 14>
+Package pdftex.def Info: papers/nnreview.pdf, page14 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [60 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=579, page=19, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=563, page=15, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 19>
-Package pdftex.def Info: papers/nnreview.pdf, page19 used on input line 120.
+<use papers/nnreview.pdf, page 15>
+Package pdftex.def Info: papers/nnreview.pdf, page15 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 19>
-Package pdftex.def Info: papers/nnreview.pdf, page19 used on input line 120.
+ <use papers/nnreview.pdf, page 15>
+Package pdftex.def Info: papers/nnreview.pdf, page15 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 19>
-Package pdftex.def Info: papers/nnreview.pdf, page19 used on input line 120.
+<use papers/nnreview.pdf, page 15>
+Package pdftex.def Info: papers/nnreview.pdf, page15 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [61 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=583, page=20, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=573, page=16, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 20>
-Package pdftex.def Info: papers/nnreview.pdf, page20 used on input line 120.
+<use papers/nnreview.pdf, page 16>
+Package pdftex.def Info: papers/nnreview.pdf, page16 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 20>
-Package pdftex.def Info: papers/nnreview.pdf, page20 used on input line 120.
+ <use papers/nnreview.pdf, page 16>
+Package pdftex.def Info: papers/nnreview.pdf, page16 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 20>
-Package pdftex.def Info: papers/nnreview.pdf, page20 used on input line 120.
+<use papers/nnreview.pdf, page 16>
+Package pdftex.def Info: papers/nnreview.pdf, page16 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [62 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=587, page=21, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=577, page=17, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 21>
-Package pdftex.def Info: papers/nnreview.pdf, page21 used on input line 120.
+<use papers/nnreview.pdf, page 17>
+Package pdftex.def Info: papers/nnreview.pdf, page17 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 21>
-Package pdftex.def Info: papers/nnreview.pdf, page21 used on input line 120.
+ <use papers/nnreview.pdf, page 17>
+Package pdftex.def Info: papers/nnreview.pdf, page17 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 21>
-Package pdftex.def Info: papers/nnreview.pdf, page21 used on input line 120.
+<use papers/nnreview.pdf, page 17>
+Package pdftex.def Info: papers/nnreview.pdf, page17 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [63 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=596, page=22, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=581, page=18, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 22>
-Package pdftex.def Info: papers/nnreview.pdf, page22 used on input line 120.
+<use papers/nnreview.pdf, page 18>
+Package pdftex.def Info: papers/nnreview.pdf, page18 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 22>
-Package pdftex.def Info: papers/nnreview.pdf, page22 used on input line 120.
+ <use papers/nnreview.pdf, page 18>
+Package pdftex.def Info: papers/nnreview.pdf, page18 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 22>
-Package pdftex.def Info: papers/nnreview.pdf, page22 used on input line 120.
+<use papers/nnreview.pdf, page 18>
+Package pdftex.def Info: papers/nnreview.pdf, page18 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [64 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=600, page=23, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=591, page=19, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 23>
-Package pdftex.def Info: papers/nnreview.pdf, page23 used on input line 120.
+<use papers/nnreview.pdf, page 19>
+Package pdftex.def Info: papers/nnreview.pdf, page19 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 23>
-Package pdftex.def Info: papers/nnreview.pdf, page23 used on input line 120.
+ <use papers/nnreview.pdf, page 19>
+Package pdftex.def Info: papers/nnreview.pdf, page19 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 23>
-Package pdftex.def Info: papers/nnreview.pdf, page23 used on input line 120.
+<use papers/nnreview.pdf, page 19>
+Package pdftex.def Info: papers/nnreview.pdf, page19 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [65 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=604, page=24, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=595, page=20, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 24>
-Package pdftex.def Info: papers/nnreview.pdf, page24 used on input line 120.
+<use papers/nnreview.pdf, page 20>
+Package pdftex.def Info: papers/nnreview.pdf, page20 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 24>
-Package pdftex.def Info: papers/nnreview.pdf, page24 used on input line 120.
+ <use papers/nnreview.pdf, page 20>
+Package pdftex.def Info: papers/nnreview.pdf, page20 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 24>
-Package pdftex.def Info: papers/nnreview.pdf, page24 used on input line 120.
+<use papers/nnreview.pdf, page 20>
+Package pdftex.def Info: papers/nnreview.pdf, page20 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [66 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=609, page=25, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=600, page=21, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 25>
-Package pdftex.def Info: papers/nnreview.pdf, page25 used on input line 120.
+<use papers/nnreview.pdf, page 21>
+Package pdftex.def Info: papers/nnreview.pdf, page21 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
- <use papers/nnreview.pdf, page 25>
-Package pdftex.def Info: papers/nnreview.pdf, page25 used on input line 120.
+ <use papers/nnreview.pdf, page 21>
+Package pdftex.def Info: papers/nnreview.pdf, page21 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
-<use papers/nnreview.pdf, page 25>
-Package pdftex.def Info: papers/nnreview.pdf, page25 used on input line 120.
+<use papers/nnreview.pdf, page 21>
+Package pdftex.def Info: papers/nnreview.pdf, page21 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
  [67 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 
 pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
 rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-<papers/nnreview.pdf, id=613, page=26, 597.50731pt x 796.67737pt>
+<papers/nnreview.pdf, id=609, page=22, 597.50731pt x 796.67737pt>
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 22>
+Package pdftex.def Info: papers/nnreview.pdf, page22 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+ <use papers/nnreview.pdf, page 22>
+Package pdftex.def Info: papers/nnreview.pdf, page22 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 22>
+Package pdftex.def Info: papers/nnreview.pdf, page22 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [68 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+<papers/nnreview.pdf, id=613, page=23, 597.50731pt x 796.67737pt>
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 23>
+Package pdftex.def Info: papers/nnreview.pdf, page23 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+ <use papers/nnreview.pdf, page 23>
+Package pdftex.def Info: papers/nnreview.pdf, page23 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 23>
+Package pdftex.def Info: papers/nnreview.pdf, page23 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [69 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+<papers/nnreview.pdf, id=617, page=24, 597.50731pt x 796.67737pt>
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 24>
+Package pdftex.def Info: papers/nnreview.pdf, page24 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+ <use papers/nnreview.pdf, page 24>
+Package pdftex.def Info: papers/nnreview.pdf, page24 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 24>
+Package pdftex.def Info: papers/nnreview.pdf, page24 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [70 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+<papers/nnreview.pdf, id=621, page=25, 597.50731pt x 796.67737pt>
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 25>
+Package pdftex.def Info: papers/nnreview.pdf, page25 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+ <use papers/nnreview.pdf, page 25>
+Package pdftex.def Info: papers/nnreview.pdf, page25 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+File: papers/nnreview.pdf Graphic file (type pdf)
+
+<use papers/nnreview.pdf, page 25>
+Package pdftex.def Info: papers/nnreview.pdf, page25 used on input line 125.
+(pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
+ [71 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
+
+pdfTeX warning: pdflatex.exe (file C:/Users/Tom/Dropbox/PhD/Reports/Thesis/pape
+rs/nnreview.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
+1.5> allowed
+<papers/nnreview.pdf, id=625, page=26, 597.50731pt x 796.67737pt>
 File: papers/nnreview.pdf Graphic file (type pdf)
 
 <use papers/nnreview.pdf, page 26>
-Package pdftex.def Info: papers/nnreview.pdf, page26 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page26 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
  <use papers/nnreview.pdf, page 26>
-Package pdftex.def Info: papers/nnreview.pdf, page26 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page26 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
 File: papers/nnreview.pdf Graphic file (type pdf)
 
 <use papers/nnreview.pdf, page 26>
-Package pdftex.def Info: papers/nnreview.pdf, page26 used on input line 120.
+Package pdftex.def Info: papers/nnreview.pdf, page26 used on input line 125.
 (pdftex.def)             Requested size: 598.00728pt x 797.34402pt.
- [68 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
+ [72 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/nnreview.pdf>]
 Chapter 4.
 
-Overfull \hbox (5.64407pt too wide) in paragraph at lines 131--132
+Overfull \hbox (5.64407pt too wide) in paragraph at lines 136--137
 \OT1/ptm/m/n/12 cor-rect fig-ure or-der was pub-lished as a cor-rec-tion (doi: 
 10.1371/jour-nal.pone. 0136128),
  []
 
-[44
+[48
 
-] <papers/bayespc.pdf, id=620, 614.57909pt x 793.83177pt>
+] <papers/bayespc.pdf, id=633, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf>
-Package pdftex.def Info: papers/bayespc.pdf used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf used on input line 151.
 (pdftex.def)             Requested size: 614.57759pt x 793.82983pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf>
-Package pdftex.def Info: papers/bayespc.pdf used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf used on input line 151.
 (pdftex.def)             Requested size: 614.57759pt x 793.82983pt.
 
-<papers/bayespc.pdf, id=623, page=1, 614.57909pt x 793.83177pt>
+<papers/bayespc.pdf, id=636, page=1, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 1>
-Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 151.
 (pdftex.def)             Requested size: 614.57759pt x 793.82983pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 1>
-Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 1>
-Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 1>
-Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 1>
-Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page1 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [44 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=653, page=2, 614.57909pt x 793.83177pt>
+ [48 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=666, page=2, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 2>
-Package pdftex.def Info: papers/bayespc.pdf, page2 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page2 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 2>
-Package pdftex.def Info: papers/bayespc.pdf, page2 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page2 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 2>
-Package pdftex.def Info: papers/bayespc.pdf, page2 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page2 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [45 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=676, page=3, 614.57909pt x 793.83177pt>
+ [49 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=689, page=3, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 3>
-Package pdftex.def Info: papers/bayespc.pdf, page3 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page3 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 3>
-Package pdftex.def Info: papers/bayespc.pdf, page3 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page3 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 3>
-Package pdftex.def Info: papers/bayespc.pdf, page3 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page3 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [46 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=722, page=4, 614.57909pt x 793.83177pt>
+ [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=734, page=4, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 4>
-Package pdftex.def Info: papers/bayespc.pdf, page4 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page4 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 4>
-Package pdftex.def Info: papers/bayespc.pdf, page4 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page4 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 4>
-Package pdftex.def Info: papers/bayespc.pdf, page4 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page4 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [47 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=730, page=5, 614.57909pt x 793.83177pt>
+ [51 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=742, page=5, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 5>
-Package pdftex.def Info: papers/bayespc.pdf, page5 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page5 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 5>
-Package pdftex.def Info: papers/bayespc.pdf, page5 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page5 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 5>
-Package pdftex.def Info: papers/bayespc.pdf, page5 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page5 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [48 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=735, page=6, 614.57909pt x 793.83177pt>
+ [52 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=748, page=6, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 6>
-Package pdftex.def Info: papers/bayespc.pdf, page6 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page6 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 6>
-Package pdftex.def Info: papers/bayespc.pdf, page6 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page6 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 6>
-Package pdftex.def Info: papers/bayespc.pdf, page6 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page6 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [49 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=741, page=7, 614.57909pt x 793.83177pt>
+ [53 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=754, page=7, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 7>
-Package pdftex.def Info: papers/bayespc.pdf, page7 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page7 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 7>
-Package pdftex.def Info: papers/bayespc.pdf, page7 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page7 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 7>
-Package pdftex.def Info: papers/bayespc.pdf, page7 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page7 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=745, page=8, 614.57909pt x 793.83177pt>
+ [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=758, page=8, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 8>
-Package pdftex.def Info: papers/bayespc.pdf, page8 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page8 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 8>
-Package pdftex.def Info: papers/bayespc.pdf, page8 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page8 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 8>
-Package pdftex.def Info: papers/bayespc.pdf, page8 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page8 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [51 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=854, page=9, 614.57909pt x 793.83177pt>
+ [55 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=867, page=9, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 9>
-Package pdftex.def Info: papers/bayespc.pdf, page9 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page9 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 9>
-Package pdftex.def Info: papers/bayespc.pdf, page9 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page9 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 9>
-Package pdftex.def Info: papers/bayespc.pdf, page9 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page9 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [52 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=890, page=10, 614.57909pt x 793.83177pt>
+ [56 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=902, page=10, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 10>
-Package pdftex.def Info: papers/bayespc.pdf, page10 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page10 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 10>
-Package pdftex.def Info: papers/bayespc.pdf, page10 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page10 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 10>
-Package pdftex.def Info: papers/bayespc.pdf, page10 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page10 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [53 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=900, page=11, 614.57909pt x 793.83177pt>
+ [57 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=912, page=11, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 11>
-Package pdftex.def Info: papers/bayespc.pdf, page11 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page11 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 11>
-Package pdftex.def Info: papers/bayespc.pdf, page11 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page11 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 11>
-Package pdftex.def Info: papers/bayespc.pdf, page11 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page11 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=905, page=12, 614.57909pt x 793.83177pt>
+ [58 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=918, page=12, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 12>
-Package pdftex.def Info: papers/bayespc.pdf, page12 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page12 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 12>
-Package pdftex.def Info: papers/bayespc.pdf, page12 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page12 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 12>
-Package pdftex.def Info: papers/bayespc.pdf, page12 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page12 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [55 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=912, page=13, 614.57909pt x 793.83177pt>
+ [59 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=925, page=13, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 13>
-Package pdftex.def Info: papers/bayespc.pdf, page13 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page13 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 13>
-Package pdftex.def Info: papers/bayespc.pdf, page13 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page13 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 13>
-Package pdftex.def Info: papers/bayespc.pdf, page13 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page13 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [56 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=916, page=14, 614.57909pt x 793.83177pt>
+ [60 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=929, page=14, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 14>
-Package pdftex.def Info: papers/bayespc.pdf, page14 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page14 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 14>
-Package pdftex.def Info: papers/bayespc.pdf, page14 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page14 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 14>
-Package pdftex.def Info: papers/bayespc.pdf, page14 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page14 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [57 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=920, page=15, 614.57909pt x 793.83177pt>
+ [61 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=933, page=15, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 15>
-Package pdftex.def Info: papers/bayespc.pdf, page15 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page15 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 15>
-Package pdftex.def Info: papers/bayespc.pdf, page15 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page15 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 15>
-Package pdftex.def Info: papers/bayespc.pdf, page15 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page15 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [58 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
-<papers/bayespc.pdf, id=925, page=16, 614.57909pt x 793.83177pt>
+ [62 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+<papers/bayespc.pdf, id=937, page=16, 614.57909pt x 793.83177pt>
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 16>
-Package pdftex.def Info: papers/bayespc.pdf, page16 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page16 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
  <use papers/bayespc.pdf, page 16>
-Package pdftex.def Info: papers/bayespc.pdf, page16 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page16 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
 File: papers/bayespc.pdf Graphic file (type pdf)
 
 <use papers/bayespc.pdf, page 16>
-Package pdftex.def Info: papers/bayespc.pdf, page16 used on input line 146.
+Package pdftex.def Info: papers/bayespc.pdf, page16 used on input line 151.
 (pdftex.def)             Requested size: 598.06343pt x 772.49904pt.
- [59 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
+ [63 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/bayespc.pdf>]
 Chapter 5.
-[45
+[49
 
-] <papers/mapstructure.pdf, id=932, 597.50829pt x 845.0471pt>
+] <papers/mapstructure.pdf, id=945, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf>
-Package pdftex.def Info: papers/mapstructure.pdf used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf used on input line 181.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf>
-Package pdftex.def Info: papers/mapstructure.pdf used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf used on input line 181.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<papers/mapstructure.pdf, id=935, page=1, 597.50829pt x 845.0471pt>
+<papers/mapstructure.pdf, id=948, page=1, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 1>
-Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 181.
 
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 1>
-Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 1>
-Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 1>
-Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 1>
-Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page1 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [45 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=990, page=2, 597.50829pt x 845.0471pt>
+ [49 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1003, page=2, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 2>
-Package pdftex.def Info: papers/mapstructure.pdf, page2 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page2 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 2>
-Package pdftex.def Info: papers/mapstructure.pdf, page2 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page2 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 2>
-Package pdftex.def Info: papers/mapstructure.pdf, page2 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page2 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [46 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=999, page=3, 597.50829pt x 845.0471pt>
+ [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1012, page=3, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 3>
-Package pdftex.def Info: papers/mapstructure.pdf, page3 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page3 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 3>
-Package pdftex.def Info: papers/mapstructure.pdf, page3 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page3 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 3>
-Package pdftex.def Info: papers/mapstructure.pdf, page3 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page3 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [47 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1003, page=4, 597.50829pt x 845.0471pt>
+ [51 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1016, page=4, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 4>
-Package pdftex.def Info: papers/mapstructure.pdf, page4 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page4 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 4>
-Package pdftex.def Info: papers/mapstructure.pdf, page4 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page4 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 4>
-Package pdftex.def Info: papers/mapstructure.pdf, page4 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page4 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [48 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1019, page=5, 597.50829pt x 845.0471pt>
+ [52 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1031, page=5, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 5>
-Package pdftex.def Info: papers/mapstructure.pdf, page5 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page5 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 5>
-Package pdftex.def Info: papers/mapstructure.pdf, page5 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page5 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 5>
-Package pdftex.def Info: papers/mapstructure.pdf, page5 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page5 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [49 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1029, page=6, 597.50829pt x 845.0471pt>
+ [53 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1041, page=6, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 6>
-Package pdftex.def Info: papers/mapstructure.pdf, page6 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page6 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 6>
-Package pdftex.def Info: papers/mapstructure.pdf, page6 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page6 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 6>
-Package pdftex.def Info: papers/mapstructure.pdf, page6 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page6 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1034, page=7, 597.50829pt x 845.0471pt>
+ [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1047, page=7, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 7>
-Package pdftex.def Info: papers/mapstructure.pdf, page7 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page7 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 7>
-Package pdftex.def Info: papers/mapstructure.pdf, page7 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page7 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 7>
-Package pdftex.def Info: papers/mapstructure.pdf, page7 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page7 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [51 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1044, page=8, 597.50829pt x 845.0471pt>
+ [55 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1057, page=8, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 8>
-Package pdftex.def Info: papers/mapstructure.pdf, page8 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page8 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 8>
-Package pdftex.def Info: papers/mapstructure.pdf, page8 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page8 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 8>
-Package pdftex.def Info: papers/mapstructure.pdf, page8 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page8 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [52 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1053, page=9, 597.50829pt x 845.0471pt>
+ [56 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1066, page=9, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 9>
-Package pdftex.def Info: papers/mapstructure.pdf, page9 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page9 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 9>
-Package pdftex.def Info: papers/mapstructure.pdf, page9 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page9 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 9>
-Package pdftex.def Info: papers/mapstructure.pdf, page9 used on input line 176.
+Package pdftex.def Info: papers/mapstructure.pdf, page9 used on input line 181.
 
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [53 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1058, page=10, 597.50829pt x 845.0471pt>
+ [57 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1071, page=10, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 10>
-Package pdftex.def Info: papers/mapstructure.pdf, page10 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page10 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 10>
-Package pdftex.def Info: papers/mapstructure.pdf, page10 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page10 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 10>
-Package pdftex.def Info: papers/mapstructure.pdf, page10 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page10 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1063, page=11, 597.50829pt x 845.0471pt>
+ [58 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1075, page=11, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 11>
-Package pdftex.def Info: papers/mapstructure.pdf, page11 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page11 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 11>
-Package pdftex.def Info: papers/mapstructure.pdf, page11 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page11 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 11>
-Package pdftex.def Info: papers/mapstructure.pdf, page11 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page11 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [55 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1067, page=12, 597.50829pt x 845.0471pt>
+ [59 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1079, page=12, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 12>
-Package pdftex.def Info: papers/mapstructure.pdf, page12 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page12 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 12>
-Package pdftex.def Info: papers/mapstructure.pdf, page12 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page12 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 12>
-Package pdftex.def Info: papers/mapstructure.pdf, page12 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page12 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [56 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1076, page=13, 597.50829pt x 845.0471pt>
+ [60 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1089, page=13, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 13>
-Package pdftex.def Info: papers/mapstructure.pdf, page13 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page13 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 13>
-Package pdftex.def Info: papers/mapstructure.pdf, page13 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page13 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 13>
-Package pdftex.def Info: papers/mapstructure.pdf, page13 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page13 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [57 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1080, page=14, 597.50829pt x 845.0471pt>
+ [61 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1093, page=14, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 14>
-Package pdftex.def Info: papers/mapstructure.pdf, page14 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page14 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 14>
-Package pdftex.def Info: papers/mapstructure.pdf, page14 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page14 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 14>
-Package pdftex.def Info: papers/mapstructure.pdf, page14 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page14 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [58 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1084, page=15, 597.50829pt x 845.0471pt>
+ [62 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1097, page=15, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 15>
-Package pdftex.def Info: papers/mapstructure.pdf, page15 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page15 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 15>
-Package pdftex.def Info: papers/mapstructure.pdf, page15 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page15 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 15>
-Package pdftex.def Info: papers/mapstructure.pdf, page15 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page15 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [59 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1088, page=16, 597.50829pt x 845.0471pt>
+ [63 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1101, page=16, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 16>
-Package pdftex.def Info: papers/mapstructure.pdf, page16 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page16 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 16>
-Package pdftex.def Info: papers/mapstructure.pdf, page16 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page16 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 16>
-Package pdftex.def Info: papers/mapstructure.pdf, page16 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page16 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [60 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1102, page=17, 597.50829pt x 845.0471pt>
+ [64 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1114, page=17, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 17>
-Package pdftex.def Info: papers/mapstructure.pdf, page17 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page17 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 17>
-Package pdftex.def Info: papers/mapstructure.pdf, page17 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page17 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 17>
-Package pdftex.def Info: papers/mapstructure.pdf, page17 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page17 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [61 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1113, page=18, 597.50829pt x 845.0471pt>
+ [65 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1125, page=18, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 18>
-Package pdftex.def Info: papers/mapstructure.pdf, page18 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page18 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 18>
-Package pdftex.def Info: papers/mapstructure.pdf, page18 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page18 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 18>
-Package pdftex.def Info: papers/mapstructure.pdf, page18 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page18 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [62 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1127, page=19, 597.50829pt x 845.0471pt>
+ [66 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1140, page=19, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 19>
-Package pdftex.def Info: papers/mapstructure.pdf, page19 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page19 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 19>
-Package pdftex.def Info: papers/mapstructure.pdf, page19 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page19 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 19>
-Package pdftex.def Info: papers/mapstructure.pdf, page19 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page19 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [63 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1132, page=20, 597.50829pt x 845.0471pt>
+ [67 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1145, page=20, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 20>
-Package pdftex.def Info: papers/mapstructure.pdf, page20 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page20 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 20>
-Package pdftex.def Info: papers/mapstructure.pdf, page20 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page20 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 20>
-Package pdftex.def Info: papers/mapstructure.pdf, page20 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page20 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [64 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1136, page=21, 597.50829pt x 845.0471pt>
+ [68 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1149, page=21, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 21>
-Package pdftex.def Info: papers/mapstructure.pdf, page21 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page21 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 21>
-Package pdftex.def Info: papers/mapstructure.pdf, page21 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page21 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 21>
-Package pdftex.def Info: papers/mapstructure.pdf, page21 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page21 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [65 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1145, page=22, 597.50829pt x 845.0471pt>
+ [69 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1158, page=22, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 22>
-Package pdftex.def Info: papers/mapstructure.pdf, page22 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page22 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 22>
-Package pdftex.def Info: papers/mapstructure.pdf, page22 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page22 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 22>
-Package pdftex.def Info: papers/mapstructure.pdf, page22 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page22 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [66 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1158, page=23, 597.50829pt x 845.0471pt>
+ [70 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1170, page=23, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 23>
-Package pdftex.def Info: papers/mapstructure.pdf, page23 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page23 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 23>
-Package pdftex.def Info: papers/mapstructure.pdf, page23 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page23 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 23>
-Package pdftex.def Info: papers/mapstructure.pdf, page23 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page23 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [67 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1192, page=24, 597.50829pt x 845.0471pt>
+ [71 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1204, page=24, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 24>
-Package pdftex.def Info: papers/mapstructure.pdf, page24 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page24 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 24>
-Package pdftex.def Info: papers/mapstructure.pdf, page24 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page24 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 24>
-Package pdftex.def Info: papers/mapstructure.pdf, page24 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page24 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [68 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1207, page=25, 597.50829pt x 845.0471pt>
+ [72 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1220, page=25, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 25>
-Package pdftex.def Info: papers/mapstructure.pdf, page25 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page25 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 25>
-Package pdftex.def Info: papers/mapstructure.pdf, page25 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page25 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 25>
-Package pdftex.def Info: papers/mapstructure.pdf, page25 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page25 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [69 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1211, page=26, 597.50829pt x 845.0471pt>
+ [73 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1224, page=26, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 26>
-Package pdftex.def Info: papers/mapstructure.pdf, page26 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page26 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 26>
-Package pdftex.def Info: papers/mapstructure.pdf, page26 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page26 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 26>
-Package pdftex.def Info: papers/mapstructure.pdf, page26 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page26 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [70 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1218, page=27, 597.50829pt x 845.0471pt>
+ [74 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1231, page=27, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 27>
-Package pdftex.def Info: papers/mapstructure.pdf, page27 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page27 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 27>
-Package pdftex.def Info: papers/mapstructure.pdf, page27 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page27 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 27>
-Package pdftex.def Info: papers/mapstructure.pdf, page27 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page27 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [71 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1222, page=28, 597.50829pt x 845.0471pt>
+ [75 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1235, page=28, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 28>
-Package pdftex.def Info: papers/mapstructure.pdf, page28 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page28 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 28>
-Package pdftex.def Info: papers/mapstructure.pdf, page28 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page28 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 28>
-Package pdftex.def Info: papers/mapstructure.pdf, page28 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page28 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [72 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1232, page=29, 597.50829pt x 845.0471pt>
+ [76 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1244, page=29, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 29>
-Package pdftex.def Info: papers/mapstructure.pdf, page29 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page29 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 29>
-Package pdftex.def Info: papers/mapstructure.pdf, page29 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page29 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 29>
-Package pdftex.def Info: papers/mapstructure.pdf, page29 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page29 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [73 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1243, page=30, 597.50829pt x 845.0471pt>
+ [77 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1255, page=30, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 30>
-Package pdftex.def Info: papers/mapstructure.pdf, page30 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page30 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 30>
-Package pdftex.def Info: papers/mapstructure.pdf, page30 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page30 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 30>
-Package pdftex.def Info: papers/mapstructure.pdf, page30 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page30 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [74 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1247, page=31, 597.50829pt x 845.0471pt>
+ [78 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1260, page=31, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 31>
-Package pdftex.def Info: papers/mapstructure.pdf, page31 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page31 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 31>
-Package pdftex.def Info: papers/mapstructure.pdf, page31 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page31 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 31>
-Package pdftex.def Info: papers/mapstructure.pdf, page31 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page31 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [75 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1251, page=32, 597.50829pt x 845.0471pt>
+ [79 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1264, page=32, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 32>
-Package pdftex.def Info: papers/mapstructure.pdf, page32 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page32 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 32>
-Package pdftex.def Info: papers/mapstructure.pdf, page32 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page32 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 32>
-Package pdftex.def Info: papers/mapstructure.pdf, page32 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page32 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [76 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1255, page=33, 597.50829pt x 845.0471pt>
+ [80 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1268, page=33, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 33>
-Package pdftex.def Info: papers/mapstructure.pdf, page33 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page33 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 33>
-Package pdftex.def Info: papers/mapstructure.pdf, page33 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page33 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 33>
-Package pdftex.def Info: papers/mapstructure.pdf, page33 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page33 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [77 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1260, page=34, 597.50829pt x 845.0471pt>
+ [81 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1273, page=34, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 34>
-Package pdftex.def Info: papers/mapstructure.pdf, page34 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page34 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 34>
-Package pdftex.def Info: papers/mapstructure.pdf, page34 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page34 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 34>
-Package pdftex.def Info: papers/mapstructure.pdf, page34 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page34 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [78 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1270, page=35, 597.50829pt x 845.0471pt>
+ [82 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1282, page=35, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 35>
-Package pdftex.def Info: papers/mapstructure.pdf, page35 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page35 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 35>
-Package pdftex.def Info: papers/mapstructure.pdf, page35 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page35 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 35>
-Package pdftex.def Info: papers/mapstructure.pdf, page35 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page35 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [79 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1274, page=36, 597.50829pt x 845.0471pt>
+ [83 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1286, page=36, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 36>
-Package pdftex.def Info: papers/mapstructure.pdf, page36 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page36 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 36>
-Package pdftex.def Info: papers/mapstructure.pdf, page36 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page36 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 36>
-Package pdftex.def Info: papers/mapstructure.pdf, page36 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page36 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [80 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
-<papers/mapstructure.pdf, id=1278, page=37, 597.50829pt x 845.0471pt>
+ [84 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+<papers/mapstructure.pdf, id=1291, page=37, 597.50829pt x 845.0471pt>
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 37>
-Package pdftex.def Info: papers/mapstructure.pdf, page37 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page37 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
  <use papers/mapstructure.pdf, page 37>
-Package pdftex.def Info: papers/mapstructure.pdf, page37 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page37 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/mapstructure.pdf Graphic file (type pdf)
 
 <use papers/mapstructure.pdf, page 37>
-Package pdftex.def Info: papers/mapstructure.pdf, page37 used on input line 176
+Package pdftex.def Info: papers/mapstructure.pdf, page37 used on input line 181
 .
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [81 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
+ [85 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/mapstructure.pdf>]
 Chapter 6.
-[46
+[50
 
-] <papers/lidaspm.pdf, id=1285, 597.50829pt x 845.0471pt>
+] <papers/lidaspm.pdf, id=1298, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf>
-Package pdftex.def Info: papers/lidaspm.pdf used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf used on input line 204.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf>
-Package pdftex.def Info: papers/lidaspm.pdf used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf used on input line 204.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<papers/lidaspm.pdf, id=1288, page=1, 597.50829pt x 845.0471pt>
+<papers/lidaspm.pdf, id=1301, page=1, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 1>
-Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 204.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 1>
-Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 1>
-Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 1>
-Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 1>
-Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page1 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [46 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1326, page=2, 597.50829pt x 845.0471pt>
+ [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1339, page=2, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 2>
-Package pdftex.def Info: papers/lidaspm.pdf, page2 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page2 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 2>
-Package pdftex.def Info: papers/lidaspm.pdf, page2 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page2 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 2>
-Package pdftex.def Info: papers/lidaspm.pdf, page2 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page2 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [47 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1331, page=3, 597.50829pt x 845.0471pt>
+ [51 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1343, page=3, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 3>
-Package pdftex.def Info: papers/lidaspm.pdf, page3 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page3 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 3>
-Package pdftex.def Info: papers/lidaspm.pdf, page3 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page3 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 3>
-Package pdftex.def Info: papers/lidaspm.pdf, page3 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page3 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [48 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1335, page=4, 597.50829pt x 845.0471pt>
+ [52 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1347, page=4, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 4>
-Package pdftex.def Info: papers/lidaspm.pdf, page4 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page4 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 4>
-Package pdftex.def Info: papers/lidaspm.pdf, page4 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page4 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 4>
-Package pdftex.def Info: papers/lidaspm.pdf, page4 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page4 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [49 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1339, page=5, 597.50829pt x 845.0471pt>
+ [53 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1352, page=5, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 5>
-Package pdftex.def Info: papers/lidaspm.pdf, page5 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page5 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 5>
-Package pdftex.def Info: papers/lidaspm.pdf, page5 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page5 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 5>
-Package pdftex.def Info: papers/lidaspm.pdf, page5 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page5 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1349, page=6, 597.50829pt x 845.0471pt>
+ [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1362, page=6, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 6>
-Package pdftex.def Info: papers/lidaspm.pdf, page6 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page6 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 6>
-Package pdftex.def Info: papers/lidaspm.pdf, page6 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page6 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 6>
-Package pdftex.def Info: papers/lidaspm.pdf, page6 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page6 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [51 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1353, page=7, 597.50829pt x 845.0471pt>
+ [55 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1366, page=7, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 7>
-Package pdftex.def Info: papers/lidaspm.pdf, page7 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page7 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 7>
-Package pdftex.def Info: papers/lidaspm.pdf, page7 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page7 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 7>
-Package pdftex.def Info: papers/lidaspm.pdf, page7 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page7 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [52 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1358, page=8, 597.50829pt x 845.0471pt>
+ [56 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1371, page=8, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 8>
-Package pdftex.def Info: papers/lidaspm.pdf, page8 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page8 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 8>
-Package pdftex.def Info: papers/lidaspm.pdf, page8 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page8 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 8>
-Package pdftex.def Info: papers/lidaspm.pdf, page8 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page8 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [53 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1367, page=9, 597.50829pt x 845.0471pt>
+ [57 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1379, page=9, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 9>
-Package pdftex.def Info: papers/lidaspm.pdf, page9 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page9 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 9>
-Package pdftex.def Info: papers/lidaspm.pdf, page9 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page9 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 9>
-Package pdftex.def Info: papers/lidaspm.pdf, page9 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page9 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1380, page=10, 597.50829pt x 845.0471pt>
+ [58 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1395, page=10, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 10>
-Package pdftex.def Info: papers/lidaspm.pdf, page10 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page10 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 10>
-Package pdftex.def Info: papers/lidaspm.pdf, page10 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page10 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 10>
-Package pdftex.def Info: papers/lidaspm.pdf, page10 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page10 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [55 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1388, page=11, 597.50829pt x 845.0471pt>
+ [59 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1404, page=11, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 11>
-Package pdftex.def Info: papers/lidaspm.pdf, page11 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page11 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 11>
-Package pdftex.def Info: papers/lidaspm.pdf, page11 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page11 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 11>
-Package pdftex.def Info: papers/lidaspm.pdf, page11 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page11 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [56 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1401, page=12, 597.50829pt x 845.0471pt>
+ [60 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1417, page=12, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 12>
-Package pdftex.def Info: papers/lidaspm.pdf, page12 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page12 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 12>
-Package pdftex.def Info: papers/lidaspm.pdf, page12 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page12 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 12>
-Package pdftex.def Info: papers/lidaspm.pdf, page12 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page12 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [57 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1412, page=13, 597.50829pt x 845.0471pt>
+ [61 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1430, page=13, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 13>
-Package pdftex.def Info: papers/lidaspm.pdf, page13 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page13 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 13>
-Package pdftex.def Info: papers/lidaspm.pdf, page13 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page13 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 13>
-Package pdftex.def Info: papers/lidaspm.pdf, page13 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page13 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [58 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1416, page=14, 597.50829pt x 845.0471pt>
+ [62 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1434, page=14, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 14>
-Package pdftex.def Info: papers/lidaspm.pdf, page14 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page14 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 14>
-Package pdftex.def Info: papers/lidaspm.pdf, page14 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page14 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 14>
-Package pdftex.def Info: papers/lidaspm.pdf, page14 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page14 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [59 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1424, page=15, 597.50829pt x 845.0471pt>
+ [63 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1441, page=15, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 15>
-Package pdftex.def Info: papers/lidaspm.pdf, page15 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page15 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 15>
-Package pdftex.def Info: papers/lidaspm.pdf, page15 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page15 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 15>
-Package pdftex.def Info: papers/lidaspm.pdf, page15 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page15 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [60 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1429, page=16, 597.50829pt x 845.0471pt>
+ [64 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1446, page=16, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 16>
-Package pdftex.def Info: papers/lidaspm.pdf, page16 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page16 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 16>
-Package pdftex.def Info: papers/lidaspm.pdf, page16 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page16 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 16>
-Package pdftex.def Info: papers/lidaspm.pdf, page16 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page16 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [61 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1439, page=17, 597.50829pt x 845.0471pt>
+ [65 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1457, page=17, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 17>
-Package pdftex.def Info: papers/lidaspm.pdf, page17 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page17 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 17>
-Package pdftex.def Info: papers/lidaspm.pdf, page17 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page17 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 17>
-Package pdftex.def Info: papers/lidaspm.pdf, page17 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page17 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [62 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
-<papers/lidaspm.pdf, id=1443, page=18, 597.50829pt x 845.0471pt>
+ [66 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>]
+<papers/lidaspm.pdf, id=1461, page=18, 597.50829pt x 845.0471pt>
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 18>
-Package pdftex.def Info: papers/lidaspm.pdf, page18 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page18 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
  <use papers/lidaspm.pdf, page 18>
-Package pdftex.def Info: papers/lidaspm.pdf, page18 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page18 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: papers/lidaspm.pdf Graphic file (type pdf)
 
 <use papers/lidaspm.pdf, page 18>
-Package pdftex.def Info: papers/lidaspm.pdf, page18 used on input line 199.
+Package pdftex.def Info: papers/lidaspm.pdf, page18 used on input line 204.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
- [63 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>] (C:\Users\To
+ [67 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/papers/lidaspm.pdf>] (C:\Users\To
 m\Dropbox\PhD\Reports\Thesis\ch7discussion.tex
 Chapter 7.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[47
+[51
 
 
-] [48]
+] [52]
 Overfull \hbox (19.0907pt too wide) in paragraph at lines 54--68
  [][] 
  []
@@ -2743,45 +2760,52 @@ Underfull \hbox (badness 2443) in paragraph at lines 81--81
 1/pcr/m/n/10 http : / / download . intel . com / support /$
  []
 
-[49
+[53
 
-] <img/endtoendslam.png, id=1457, 1687.05281pt x 368.87813pt>
+] <img/endtoendslam.png, id=1474, 1687.05281pt x 368.87813pt>
 File: img/endtoendslam.png Graphic file (type png)
 
 <use img/endtoendslam.png>
 Package pdftex.def Info: img/endtoendslam.png used on input line 87.
 (pdftex.def)             Requested size: 412.56496pt x 90.20425pt.
 
-Underfull \vbox (badness 2799) has occurred while \output is active []
+Underfull \vbox (badness 2027) has occurred while \output is active []
 
- [50 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/endtoendslam.png>]
+ [54 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/endtoendslam.png>]
 Overfull \hbox (1.18872pt too wide) in paragraph at lines 104--105
 []\OT1/ptm/m/n/12 Phenomena ob-served in en-vi-ron-ments with com-pet-ing cues 
 (e.g. land-marks), where
  []
 
+[55]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 3312) has occurred while \output is active []
-
- [51]
-[52]
+ [56]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 123--123
 [][]\OT1/ptm/m/n/10 See $\OT1/pcr/m/n/10 http : / / wiki . ros . org / pid$ \OT
 1/ptm/m/n/10 and $\OT1/pcr/m/n/10 http : / / gazebosim . org / tutorials ? tut 
 = drcsim _$
  []
 
-[53] [54]) [55] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch8conclusion.tex
+
+Underfull \vbox (badness 1072) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59])
+[60] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch8conclusion.tex
 Chapter 8.
-[56
+[61
 
 
 
-]) [57] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.bbl [58
+]) [62] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.bbl [63
 
 
-] [59]
-[60] [61] [62] [63]
+] [64]
+[65] [66] [67] [68] [69] [70]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -2794,95 +2818,127 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [64] [65] [66]) [67]
+ [71] [72] [73]) [74]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1_bayespcSI.tex
 Appendix A.
-[68
+[75
 
 
 ]
-Overfull \hbox (225.86108pt too wide) has occurred while \output is active
-\OT1/ptm/m/sl/12 A.2.  COINCIDENCE DETECTION AS REJECTION SAMPLING AND MULTIPLI
-CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 69
- []
-
-[69]
 Overfull \hbox (383.85072pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 70 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
+\OT1/ptm/m/n/12 76 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
 CHAPTER 4: BAYESIAN INTEGRATION OF INFORMATION IN HIPPOCAMPAL PLACE CELLS
  []
 
-[70]
+[76]
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+
 Overfull \hbox (225.86108pt too wide) has occurred while \output is active
 \OT1/ptm/m/sl/12 A.2.  COINCIDENCE DETECTION AS REJECTION SAMPLING AND MULTIPLI
-CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 71
+CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 77
  []
 
-[71]
+[77]
+Overfull \hbox (383.85072pt too wide) has occurred while \output is active
+\OT1/ptm/m/n/12 78 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
+CHAPTER 4: BAYESIAN INTEGRATION OF INFORMATION IN HIPPOCAMPAL PLACE CELLS
+ []
+
+[78]
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+
+Overfull \hbox (225.86108pt too wide) has occurred while \output is active
+\OT1/ptm/m/sl/12 A.2.  COINCIDENCE DETECTION AS REJECTION SAMPLING AND MULTIPLI
+CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 79
+ []
+
+[79]
 Overfull \hbox (5.93045pt too wide) in paragraph at lines 158--159
 \OT1/ptm/m/n/12 den-si-ties, co-in-ci-dence de-tec-tion in spik-ing neu-rons ca
 n im-ple-ment mul-ti-pli-ca-tion. Look-
  []
 
 
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+
 Overfull \hbox (383.85072pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 72 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
+\OT1/ptm/m/n/12 80 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
 CHAPTER 4: BAYESIAN INTEGRATION OF INFORMATION IN HIPPOCAMPAL PLACE CELLS
  []
 
-[72]
+[80]
 Overfull \hbox (225.86108pt too wide) has occurred while \output is active
 \OT1/ptm/m/sl/12 A.2.  COINCIDENCE DETECTION AS REJECTION SAMPLING AND MULTIPLI
-CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 73
+CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 81
  []
 
-[73] [74
+[81] [82
 
-]) [75]
+]) [83]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix2_mapstructureSI.tex
 Appendix B.
-[76
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84
 
 
 
-] <img/mapcities.png, id=1543, 907.89188pt x 323.70938pt>
+]
+<img/mapcities.png, id=1574, 907.89188pt x 323.70938pt>
 File: img/mapcities.png Graphic file (type png)
 
 <use img/mapcities.png>
 Package pdftex.def Info: img/mapcities.png used on input line 63.
 (pdftex.def)             Requested size: 412.56496pt x 147.1003pt.
- [77 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/mapcities.png>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85]
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
+
+Overfull \hbox (232.95383pt too wide) has occurred while \output is active
+\OT1/ptm/m/n/12 86 \OT1/ptm/m/sl/12 APPENDIX B.  SUPPLEMENTARY INFORMATION FOR 
+CHAPTER 5: THE STRUCTURE OF SPATIAL REPRESENTATIONS
+ []
+
+[86 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/mapcities.png>]
 Overfull \hbox (19.67293pt too wide) in paragraph at lines 102--102
 []\OT1/ptm/b/n/17.28 Separability of co-represented and not co-represented
  []
 
 
-Overfull \hbox (232.95383pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 78 \OT1/ptm/m/sl/12 APPENDIX B.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 5: THE STRUCTURE OF SPATIAL REPRESENTATIONS
+Overfull \hbox (89.66339pt too wide) has occurred while \output is active
+\OT1/ptm/m/sl/12 B.4.  SEPARABILITY OF CO-REPRESENTED AND NOT CO-REPRESENTED BU
+ILDING PAIRS \OT1/ptm/m/n/12 87
  []
 
-[78] <img/exp2class.png, id=1551, 858.20625pt x 196.48407pt>
+[87] <img/exp2class.png, id=1584, 858.20625pt x 196.48407pt>
 File: img/exp2class.png Graphic file (type png)
 
 <use img/exp2class.png>
 Package pdftex.def Info: img/exp2class.png used on input line 110.
 (pdftex.def)             Requested size: 412.56496pt x 94.45518pt.
 
-Overfull \hbox (89.66339pt too wide) has occurred while \output is active
-\OT1/ptm/m/sl/12 B.4.  SEPARABILITY OF CO-REPRESENTED AND NOT CO-REPRESENTED BU
-ILDING PAIRS \OT1/ptm/m/n/12 79
+Overfull \hbox (232.95383pt too wide) has occurred while \output is active
+\OT1/ptm/m/n/12 88 \OT1/ptm/m/sl/12 APPENDIX B.  SUPPLEMENTARY INFORMATION FOR 
+CHAPTER 5: THE STRUCTURE OF SPATIAL REPRESENTATIONS
  []
 
-[79 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/exp2class.png>]
-<img/exp3Aclass.png, id=1555, 858.20625pt x 196.48407pt>
+[88 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/exp2class.png>]
+<img/exp3Aclass.png, id=1588, 858.20625pt x 196.48407pt>
 File: img/exp3Aclass.png Graphic file (type png)
 
 <use img/exp3Aclass.png>
 Package pdftex.def Info: img/exp3Aclass.png used on input line 119.
 (pdftex.def)             Requested size: 412.56496pt x 94.45518pt.
 
-<img/exp3Bclass.png, id=1556, 858.20625pt x 196.48407pt>
+<img/exp3Bclass.png, id=1589, 858.20625pt x 196.48407pt>
 File: img/exp3Bclass.png Graphic file (type png)
 
 <use img/exp3Bclass.png>
@@ -2895,13 +2951,13 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                 on input line 125.
 
 
-Overfull \hbox (232.95383pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 80 \OT1/ptm/m/sl/12 APPENDIX B.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 5: THE STRUCTURE OF SPATIAL REPRESENTATIONS
+Overfull \hbox (89.66339pt too wide) has occurred while \output is active
+\OT1/ptm/m/sl/12 B.4.  SEPARABILITY OF CO-REPRESENTED AND NOT CO-REPRESENTED BU
+ILDING PAIRS \OT1/ptm/m/n/12 89
  []
 
-[80 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/exp3Aclass.png> <C:/Users/Tom/
-Dropbox/PhD/Reports/Thesis/img/exp3Bclass.png>]) [81
+[89 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/exp3Aclass.png> <C:/Users/Tom/
+Dropbox/PhD/Reports/Thesis/img/exp3Bclass.png>]) [90
 
 ]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix3_lidaspmSI.tex
@@ -2918,25 +2974,25 @@ Overfull \hbox (16.61044pt too wide) in paragraph at lines 45--46
 on. In-ter-est-ingly, this non-hierarchical
  []
 
-[82
+[91
 
 
 
-] <img/tsperrors2.png, id=1567, 1197.72469pt x 659.46375pt>
+] <img/tsperrors2.png, id=1601, 1197.72469pt x 659.46375pt>
 File: img/tsperrors2.png Graphic file (type png)
 
 <use img/tsperrors2.png>
 Package pdftex.def Info: img/tsperrors2.png used on input line 52.
 (pdftex.def)             Requested size: 412.56496pt x 227.15298pt.
 
-<img/wienerexp.png, id=1568, 450.18187pt x 358.33875pt>
+<img/wienerexp.png, id=1602, 450.18187pt x 358.33875pt>
 File: img/wienerexp.png Graphic file (type png)
 
 <use img/wienerexp.png>
 Package pdftex.def Info: img/wienerexp.png used on input line 62.
 (pdftex.def)             Requested size: 202.15909pt x 160.9174pt.
 
-<img/wieneretal2009_spatial_tsp_comparison.png, id=1569, 385.44pt x 328.97906pt
+<img/wieneretal2009_spatial_tsp_comparison.png, id=1603, 385.44pt x 328.97906pt
 >
 File: img/wieneretal2009_spatial_tsp_comparison.png Graphic file (type png)
  <use img/wieneretal2009_spatial_tsp_comparison.png>
@@ -2944,21 +3000,21 @@ Package pdftex.def Info: img/wieneretal2009_spatial_tsp_comparison.png used on
 input line 63.
 (pdftex.def)             Requested size: 202.15909pt x 172.54591pt.
 
-Overfull \hbox (368.44167pt too wide) has occurred while \output is active
-\OT1/ptm/m/sl/12 C.1.  COMPARISON OF HIERARCHICAL ACTIVATION GRADIENT-BASED ROU
-TE PLANNING WITH HUMAN PERFORMANCE ON THE TSP TASK \OT1/ptm/m/n/12 83
- []
-
-[83 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/tsperrors2.png>]
 Overfull \hbox (491.32108pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 84 \OT1/ptm/m/sl/12 APPENDIX C.  SUPPLEMENTARY INFORMATION FOR 
+\OT1/ptm/m/n/12 92 \OT1/ptm/m/sl/12 APPENDIX C.  SUPPLEMENTARY INFORMATION FOR 
 CHAPTER 6: TOWARDS REAL-WORLD CAPABLE SPATIAL MEMORY IN THE LIDA COGNITIVE ARCH
 ITECTURE
  []
 
-[84 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/wienerexp.png> <C:/Users/Tom/D
+[92 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/tsperrors2.png>]
+Overfull \hbox (368.44167pt too wide) has occurred while \output is active
+\OT1/ptm/m/sl/12 C.1.  COMPARISON OF HIERARCHICAL ACTIVATION GRADIENT-BASED ROU
+TE PLANNING WITH HUMAN PERFORMANCE ON THE TSP TASK \OT1/ptm/m/n/12 93
+ []
+
+[93 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/wienerexp.png> <C:/Users/Tom/D
 ropbox/PhD/Reports/Thesis/img/wieneretal2009_spatial_tsp_comparison.png>])
-[85
+[94
 
 ] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix4_pfevidence.tex
 Appendix D.
@@ -2968,20 +3024,26 @@ Overfull \hbox (3.26437pt too wide) in paragraph at lines 10--11
 el (de-scribed in Chap-
  []
 
-<img/burkefreqdist.png, id=1581, 354.123pt x 147.1899pt>
+<img/burkefreqdist.png, id=1614, 354.123pt x 147.1899pt>
 File: img/burkefreqdist.png Graphic file (type png)
 
 <use img/burkefreqdist.png>
 Package pdftex.def Info: img/burkefreqdist.png used on input line 16.
 (pdftex.def)             Requested size: 412.56496pt x 171.49277pt.
-) [86
+ [95
 
 
 
-] [87 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/burkefreqdist.png>]
+])
+Overfull \hbox (96.74481pt too wide) has occurred while \output is active
+\OT1/ptm/m/n/12 96 \OT1/ptm/m/sl/12 APPENDIX D.  ADDITIONAL EVIDENCE FOR SAMPLI
+NG-BASED BAYESIAN LOCALIZATION
+ []
+
+[96 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/burkefreqdist.png>]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix6_adsmetric.tex
 Appendix E.
-) [88
+) [97
 
 
 
@@ -3006,62 +3068,59 @@ Package natbib Warning: Citation(s) may have changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 21 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 9009 strings out of 493921
- 141411 string characters out of 3144881
- 215235 words of memory out of 3000000
- 12033 multiletter control sequences out of 15000+200000
+ 9363 strings out of 493921
+ 145569 string characters out of 3144881
+ 220328 words of memory out of 3000000
+ 12379 multiletter control sequences out of 15000+200000
  65880 words of font info for 134 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 39i,18n,46p,2209b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
-enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmtt8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
-ols/msam5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/sy
-mbols/msam7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
-symbols/msbm10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/u
-crr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/
+ 39i,18n,46p,2209b,525s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
+8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam5.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
+m10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/urw/times/utmri8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/urw/zapfchan/uzcmi8a.pfb>
-Output written on report.pdf (185 pages, 19381628 bytes).
+fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/urw/times/utmri8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/zapfc
+han/uzcmi8a.pfb>
+Output written on report.pdf (194 pages, 19404587 bytes).
 PDF statistics:
- 1664 PDF objects out of 1728 (max. 8388607)
+ 1699 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  616 words of extra memory for PDF output out of 10000 (max. 10000000)
 

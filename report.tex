@@ -2,6 +2,11 @@
 % The regulations say that 12pt should be used
 % Change the MSc option to MPhil, MRes or PhD if appropriate
 
+\usepackage{etoolbox}
+%\patchcmd{\thebibliography}{\chapter*}{\section*}{}{}
+\patchcmd{\thebibliography}{\chapter*}{\par\let\clearpage\relax\chapter*}{\typeout{success}}{\typeout{failure}}
+
+
 \usepackage{verbatim}
 \usepackage{graphicx}
 \graphicspath{ {img/} }
@@ -217,6 +222,9 @@ addtolist={
 %% your supervisor recommends.
 
 % Appendices start here
+
+\nocite{madl2013spatial, franklin2013lida}
+
 \appendix
 \include{appendix1_bayespcSI}
 \include{appendix2_mapstructureSI}
