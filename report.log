@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  22 SEP 2015 18:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.18)  22 SEP 2015 18:44
 entering extended mode
 **report.tex
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.tex
@@ -459,19 +459,10 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch2methods.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch7discussion.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch8conclusion.aux)
-(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1_bayespcSI.aux
-
-LaTeX Warning: Label `RSProof2' multiply defined.
-
-) (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix2_mapstructureSI.aux
-
-Package natbib Warning: Citation `mcnamara1989subjective' multiply defined.
-
-) (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix3_lidaspmSI.aux
-
-Package natbib Warning: Citation `madl2013spatial' multiply defined.
-
-) (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix4_pfevidence.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1_bayespcSI.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix2_mapstructureSI.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix3_lidaspmSI.aux)
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix4_pfevidence.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix6_adsmetric.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
@@ -2818,43 +2809,33 @@ Missing character: There is no ú in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ù in font ptmr7t!
- [71] [72] [73]) [74]
+ [71] [72] [73] [74]) [75]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1_bayespcSI.tex
 Appendix A.
-[75
+[76
 
 
 ]
-Overfull \hbox (383.85072pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 76 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 4: BAYESIAN INTEGRATION OF INFORMATION IN HIPPOCAMPAL PLACE CELLS
- []
-
-[76]
-Underfull \vbox (badness 2435) has occurred while \output is active []
-
-
 Overfull \hbox (225.86108pt too wide) has occurred while \output is active
 \OT1/ptm/m/sl/12 A.2.  COINCIDENCE DETECTION AS REJECTION SAMPLING AND MULTIPLI
 CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 77
  []
 
-[77]
-Overfull \hbox (383.85072pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 78 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 4: BAYESIAN INTEGRATION OF INFORMATION IN HIPPOCAMPAL PLACE CELLS
- []
-
-[78]
-Underfull \vbox (badness 1742) has occurred while \output is active []
-
-
+[77] [78]
 Overfull \hbox (225.86108pt too wide) has occurred while \output is active
 \OT1/ptm/m/sl/12 A.2.  COINCIDENCE DETECTION AS REJECTION SAMPLING AND MULTIPLI
 CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 79
  []
 
 [79]
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no § in font ptmr7t!
+Missing character: There is no √ in font ptmr7t!
+Missing character: There is no º in font ptmr7t!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [80]
 Overfull \hbox (5.93045pt too wide) in paragraph at lines 158--159
 \OT1/ptm/m/n/12 den-si-ties, co-in-ci-dence de-tec-tion in spik-ing neu-rons ca
 n im-ple-ment mul-ti-pli-ca-tion. Look-
@@ -2864,102 +2845,71 @@ n im-ple-ment mul-ti-pli-ca-tion. Look-
 Underfull \vbox (badness 1484) has occurred while \output is active []
 
 
-Overfull \hbox (383.85072pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 80 \OT1/ptm/m/sl/12 APPENDIX A.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 4: BAYESIAN INTEGRATION OF INFORMATION IN HIPPOCAMPAL PLACE CELLS
- []
-
-[80]
 Overfull \hbox (225.86108pt too wide) has occurred while \output is active
 \OT1/ptm/m/sl/12 A.2.  COINCIDENCE DETECTION AS REJECTION SAMPLING AND MULTIPLI
 CATION BY COINCIDENCE DETECTION \OT1/ptm/m/n/12 81
  []
 
-[81] [82
-
-]) [83]
+[81]) [82]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix2_mapstructureSI.tex
 Appendix B.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [84
+[83
 
 
 
-]
-<img/mapcities.png, id=1574, 907.89188pt x 323.70938pt>
+] <img/mapcities.png, id=1570, 907.89188pt x 323.70938pt>
 File: img/mapcities.png Graphic file (type png)
 
 <use img/mapcities.png>
 Package pdftex.def Info: img/mapcities.png used on input line 63.
 (pdftex.def)             Requested size: 412.56496pt x 147.1003pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[85]
-Underfull \vbox (badness 1184) has occurred while \output is active []
-
-
-Overfull \hbox (232.95383pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 86 \OT1/ptm/m/sl/12 APPENDIX B.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 5: THE STRUCTURE OF SPATIAL REPRESENTATIONS
- []
-
-[86 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/mapcities.png>]
+ [84 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/mapcities.png>] [85]
 Overfull \hbox (19.67293pt too wide) in paragraph at lines 102--102
 []\OT1/ptm/b/n/17.28 Separability of co-represented and not co-represented
  []
 
-
-Overfull \hbox (89.66339pt too wide) has occurred while \output is active
-\OT1/ptm/m/sl/12 B.4.  SEPARABILITY OF CO-REPRESENTED AND NOT CO-REPRESENTED BU
-ILDING PAIRS \OT1/ptm/m/n/12 87
- []
-
-[87] <img/exp2class.png, id=1584, 858.20625pt x 196.48407pt>
+<img/exp2class.png, id=1578, 858.20625pt x 196.48407pt>
 File: img/exp2class.png Graphic file (type png)
 
 <use img/exp2class.png>
 Package pdftex.def Info: img/exp2class.png used on input line 110.
 (pdftex.def)             Requested size: 412.56496pt x 94.45518pt.
 
-Overfull \hbox (232.95383pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 88 \OT1/ptm/m/sl/12 APPENDIX B.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 5: THE STRUCTURE OF SPATIAL REPRESENTATIONS
- []
 
-[88 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/exp2class.png>]
-<img/exp3Aclass.png, id=1588, 858.20625pt x 196.48407pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/exp3Aclass.png, id=1579, 858.20625pt x 196.48407pt>
 File: img/exp3Aclass.png Graphic file (type png)
 
 <use img/exp3Aclass.png>
-Package pdftex.def Info: img/exp3Aclass.png used on input line 119.
+Package pdftex.def Info: img/exp3Aclass.png used on input line 117.
 (pdftex.def)             Requested size: 412.56496pt x 94.45518pt.
 
-<img/exp3Bclass.png, id=1589, 858.20625pt x 196.48407pt>
+<img/exp3Bclass.png, id=1580, 858.20625pt x 196.48407pt>
 File: img/exp3Bclass.png Graphic file (type png)
 
 <use img/exp3Bclass.png>
-Package pdftex.def Info: img/exp3Bclass.png used on input line 120.
+Package pdftex.def Info: img/exp3Bclass.png used on input line 118.
 (pdftex.def)             Requested size: 412.56496pt x 94.45518pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[86]
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 125.
 
-
+)
 Overfull \hbox (89.66339pt too wide) has occurred while \output is active
 \OT1/ptm/m/sl/12 B.4.  SEPARABILITY OF CO-REPRESENTED AND NOT CO-REPRESENTED BU
-ILDING PAIRS \OT1/ptm/m/n/12 89
+ILDING PAIRS \OT1/ptm/m/n/12 87
  []
 
-[89 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/exp3Aclass.png> <C:/Users/Tom/
-Dropbox/PhD/Reports/Thesis/img/exp3Bclass.png>]) [90
-
-]
+[87 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/exp2class.png>] [88 <C:/Users/
+Tom/Dropbox/PhD/Reports/Thesis/img/exp3Aclass.png> <C:/Users/Tom/Dropbox/PhD/Re
+ports/Thesis/img/exp3Bclass.png>]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix3_lidaspmSI.tex
 Appendix C.
 
@@ -2974,49 +2924,44 @@ Overfull \hbox (16.61044pt too wide) in paragraph at lines 45--46
 on. In-ter-est-ingly, this non-hierarchical
  []
 
-[91
+
+Underfull \vbox (badness 2762) has occurred while \output is active []
+
+ [89
 
 
 
-] <img/tsperrors2.png, id=1601, 1197.72469pt x 659.46375pt>
+]
+<img/tsperrors2.png, id=1594, 1197.72469pt x 659.46375pt>
 File: img/tsperrors2.png Graphic file (type png)
 
 <use img/tsperrors2.png>
 Package pdftex.def Info: img/tsperrors2.png used on input line 52.
 (pdftex.def)             Requested size: 412.56496pt x 227.15298pt.
 
-<img/wienerexp.png, id=1602, 450.18187pt x 358.33875pt>
+<img/wienerexp.png, id=1595, 450.18187pt x 358.33875pt>
 File: img/wienerexp.png Graphic file (type png)
 
 <use img/wienerexp.png>
 Package pdftex.def Info: img/wienerexp.png used on input line 62.
 (pdftex.def)             Requested size: 202.15909pt x 160.9174pt.
 
-<img/wieneretal2009_spatial_tsp_comparison.png, id=1603, 385.44pt x 328.97906pt
+<img/wieneretal2009_spatial_tsp_comparison.png, id=1596, 385.44pt x 328.97906pt
 >
 File: img/wieneretal2009_spatial_tsp_comparison.png Graphic file (type png)
  <use img/wieneretal2009_spatial_tsp_comparison.png>
 Package pdftex.def Info: img/wieneretal2009_spatial_tsp_comparison.png used on 
 input line 63.
 (pdftex.def)             Requested size: 202.15909pt x 172.54591pt.
-
-Overfull \hbox (491.32108pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 92 \OT1/ptm/m/sl/12 APPENDIX C.  SUPPLEMENTARY INFORMATION FOR 
-CHAPTER 6: TOWARDS REAL-WORLD CAPABLE SPATIAL MEMORY IN THE LIDA COGNITIVE ARCH
-ITECTURE
- []
-
-[92 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/tsperrors2.png>]
+) [90 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/tsperrors2.png>]
 Overfull \hbox (368.44167pt too wide) has occurred while \output is active
 \OT1/ptm/m/sl/12 C.1.  COMPARISON OF HIERARCHICAL ACTIVATION GRADIENT-BASED ROU
-TE PLANNING WITH HUMAN PERFORMANCE ON THE TSP TASK \OT1/ptm/m/n/12 93
+TE PLANNING WITH HUMAN PERFORMANCE ON THE TSP TASK \OT1/ptm/m/n/12 91
  []
 
-[93 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/wienerexp.png> <C:/Users/Tom/D
-ropbox/PhD/Reports/Thesis/img/wieneretal2009_spatial_tsp_comparison.png>])
-[94
-
-] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix4_pfevidence.tex
+[91 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/wienerexp.png> <C:/Users/Tom/D
+ropbox/PhD/Reports/Thesis/img/wieneretal2009_spatial_tsp_comparison.png>]
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix4_pfevidence.tex
 Appendix D.
 
 Overfull \hbox (3.26437pt too wide) in paragraph at lines 10--11
@@ -3024,103 +2969,86 @@ Overfull \hbox (3.26437pt too wide) in paragraph at lines 10--11
 el (de-scribed in Chap-
  []
 
-<img/burkefreqdist.png, id=1614, 354.123pt x 147.1899pt>
+<img/burkefreqdist.png, id=1605, 354.123pt x 147.1899pt>
 File: img/burkefreqdist.png Graphic file (type png)
 
 <use img/burkefreqdist.png>
 Package pdftex.def Info: img/burkefreqdist.png used on input line 16.
 (pdftex.def)             Requested size: 412.56496pt x 171.49277pt.
- [95
+ [92
 
 
 
-])
-Overfull \hbox (96.74481pt too wide) has occurred while \output is active
-\OT1/ptm/m/n/12 96 \OT1/ptm/m/sl/12 APPENDIX D.  ADDITIONAL EVIDENCE FOR SAMPLI
-NG-BASED BAYESIAN LOCALIZATION
- []
-
-[96 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/burkefreqdist.png>]
+]) [93 <C:/Users/Tom/Dropbox/PhD/Reports/Thesis/img/burkefreqdist.png>]
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix6_adsmetric.tex
 Appendix E.
-) [97
+) [94
 
 
 
-]
-
-Package natbib Warning: There were multiply defined citations.
-
-(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.aux
+] (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\report.aux
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch1introduction.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch2methods.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch7discussion.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\ch8conclusion.aux)
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix1_bayespcSI.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix2_mapstructureSI.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix3_lidaspmSI.aux)
 (C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix4_pfevidence.aux)
-(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix6_adsmetric.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(C:\Users\Tom\Dropbox\PhD\Reports\Thesis\appendix6_adsmetric.aux)) ) 
 Here is how much of TeX's memory you used:
- 9363 strings out of 493921
- 145569 string characters out of 3144881
- 220328 words of memory out of 3000000
- 12379 multiletter control sequences out of 15000+200000
+ 9343 strings out of 493921
+ 145111 string characters out of 3144881
+ 220041 words of memory out of 3000000
+ 12359 multiletter control sequences out of 15000+200000
  65880 words of font info for 134 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 39i,18n,46p,2209b,525s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cmextra/cmmib6.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mti7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam5.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/urw/times/utmri8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/zapfc
-han/uzcmi8a.pfb>
-Output written on report.pdf (194 pages, 19404587 bytes).
+ 39i,18n,46p,2209b,551s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cmextra/cmmib6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cmextra/cmmib8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
+y6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti7.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam5.pfb><C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/u
+rw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/ut
+mri8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/zapfchan/uzcmi8a.p
+fb>
+Output written on report.pdf (191 pages, 19400046 bytes).
 PDF statistics:
- 1699 PDF objects out of 1728 (max. 8388607)
+ 1689 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  616 words of extra memory for PDF output out of 10000 (max. 10000000)
 

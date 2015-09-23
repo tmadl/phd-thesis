@@ -31,12 +31,12 @@
 %\begin{document}
 %\bibliographystyle{model5-names}
 
-\chapter{Supplementary Information for Chapter 5: The structure of spatial representations}
+\chapter{Supplementary Information for Chapter 5}
 \label{apx:mapstruture}
 
 \section{Tree analysis algorithm}
 
-We used an algorithm to extract map structure from recall orders which is functionally equivalent to the ordered tree algorithm used in prior work \citep{Hirtle_Jonides_1985, mcnamara1986mental, mcnamara1989subjective}, with the exception that we disregard order information (whether or not the leaves were always recalled in a particular ordering). The algorithm takes a list of recall protocols, as well as cues, and all possible buildings, and returns the map structure (all sets of buildings which always occur together).
+We used an algorithm to extract map structure from recall orders which is functionally equivalent to the ordered tree algorithm used in prior work (Hirtle \& Jonides, 1985; McNamara, 1986; McNamara et al., 1989), with the exception that we disregard order information (whether or not the leaves were always recalled in a particular ordering). The algorithm takes a list of recall protocols, as well as cues, and all possible buildings, and returns the map structure (all sets of buildings which always occur together).
 
 \begin{pseudocode}[ruled]{ExtractMapStructure}{Protocols, Cues, Buildings}
 	1: submaps \GETS \{ \} \\
@@ -52,7 +52,7 @@ We used an algorithm to extract map structure from recall orders which is functi
 	11: \quad\quad\quad submaps \GETS submaps \cup {C}
 \end{pseudocode}
 
-The algorithm iterates through all possible tuple lengths, and generates all possible combinations at the current tuple length. For these combinations $C$, it checks whether any permutation of $C$ occurs uninterrupted in all protocols (i.e. whether all buildings in $C$ have been recalled together); if so, $C$ is added to the list of submaps. Notably, this check is only performed if C is not cued (line 7). It was argued in previous literature \citep{Hirtle_Jonides_1985, mcnamara1989subjective} that cueing can disrupt the re-call process. Therefore containment in all protocols is only tested for combinations which do not contain a cue, in order to avoid erroneously disregarding sub-maps which consistently occur together in all recall protocols except in those in which the cue has disrupted the natural recall order.
+The algorithm iterates through all possible tuple lengths, and generates all possible combinations at the current tuple length. For these combinations $C$, it checks whether any permutation of $C$ occurs uninterrupted in all protocols (i.e. whether all buildings in $C$ have been recalled together); if so, $C$ is added to the list of submaps. Notably, this check is only performed if C is not cued (line 7). It was argued in previous literature (Hirtle \& Jonides, 1985; McNamara et al., 1989) that cueing can disrupt the re-call process. Therefore containment in all protocols is only tested for combinations which do not contain a cue, in order to avoid erroneously disregarding sub-maps which consistently occur together in all recall protocols except in those in which the cue has disrupted the natural recall order.
 
 \section{Full list of cities chosen by included subjects}
 
@@ -112,8 +112,6 @@ The co-representation correlations reported in Section 3.3 of the main text rais
 	\label{fig_classify}
 \end{figure}
 
-Figure \ref{fig_classify} shows the distances of all pairs of buildings in all features in Experiment 2, normalized by dividing each feature by its standard deviation for each participant map, and compressed down to two-dimensional space for visualization using t-SNE \citep{van2008visualizing} (without normalization across buildings of each map, classifiers are unable to perform above chance). Apart from the building pairs (which concentrate into two groups according to function - shops and houses), decision boundaries obtained with three different classifiers are also plotted. Although there is a trend of building pairs being more likely to be on the same sub-map when closer together (higher concentration of same-map pairs towards the lower left), the data is clearly not well-separable. As can be seen from this Figure, accurate prediction of full subject map structures - or even whether single building pairs belong to the same sub-map - using simple classification is impossible using naive approaches. More complex machine learning algorithms such as random forests (state-of-the art classifiers based on ensembles of decision trees) \citep{breiman2001random} can predict for around $83 \%$ of building pairs whether they belong to the same representation (note that the accuracies were obtained by classifying the full high-dimensional data set, not just the 2D projection plotted in Figures \ref{fig_classify} and \ref{fig_classify_rl}). However, the map structures collected in our experiments contain $10$ and $28$ pairs (in the $5$-building and $8$-building maps), which would make the probability of full map structures - all pairs - being predicted correctly using this approach $15.5 \%$ and $0.5 \%$ respectively (the situation is even worse in real-world environments, as can be seen in the next section).
-
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{exp3Aclass.png}
@@ -122,7 +120,9 @@ Figure \ref{fig_classify} shows the distances of all pairs of buildings in all f
 	\label{fig_classify_rl}
 \end{figure}
 
-In the more complex real-world setting of Experiment 3, separating pairs of buildings which belong to the same sub-map and those belonging to different sub-maps is even more difficult than in virtual reality environments, as shown by Figure \ref{fig_classify_rl} and evidenced by the lower accuracies obtained after 10-fold cross validation. This Figure shows the distances of all pairs of buildings in all features, normalized by dividing each feature by its standard deviation for each participant map, and compressed down to two-dimensional space for visualization using t-SNE \citep{van2008visualizing}. Note that the Figure shows prediction accuracies of pairs of buildings (whether or not a pair was represented on the same sub-map), and not of entire map structures. To correctly predict a map structure, all pairs within would need to be predicted correctly. Given the $77 \%$ accuracy of the best classifier in Figure \ref{fig_classify_rl}, correct predictions based on classification are even more unlikely than in Experiment 2 ($0.77^{5 \choose 2}=7.3 \%$ in condition A, and $0.77^{8 \choose 2}=0.0 \%$ in condition B).
+Figure \ref{fig_classify} shows the distances of all pairs of buildings in all features in Experiment 2, normalized by dividing each feature by its standard deviation for each participant map, and compressed down to two-dimensional space for visualization using t-SNE (without normalization across buildings of each map, classifiers are unable to perform above chance). Apart from the building pairs (which concentrate into two groups according to function - shops and houses), decision boundaries obtained with three different classifiers are also plotted. Although there is a trend of building pairs being more likely to be on the same sub-map when closer together (higher concentration of same-map pairs towards the lower left), the data is clearly not well-separable. As can be seen from this Figure, accurate prediction of full subject map structures - or even whether single building pairs belong to the same sub-map - using simple classification is impossible using naive approaches. More complex machine learning algorithms such as random forests (state-of-the art classifiers based on ensembles of decision trees) (Breiman, 2001) can predict for around $83 \%$ of building pairs whether they belong to the same representation (note that the accuracies were obtained by classifying the full high-dimensional data set, not just the 2D projection plotted in Figures \ref{fig_classify} and \ref{fig_classify_rl}). However, the map structures collected in our experiments contain $10$ and $28$ pairs (in the $5$-building and $8$-building maps), which would make the probability of full map structures - all pairs - being predicted correctly using this approach $15.5 \%$ and $0.5 \%$ respectively (the situation is even worse in real-world environments, as can be seen in the next section).
+
+In the more complex real-world setting of Experiment 3, separating pairs of buildings which belong to the same sub-map and those belonging to different sub-maps is even more difficult than in virtual reality environments, as shown by Figure \ref{fig_classify_rl} and evidenced by the lower accuracies obtained after 10-fold cross validation. This Figure shows the distances of all pairs of buildings in all features, normalized by dividing each feature by its standard deviation for each participant map, and compressed down to two-dimensional space for visualization using t-SNE. Note that the Figure shows prediction accuracies of pairs of buildings (whether or not a pair was represented on the same sub-map), and not of entire map structures. To correctly predict a map structure, all pairs within would need to be predicted correctly. Given the $77 \%$ accuracy of the best classifier in Figure \ref{fig_classify_rl}, correct predictions based on classification are even more unlikely than in Experiment 2 ($0.77^{5 \choose 2}=7.3 \%$ in condition A, and $0.77^{8 \choose 2}=0.0 \%$ in condition B).
 
 %Due to the large number of trees - $N=200$ -, this approach is able to learn decision trees describing regions in this feature space for each individual participant, which is why it performs better than the other approaches.
 
@@ -131,56 +131,57 @@ In the more complex real-world setting of Experiment 3, separating pairs of buil
 
 %The observation that building pair classification fails altogether \footnote{All approaches yield accuracies around $50\%$ for binary, within vs. between sub-map classification for unnormalized data} when distances are not normalized across buildings of each map (within each subject and environment) provides an important hint as to the reason of why classification is a sub-optimal approach to model and predict cognitive map structure. It implies that \textit{relative} distances are much more relevant than absolute distances. This is another argument in favour of the clustering hypothesis, since in clustering, relative distances are the sole criterion of cluster structure. Furthermore, it illustrates the difficulty of the problem, and the inadequacy of naive approaches for solving it.
 
-\begin{thebibliography}{5}
-	\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-	\providecommand{\url}[1]{\texttt{#1}}
-	\providecommand{\href}[2]{#2}
-	\providecommand{\path}[1]{#1}
-	\providecommand{\DOIprefix}{doi:}
-	\providecommand{\ArXivprefix}{arXiv:}
-	\providecommand{\URLprefix}{URL: }
-	\providecommand{\Pubmedprefix}{pmid:}
-	\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
-	\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
-	\providecommand{\bibinfo}[2]{#2}
-	\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
-	%Type = Article
-	\bibitem[{Breiman(2001)}]{breiman2001random}
-	\bibinfo{author}{Breiman, L.} (\bibinfo{year}{2001}).
-	\newblock \bibinfo{title}{Random forests}.
-	\newblock {\it \bibinfo{journal}{Machine learning}\/},  {\it
-		\bibinfo{volume}{45}\/}, \bibinfo{pages}{5--32}.
-	%Type = Article
-	\bibitem[{Hirtle \& Jonides(1985)}]{Hirtle_Jonides_1985}
-	\bibinfo{author}{Hirtle, S.}, \& \bibinfo{author}{Jonides, J.}
-	(\bibinfo{year}{1985}).
-	\newblock \bibinfo{title}{Evidence of hierarchies in cognitive maps}.
-	\newblock {\it \bibinfo{journal}{Memory \& Cognition}\/},  {\it
-		\bibinfo{volume}{13}\/}, \bibinfo{pages}{208--217}.
-	%Type = Article
-	\bibitem[{Van~der Maaten \& Hinton(2008)}]{van2008visualizing}
-	\bibinfo{author}{Van~der Maaten, L.}, \& \bibinfo{author}{Hinton, G.}
-	(\bibinfo{year}{2008}).
-	\newblock \bibinfo{title}{Visualizing data using t-sne}.
-	\newblock {\it \bibinfo{journal}{Journal of Machine Learning Research}\/},
-	{\it \bibinfo{volume}{9}\/}, \bibinfo{pages}{85}.
-	%Type = Article
-	\bibitem[{McNamara(1986)}]{mcnamara1986mental}
-	\bibinfo{author}{McNamara, T.~P.} (\bibinfo{year}{1986}).
-	\newblock \bibinfo{title}{Mental representations of spatial relations}.
-	\newblock {\it \bibinfo{journal}{Cognitive psychology}\/},  {\it
-		\bibinfo{volume}{18}\/}, \bibinfo{pages}{87--121}.
-	%Type = Article
-	\bibitem[{McNamara et~al.(1989)McNamara, Hardy \&
-		Hirtle}]{mcnamara1989subjective}
-	\bibinfo{author}{McNamara, T.~P.}, \bibinfo{author}{Hardy, J.~K.}, \&
-	\bibinfo{author}{Hirtle, S.~C.} (\bibinfo{year}{1989}).
-	\newblock \bibinfo{title}{Subjective hierarchies in spatial memory.}
-	\newblock {\it \bibinfo{journal}{Journal of Experimental Psychology: Learning,
-			Memory, and Cognition}\/},  {\it \bibinfo{volume}{15}\/},
-	\bibinfo{pages}{211}.
-	
-\end{thebibliography}
+%
+%\begin{thebibliography}{5}
+%	\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+%	\providecommand{\url}[1]{\texttt{#1}}
+%	\providecommand{\href}[2]{#2}
+%	\providecommand{\path}[1]{#1}
+%	\providecommand{\DOIprefix}{doi:}
+%	\providecommand{\ArXivprefix}{arXiv:}
+%	\providecommand{\URLprefix}{URL: }
+%	\providecommand{\Pubmedprefix}{pmid:}
+%	\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+%	\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+%	\providecommand{\bibinfo}[2]{#2}
+%	\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%	%Type = Article
+%	\bibitem[{Breiman(2001)}]{breiman2001random}
+%	\bibinfo{author}{Breiman, L.} (\bibinfo{year}{2001}).
+%	\newblock \bibinfo{title}{Random forests}.
+%	\newblock {\it \bibinfo{journal}{Machine learning}\/},  {\it
+%		\bibinfo{volume}{45}\/}, \bibinfo{pages}{5--32}.
+%	%Type = Article
+%	\bibitem[{Hirtle \& Jonides(1985)}]{Hirtle_Jonides_1985}
+%	\bibinfo{author}{Hirtle, S.}, \& \bibinfo{author}{Jonides, J.}
+%	(\bibinfo{year}{1985}).
+%	\newblock \bibinfo{title}{Evidence of hierarchies in cognitive maps}.
+%	\newblock {\it \bibinfo{journal}{Memory \& Cognition}\/},  {\it
+%		\bibinfo{volume}{13}\/}, \bibinfo{pages}{208--217}.
+%	%Type = Article
+%	\bibitem[{Van~der Maaten \& Hinton(2008)}]{van2008visualizing}
+%	\bibinfo{author}{Van~der Maaten, L.}, \& \bibinfo{author}{Hinton, G.}
+%	(\bibinfo{year}{2008}).
+%	\newblock \bibinfo{title}{Visualizing data using t-sne}.
+%	\newblock {\it \bibinfo{journal}{Journal of Machine Learning Research}\/},
+%	{\it \bibinfo{volume}{9}\/}, \bibinfo{pages}{85}.
+%	%Type = Article
+%	\bibitem[{McNamara(1986)}]{mcnamara1986mental}
+%	\bibinfo{author}{McNamara, T.~P.} (\bibinfo{year}{1986}).
+%	\newblock \bibinfo{title}{Mental representations of spatial relations}.
+%	\newblock {\it \bibinfo{journal}{Cognitive psychology}\/},  {\it
+%		\bibinfo{volume}{18}\/}, \bibinfo{pages}{87--121}.
+%	%Type = Article
+%	\bibitem[{McNamara et~al.(1989)McNamara, Hardy \&
+%		Hirtle}]{mcnamara1989subjective}
+%	\bibinfo{author}{McNamara, T.~P.}, \bibinfo{author}{Hardy, J.~K.}, \&
+%	\bibinfo{author}{Hirtle, S.~C.} (\bibinfo{year}{1989}).
+%	\newblock \bibinfo{title}{Subjective hierarchies in spatial memory.}
+%	\newblock {\it \bibinfo{journal}{Journal of Experimental Psychology: Learning,
+%			Memory, and Cognition}\/},  {\it \bibinfo{volume}{15}\/},
+%	\bibinfo{pages}{211}.
+%	
+%\end{thebibliography}
 
 
 

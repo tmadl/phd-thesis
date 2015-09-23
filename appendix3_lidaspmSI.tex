@@ -33,18 +33,18 @@
 
 %\chapter[Probabilistic neural models and their plausibility]{Neural implementations of uncertainty and inference and their consistency with the hippocampal complex}
 
-\chapter{Supplementary Information for Chapter 6: Towards real-world capable spatial memory in the LIDA cognitive architecture}
+\chapter{Supplementary Information for Chapter 6}
 \label{apx:lidaspm}
 \section{Comparison of hierarchical activation gradient-based route planning with human performance on the TSP task}
 
 
-In order to evaluate the plausibility of gradient-based multi-goal route planning, as described in the main text (see Figure 5), we have used data collected from participants recruited on Amazon Mechanical Turk, tasked with solving the travelling salesperson problem (TSP) in virtual reality environments. Data from 46 participants was analysed here. They were asked to mark all buildings in the 3D environment and then return to the building they started out with, using the shortest path possible (see \citep{madl2013spatial} for details). 
+In order to evaluate the plausibility of gradient-based multi-goal route planning, as described in the main text (see Figure 5), we have used data collected from participants recruited on Amazon Mechanical Turk, tasked with solving the travelling salesperson problem (TSP) in virtual reality environments. Data from 46 participants was analysed here. They were asked to mark all buildings in the 3D environment and then return to the building they started out with, using the shortest path possible (see (Madl et al., 2013) for details). 
 
 Each participant performed 5 trials in each of three types of environments: random (in which buildings were randomly distributed), clustered by looks (in which buildings of the same type, e.g. churches, were ensured to be grouped, close to each other), and clustered by distance (in which some buildings were placed close to build groups, regardless of their visual similarity).
 
 Figure \ref{tsp} shows participant performance, compared with a gradient-based route planner operating on a flat (single-level) representation. Interestingly, this non-hierarchical model seems to explain the human data well. As a caveat, it should be mentioned that participants were not checked for prior experience with 3D environments (an unknown percentage may have had trouble with the controls, falling back to the simplest strategy). Furthermore, this task is inherently more difficult in virtual reality, where cues important in real-world navigation are not available (e.g. depth information from stereo disparity, path integration / self movement information, etc.).
 
-To avoid these caveats, we have replicated a real-world TSP experiment by \citep{Wiener2009}. This experiment was performed in a $6.0m$ x $8.4m$ room, with $25$ different locations marked by boxes with symbols on them, as illustrated in Figure \ref{tsp2}A. Subjects were given a `shopping list' containing a number of different symbols, each of which denoted a location that they had to visit, and they subsequently had to plan the shortest route visiting all of these locations. Figure \ref{tsp2} shows subjects' performance at this task, and compares it with the simulated performance of an agent using the gradient climbing heuristic on two-level hierarchical cognitive map. The models performance closely  accounts for human data, as  can  be  seen  from  this  figure,  which  substantiates  the  models  cognitive plausibility.
+To avoid these caveats, we have replicated a real-world TSP experiment by (Wiener et al., 2009). This experiment was performed in a $6.0m$ x $8.4m$ room, with $25$ different locations marked by boxes with symbols on them, as illustrated in Figure \ref{tsp2}A. Subjects were given a `shopping list' containing a number of different symbols, each of which denoted a location that they had to visit, and they subsequently had to plan the shortest route visiting all of these locations. Figure \ref{tsp2} shows subjects' performance at this task, and compares it with the simulated performance of an agent using the gradient climbing heuristic on two-level hierarchical cognitive map. The models performance closely  accounts for human data, as  can  be  seen  from  this  figure,  which  substantiates  the  models  cognitive plausibility.
 
 
 \begin{figure}[!ht]
@@ -63,7 +63,7 @@ To avoid these caveats, we have replicated a real-world TSP experiment by \citep
 		\includegraphics[width=0.49\textwidth]{img/wieneretal2009_spatial_tsp_comparison.png}
 	\end{center}
 	\caption[Human performance in a real-world experiment]{
-		{\bf Human performance in a real-world experiment \citep{Wiener2009}, compared to gradient-based planning,} on a hierarchical grid of place nodes. Figures modified from \citep{Wiener2009} with permission.
+		{\bf Human performance in a real-world experiment (Wiener et al., 2009), compared to gradient-based planning,} on a hierarchical grid of place nodes. Figures modified from (Wiener et al., 2009) with permission.
 	}
 	\label{tsp2}
 \end{figure}
@@ -103,40 +103,40 @@ To avoid these caveats, we have replicated a real-world TSP experiment by \citep
 %
 %\lstinputlisting[language=C]{hello.c}
 
-
-\begin{thebibliography}{2}
-	\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
-	\providecommand{\url}[1]{\texttt{#1}}
-	\providecommand{\href}[2]{#2}
-	\providecommand{\path}[1]{#1}
-	\providecommand{\DOIprefix}{doi:}
-	\providecommand{\ArXivprefix}{arXiv:}
-	\providecommand{\URLprefix}{URL: }
-	\providecommand{\Pubmedprefix}{pmid:}
-	\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
-	\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
-	\providecommand{\bibinfo}[2]{#2}
-	\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
-	%Type = Inproceedings
-	\bibitem[{Madl et~al.(2013)Madl, Franklin, Chen \& Trappl}]{madl2013spatial}
-	\bibinfo{author}{Madl, T.}, \bibinfo{author}{Franklin, S.},
-	\bibinfo{author}{Chen, K.}, \& \bibinfo{author}{Trappl, R.}
-	(\bibinfo{year}{2013}).
-	\newblock \bibinfo{title}{Spatial working memory in the lida cognitive
-		architecture}.
-	\newblock In {\it \bibinfo{booktitle}{Proc. international conference on
-			cognitive modelling}\/}.
-	%Type = Article
-	\bibitem[{Wiener et~al.(2009)Wiener, Ehbauer \& Mallot}]{Wiener2009}
-	\bibinfo{author}{Wiener, J.~M.}, \bibinfo{author}{Ehbauer, N.~N.}, \&
-	\bibinfo{author}{Mallot, H.~a.} (\bibinfo{year}{2009}).
-	\newblock \bibinfo{title}{{Planning paths to multiple targets: memory
-			involvement and planning heuristics in spatial problem solving.}}
-	\newblock {\it \bibinfo{journal}{Psychological research}\/},  {\it
-		\bibinfo{volume}{73}\/}, \bibinfo{pages}{644--58}.
-	\DOIprefix\doi{10.1007/s00426-008-0181-3}.
-	
-\end{thebibliography}
+%
+%\begin{thebibliography}{2}
+%	\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+%	\providecommand{\url}[1]{\texttt{#1}}
+%	\providecommand{\href}[2]{#2}
+%	\providecommand{\path}[1]{#1}
+%	\providecommand{\DOIprefix}{doi:}
+%	\providecommand{\ArXivprefix}{arXiv:}
+%	\providecommand{\URLprefix}{URL: }
+%	\providecommand{\Pubmedprefix}{pmid:}
+%	\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+%	\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+%	\providecommand{\bibinfo}[2]{#2}
+%	\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%	%Type = Inproceedings
+%	\bibitem[{Madl et~al.(2013)Madl, Franklin, Chen \& Trappl}]{madl2013spatial}
+%	\bibinfo{author}{Madl, T.}, \bibinfo{author}{Franklin, S.},
+%	\bibinfo{author}{Chen, K.}, \& \bibinfo{author}{Trappl, R.}
+%	(\bibinfo{year}{2013}).
+%	\newblock \bibinfo{title}{Spatial working memory in the lida cognitive
+%		architecture}.
+%	\newblock In {\it \bibinfo{booktitle}{Proc. international conference on
+%			cognitive modelling}\/}.
+%	%Type = Article
+%	\bibitem[{Wiener et~al.(2009)Wiener, Ehbauer \& Mallot}]{Wiener2009}
+%	\bibinfo{author}{Wiener, J.~M.}, \bibinfo{author}{Ehbauer, N.~N.}, \&
+%	\bibinfo{author}{Mallot, H.~a.} (\bibinfo{year}{2009}).
+%	\newblock \bibinfo{title}{{Planning paths to multiple targets: memory
+%			involvement and planning heuristics in spatial problem solving.}}
+%	\newblock {\it \bibinfo{journal}{Psychological research}\/},  {\it
+%		\bibinfo{volume}{73}\/}, \bibinfo{pages}{644--58}.
+%	\DOIprefix\doi{10.1007/s00426-008-0181-3}.
+%	
+%\end{thebibliography}
 
 
 
