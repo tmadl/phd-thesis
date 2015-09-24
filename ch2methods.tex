@@ -14,7 +14,7 @@ This section briefly reviews the computational methods employed in this thesis. 
 
 To be able to plan novel routes in pursuit of its goals, an agent (whether biological or artificial), at a minimum, needs to be able to localize itself, its goal, and possible obstacles; and needs to do so in the face of a noisy and inaccurate sensory apparatus. From a probabilistic perspective, this localization problem can be described as a Bayesian network (see Figure \ref{fig:neurimpl}B). In order to avoid having to perform calculations over every location ever visited, and every landmark ever observed, as done in many robotics solutions \citep{durrant2006simultaneous,bailey2006simultaneous}, we split it into sub-problems. 
 
-Specifically, an approximate solution of this problem can be split into Bayesian cue integration for integrating noisy observations into a location estimate (Section \ref{sec:bayescue}), Bayesian localization for maintaining this location estimate through time (Section \ref{sec:bayesloc}), and maximum likelihood-based correction for fixing the most recent location estimates when revisiting a location (Section \ref{sec:bayescorr}). We suggest a rejection sampling-based algorithm for the former two, implementable through coincidence detection in hippocampal place cells (Chapter \ref{cha:bayespc}), and a gradient descent-based solution for the latter, implementable by reverse replay in the hippocampus (Chapter \ref{cha:lida}). We will present empirical evidence for these claims below, both from single-neuron recordings in live animals (collected outside this PhD) and from behavioural experiments performed online with participants recruited from Amazon's Mechanical Turk\footnote{https://www.mturk.com}.
+Specifically, an approximate solution of this problem can be split into Bayesian cue integration for integrating noisy observations into a location estimate (Section \ref{sec:bayescue}), Bayesian localization for maintaining this location estimate through time (Section \ref{sec:bayesloc}), and maximum likelihood-based correction for fixing the most recent location estimates when revisiting a location (Section \ref{sec:bayescorr}). We suggest a rejection sampling-based algorithm for the former two, implementable through coincidence detection in hippocampal place cells (Chapter \ref{cha:bayespc}), and a gradient descent-based solution for the latter, implementable by reverse replay in the hippocampus (Chapter \ref{cha:lida}). We will present empirical evidence for these claims in those chapters, both from single-neuron recordings in live animals (collected outside this PhD) and from behavioural experiments performed online with participants recruited from Amazon's Mechanical Turk\footnote{https://www.mturk.com}.
 
 These mechanisms help inferring spatial locations in the environment from noisy observations, in a neurally and psychologically plausible fashion, as we will argue below. However, in a system operating under limited time and resources, these locations also need to be stored efficiently, such that they can be rapidly accessed. Hierarchical representations facilitate such desirable properties, and have been argued to be prevalent in human cognition \citep{cohen2000hierarchical, gobet2001chunking}. There is strong evidence
 
@@ -23,7 +23,7 @@ These mechanisms help inferring spatial locations in the environment from noisy 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{img/neurimpl3}
-	\caption[Probabilistic spatial localization and mapping on the neuronal level]{\textbf{Probabilistic spatial localization and mapping on the neuronal level}. A: Neural correlates of localization. PRC: Perirhinal cortex, PHC: Parahippocampal cortex, EC: Entorhinal cortex (see Chapter \ref{cha:nnreview} for details; and (Deshmukh et al., 2013) for evidence of landmark vector cells). B: Probabilistic graphical model of the simultaneous localization and mapping problem \citep{thrun2008simultaneous}. Instead of capturing all correlations introduced through the landmarks, which requires vast computational resources, our model separately solves Bayesian localization with only local landmarks, and map correction (`pose optimization' in SLAM) with only loop closure constraints. See Chapter \ref{cha:methods} for notation and details. C: Illustration of firing fields during localization. Coloured dots represent spikes of the respective cells at specific locations. Path integration (grid cells) and boundary and landmark information (border cells, landmark vector cells) is integrated in place cells, using coincidence detection (rejection sampling) to obtain a near-optimal location estimate. This new estimate is used to update grid cell representations via phase reset to combat accumulating path integration errors (see Chapter \ref{cha:bayespc}). D: Illustration of a small loop (firing fields 1-6) which can be corrected upon recognizing the same landmark at positions 1 and 6 via reverse replay, by reactivating place cells 6-1 and shifting their place fields proportionally (see Chapter \ref{cha:lida}).
+	\caption[Probabilistic spatial localization and mapping implementable by brains]{\textbf{Probabilistic spatial localization and mapping implementable by brains}. A: Neural correlates of localization. PRC: Perirhinal cortex, PHC: Parahippocampal cortex, EC: Entorhinal cortex (see Chapter \ref{cha:nnreview} for details; and (Deshmukh et al., 2013) for evidence of landmark vector cells). B: Probabilistic graphical model of the simultaneous localization and mapping problem \citep{thrun2008simultaneous}. Instead of capturing all correlations introduced through the landmarks, which requires vast computational resources, our model separately solves Bayesian localization with only local landmarks, and map correction (`pose optimization' in SLAM) with only loop closure constraints. See Chapter \ref{cha:methods} for notation and details. C: Illustration of firing fields during localization. Coloured dots represent spikes of the respective cells at specific locations. Path integration (grid cells) and boundary and landmark information (border cells, landmark vector cells) is integrated in place cells, using coincidence detection (rejection sampling) to obtain a near-optimal location estimate. This new estimate is used to update grid cell representations via phase reset to combat accumulating path integration errors (see Chapter \ref{cha:bayespc}). D: Illustration of a small loop (firing fields 1-6) which can be corrected upon recognizing the same landmark at positions 1 and 6 via reverse replay, by reactivating place cells 6-1 and shifting their place fields proportionally (see Chapter \ref{cha:lida}).
 	} 
 	\label{fig:neurimpl}
 \end{figure}
@@ -54,14 +54,14 @@ Probabilistic models use probability distributions to represent quantities and t
 p(Y) = \sum_{X} p(Y, X),
 \end{equation}
 
-where $p(X,Y)$ is the joint probability (i.e. the probability of X and Y) and the summation is over all values which $Y$ could possibly take. $p(X)$ is also referred to as the marginal probability, and the summation in Equation \ref{sumrule} is also called marginalization (which is especially useful to make inferences about variables of interest by summing out all other variables). The \textit{product rule} states that
+where $p(X,Y)$ is the joint probability (i.e. the probability of random events X and Y) and the summation is over all values which $Y$ could possibly take. $p(X)$ is also referred to as the marginal probability, and the summation in Equation \ref{sumrule} is also called marginalization (which is especially useful to make inferences about variables of interest by summing out all other variables). The \textit{product rule} states that
 
 \begin{equation}
 \label{productrule}
 p(Y,X) = p(Y|X)p(X) = p(X|Y)p(Y),
 \end{equation}
 
-where $p(Y|X)$ is the conditional probability (i.e. the probability of Y given X). Combined, they yield \textit{Bayes' theorem}:
+\noindent where $p(Y|X)$ is the conditional probability (i.e. the probability of Y given X). Combined, they yield \textit{Bayes' theorem}:
 
 \begin{equation}
 \label{bayesrule}
@@ -77,7 +77,7 @@ Our particular computational-level solutions for estimating locations utilize st
 \section{Bayesian cue integration}
 \label{sec:bayescue}
 
-One concrete application of Equation \ref{bayesrule} is the inference of the most likely current location of an animal, given some observations regarding the distance of a number of landmarks. For simplicity, we assume 1) a uniform prior over these observations, and 2) conditional independence of the observations given the location. The posterior probability of the current location $p(\bm x | O)$, given a location prior $p(\bm x)$ and some observations $o_1, ..., o_N \in O$, is 
+One concrete application of Equation \ref{bayesrule} is the inference of the most likely current location of an animal, given some observations regarding the distance of a number of landmarks. For simplicity, we assume 1) a uniform prior over these observations, and 2) conditional independence of the observations given the location. The posterior probability of the current location $p(\bm x | O)$, given a location prior $p(\bm x)$ and some observations $\bm o_1, ..., \bm o_N \in O$ (and a normalization constant $\gamma$), is 
 
 \begin{equation}\label{bayes1}
 p( \bm x | O ) = \frac{p( \bm x ) p( O | \bm x )}{p(O)} = \gamma p( \bm x ) p( O | \bm x )
@@ -89,10 +89,10 @@ The prior can be obtained by adding up self-motion signals (a process called `pa
 p( \bm x | O ) = \gamma p( \bm x ) \prod_{i=1}^{N} p( O_i | \bm x ).
 \end{equation}
 
-For now, we further assume that each of these variables is normally distributed. We will use this simplified formulation to predict the sizes of place cell firing field in Chapter \ref{cha:bayespc}; but will implement our localization model without this restrictive assumption (see next section). The Gaussian assumption makes it straightforward to derive the variance $C_L$ of the normal/Gaussian posterior location distribution $p( \bm x | O ) = \mathcal{N}(\bm x ; \mu_L, C_L)$ from the variances of the prior and of the likelihood distributions $C_x$ and $C_{o,i}$ (see e.g. \cite{wu2004properties} for the derivation of the parameters of products of Gaussian distributions):
+For now, we further assume that each of these variables is normally distributed. We will use this simplified formulation to predict the sizes of place cell firing field in Chapter \ref{cha:bayespc}; but will implement our localization model without this restrictive assumption (see next section). The Gaussian assumption makes it straightforward to derive the variance $S_L$ of the normal/Gaussian posterior location distribution $p( \bm x | O ) = \mathcal{N}(\bm x ; \mu_L, S_L)$ from the variances of the prior and of the likelihood distributions $S_x$ and $S_{o,i}$ (see e.g. \cite{wu2004properties} for the derivation of the parameters of products of Gaussian distributions):
 
 \begin{equation}\label{bayes3}
-C_{P}=(C_x^{-1}+\sum_{i=1}^{N} C_{o,i}^{-1})^{-1}
+S_{P}=(S_x^{-1}+\sum_{i=1}^{N} S_{o,i}^{-1})^{-1}.
 \end{equation}
 
 In the one-dimensional case, the variance is the square of the standard deviation $\sigma$. We can say that the standard deviation of a Gaussian distribution is a measure of the `uncertainty' associated with it (as it measures the spread among possible values - the more certainly a value is known, the lower the associated $\sigma$ of the distribution describing it). Assuming that the observation uncertainties $\sigma_{o,i}$ depend linearly on the respective distances $d_{i}$, such that $\sigma_{o,i}=s \cdot d_{i}$ (Chapter \ref{cha:bayespc} provides justifications and evidence for this linear relationship), we obtain the standard deviation of the location posterior for a given set of measurement distances:
@@ -113,7 +113,7 @@ Chapter \ref{cha:bayespc} uses Equation \ref{bayes4} to test the hypotheses that
 %		\begin{tabu}{c|c}
 %			$\downarrow$ {Dimensions} & {Variance of the location posterior}\\ \tabucline[3pt]{-}
 %			1D & $\sigma^2_{L1D}=(\frac{1}{\sigma_x^2}+\sum_{i=1}^{N} \frac{1}{\sigma_{o,i}^2})^{-1}$ \\
-%			2D & $C_{L2D}=(C_x^{-1}+\sum_{i=1}^{N} C_{o,i}^{-1})^{-1}$ \\
+%			2D & $S_{L2D}=(S_x^{-1}+\sum_{i=1}^{N} S_{o,i}^{-1})^{-1}$ \\
 %		\end{tabu}
 %	}
 %	\caption[Variance of the posterior location estimate under Gaussian assumptions]{\textbf{Variance of the posterior location estimate under Gaussian assumptions}. $\sigma$ stands for scalar standard deviations, and $C \in \mathbb{R}^{2x2}$ for covariance matrices.}
@@ -144,7 +144,7 @@ Unlike the simplified treatment above, which has considered only one snapshot in
 p(\bm x_{t} | \bm m_{1:t}, O_{1:t}, \bm l_{1:N}) = \gamma p(O_{t} | \bm x_{t}, \bm l_{1:N}) p(\bm x_{t} | \bm m_{1:t}),
 \end{equation}
 
-through simple application of Bayes' theorem. We can use the sum rule (with the sum replaced by an integral for dealing with continuous distributions) to model the `path integration' (odometry) mechanism which provides the prior in Equation \ref{bayesloc1}:
+\noindent through simple application of Bayes' theorem. We can use the sum rule (with the sum replaced by an integral for dealing with continuous distributions) to model the `path integration' (odometry) mechanism which provides the prior in Equation \ref{bayesloc1}:
 
 \begin{equation}
 \label{prior}
@@ -180,9 +180,9 @@ From a computational point of view, instead of inferring the parameters of the l
 
 Particles (samples, hypotheses) $\bm x^i$ are generated regularly based on self-motion information (linear and angular movement speed $v$) according to the motion model (Equation \ref{motionmodelq}), performing path integration - in the simplest case: $ \bm x_{t}^i = \overline{\bm x}_{t-1} + \bm v'\Delta t $ - at simulated timesteps $ \Delta t $. Gaussian noise is multiplied to the estimated speed to obtain a distribution of hypotheses reflecting the path integration / odometry uncertainty (neither animals nor robots can estimate their movement speed with perfect accuracy):
 
-$\bm v' = \bm v_{true} \cdot \mathcal{N}(1, \begin{bmatrix}\sigma_v^2 & 0\\ 0 & \sigma_\omega^2\end{bmatrix}) $,
+$\bm v' = \bm v_{true} \cdot \mathcal{N}(\bm 1, \begin{bmatrix}\sigma_v^2 & 0\\ 0 & \sigma_\omega^2\end{bmatrix}) $,
 
-where $ \sigma_v^2 $ and $ \sigma_\omega^2 $ are model parameters representing the variance in the linear and angular speeds, respectively. Since the estimate of $\bm v$ is noisy, accumulating errors would lead to an increase of uncertainty and the corruption of the distribution represented by the set of particles, which is why correction with the sensor model is required. 
+\noindent where $ \sigma_v^2 $ and $ \sigma_\omega^2 $ are model parameters representing the variance in the linear and angular speeds, respectively. Since the estimate of $\bm v$ is noisy, accumulating errors would lead to an increase of uncertainty and the corruption of the distribution represented by the set of particles, which is why correction with the sensor model is required. 
 
 Under Gaussian assumptions, this correction can be implemented simply by multiplying a path integration prior and a number of sensory likelihoods and solving for the means and variances (Equation \ref{bayes2}). The ensuing algorithm for Bayesian localization is trivial. When using samples instead of a Gaussian to represent the posterior, the correction can be implemented by rejection sampling \citep{doucet2000sequential}, i.e. by deleting hypotheses inconsistent with sensory measurements (see Figure \ref{fig:bayesloc}). The derivation of why this rejection sampling scheme approximates the true Bayesian posterior can be found in Appendix \ref{apx:bayespc}. Details regarding how brains could implement this algorithm are discussed in Chapter \ref{cha:bayespc}.
 
@@ -250,7 +250,7 @@ Each $P(\bm c_i|X)$ expresses the likelihood that this constraint is satisfied b
 X_{ml} = \argmax_X P(X|C) = \argmin_X -log P(X|C) = \argmin_X \sum_{i=1}^{m} ||\bm d_i||_{S_i^{-1}}.
 \end{equation}
 
-Equation \ref{mleq} mathematically describes the maximum likelihood error correction problem for loop closing. It tries to minimize the discrepancies between the constraints and the estimated locations, taking into account the constraint uncertainties $S_i$ by utilizing the Mahalanobis distance\footnote{The Mahalanobis distance is defined as $||\bm x_1-\bm x_2||_C = \sqrt{(\bm x_1-\bm x_2)^TC(\bm x_1-\bm x_2)}$} to measure the discrepancy.
+Equation \ref{mleq} mathematically describes the maximum likelihood error correction problem for loop closing. It tries to minimize the discrepancies between the constraints and the estimated locations, taking into account the constraint uncertainties $S_i$ by utilizing the Mahalanobis distance\footnote{The Mahalanobis distance is defined as $||\bm x_1-\bm x_2||_S = \sqrt{(\bm x_1-\bm x_2)^TS(\bm x_1-\bm x_2)}$} to measure the discrepancy.
 
 There are several ways to solve Equation \ref{mleq}. For our cognitive model (Chapter \ref{cha:lida}), we chose sequential gradient descent, because it can be implemented in biological neurons \citep{bengio2015towards}. \cite{olson2006fast} derive the starting point for this solution. They suggest the following gradient with respect to constraint $i$, depending on a learning rate $\alpha$, a full Jacobian $J$ of the constraints with respect to the path, and the Jacobian $J_i$ of constraint $i$:
 
@@ -266,7 +266,7 @@ Because of the incremental structure of the Jacobian, it is possible to simplify
 \Delta \bm x_j \approx \alpha d_i \frac{\sum_{k=a+1}^{j} S_i^{-1}}{\sum_{k=a+1}^{min(j,b)} S_P^{-1}} = \alpha A_i \bm d_i p_j,
 \end{equation}
 
-where $p_j=(min(j,b_i)-a_i-1)/(b_i-a_i-1)$ denotes how far $x_j$ lies along the loop, with $0 \leq p_j \leq 1$. Unlike usual gradient descent procedures, in this particular case we know that $\Delta \bm x \leq \bm d_i $ must hold, and can prevent the algorithm from overshooting, accelerating its convergence. Figure \ref{fig:sgdslam} contains the algorithm using this gradient to correct location estimates when revisiting a place. We will use this algorithm in Chapter \ref{cha:lida} to account for human cognitive map accuracy, as a part of a cognitive architecture embodied on a robot and learning maps in realistic simulated environments.
+\noindent where $p_j=(min(j,b_i)-a_i-1)/(b_i-a_i-1)$ denotes how far $x_j$ lies along the loop, with $0 \leq p_j \leq 1$. Unlike usual gradient descent procedures, in this particular case we know that $\Delta \bm x \leq \bm d_i $ must hold, and can prevent the algorithm from overshooting, accelerating its convergence. Figure \ref{fig:sgdslam} contains the algorithm using this gradient to correct location estimates when revisiting a place. We will use this algorithm in Chapter \ref{cha:lida} to account for human cognitive map accuracy, as a part of a cognitive architecture embodied on a robot and learning maps in realistic simulated environments.
 
 \begin{figure}[h]
 	\begin{pseudocode}{correctPath}{X, loopConstraints, \alpha, A, N}
@@ -297,20 +297,20 @@ As noted in the Introduction, unlike the rest of our work, we have not shown wha
 
 \subsection{Dirichlet Process Gaussian Mixture Models for clustering}
 
-We will only describe the DP-GMM model very briefly, since it is a well-established model and since we did not implement it ourselves in this work (we used the $bnpy$ Python library instead). See e.g. \citep{rasmussen1999infinite} for its introduction, or \citep{gershman2012tutorial} for a tutorial. The DP-GMM partitions a number of data points $x$ into $K$ clusters by fitting a mixture of $K$ Gaussian distributions to the data. It infers the number of clusters, as well as the means $\mu_k$ and covariances $\Sigma_k$ of each Gaussian, by inverting the generative process defined as follows:
+We will only describe the DP-GMM model very briefly, since it is a well-established model and since we did not implement it ourselves in this work (we used the $bnpy$ Python library instead). See e.g. \citep{rasmussen1999infinite} for its introduction, or \citep{gershman2012tutorial} for a tutorial. The DP-GMM partitions a number of data points $x$ into $K$ clusters by fitting a mixture of $K$ Gaussian distributions to the data. It infers the number of clusters, as well as the means $\bm \mu_k$ and covariances $\Sigma_k$ of each Gaussian, by inverting the generative process defined as follows:
  
 \begin{equation}
 \label{eq:dpgmm}
 \begin{array}{rcl}
 \phi_k   \sim Beta(1, \alpha_1) \\
-\mu_k    \sim Normal(0,  \mathbf{I}) \\
+\bm \mu_k    \sim Normal(0,  \mathbf{I}) \\
 \Sigma_k \sim Wishart(D, \mathbf{I}) \\
 \pi_{k}  \sim SBP(\phi) \\
-x_t \sim Normal(\mu_{z_i},  \Sigma_{z,i}^{-1}),
+\bm x_t \sim Normal(\bm \mu_{z_i},  \Sigma_{z,i}^{-1}),
 \end{array}
 \end{equation}
 
-where SBP stands for the stick-breaking process for generating mixture weights: $\pi_k=v_k \prod_{j=1}^{k-1} (1-v_j)$. Data can be generated from this model by first choosing a cluster with probabilities specified by mixture weights: $z \sim Cat(\pi)$, and then drawing an observation from the parameters of that cluster $x \sim Normal(\mu_z, \Sigma_z)$.
+\noindent where SBP stands for the stick-breaking process for generating mixture weights: $\pi_k=v_k \prod_{j=1}^{k-1} (1-v_j)$. Data can be generated from this model by first choosing a cluster with probabilities specified by mixture weights: $z \sim Cat(\pi)$, and then drawing an observation from the parameters of that cluster $\bm x \sim Normal(\bm \mu_z, \Sigma_z)$.
 
 Given the data, the parameters of this model can be inferred using either a Monte Carlo chain sampling method \citep{neal2000markov} or variational inference \citep{blei2006variational}. We did not implement an inference algorithm in this work; instead, we have used the $bnpy$ Python library for this purpose. See \citep{hughes2013memoized} for implementation details.
 
@@ -320,7 +320,7 @@ In order to learn a suitable metric for our data, we had to develop a novel metr
 
 Furthermore, our metric can naturally incorporate the hypothesis that building pairs belonging to the same representation should be located close to the origin in pairwise difference space (i.e. they should not be very different), and should be separable from building pairs belonging to different representations. These two distributions of pair differences can be naturally modelled using Gaussian distributions - see Chapter \ref{cha:structure}. 
 
-Our proposed method can be seen as a novel approach to perform non-linear metric learning using weak supervision in the form of pairwise constraints, in order to improve clustering performance, as pioneered by \cite{xing2002distance}. The problem to be solved can be defined as follows. Let $\mathcal{X}=(\boldsymbol x_i, ..., \boldsymbol x_n)$ be the feature vector representation of $n$ objects (buildings on a cognitive map) which are to be clustered (assigned to representations we will call `sub-maps'), where $\bm x_i \in \mathbb{R}^D$ are vectors with $D$ dimensions. Let the set of $m$ given labelled pairwise co-representation constraints be denoted by $\mathcal{C}$, where $ \lvert \mathcal{C} \lvert = m $, and $c_{i,j} \in \mathcal{C}$ is
+Our proposed method can be seen as a novel approach to perform non-linear metric learning using weak supervision in the form of pairwise constraints, in order to improve clustering performance, as pioneered by \cite{xing2002distance}. The problem to be solved can be defined as follows. Let $\mathcal{X}=(\bm x_i, ..., \bm x_n)$ be the feature vector representation of $n$ objects (buildings on a cognitive map) which are to be clustered (assigned to representations we will call `sub-maps'), where $\bm x_i \in \mathbb{R}^D$ are vectors with $D$ dimensions. Let the set of $m$ given labelled pairwise co-representation constraints be denoted by $\mathcal{C}$, where $ \lvert \mathcal{C} \lvert = m $, and $c_{i,j} \in \mathcal{C}$ is
 
 \begin{equation}
 c_{i,j}=
@@ -332,40 +332,40 @@ c_{i,j}=
 
 Our ultimate goal is to group the $n$ objects into $K$ clusters (`sub-maps'), such that objects of the same cluster are more similar to each other than to those of different clusters; taking into account the provided pairwise constraints to learn a good similarity metric for the given data.
 
-Conventional approaches leveraging non-linear metric learning for this problem try to find a kernel $\Phi$ such that the clustering resulting from using the distance metric defined by that kernel, $d^2(x_1, x_2)=(\Phi(x_1)-\Phi(x_2))^T(\Phi(x_1)-\Phi(x_2))$, does not violate the provided constraints (ensures co-represented pairs are closer than other pairs, if possible), and often employ RBF kernels for this purpose, e.g. \citep{baghshah2010kernel, chitta2011approximate}. 
+Conventional approaches leveraging non-linear metric learning for this problem try to find a kernel $\Phi$ such that the clustering resulting from using the distance metric defined by that kernel, $d_m^2(\bm x_1, \bm x_2)=(\Phi(\bm x_1)-\Phi(\bm x_2))^T(\Phi(\bm x_1)-\Phi(\bm x_2))$, does not violate the provided constraints (ensures co-represented pairs are closer than other pairs, if possible), and often employ RBF kernels for this purpose, e.g. \citep{baghshah2010kernel, chitta2011approximate}. 
 
-In contrast, the proposed framework aims to learn the distribution of co-representation probabilities (whether or not two object should be linked) from the provided set of constraints, and constructs a pseudo-metric based on a generative model of co-representation probabilities. Crucially, this probabilistic model is defined on the vector space of absolute pairwise differences (APD), which allows learning the importance of each feature (a challenge for RBF kernels for data with non-isotropic variance). Learning in APD space has been proposed before by \cite{zheng2011person} (specifically for person re-identification in computer vision), but not as a general metric learning method. The metric based on this generative model is a pseudo-metric, because it does not satisfy the conditions of subadditivity, $d(x, z) \leq d(x, y)+d(y,z)$ and the identity of discernibles, $d(x, y) = 0 \enskip \text{if and only if} \enskip x = y$.
+In contrast, the proposed framework aims to learn the distribution of co-representation probabilities (whether or not two object should be linked) from the provided set of constraints, and constructs a pseudo-metric based on a generative model of co-representation probabilities. Crucially, this probabilistic model is defined on the vector space of absolute pairwise differences (APD), which allows learning the importance of each feature (a challenge for RBF kernels for data with non-isotropic variance). Learning in APD space has been proposed before by \cite{zheng2011person} (specifically for person re-identification in computer vision), but not as a general metric learning method. The metric based on this generative model is a pseudo-metric, because it does not satisfy the conditions of subadditivity, $d_m(\bm x, \bm z) \leq d_m(\bm x, \bm y)+d_m(\bm y,\bm z)$ and the identity of discernibles, $d_m(\bm x, \bm y) = 0 \enskip \text{if and only if} \enskip \bm x = \bm y$.
 
-Let $[\Delta \boldsymbol{x_{i,j}}]_+ = \big( \lvert \boldsymbol{x_{i,k}} - \boldsymbol{x_{j,k}} \lvert \big)_{k=1}^m $ be the representation of each pair of objects $(i,j)$ in APD vector space. The co-representation probability distribution, i.e. the posterior probability of any pair of objects belonging to the same cluster, given a pair of objects and some model parameters $\boldsymbol{\theta}$ is then 
+Let $[\Delta \bm{x_{i,j}}]_+ = \big( \lvert \bm{x_{i,k}} - \bm{x_{j,k}} \lvert \big)_{k=1}^m $ be the representation of each pair of objects $(i,j)$ in APD vector space. The co-representation probability distribution, i.e. the posterior probability of any pair of objects belonging to the same cluster, given a pair of objects and some model parameters $\bm{\theta}$ is then 
 
 \begin{equation}
 \label{eq:linkprob}
-p(c=1|\Delta \boldsymbol{x}, \boldsymbol{\theta}) \propto p(\Delta \boldsymbol{x} | c=1, \boldsymbol{\theta}) p(c=1|\boldsymbol{\theta})
+p(c=1|\Delta \bm{x}, \bm{\theta}) \propto p(\Delta \bm{x} | c=1, \bm{\theta}) p(c=1|\bm{\theta})
 \end{equation}
 
-The likelihood $ p(c=1|\Delta \boldsymbol{x}, \boldsymbol{\theta}) $, the model parameters $ \boldsymbol{\theta} $ (as well as the prior) can be estimated from $\mathcal{X}$ and $\mathcal{C}$, even in closed form, using Gaussian Discriminant Analysis (GDA). This yields a suitable non-linear pseudo-metric based on this probability distribution - see Equation \ref{eq:metric} -, such that objects likely to belong to the same cluster will be close, and those likely to belong to different clusters will be far apart; with these distances directly depending on co-representation probabilities. 
+The likelihood $ p(c=1|\Delta \bm{x}, \bm{\theta}) $, the model parameters $ \bm{\theta} $ (as well as the prior) can be estimated from $\mathcal{X}$ and $\mathcal{C}$, even in closed form, using Gaussian Discriminant Analysis (GDA). This yields a suitable non-linear pseudo-metric based on this probability distribution - see Equation \ref{eq:metric} -, such that objects likely to belong to the same cluster will be close, and those likely to belong to different clusters will be far apart; with these distances directly depending on co-representation probabilities. 
 
 \begin{equation}
 \label{eq:metric}
-d_m(\boldsymbol x_1, \boldsymbol x_2; \boldsymbol{\theta}) = 1 - p(c=1|\Delta \boldsymbol x, \boldsymbol{\theta}) = p(c=0|\Delta \boldsymbol x, \boldsymbol{\theta})
+d_m(\bm x_1, \bm x_2; \bm{\theta}) = 1 - p(c=1|\Delta \bm x, \bm{\theta}) = p(c=0|\Delta \bm x, \bm{\theta})
 \end{equation}
 
-A metric is well-suited for clustering if within-cluster instances are closer than across-cluster instances according to it. That is, if for any co-represented $\Delta \boldsymbol x_r$ and not co-represented $\Delta \boldsymbol x_n $ it holds that $ d_r(\boldsymbol x_{r,1}, \textbf x_{r,2}; \boldsymbol{\theta}) < d_n(\boldsymbol x_{n,1}, \textbf x_{n,2}; \boldsymbol{\theta}) $. It follows from Equation \ref{eq:metric} that this is the case if the generative model learns to separate the absolute differences of within-cluster instance pairs from across-cluster pairs.
+A metric is well-suited for clustering if within-cluster instances are closer than across-cluster instances according to it. That is, if for any co-represented $\Delta \bm x_r$ and not co-represented $\Delta \bm x_n $ it holds that $ d_r(\bm x_{r,1}, \bm x_{r,2}; \bm{\theta}) < d_n(\bm x_{n,1}, \bm x_{n,2}; \bm{\theta}) $. It follows from Equation \ref{eq:metric} that this is the case if the generative model learns to separate the absolute differences of within-cluster instance pairs from across-cluster pairs.
 
 In the generative \textbf{GDA} model \citep{bensmail1996regularized}, the likelihoods of a pair of instances either being co-represented (i.e. belonging to the same sub-map), or not being co-represented (i.e. belonging to different sub-maps) are each modelled using a multivariate Gaussian: 
 
 \begin{equation}
 \label{eq:mvnormal}
-p( \Delta \textbf x | c=i; \mu_i, \Sigma_i) = (2\pi)^{-\frac{D}{2}}|\boldsymbol\Sigma_i|^{-\frac{1}{2}}\, e^{ -\frac{1}{2}(\Delta \mathbf{x}-\boldsymbol\mu_i)^\intercal\boldsymbol\Sigma_i^{-1}(\Delta \mathbf{x}-\boldsymbol\mu_i) },
+p( \Delta \bm x | c=i; \bm \mu_i, \Sigma_i) = (2\pi)^{-\frac{D}{2}}|\Sigma_i|^{-\frac{1}{2}}\, e^{ -\frac{1}{2}(\Delta \mathbf{x}-\bm\mu_i)^\intercal\Sigma_i^{-1}(\Delta \mathbf{x}-\bm\mu_i) },
 \end{equation}
 
-where $i \in \{0,1\}$. $(\mu_1, \Sigma_1)$ are the means and covariances of the APD distances of co-represented pairs, and $(\mu_0, \Sigma_0)$ those of not co-represented pairs. These parameters can be easily estimated from the two given sets of co-represented and not co-represented object pairs, respectively, by calculating their means and covariances. 
+\noindent where $i \in \{0,1\}$. $(\bm \mu_1, \Sigma_1)$ are the means and covariances of the APD distances of co-represented pairs, and $(\bm \mu_0, \Sigma_0)$ those of not co-represented pairs. These parameters can be easily estimated from the two given sets of co-represented and not co-represented object pairs, respectively, by calculating their means and covariances. 
 
 From Equation \ref{eq:mvnormal} and Bayes' theorem, we obtain the generative probability required for the metric in \ref{eq:metric}, which then becomes:
 
 \begin{equation}
 \label{eq:adsgda}
-d_m(\boldsymbol x_1, \boldsymbol x_2; \boldsymbol{\theta}) = 1 - \frac{p( \Delta \textbf x | c=1; \mu_1, \Sigma_1)}{\sum_{i \in \{0,1\}} {p( \Delta \textbf x | c=i; \mu_i, \Sigma_i)}}
+d_m(\bm x_1, \bm x_2; \bm{\theta}) = 1 - \frac{p( \Delta \bm x | c=1; \bm \mu_1, \Sigma_1)}{\sum_{i \in \{0,1\}} {p( \Delta \bm x | c=i; \bm \mu_i, \Sigma_i)}}
 \end{equation}
 
 % The crucial difference between Equation \ref{eq:adsgda} and a simple RBF kernel is that the latter can be seen as a symmetric Gaussian `ball' in D-dimensional space, completely described by a single variance parameter. In contrast, the GDA-based model allows implicitly learning the importance of each feature, as well as their covariance, in a non-linear fashion (i.e. it can separate two sets of objects even if they are not linearly separable).

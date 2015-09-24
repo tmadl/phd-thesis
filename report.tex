@@ -7,11 +7,13 @@
 \patchcmd{\thebibliography}{\chapter*}{\par\let\clearpage\relax\chapter*}{\typeout{success}}{\typeout{failure}}
 
 
+\usepackage{xcolor}
 \usepackage{verbatim}
 \usepackage{graphicx}
 \graphicspath{ {img/} }
 \usepackage{url} % typeset URL's reasonably
 \usepackage{listings}
+\usepackage{subfig}
 
 \usepackage{pdfpages}
 
@@ -49,8 +51,9 @@
 		}}%
 	}
 
+\newcolumntype{?}{!{\vrule width 2pt}}
 
-\usepackage{tocloft}
+\usepackage[subfigure]{tocloft}
 \setlength{\cfttabindent}{0in}
 \setlength{\cftfigindent}{0in}
 
@@ -84,13 +87,24 @@ Towards real-world capable computational cognitive models of spatial memory}
 
 \beforeabstract
 
+\prefacesection{Notation}
+\input{notation}
+
 \prefacesection{Abstract}
 \input{abstract}
 
 \afterabstract
 
 \prefacesection{Acknowledgements}
-I would like to thank...
+
+I would like to warmly thank Emer.Prof. Dr. Stan Franklin, for all the support, advice, inspiring discussions, and friendly encouragement over the last years; and for very productive and enjoyable periods of external research at the University of Memphis. I am grateful and indebted to my supervisor Dr. Ke Chen and co-supervisor Prof. Dr. Daniela Montaldi, who have supported and advised me in computational/mathematical and psychological/neural matters, respectively. Many thanks also to Emer.o.Univ.-Prof.Dr. Robert Trappl, for the opportunities of external research at the Austrian Institute for Artificial Intelligence. I am also indebted to Prof. Dr. Carol A. Barnes, and Dr. Sara N. Burke, for being kind enough to share their place cell recordings with me, which have both inspired and substantiated the core hypotheses of my work. 
+
+I am also eternally grateful to my family and loved ones for supporting me and being patient with me even if I was unreachable for days or weeks at a time, buried in work. Thank you to my dad, whose natural curiosity, rational world-view, and well-equipped workshop have inspired a scientific mindset in me even as a child; to my mum, whose creativity and perseverance have been as inspiring as her support has been comforting; to my sister, for showing me what it means to `explore, dream, and discover'; and to my brother, for some of the best discussions I have had, and for his suggestions for improving this thesis. Thank you also to Maria for always being there for me. I also want to thank my friends, for the good times and for reminding me of what it means to be human; and for my colleagues, both at OFAI in Vienna, at the University of Manchester, and at the University of Memphis, for interesting discussions.
+
+I take this opportunity to acknowledge my sponsors: EPSRC grant EP/I028099/1, FWF grant P25380-N23, OIST Computational Neuroscience Course 2013 accommodation and travel grant, TIMELY COST action TD0904 travel grant, and the accommodation grant for The First {\"O}rebro Winter School on Artificial Intelligence and Robotics. 
+
+
+
 \afterpreface
 
 
@@ -210,8 +224,6 @@ addtolist={
 \include{ch8conclusion}
 
 
-\bibliography{refs}    % this causes the references to be listed
-
 %% the bibliography style determines the format  in which both citations and references are printed,
 %% other possible values are plain and abbrv
 %%
@@ -232,4 +244,7 @@ addtolist={
 \include{appendix4_pfevidence}
 %\include{appendix5_prelimneg}
 \include{appendix6_adsmetric}
+
+\bibliography{refs}    % this causes the references to be listed
+
 \end{document}

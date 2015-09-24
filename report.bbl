@@ -1,4 +1,4 @@
-\begin{thebibliography}{147}
+\begin{thebibliography}{163}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -52,8 +52,20 @@
   \bibinfo{author}{Brown, E.~N.} (\bibinfo{year}{2001}).
 \newblock \bibinfo{title}{Construction and analysis of non-poisson
   stimulus-response models of neural spiking activity}.
-\newblock {\it \bibinfo{journal}{Journal of neuroscience methods}\/},  {\it
+\newblock {\it \bibinfo{journal}{Journal of Neuroscience Methods}\/},  {\it
   \bibinfo{volume}{105}\/}, \bibinfo{pages}{25--37}.
+%Type = Article
+\bibitem[{Barry et~al.(2006)Barry, Lever, Hayman, Hartley, Burton, O'Keefe,
+  Jeffery \& Burgess}]{barry2006boundary}
+\bibinfo{author}{Barry, C.}, \bibinfo{author}{Lever, C.},
+  \bibinfo{author}{Hayman, R.}, \bibinfo{author}{Hartley, T.},
+  \bibinfo{author}{Burton, S.}, \bibinfo{author}{O'Keefe, J.},
+  \bibinfo{author}{Jeffery, K.}, \& \bibinfo{author}{Burgess, N.}
+  (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{The boundary vector cell model of place cell firing
+  and spatial memory}.
+\newblock {\it \bibinfo{journal}{Reviews in the Neurosciences}\/},  {\it
+  \bibinfo{volume}{17}\/}, \bibinfo{pages}{71}.
 %Type = Article
 \bibitem[{Bengio et~al.(2015)Bengio, Lee, Bornschein \&
   Lin}]{bengio2015towards}
@@ -68,7 +80,7 @@
   (\bibinfo{year}{1996}).
 \newblock \bibinfo{title}{Regularized gaussian discriminant analysis through
   eigenvalue decomposition}.
-\newblock {\it \bibinfo{journal}{Journal of the American statistical
+\newblock {\it \bibinfo{journal}{Journal of the American Statistical
   Association}\/},  {\it \bibinfo{volume}{91}\/}, \bibinfo{pages}{1743--1748}.
 %Type = Book
 \bibitem[{Bishop(2006)}]{bishop2006pattern}
@@ -78,12 +90,20 @@
 \newblock \bibinfo{address}{Secaucus, NJ, USA}:
   \bibinfo{publisher}{Springer-Verlag New York, Inc.}
 %Type = Article
+\bibitem[{Blei et~al.(2010)Blei, Griffiths \& Jordan}]{blei2010nested}
+\bibinfo{author}{Blei, D.~M.}, \bibinfo{author}{Griffiths, T.~L.}, \&
+  \bibinfo{author}{Jordan, M.~I.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{The nested chinese restaurant process and bayesian
+  nonparametric inference of topic hierarchies}.
+\newblock {\it \bibinfo{journal}{Journal of the ACM}\/},  {\it
+  \bibinfo{volume}{57}\/}, \bibinfo{pages}{7}.
+%Type = Article
 \bibitem[{Blei et~al.(2006)Blei, Jordan et~al.}]{blei2006variational}
 \bibinfo{author}{Blei, D.~M.}, \bibinfo{author}{Jordan, M.~I.} et~al.
   (\bibinfo{year}{2006}).
 \newblock \bibinfo{title}{Variational inference for dirichlet process
   mixtures}.
-\newblock {\it \bibinfo{journal}{Bayesian analysis}\/},  {\it
+\newblock {\it \bibinfo{journal}{Bayesian Analysis}\/},  {\it
   \bibinfo{volume}{1}\/}, \bibinfo{pages}{121--143}.
 %Type = Book
 \bibitem[{Borg \& Groenen(2005)}]{borg2005modern}
@@ -104,7 +124,7 @@
 \bibitem[{Breiman(2001)}]{breiman2001random}
 \bibinfo{author}{Breiman, L.} (\bibinfo{year}{2001}).
 \newblock \bibinfo{title}{Random forests}.
-\newblock {\it \bibinfo{journal}{Machine learning}\/},  {\it
+\newblock {\it \bibinfo{journal}{Machine Learning}\/},  {\it
   \bibinfo{volume}{45}\/}, \bibinfo{pages}{5--32}.
 %Type = Article
 \bibitem[{Brette(2012)}]{Brette2012}
@@ -127,7 +147,7 @@
 \bibinfo{author}{Burgess, N.} (\bibinfo{year}{2006}).
 \newblock \bibinfo{title}{Spatial memory: how egocentric and allocentric
   combine}.
-\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Cognitive Sciences}\/},  {\it
   \bibinfo{volume}{10}\/}, \bibinfo{pages}{551--557}.
 %Type = Article
 \bibitem[{Burgess(2014)}]{burgess2014nobel}
@@ -182,14 +202,15 @@
   \bibinfo{author}{Griffiths, T.~L.} (\bibinfo{year}{2010}).
 \newblock \bibinfo{title}{Modeling transfer learning in human categorization
   with the hierarchical dirichlet process.}
-\newblock In {\it \bibinfo{booktitle}{ICML}\/} (pp. \bibinfo{pages}{151--158}).
+\newblock In {\it \bibinfo{booktitle}{International Conference on Machine
+  Learning}\/} (pp. \bibinfo{pages}{151--158}).
 %Type = Article
 \bibitem[{Carr et~al.(2011)Carr, Jadhav \& Frank}]{carr2011hippocampal}
 \bibinfo{author}{Carr, M.~F.}, \bibinfo{author}{Jadhav, S.~P.}, \&
   \bibinfo{author}{Frank, L.~M.} (\bibinfo{year}{2011}).
 \newblock \bibinfo{title}{Hippocampal replay in the awake state: a potential
   substrate for memory consolidation and retrieval}.
-\newblock {\it \bibinfo{journal}{Nature neuroscience}\/},  {\it
+\newblock {\it \bibinfo{journal}{Nature Neuroscience}\/},  {\it
   \bibinfo{volume}{14}\/}, \bibinfo{pages}{147--153}.
 %Type = Article
 \bibitem[{Chamizo(2003)}]{chamizo2003acquisition}
@@ -219,7 +240,7 @@
 \bibitem[{Cheng(2008)}]{cheng2008whither}
 \bibinfo{author}{Cheng, K.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Whither geometry? troubles of the geometric module}.
-\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Cognitive Sciences}\/},  {\it
   \bibinfo{volume}{12}\/}, \bibinfo{pages}{355--361}.
 %Type = Article
 \bibitem[{Cheng et~al.(2013)Cheng, Huttenlocher \& Newcombe}]{cheng201325}
@@ -227,7 +248,7 @@
   \bibinfo{author}{Newcombe, N.~S.} (\bibinfo{year}{2013}).
 \newblock \bibinfo{title}{25 years of research on the use of geometry in
   spatial reorientation: a current theoretical perspective}.
-\newblock {\it \bibinfo{journal}{Psychonomic bulletin \& review}\/},  {\it
+\newblock {\it \bibinfo{journal}{Psychonomic Bulletin \& Review}\/},  {\it
   \bibinfo{volume}{20}\/}, \bibinfo{pages}{1033--1054}.
 %Type = Article
 \bibitem[{Cheng et~al.(2007)Cheng, Shettleworth, Huttenlocher \&
@@ -236,7 +257,7 @@
   \bibinfo{author}{Huttenlocher, J.}, \& \bibinfo{author}{Rieser, J.~J.}
   (\bibinfo{year}{2007}).
 \newblock \bibinfo{title}{Bayesian integration of spatial information.}
-\newblock {\it \bibinfo{journal}{Psychological bulletin}\/},  {\it
+\newblock {\it \bibinfo{journal}{Psychological Bulletin}\/},  {\it
   \bibinfo{volume}{133}\/}, \bibinfo{pages}{625}.
 %Type = Article
 \bibitem[{Cheung et~al.(2012)Cheung, Ball, Milford, Wyeth \&
@@ -246,7 +267,7 @@
   \bibinfo{author}{Wiles, J.} (\bibinfo{year}{2012}).
 \newblock \bibinfo{title}{Maintaining a cognitive map in darkness: the need to
   fuse boundary knowledge with path integration}.
-\newblock {\it \bibinfo{journal}{PLoS Comput. Biol}\/},  {\it
+\newblock {\it \bibinfo{journal}{PLoS Computational Biology}\/},  {\it
   \bibinfo{volume}{8}\/}, \bibinfo{pages}{e1002651}.
 %Type = Inproceedings
 \bibitem[{Chitta et~al.(2011)Chitta, Jin, Havens \&
@@ -256,8 +277,8 @@
   (\bibinfo{year}{2011}).
 \newblock \bibinfo{title}{Approximate kernel k-means: Solution to large scale
   kernel clustering}.
-\newblock In {\it \bibinfo{booktitle}{Proceedings of the 17th ACM SIGKDD
-  international conference on Knowledge discovery and data mining}\/} (pp.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the 17th International
+  Conference on Knowledge Discovery and Data Mining}\/} (pp.
   \bibinfo{pages}{895--903}).
 \newblock \bibinfo{organization}{ACM}.
 %Type = Article
@@ -272,14 +293,14 @@
 \bibinfo{author}{Colgin, L.~L.}, \bibinfo{author}{Moser, E.~I.}, \&
   \bibinfo{author}{Moser, M.-B.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Understanding memory through hippocampal remapping}.
-\newblock {\it \bibinfo{journal}{Trends in neurosciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Neurosciences}\/},  {\it
   \bibinfo{volume}{31}\/}, \bibinfo{pages}{469--477}.
 %Type = Article
 \bibitem[{Derdikman \& Moser(2010)}]{derdikman2010manifold}
 \bibinfo{author}{Derdikman, D.}, \& \bibinfo{author}{Moser, E.~I.}
   (\bibinfo{year}{2010}).
 \newblock \bibinfo{title}{A manifold of spatial maps in the brain}.
-\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Cognitive Sciences}\/},  {\it
   \bibinfo{volume}{14}\/}, \bibinfo{pages}{561--569}.
 %Type = Article
 \bibitem[{Deshmukh \& Knierim(2013)}]{deshmukh2013}
@@ -303,7 +324,7 @@
   \bibinfo{author}{Andrieu, C.} (\bibinfo{year}{2000}).
 \newblock \bibinfo{title}{On sequential monte carlo sampling methods for
   bayesian filtering}.
-\newblock {\it \bibinfo{journal}{Statistics and computing}\/},  {\it
+\newblock {\it \bibinfo{journal}{Statistics and Computing}\/},  {\it
   \bibinfo{volume}{10}\/}, \bibinfo{pages}{197--208}.
 %Type = Article
 \bibitem[{Durrant-Whyte \& Bailey(2006)}]{durrant2006simultaneous}
@@ -316,8 +337,25 @@
 \bibitem[{Ernst(2006)}]{ernst2006bayesian}
 \bibinfo{author}{Ernst, M.~O.} (\bibinfo{year}{2006}).
 \newblock \bibinfo{title}{A bayesian view on multimodal cue integration}.
-\newblock {\it \bibinfo{journal}{Human body perception from the inside out}\/},
+\newblock {\it \bibinfo{journal}{Human Body Perception from the Inside Out}\/},
    (pp. \bibinfo{pages}{105--131}).
+%Type = Article
+\bibitem[{Ernst \& Banks(2002)}]{ernst2002humans}
+\bibinfo{author}{Ernst, M.~O.}, \& \bibinfo{author}{Banks, M.~S.}
+  (\bibinfo{year}{2002}).
+\newblock \bibinfo{title}{Humans integrate visual and haptic information in a
+  statistically optimal fashion}.
+\newblock {\it \bibinfo{journal}{Nature}\/},  {\it \bibinfo{volume}{415}\/},
+  \bibinfo{pages}{429--433}.
+%Type = Article
+\bibitem[{Etienne et~al.(1996)Etienne, Maurer \&
+  S{\'e}guinot}]{etienne1996path}
+\bibinfo{author}{Etienne, A.~S.}, \bibinfo{author}{Maurer, R.}, \&
+  \bibinfo{author}{S{\'e}guinot, V.} (\bibinfo{year}{1996}).
+\newblock \bibinfo{title}{Path integration in mammals and its interaction with
+  visual landmarks.}
+\newblock {\it \bibinfo{journal}{The Journal of Experimental Biology}\/},  {\it
+  \bibinfo{volume}{199}\/}, \bibinfo{pages}{201--209}.
 %Type = Article
 \bibitem[{Fenton \& Muller(1998)}]{fenton1998place}
 \bibinfo{author}{Fenton, A.~A.}, \& \bibinfo{author}{Muller, R.~U.}
@@ -342,15 +380,15 @@
   (\bibinfo{year}{2010}).
 \newblock \bibinfo{title}{Statistically optimal perception and learning: from
   behavior to neural representations}.
-\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Cognitive Sciences}\/},  {\it
   \bibinfo{volume}{14}\/}, \bibinfo{pages}{119--130}.
 %Type = Inproceedings
 \bibitem[{Fox \& Prescott(2010)}]{fox2010hippocampus}
 \bibinfo{author}{Fox, C.}, \& \bibinfo{author}{Prescott, T.}
   (\bibinfo{year}{2010}).
 \newblock \bibinfo{title}{Hippocampus as unitary coherent particle filter}.
-\newblock In {\it \bibinfo{booktitle}{Neural Networks (IJCNN), The 2010
-  International Joint Conference on}\/} (pp. \bibinfo{pages}{1--8}).
+\newblock In {\it \bibinfo{booktitle}{The 2010 International Joint Conference
+  on Neural Networks}\/} (pp. \bibinfo{pages}{1--8}).
 \newblock \bibinfo{organization}{IEEE}.
 %Type = Article
 \bibitem[{Franklin et~al.(2014)Franklin, Madl, D'Mello \&
@@ -360,8 +398,8 @@
   (\bibinfo{year}{2014}).
 \newblock \bibinfo{title}{Lida: A systems-level architecture for cognition,
   emotion, and learning}.
-\newblock {\it \bibinfo{journal}{Autonomous Mental Development, IEEE
-  Transactions on}\/},  {\it \bibinfo{volume}{6}\/}, \bibinfo{pages}{19--41}.
+\newblock {\it \bibinfo{journal}{IEEE Transactions on Autonomous Mental
+  Development}\/},  {\it \bibinfo{volume}{6}\/}, \bibinfo{pages}{19--41}.
   \DOIprefix\doi{10.1109/TAMD.2013.2277589}.
 %Type = Article
 \bibitem[{Franklin et~al.(2012)Franklin, Strain, Snaider, McCall \&
@@ -385,7 +423,7 @@
 \bibinfo{author}{Friston, K.}, \bibinfo{author}{Mattout, J.}, \&
   \bibinfo{author}{Kilner, J.} (\bibinfo{year}{2011}).
 \newblock \bibinfo{title}{Action understanding and active inference}.
-\newblock {\it \bibinfo{journal}{Biological cybernetics}\/},  {\it
+\newblock {\it \bibinfo{journal}{Biological Cybernetics}\/},  {\it
   \bibinfo{volume}{104}\/}, \bibinfo{pages}{137--160}.
 %Type = Article
 \bibitem[{Gershman \& Blei(2012)}]{gershman2012tutorial}
@@ -406,7 +444,7 @@
 \bibinfo{author}{Gibson, B.~R.}, \bibinfo{author}{Rogers, T.~T.}, \&
   \bibinfo{author}{Zhu, X.} (\bibinfo{year}{2013}).
 \newblock \bibinfo{title}{Human semi-supervised learning}.
-\newblock {\it \bibinfo{journal}{Topics in cognitive science}\/},  {\it
+\newblock {\it \bibinfo{journal}{Topics in Cognitive Science}\/},  {\it
   \bibinfo{volume}{5}\/}, \bibinfo{pages}{132--172}.
 %Type = Article
 \bibitem[{Gobet et~al.(2001)Gobet, Lane, Croker, Cheng, Jones, Oliver \&
@@ -416,7 +454,7 @@
   \bibinfo{author}{Jones, G.}, \bibinfo{author}{Oliver, I.}, \&
   \bibinfo{author}{Pine, J.~M.} (\bibinfo{year}{2001}).
 \newblock \bibinfo{title}{Chunking mechanisms in human learning}.
-\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Cognitive Sciences}\/},  {\it
   \bibinfo{volume}{5}\/}, \bibinfo{pages}{236--243}.
 %Type = Article
 \bibitem[{Greenauer \& Waller(2010)}]{greenauer2010micro}
@@ -434,17 +472,36 @@
   \bibinfo{author}{Tenenbaum, J.~B.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Bayesian models of cognition}.
 \newblock In \bibinfo{editor}{R.~Sun} (Ed.), {\it \bibinfo{booktitle}{Cambridge
-  handbook of computational cognitive modeling}\/} (pp.
+  Handbook of Computational Cognitive Modeling}\/} (pp.
   \bibinfo{pages}{59--100}).
 \newblock \bibinfo{address}{Cambridge}: \bibinfo{publisher}{Cambridge
   University Press}.
+%Type = Article
+\bibitem[{Hardcastle et~al.(2015)Hardcastle, Ganguli \&
+  Giocomo}]{hardcastle2015environmental}
+\bibinfo{author}{Hardcastle, K.}, \bibinfo{author}{Ganguli, S.}, \&
+  \bibinfo{author}{Giocomo, L.~M.} (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{Environmental boundaries as an error correction
+  mechanism for grid cells}.
+\newblock {\it \bibinfo{journal}{Neuron}\/},  {\it \bibinfo{volume}{86}\/},
+  \bibinfo{pages}{827--839}.
 %Type = Inproceedings
 \bibitem[{Harrison et~al.(2003)Harrison, Schunn et~al.}]{harrison2003act}
 \bibinfo{author}{Harrison, A.~M.}, \bibinfo{author}{Schunn, C.~D.} et~al.
   (\bibinfo{year}{2003}).
 \newblock \bibinfo{title}{{ACT-R/S}: Look ma, no" cognitive-map}.
-\newblock In {\it \bibinfo{booktitle}{International conference on cognitive
-  modeling}\/} (pp. \bibinfo{pages}{129--134}).
+\newblock In {\it \bibinfo{booktitle}{International Conference on Cognitive
+  Modeling}\/} (pp. \bibinfo{pages}{129--134}).
+%Type = Article
+\bibitem[{Hartley et~al.(2000)Hartley, Burgess, Lever, Cacucci \&
+  O'keefe}]{hartley2000modeling}
+\bibinfo{author}{Hartley, T.}, \bibinfo{author}{Burgess, N.},
+  \bibinfo{author}{Lever, C.}, \bibinfo{author}{Cacucci, F.}, \&
+  \bibinfo{author}{O'keefe, J.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{Modeling place fields in terms of the cortical inputs
+  to the hippocampus}.
+\newblock {\it \bibinfo{journal}{Hippocampus}\/},  {\it
+  \bibinfo{volume}{10}\/}, \bibinfo{pages}{369--379}.
 %Type = Article
 \bibitem[{Hartley et~al.(2014)Hartley, Lever, Burgess \&
   O'Keefe}]{hartley2014space}
@@ -489,6 +546,26 @@
 \newblock \bibinfo{title}{Spatial scaling in young children}.
 \newblock {\it \bibinfo{journal}{Psychological Science}\/},  {\it
   \bibinfo{volume}{10}\/}, \bibinfo{pages}{393--398}.
+%Type = Article
+\bibitem[{Huxter et~al.(2008)Huxter, Senior, Allen \&
+  Csicsvari}]{huxter2008theta}
+\bibinfo{author}{Huxter, J.~R.}, \bibinfo{author}{Senior, T.~J.},
+  \bibinfo{author}{Allen, K.}, \& \bibinfo{author}{Csicsvari, J.}
+  (\bibinfo{year}{2008}).
+\newblock \bibinfo{title}{Theta phase--specific codes for two-dimensional
+  position, trajectory and heading in the hippocampus}.
+\newblock {\it \bibinfo{journal}{Nature Neuroscience}\/},  {\it
+  \bibinfo{volume}{11}\/}, \bibinfo{pages}{587--594}.
+%Type = Article
+\bibitem[{Jarsky et~al.(2005)Jarsky, Roxin, Kath \&
+  Spruston}]{jarsky2005conditional}
+\bibinfo{author}{Jarsky, T.}, \bibinfo{author}{Roxin, A.},
+  \bibinfo{author}{Kath, W.~L.}, \& \bibinfo{author}{Spruston, N.}
+  (\bibinfo{year}{2005}).
+\newblock \bibinfo{title}{Conditional dendritic spike propagation following
+  distal synaptic activation of hippocampal ca1 pyramidal neurons}.
+\newblock {\it \bibinfo{journal}{Nature Neuroscience}\/},  {\it
+  \bibinfo{volume}{8}\/}, \bibinfo{pages}{1667--1676}.
 %Type = Book
 \bibitem[{Jaynes(1996)}]{jaynes1996probability}
 \bibinfo{author}{Jaynes, E.~T.} (\bibinfo{year}{1996}).
@@ -503,6 +580,13 @@
 \newblock {\it \bibinfo{journal}{Journal of Neurophysiology}\/},  {\it
   \bibinfo{volume}{83}\/}, \bibinfo{pages}{2602--2609}.
 %Type = Article
+\bibitem[{Johnston(1981)}]{johnston1981passive}
+\bibinfo{author}{Johnston, D.} (\bibinfo{year}{1981}).
+\newblock \bibinfo{title}{Passive cable properties of hippocampal ca3 pyramidal
+  neurons}.
+\newblock {\it \bibinfo{journal}{Cellular and Molecular Neurobiology}\/},  {\it
+  \bibinfo{volume}{1}\/}, \bibinfo{pages}{41--55}.
+%Type = Article
 \bibitem[{Kalman(1960)}]{kalman1960new}
 \bibinfo{author}{Kalman, R.~E.} (\bibinfo{year}{1960}).
 \newblock \bibinfo{title}{A new approach to linear filtering and prediction
@@ -515,7 +599,7 @@
   (\bibinfo{year}{2014}).
 \newblock \bibinfo{title}{Deep supervised, but not unsupervised, models may
   explain it cortical representation.}
-\newblock {\it \bibinfo{journal}{PLoS computational biology}\/},  {\it
+\newblock {\it \bibinfo{journal}{PLoS Computational Biology}\/},  {\it
   \bibinfo{volume}{10}\/}, \bibinfo{pages}{e1003915}.
 %Type = Article
 \bibitem[{Kjelstrup et~al.(2008)Kjelstrup, Solstad, Brun, Hafting, Leutgeb,
@@ -544,7 +628,7 @@
   \bibinfo{author}{Burnod, Y.} (\bibinfo{year}{1999}).
 \newblock \bibinfo{title}{Bayesian inference in populations of cortical
   neurons: a model of motion integration and segmentation in area mt}.
-\newblock {\it \bibinfo{journal}{Biological cybernetics}\/},  {\it
+\newblock {\it \bibinfo{journal}{Biological Cybernetics}\/},  {\it
   \bibinfo{volume}{80}\/}, \bibinfo{pages}{25--44}.
 %Type = Article
 \bibitem[{K{\"o}rding \& Wolpert(2004)}]{kording2004bayesian}
@@ -566,7 +650,7 @@
 \bibitem[{Kuipers(2000)}]{kuipers2000spatial}
 \bibinfo{author}{Kuipers, B.} (\bibinfo{year}{2000}).
 \newblock \bibinfo{title}{The spatial semantic hierarchy}.
-\newblock {\it \bibinfo{journal}{Artificial intelligence}\/},  {\it
+\newblock {\it \bibinfo{journal}{Artificial Intelligence}\/},  {\it
   \bibinfo{volume}{119}\/}, \bibinfo{pages}{191--233}.
 %Type = Article
 \bibitem[{Langley et~al.(2009)Langley, Laird \& Rogers}]{langley2009cognitive}
@@ -592,7 +676,7 @@
 \bibinfo{author}{Lew, A.~R.} (\bibinfo{year}{2011}).
 \newblock \bibinfo{title}{Looking beyond the boundaries: time to put landmarks
   back on the cognitive map?}
-\newblock {\it \bibinfo{journal}{Psychological bulletin}\/},  {\it
+\newblock {\it \bibinfo{journal}{Psychological Bulletin}\/},  {\it
   \bibinfo{volume}{137}\/}, \bibinfo{pages}{484}.
 %Type = Article
 \bibitem[{Liu(1996)}]{liu1996metropolized}
@@ -608,18 +692,8 @@
   (\bibinfo{year}{2006}).
 \newblock \bibinfo{title}{Bayesian inference with probabilistic population
   codes}.
-\newblock {\it \bibinfo{journal}{Nature neuroscience}\/},  {\it
+\newblock {\it \bibinfo{journal}{Nature Neuroscience}\/},  {\it
   \bibinfo{volume}{9}\/}, \bibinfo{pages}{1432--1438}.
-%Type = Inproceedings
-\bibitem[{Machado~Santos et~al.(2013)Machado~Santos, Portugal \&
-  Rocha}]{machado2013evaluation}
-\bibinfo{author}{Machado~Santos, J.}, \bibinfo{author}{Portugal, D.}, \&
-  \bibinfo{author}{Rocha, R.~P.} (\bibinfo{year}{2013}).
-\newblock \bibinfo{title}{An evaluation of 2d slam techniques available in
-  robot operating system}.
-\newblock In {\it \bibinfo{booktitle}{Safety, Security, and Rescue Robotics
-  (SSRR), 2013 IEEE International Symposium on}\/} (pp. \bibinfo{pages}{1--6}).
-\newblock \bibinfo{organization}{IEEE}.
 %Type = Article
 \bibitem[{MacNeilage et~al.(2008)MacNeilage, Ganesan \&
   Angelaki}]{macneilage2008computational}
@@ -627,7 +701,7 @@
   \bibinfo{author}{Angelaki, D.~E.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Computational approaches to spatial orientation: from
   transfer functions to dynamic bayesian inference}.
-\newblock {\it \bibinfo{journal}{Journal of neurophysiology}\/},  {\it
+\newblock {\it \bibinfo{journal}{Journal of Neurophysiology}\/},  {\it
   \bibinfo{volume}{100}\/}, \bibinfo{pages}{2981--2996}.
 %Type = Inproceedings
 \bibitem[{Madl et~al.()Madl, Franklin, Chen \& Trappl}]{madl2013spatial}
@@ -635,8 +709,8 @@
   \bibinfo{author}{Chen, K.}, \& \bibinfo{author}{Trappl, R.} ().
 \newblock \bibinfo{title}{Spatial working memory in the lida cognitive
   architecture}.
-\newblock In {\it \bibinfo{booktitle}{Proc. international conference on
-  cognitive modelling}\/} (pp. \bibinfo{pages}{384--389}).
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the International
+  Conference on Cognitive Modelling}\/} (pp. \bibinfo{pages}{384--389}).
 %Type = Article
 \bibitem[{Maguire et~al.(2006)Maguire, Nannery \& Spiers}]{maguire2006}
 \bibinfo{author}{Maguire, E.~A.}, \bibinfo{author}{Nannery, R.}, \&
@@ -694,7 +768,7 @@
   \bibinfo{author}{Moser, M.-B.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Place cells, grid cells, and the brain's spatial
   representation system}.
-\newblock {\it \bibinfo{journal}{Annu. Rev. Neurosci.}\/},  {\it
+\newblock {\it \bibinfo{journal}{Annual Review of Neuroscience}\/},  {\it
   \bibinfo{volume}{31}\/}, \bibinfo{pages}{69--89}.
 %Type = Article
 \bibitem[{Mueller et~al.(2013)Mueller, Perelman \&
@@ -712,25 +786,28 @@
   \bibinfo{author}{Bedford, R.}, \& \bibinfo{author}{Braddick, O.}
   (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Development of cue integration in human navigation}.
-\newblock {\it \bibinfo{journal}{Current biology}\/},  {\it
+\newblock {\it \bibinfo{journal}{Current Biology}\/},  {\it
   \bibinfo{volume}{18}\/}, \bibinfo{pages}{689--693}.
 %Type = Article
 \bibitem[{Neal(2000)}]{neal2000markov}
 \bibinfo{author}{Neal, R.~M.} (\bibinfo{year}{2000}).
 \newblock \bibinfo{title}{Markov chain sampling methods for dirichlet process
   mixture models}.
-\newblock {\it \bibinfo{journal}{Journal of computational and graphical
-  statistics}\/},  {\it \bibinfo{volume}{9}\/}, \bibinfo{pages}{249--265}.
+\newblock {\it \bibinfo{journal}{Journal of Computational and Graphical
+  Statistics}\/},  {\it \bibinfo{volume}{9}\/}, \bibinfo{pages}{249--265}.
 %Type = Phdthesis
 \bibitem[{Negenborn(2003)}]{Negenborn2003}
 \bibinfo{author}{Negenborn, R.} (\bibinfo{year}{2003}).
 \newblock {\it \bibinfo{title}{Robot localization and Kalman filters}\/}.
 \newblock Ph.D. thesis Utrecht University.
-%Type = Article
+%Type = Incollection
 \bibitem[{Newell(1973)}]{newell1973you}
 \bibinfo{author}{Newell, A.} (\bibinfo{year}{1973}).
 \newblock \bibinfo{title}{You can't play 20 questions with nature and win:
-  Projective comments on the papers of this symposium}, .
+  Projective comments on the papers of this symposium}.
+\newblock In \bibinfo{editor}{W.~G. Chase} (Ed.), {\it
+  \bibinfo{booktitle}{Visual Information Processing}\/}.
+\newblock \bibinfo{publisher}{New York: Academic Press}.
 %Type = Incollection
 \bibitem[{Newman et~al.(2011)Newman, Chandran-Ramesh, Cole, Cummins, Harrison,
   Posner \& Schroeter}]{newman2011describing}
@@ -751,6 +828,14 @@
   to human reasoning}\/}.
 \newblock \bibinfo{publisher}{Oxford University Press}.
 %Type = Article
+\bibitem[{O'Keefe \& Burgess(1996)}]{okeefe1996geometric}
+\bibinfo{author}{O'Keefe, J.}, \& \bibinfo{author}{Burgess, N.}
+  (\bibinfo{year}{1996}).
+\newblock \bibinfo{title}{Geometric determinants of the place fields of
+  hippocampal neurons.}
+\newblock {\it \bibinfo{journal}{Nature}\/},  {\it \bibinfo{volume}{381}\/},
+  \bibinfo{pages}{425--428}.
+%Type = Article
 \bibitem[{O'Keefe et~al.(1998)O'Keefe, Burgess, Donnett, Jeffery \&
   Maguire}]{o1998place}
 \bibinfo{author}{O'Keefe, J.}, \bibinfo{author}{Burgess, N.},
@@ -767,9 +852,8 @@
   \bibinfo{author}{Teller, S.} (\bibinfo{year}{2006}).
 \newblock \bibinfo{title}{Fast iterative alignment of pose graphs with poor
   initial estimates}.
-\newblock In {\it \bibinfo{booktitle}{Robotics and Automation, 2006. ICRA 2006.
-  Proceedings 2006 IEEE International Conference on}\/} (pp.
-  \bibinfo{pages}{2262--2269}).
+\newblock In {\it \bibinfo{booktitle}{Proceedings 2006 IEEE International
+  Conference on Robotics and Automation}\/} (pp. \bibinfo{pages}{2262--2269}).
 \newblock \bibinfo{organization}{IEEE}.
 %Type = Inproceedings
 \bibitem[{Ong et~al.(2005)Ong, Williamson \& Smola}]{ong2005learning}
@@ -783,8 +867,23 @@
 \bibinfo{author}{Osborn, G.~W.} (\bibinfo{year}{2010}).
 \newblock \bibinfo{title}{A kalman filtering approach to the representation of
   kinematic quantities by the hippocampal-entorhinal complex}.
-\newblock {\it \bibinfo{journal}{Cognitive neurodynamics}\/},  {\it
+\newblock {\it \bibinfo{journal}{Cognitive Neurodynamics}\/},  {\it
   \bibinfo{volume}{4}\/}, \bibinfo{pages}{315--335}.
+%Type = Article
+\bibitem[{Park et~al.(2011)Park, Dvorak \& Fenton}]{park2011ensemble}
+\bibinfo{author}{Park, E.}, \bibinfo{author}{Dvorak, D.}, \&
+  \bibinfo{author}{Fenton, A.~A.} (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{Ensemble place codes in hippocampus: Ca1, ca3, and
+  dentate gyrus place cells have multiple place fields in large environments}.
+\newblock {\it \bibinfo{journal}{PLoS One}\/},  {\it \bibinfo{volume}{6}\/},
+  \bibinfo{pages}{e22349--e22349}.
+%Type = Article
+\bibitem[{Parzen(1962)}]{parzen1962estimation}
+\bibinfo{author}{Parzen, E.} (\bibinfo{year}{1962}).
+\newblock \bibinfo{title}{On estimation of a probability density function and
+  mode}.
+\newblock {\it \bibinfo{journal}{The Annals of Mathematical Statistics}\/},
+  (pp. \bibinfo{pages}{1065--1076}).
 %Type = Article
 \bibitem[{Paulin(2005)}]{Paulin2005}
 \bibinfo{author}{Paulin, M.~G.} (\bibinfo{year}{2005}).
@@ -806,14 +905,14 @@
 \bibinfo{author}{Penny, W.}, \bibinfo{author}{Zeidman, P.}, \&
   \bibinfo{author}{Burgess, N.} (\bibinfo{year}{2013}).
 \newblock \bibinfo{title}{Forward and backward inference in spatial cognition}.
-\newblock {\it \bibinfo{journal}{PLoS Comput Biol}\/},  {\it
+\newblock {\it \bibinfo{journal}{PLoS Computational Biology}\/},  {\it
   \bibinfo{volume}{9}\/}, \bibinfo{pages}{e1003383}.
 %Type = Article
 \bibitem[{Platt et~al.(1999)}]{platt1999probabilistic}
 \bibinfo{author}{Platt, J.} et~al. (\bibinfo{year}{1999}).
 \newblock \bibinfo{title}{Probabilistic outputs for support vector machines and
   comparisons to regularized likelihood methods}.
-\newblock {\it \bibinfo{journal}{Advances in large margin classifiers}\/},
+\newblock {\it \bibinfo{journal}{Advances in Large Margin Classifiers}\/},
   {\it \bibinfo{volume}{10}\/}, \bibinfo{pages}{61--74}.
 %Type = Article
 \bibitem[{Poggio \& Marr(1977)}]{marr1977understanding}
@@ -851,7 +950,8 @@
 \bibitem[{Rasmussen(1999)}]{rasmussen1999infinite}
 \bibinfo{author}{Rasmussen, C.~E.} (\bibinfo{year}{1999}).
 \newblock \bibinfo{title}{The infinite gaussian mixture model.}
-\newblock In {\it \bibinfo{booktitle}{NIPS}\/} (pp. \bibinfo{pages}{554--560}).
+\newblock In {\it \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}\/} (pp. \bibinfo{pages}{554--560}).
 \newblock volume~\bibinfo{volume}{12}.
 %Type = Article
 \bibitem[{Reid et~al.(2012)Reid, Latty, Dussutour \& Beekman}]{reid2012slime}
@@ -878,7 +978,7 @@
 \newblock \bibinfo{title}{“where to?” remote memory for spatial relations
   and landmark identity in former taxi drivers with alzheimer's disease and
   encephalitis}.
-\newblock {\it \bibinfo{journal}{Journal of cognitive neuroscience}\/},  {\it
+\newblock {\it \bibinfo{journal}{Journal of Cognitive Neuroscience}\/},  {\it
   \bibinfo{volume}{17}\/}, \bibinfo{pages}{446--462}.
 %Type = Article
 \bibitem[{Rosenbaum et~al.(2000)Rosenbaum, Priselac, K{\"o}hler, Black, Gao,
@@ -889,7 +989,7 @@
   \bibinfo{author}{Moscovitch, M.} (\bibinfo{year}{2000}).
 \newblock \bibinfo{title}{Remote spatial memory in an amnesic person with
   extensive bilateral hippocampal lesions}.
-\newblock {\it \bibinfo{journal}{Nature neuroscience}\/},  {\it
+\newblock {\it \bibinfo{journal}{Nature Neuroscience}\/},  {\it
   \bibinfo{volume}{3}\/}, \bibinfo{pages}{1044--1048}.
 %Type = Article
 \bibitem[{Rossant et~al.(2011)Rossant, Leijon, Magnusson \&
@@ -931,7 +1031,8 @@
 \bibinfo{author}{Samsonovich, A.~V.} (\bibinfo{year}{2011}).
 \newblock \bibinfo{title}{Comparative analysis of implemented cognitive
   architectures.}
-\newblock In {\it \bibinfo{booktitle}{BICA}\/} (pp. \bibinfo{pages}{469--479}).
+\newblock In {\it \bibinfo{booktitle}{Biologically Inspired Cognitive
+  Architectures}\/} (pp. \bibinfo{pages}{469--479}).
 %Type = Article
 \bibitem[{Sanborn(2015)}]{sanborn2015types}
 \bibinfo{author}{Sanborn, A.~N.} (\bibinfo{year}{2015}).
@@ -939,6 +1040,15 @@
   Sampling and variational}.
 \newblock {\it \bibinfo{journal}{Brain and Cognition}\/}, .
   \DOIprefix\doi{http://dx.doi.org/10.1016/j.bandc.2015.06.008}.
+%Type = Inproceedings
+\bibitem[{Santos et~al.(2013)Santos, Portugal \& Rocha}]{machado2013evaluation}
+\bibinfo{author}{Santos, J.~M.}, \bibinfo{author}{Portugal, D.}, \&
+  \bibinfo{author}{Rocha, R.~P.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{An evaluation of 2d slam techniques available in
+  robot operating system}.
+\newblock In {\it \bibinfo{booktitle}{2013 IEEE International Symposium on
+  Safety, Security, and Rescue Robotics}\/} (pp. \bibinfo{pages}{1--6}).
+\newblock \bibinfo{organization}{IEEE}.
 %Type = Article
 \bibitem[{Schultheis \& Barkowsky(2011)}]{schultheis2011casimir}
 \bibinfo{author}{Schultheis, H.}, \& \bibinfo{author}{Barkowsky, T.}
@@ -959,7 +1069,7 @@
 \bibinfo{author}{Shelton, A.~L.}, \& \bibinfo{author}{McNamara, T.~P.}
   (\bibinfo{year}{2004}).
 \newblock \bibinfo{title}{{Spatial memory and perspective taking.}}
-\newblock {\it \bibinfo{journal}{Memory \& cognition}\/},  {\it
+\newblock {\it \bibinfo{journal}{Memory \& Cognition}\/},  {\it
   \bibinfo{volume}{32}\/}, \bibinfo{pages}{416--26}.
 %Type = Inproceedings
 \bibitem[{Shi \& Griffiths(2009)}]{shi2009neural}
@@ -967,8 +1077,8 @@
   (\bibinfo{year}{2009}).
 \newblock \bibinfo{title}{Neural implementation of hierarchical bayesian
   inference by importance sampling}.
-\newblock In {\it \bibinfo{booktitle}{Advances in neural information processing
-  systems}\/} (pp. \bibinfo{pages}{1669--1677}).
+\newblock In {\it \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}\/} (pp. \bibinfo{pages}{1669--1677}).
 %Type = Article
 \bibitem[{Shi et~al.(2010)Shi, Griffiths, Feldman \& Sanborn}]{shi2010exemplar}
 \bibinfo{author}{Shi, L.}, \bibinfo{author}{Griffiths, T.~L.},
@@ -990,7 +1100,7 @@
 \bibitem[{Simon(1955)}]{simon1955behavioral}
 \bibinfo{author}{Simon, H.~A.} (\bibinfo{year}{1955}).
 \newblock \bibinfo{title}{A behavioral model of rational choice}.
-\newblock {\it \bibinfo{journal}{The quarterly journal of economics}\/},  (pp.
+\newblock {\it \bibinfo{journal}{The Quarterly Journal of Economics}\/},  (pp.
   \bibinfo{pages}{99--118}).
 %Type = Article
 \bibitem[{Skaggs \& McNaughton(1996)}]{skaggs1996theta}
@@ -999,6 +1109,14 @@
 \newblock \bibinfo{title}{Theta phase precession in hippocampal}.
 \newblock {\it \bibinfo{journal}{Hippocampus}\/},  {\it \bibinfo{volume}{6}\/},
   \bibinfo{pages}{149--172}.
+%Type = Article
+\bibitem[{Solstad et~al.(2006)Solstad, Moser \& Einevoll}]{solstad2006grid}
+\bibinfo{author}{Solstad, T.}, \bibinfo{author}{Moser, E.~I.}, \&
+  \bibinfo{author}{Einevoll, G.~T.} (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{From grid cells to place cells: a mathematical
+  model}.
+\newblock {\it \bibinfo{journal}{Hippocampus}\/},  {\it
+  \bibinfo{volume}{16}\/}, \bibinfo{pages}{1026--1031}.
 %Type = Article
 \bibitem[{Spetch(1995)}]{spetch1995overshadowing}
 \bibinfo{author}{Spetch, M.~L.} (\bibinfo{year}{1995}).
@@ -1017,8 +1135,8 @@
 \bibitem[{Sun(2008)}]{sun2008introduction}
 \bibinfo{author}{Sun, R.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Introduction to computational cognitive modeling}.
-\newblock {\it \bibinfo{journal}{Cambridge handbook of computational
-  psychology}\/},  (pp. \bibinfo{pages}{3--19}).
+\newblock {\it \bibinfo{journal}{Cambridge Handbook of Computational
+  Psychology}\/},  (pp. \bibinfo{pages}{3--19}).
 %Type = Article
 \bibitem[{Sun \& Zhang(2004)}]{sun2004top}
 \bibinfo{author}{Sun, R.}, \& \bibinfo{author}{Zhang, X.}
@@ -1038,6 +1156,24 @@
 \newblock \bibinfo{title}{Going deeper with convolutions}.
 \newblock {\it \bibinfo{journal}{arXiv preprint arXiv:1409.4842}\/}, .
 %Type = Article
+\bibitem[{Szilagyi et~al.(1996)Szilagyi, Halasy \&
+  Somogyi}]{szilagyi1996physiological}
+\bibinfo{author}{Szilagyi, E.}, \bibinfo{author}{Halasy, K.}, \&
+  \bibinfo{author}{Somogyi, P.} (\bibinfo{year}{1996}).
+\newblock \bibinfo{title}{Physiological properties of anatomically identified
+  basket and bistratified cells in the cal area of the rat hippocampus in
+  vitro}.
+\newblock {\it \bibinfo{journal}{Hippocampus}\/},  {\it \bibinfo{volume}{6}\/},
+  \bibinfo{pages}{294--305}.
+%Type = Article
+\bibitem[{Teh et~al.(2006)Teh, Jordan, Beal \& Blei}]{teh2006hierarchical}
+\bibinfo{author}{Teh, Y.~W.}, \bibinfo{author}{Jordan, M.~I.},
+  \bibinfo{author}{Beal, M.~J.}, \& \bibinfo{author}{Blei, D.~M.}
+  (\bibinfo{year}{2006}).
+\newblock \bibinfo{title}{Hierarchical dirichlet processes}.
+\newblock {\it \bibinfo{journal}{Journal of the American Statistical
+  Association}\/},  {\it \bibinfo{volume}{101}\/}.
+%Type = Article
 \bibitem[{Tenenbaum et~al.(2011)Tenenbaum, Kemp, Griffiths \&
   Goodman}]{tenenbaum2011grow}
 \bibinfo{author}{Tenenbaum, J.~B.}, \bibinfo{author}{Kemp, C.},
@@ -1045,7 +1181,7 @@
   (\bibinfo{year}{2011}).
 \newblock \bibinfo{title}{How to grow a mind: Statistics, structure, and
   abstraction}.
-\newblock {\it \bibinfo{journal}{science}\/},  {\it \bibinfo{volume}{331}\/},
+\newblock {\it \bibinfo{journal}{Science}\/},  {\it \bibinfo{volume}{331}\/},
   \bibinfo{pages}{1279--1285}.
 %Type = Article
 \bibitem[{Teng \& Squire(1999)}]{teng1999}
@@ -1067,7 +1203,7 @@
 \bibinfo{author}{Thrun, S.}, \& \bibinfo{author}{Leonard, J.~J.}
   (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{Simultaneous localization and mapping}.
-\newblock In {\it \bibinfo{booktitle}{Springer handbook of robotics}\/} (pp.
+\newblock In {\it \bibinfo{booktitle}{Springer Handbook of Robotics}\/} (pp.
   \bibinfo{pages}{871--889}).
 \newblock \bibinfo{publisher}{Springer}.
 %Type = Article
@@ -1084,8 +1220,8 @@
   (\bibinfo{year}{2012}).
 \newblock \bibinfo{title}{Evaluations of different simultaneous localization
   and mapping (slam) algorithms}.
-\newblock In {\it \bibinfo{booktitle}{IECON 2012-38th Annual Conference on IEEE
-  Industrial Electronics Society}\/} (pp. \bibinfo{pages}{2693--2698}).
+\newblock In {\it \bibinfo{booktitle}{38th Annual Conference on IEEE Industrial
+  Electronics Society}\/} (pp. \bibinfo{pages}{2693--2698}).
 \newblock \bibinfo{organization}{IEEE}.
 %Type = Article
 \bibitem[{Tversky(1992)}]{tversky1992distortions}
@@ -1097,14 +1233,14 @@
 \bibitem[{Tversky(2003)}]{tversky2003navigating}
 \bibinfo{author}{Tversky, B.} (\bibinfo{year}{2003}).
 \newblock \bibinfo{title}{Navigating by mind and by body}.
-\newblock In {\it \bibinfo{booktitle}{Spatial cognition III}\/} (pp.
+\newblock In {\it \bibinfo{booktitle}{Spatial Cognition III}\/} (pp.
   \bibinfo{pages}{1--10}).
 \newblock \bibinfo{publisher}{Springer}.
 %Type = Article
 \bibitem[{Van~Rooij(2008)}]{van2008tractable}
 \bibinfo{author}{Van~Rooij, I.} (\bibinfo{year}{2008}).
 \newblock \bibinfo{title}{The tractable cognition thesis}.
-\newblock {\it \bibinfo{journal}{Cognitive science}\/},  {\it
+\newblock {\it \bibinfo{journal}{Cognitive Science}\/},  {\it
   \bibinfo{volume}{32}\/}, \bibinfo{pages}{939--984}.
 %Type = Article
 \bibitem[{Vilares \& Kording(2011)}]{vilares2011bayesian}
@@ -1133,7 +1269,7 @@
   \bibinfo{author}{Mallot, H.~a.} (\bibinfo{year}{2009}).
 \newblock \bibinfo{title}{{Planning paths to multiple targets: memory
   involvement and planning heuristics in spatial problem solving.}}
-\newblock {\it \bibinfo{journal}{Psychological research}\/},  {\it
+\newblock {\it \bibinfo{journal}{Psychological Research}\/},  {\it
   \bibinfo{volume}{73}\/}, \bibinfo{pages}{644--58}.
   \DOIprefix\doi{10.1007/s00426-008-0181-3}.
 %Type = Article
@@ -1152,7 +1288,7 @@
 \bibinfo{author}{Wolbers, T.}, \& \bibinfo{author}{Hegarty, M.}
   (\bibinfo{year}{2010}).
 \newblock \bibinfo{title}{What determines our navigational abilities?}
-\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Cognitive Sciences}\/},  {\it
   \bibinfo{volume}{14}\/}, \bibinfo{pages}{138--146}.
 %Type = Misc
 \bibitem[{Wu(2004)}]{wu2004properties}
@@ -1166,8 +1302,8 @@
   \bibinfo{author}{Burgard, W.} (\bibinfo{year}{2010}).
 \newblock \bibinfo{title}{Octomap: A probabilistic, flexible, and compact 3d
   map representation for robotic systems}.
-\newblock In {\it \bibinfo{booktitle}{Proc. of the ICRA 2010 workshop on best
-  practice in 3D perception and modeling for mobile manipulation}\/}.
+\newblock In {\it \bibinfo{booktitle}{Proceedings of the ICRA 2010 Workshop on
+  Best Practice in 3D Perception and Modeling for Mobile Manipulation}\/}.
 \newblock volume~\bibinfo{volume}{2}.
 %Type = Inproceedings
 \bibitem[{Xing et~al.(2002)Xing, Jordan, Russell \& Ng}]{xing2002distance}
@@ -1176,8 +1312,8 @@
   (\bibinfo{year}{2002}).
 \newblock \bibinfo{title}{Distance metric learning with application to
   clustering with side-information}.
-\newblock In {\it \bibinfo{booktitle}{Advances in neural information processing
-  systems}\/} (pp. \bibinfo{pages}{505--512}).
+\newblock In {\it \bibinfo{booktitle}{Advances in Neural Information Processing
+  Systems}\/} (pp. \bibinfo{pages}{505--512}).
 %Type = Inproceedings
 \bibitem[{Yamins et~al.(2013)Yamins, Hong, Cadieu \&
   DiCarlo}]{yamins2013hierarchical}
@@ -1194,16 +1330,27 @@
 \bibinfo{author}{Yuille, A.}, \& \bibinfo{author}{Kersten, D.}
   (\bibinfo{year}{2006}).
 \newblock \bibinfo{title}{Vision as bayesian inference: analysis by synthesis?}
-\newblock {\it \bibinfo{journal}{Trends in cognitive sciences}\/},  {\it
+\newblock {\it \bibinfo{journal}{Trends in Cognitive Sciences}\/},  {\it
   \bibinfo{volume}{10}\/}, \bibinfo{pages}{301--308}.
+%Type = Article
+\bibitem[{Zemankovics et~al.(2010)Zemankovics, K{\'a}li, Paulsen, Freund \&
+  H{\'a}jos}]{zemankovics2010differences}
+\bibinfo{author}{Zemankovics, R.}, \bibinfo{author}{K{\'a}li, S.},
+  \bibinfo{author}{Paulsen, O.}, \bibinfo{author}{Freund, T.~F.}, \&
+  \bibinfo{author}{H{\'a}jos, N.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{Differences in subthreshold resonance of hippocampal
+  pyramidal cells and interneurons: the role of h-current and passive membrane
+  characteristics}.
+\newblock {\it \bibinfo{journal}{The Journal of Physiology}\/},  {\it
+  \bibinfo{volume}{588}\/}, \bibinfo{pages}{2109--2132}.
 %Type = Inproceedings
 \bibitem[{Zheng et~al.(2011)Zheng, Gong \& Xiang}]{zheng2011person}
 \bibinfo{author}{Zheng, W.-S.}, \bibinfo{author}{Gong, S.}, \&
   \bibinfo{author}{Xiang, T.} (\bibinfo{year}{2011}).
 \newblock \bibinfo{title}{Person re-identification by probabilistic relative
   distance comparison}.
-\newblock In {\it \bibinfo{booktitle}{Computer Vision and Pattern Recognition
-  (CVPR), 2011 IEEE Conference on}\/} (pp. \bibinfo{pages}{649--656}).
+\newblock In {\it \bibinfo{booktitle}{2011 IEEE Conference on Computer Vision
+  and Pattern Recognition}\/} (pp. \bibinfo{pages}{649--656}).
 \newblock \bibinfo{organization}{IEEE}.
 
 \end{thebibliography}

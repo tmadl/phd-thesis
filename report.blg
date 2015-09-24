@@ -10,23 +10,37 @@ A level-1 auxiliary file: appendix3_lidaspmSI.aux
 A level-1 auxiliary file: appendix4_pfevidence.aux
 A level-1 auxiliary file: appendix6_adsmetric.aux
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 937 of file refs.bib
+I was expecting a `,' or a `}'---line 1106 of file refs.bib
  :  
  :  year={2013}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 951 of file refs.bib
+Repeated entry---line 1120 of file refs.bib
  : @article{carr2011hippocampal
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1178 of file refs.bib
+Repeated entry---line 1347 of file refs.bib
  : @article{pouget2013probabilistic
  :                                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1376 of file refs.bib
- : @incollection{newell1973you
- :                            ,
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "bellet2012similarity"
+Warning--I didn't find a database entry for "weinberger2005distance"
+Warning--I didn't find a database entry for "brin1995near"
+Warning--I didn't find a database entry for "loog2015contrastive"
+Warning--I didn't find a database entry for "gablonsky2001locally"
+Warning--I didn't find a database entry for "jones1993lipschitzian"
+Warning--I didn't find a database entry for "rasmussen2005gp"
+Warning--I didn't find a database entry for "bostrom2007estimating"
+Warning--I didn't find a database entry for "van2008visualizing"
+Warning--I didn't find a database entry for "zeng2012semi"
+Warning--I didn't find a database entry for "zhou2004learning"
+Warning--I didn't find a database entry for "hoi2006learning"
+Warning--I didn't find a database entry for "bilenko2004integrating"
+Warning--I didn't find a database entry for "tang2007enhancing"
+Warning--I didn't find a database entry for "wang2014constraint"
+Warning--I didn't find a database entry for "eaton2005clustering"
+Warning--I didn't find a database entry for "ding2007adaptive"
+Warning--I didn't find a database entry for "wang2014semi"
+Warning--I didn't find a database entry for "golub1999molecular"
 Warning--can't use both volume and number fields in Hoyer2003
-Warning--empty journal in newell1973you
-(There were 4 error messages)
+(There were 3 error messages)

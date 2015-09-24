@@ -1,40 +1,46 @@
-\contentsline {chapter}{Abstract}{8}
-\contentsline {chapter}{Declaration}{10}
-\contentsline {chapter}{Copyright}{11}
-\contentsline {chapter}{Acknowledgements}{12}
-\contentsline {chapter}{\numberline {1}Introduction}{13}
-\contentsline {section}{\numberline {1.1}Motivation}{14}
-\contentsline {section}{\numberline {1.2}Probabilistic models of space in brains and minds}{17}
-\contentsline {section}{\numberline {1.3}Hypotheses}{21}
-\contentsline {section}{\numberline {1.4}Outline and Contributions}{24}
-\contentsline {chapter}{\numberline {2}Computational Methods}{27}
-\contentsline {section}{\numberline {2.1}Probabilistic modelling}{30}
-\contentsline {section}{\numberline {2.2}Bayesian cue integration}{32}
-\contentsline {section}{\numberline {2.3}Bayesian localization}{33}
-\contentsline {section}{\numberline {2.4}Maximum likelihood map error correction}{36}
-\contentsline {section}{\numberline {2.5}Bayesian nonparametrics for map structuring}{41}
-\contentsline {subsection}{\numberline {2.5.1}Dirichlet Process Gaussian Mixture Models for clustering}{42}
-\contentsline {subsection}{\numberline {2.5.2}Metric learning in absolute pairwise difference space}{42}
-\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{47}
-\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{48}
-\contentsline {chapter}{\numberline {5}The structure of spatial representations}{49}
-\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{50}
-\contentsline {chapter}{\numberline {7}Discussion}{51}
-\contentsline {section}{\numberline {7.1}Other mechanisms and representations involved in spatial navigation}{51}
-\contentsline {section}{\numberline {7.2}Limitations and shortcomings}{53}
-\contentsline {subsection}{\numberline {7.2.1}Computational shortcomings}{53}
-\contentsline {subsection}{\numberline {7.2.2}Psychological implausibilities}{55}
-\contentsline {subsection}{\numberline {7.2.3}Neural implausibilities}{57}
-\contentsline {chapter}{\numberline {8}Conclusion}{61}
-\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter 4}{76}
-\contentsline {section}{\numberline {A.1}Location uncertainty in the two-dimensional case}{76}
-\contentsline {section}{\numberline {A.2}Coincidence detection as rejection sampling and multiplication by coincidence detection}{77}
-\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter 5}{83}
-\contentsline {section}{\numberline {B.1}Tree analysis algorithm}{83}
-\contentsline {section}{\numberline {B.2}Full list of cities chosen by included subjects}{84}
-\contentsline {section}{\numberline {B.3}Exclusion of learning effects}{85}
-\contentsline {section}{\numberline {B.4}Separability of co-represented and not co-represented building pairs}{86}
-\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter 6}{89}
-\contentsline {section}{\numberline {C.1}Comparison of hierarchical activation gradient-based route planning with human performance on the TSP task}{89}
-\contentsline {chapter}{\numberline {D}Additional evidence for sampling-based Bayesian localization}{92}
-\contentsline {chapter}{\numberline {E}Performance of metric learning in absolute pairwise difference space}{94}
+\contentsline {chapter}{Notation}{9}
+\contentsline {chapter}{Abstract}{11}
+\contentsline {chapter}{Declaration}{13}
+\contentsline {chapter}{Copyright}{14}
+\contentsline {chapter}{Acknowledgements}{15}
+\contentsline {chapter}{\numberline {1}Introduction}{16}
+\contentsline {section}{\numberline {1.1}Motivation}{17}
+\contentsline {section}{\numberline {1.2}Probabilistic models of space in brains and minds}{20}
+\contentsline {section}{\numberline {1.3}Hypotheses}{24}
+\contentsline {section}{\numberline {1.4}Outline and Contributions}{27}
+\contentsline {chapter}{\numberline {2}Computational Methods}{30}
+\contentsline {section}{\numberline {2.1}Probabilistic modelling}{33}
+\contentsline {section}{\numberline {2.2}Bayesian cue integration}{35}
+\contentsline {section}{\numberline {2.3}Bayesian localization}{36}
+\contentsline {section}{\numberline {2.4}Maximum likelihood map error correction}{39}
+\contentsline {section}{\numberline {2.5}Bayesian nonparametrics for map structuring}{44}
+\contentsline {subsection}{\numberline {2.5.1}Dirichlet Process Gaussian Mixture Models for clustering}{45}
+\contentsline {subsection}{\numberline {2.5.2}Metric learning in absolute pairwise difference space}{45}
+\contentsline {chapter}{\numberline {3}Review of computational cognitive models of spatial memory}{50}
+\contentsline {chapter}{\numberline {4}Bayesian integration of information in hippocampal place cells}{51}
+\contentsline {chapter}{\numberline {5}The structure of spatial representations}{52}
+\contentsline {chapter}{\numberline {6}Towards real-world capable spatial memory in the LIDA cognitive architecture}{53}
+\contentsline {chapter}{\numberline {7}Discussion}{54}
+\contentsline {section}{\numberline {7.1}Other mechanisms and representations involved in spatial navigation}{54}
+\contentsline {section}{\numberline {7.2}Limitations and shortcomings}{56}
+\contentsline {subsection}{\numberline {7.2.1}Computational shortcomings}{56}
+\contentsline {subsection}{\numberline {7.2.2}Psychological implausibilities}{58}
+\contentsline {subsection}{\numberline {7.2.3}Neural implausibilities}{60}
+\contentsline {chapter}{\numberline {8}Conclusion}{66}
+\contentsline {section}{\numberline {8.1}Future Work}{67}
+\contentsline {chapter}{\numberline {A}Supplementary Information for Chapter 4}{83}
+\contentsline {section}{\numberline {A.1}Location uncertainty in the two-dimensional case}{83}
+\contentsline {section}{\numberline {A.2}Coincidence detection as rejection sampling and multiplication by coincidence detection}{84}
+\contentsline {chapter}{\numberline {B}Supplementary Information for Chapter 5}{90}
+\contentsline {section}{\numberline {B.1}Tree analysis algorithm}{90}
+\contentsline {section}{\numberline {B.2}Full list of cities chosen by included subjects}{91}
+\contentsline {section}{\numberline {B.3}Exclusion of learning effects}{92}
+\contentsline {section}{\numberline {B.4}Separability of co-represented and not co-represented building pairs}{93}
+\contentsline {chapter}{\numberline {C}Supplementary Information for Chapter 6}{96}
+\contentsline {section}{\numberline {C.1}Comparison of hierarchical activation gradient-based route planning with human performance on the TSP task}{96}
+\contentsline {chapter}{\numberline {D}Additional evidence for sampling-based Bayesian localization}{99}
+\contentsline {chapter}{\numberline {E}Metric learning in pairwise difference space}{101}
+\contentsline {section}{\numberline {E.1}Supervised learning in absolute pairwise difference space}{104}
+\contentsline {section}{\numberline {E.2}Extension of the framework to semi-supervised learning}{104}
+\contentsline {section}{\numberline {E.3}Constituent models}{106}
+\contentsline {section}{\numberline {E.4}Preliminary results}{108}

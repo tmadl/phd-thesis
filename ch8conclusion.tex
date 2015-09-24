@@ -5,14 +5,14 @@ Humans live and act in a world they can only partially observe through imperfect
 
 Simply using existing algorithmic solutions of probabilistic localization, mapping, and clustering does not yield viable models of cognition, since these differ from biological cognitive processes in behaviour, computational requirements, and available information. However, most existing cognitive models of spatial memory, while plausibly modelling cognition, are unable to deal with sensory noise and uncertainty. We have provided a detailed review and comparison of such models in Chapter \ref{cha:nnreview}, and have suggested the ability to function in realistic environments as one of the main gaps in the literature.
 
-In order to take a first step towards filling this gap, we have proposed computational models on Marr's (1976) algorithmic level of
+In order to take a first step towards filling this gap, we have proposed probabilistic computational models on Marr's (1976) algorithmic level for the following mechanisms:
 
 \begin{itemize}
 	\item self-localization (`\textit{where am I?}'),
 	\item object localization (`\textit{where is this object?}'),
 	\item map correction after revisiting a place (`\textit{I've been here before - now how do I fix my map?}'), 
 	\item multi-goal route planning (`\textit{how do I get to these places?}'), and
-	\item map structuring (`\textit{which map does this object belong to?}'),
+	\item map structuring (`\textit{which map does this object belong to?}').
 \end{itemize}
 
 Although these problems, with the exception of the last, are well-known in robotics, we have provided the - to our knowledge - first computational cognitive models which 1) are implementable in brains, 2) can reproduce behaviour data, 3) are part of a cognitive architecture, integrated with other cognitive processes, and 4) are able to function in realistic environments with noise and uncertainty (in a robotic simulation providing the exact same interfaces as a real robot \citep{rusu2007extending}). 
@@ -20,6 +20,18 @@ Although these problems, with the exception of the last, are well-known in robot
 We have also shown, for the first time since the discovery of hierarchical structure in human spatial representations \citep{hirtle1985evidence}, that such structures are predictable based on geospatial, perceptual, and functional properties of the environment. We have provided evidence that Bayesian nonparametric clustering under a subject-specific distance metric accounts for a large majority of buildings belonging together in participants' established spatial memories.
 
 Our models extend the `Bayesian brain' \citep{knill2004bayesian} and `Bayesian cognition' \citep{chater2010bayesian} paradigms one step towards navigation-space cognitive representations and processes. We hope they will encourage further research on coping with the challenges posed by the real world in computational cognitive models of spatial memory.
+
+\section{Future Work}
+
+The work done during this PhD paves the way for several new directions for computational models of brains and minds. The first and most straightforward extension would be to implement the proposed mechanisms as a biological neural network, in order to make their predictions more tangible and directly comparable with neuroscience data. Apart from several minor implementation details, this would require designing a neural model of how hippocampal reverse replay (the suggested mechanism for map correction) could shift place cell firing fields in the correct direction. Phase resetting may be a plausible mechanism for shifting firing fields, but its implementation is unclear, as is the propagation of the discrepancy between the remembered and revisited location estimate when performing a loop. 
+
+The proposed localization and mapping mechanisms could also be made significantly more accurate, by including orientation information in the gradient descent-based map correction mechanism. This would make the equations in Chapter \ref{cha:lida} non-linear, and their biologically plausible solution a lot more difficult. Robotics solutions prescribe geometrical tricks such as the use of rotation matrices to deal with orientation information \citep{olson2006fast}. It would be interesting to investigate whether there is reason to believe that brains are able to do something similar. Some evidence for angular information directly encoded in hippocampal representations has been found recently. For example, \cite{huxter2008theta} have recently succeeded in decoding both position and heading direction from just two place cell spikes. Of course, the question of how this direction information can be utilized and corrected is still unanswered, and difficult to tackle.
+
+Noise and uncertainty affect not only navigation-space representations, but also the space of and around the body. It is likely that evidence for statistically near-optimal integration of information can be found for tasks such as reaching, and that they can be modelled in a probabilistic framework similar to the one presented in this thesis. The strong behavioural evidence for Bayesian cue integration of haptic and visual modalities \citep{ernst2002humans} has been one of the key findings precipitating the `Bayesian brain' hypothesis \citep{knill2004bayesian}, and it is likely that future work can produce models explaining such observations not only on the behavioural but also on the neural level.
+
+Other interesting avenues of research are opened up by the evidence that human spatial representation structures are predictable (Chapter \ref{cha:structure}). We have only modelled a simple two-layer structure, which can be extended to a full hierarchy (e.g. using nested Bayesian nonparametric models \citep{blei2010nested}), or to allow transferring learned spatial information to new environments (e.g. using hierarchical Dirichlet processes \citep{teh2006hierarchical}). 
+
+Outside of spatial memory research, our results open up the possibility to facilitate human-robot interaction by designing new robotic representations corresponding to human-like spatial concepts (we have shown that even without a subject-specific model, a general model can predict whether or not objects belong together in people's spatial representations in 3 out of 4 cases - see Table 2 in Chapter \ref{cha:structure}). Our proposed model of human spatial representation structure could also inspire work in geographical information science (e.g. new ways of presenting spatial information in a more easily comprehensible and memorable fashion).
 
 
 

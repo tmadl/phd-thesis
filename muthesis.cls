@@ -469,7 +469,7 @@ of \degreetitle.
         \tableofcontents
         ~\\
         ~\\
-        Word Count: 999,999
+        Word Count: 79,848
         % Download texcount.pl from  http://app.uio.no/ifi/texcount/ and
         % uncomment following lines to have word count handled automatically
         
