@@ -1,0 +1,80 @@
+
+
+\begin{table*}[!htb]
+\def\arraystretch{1.1}
+\begin{tabular}{ll}
+	$\bm x$ 		& Location in 2D space \\
+	$X$ 			& Path containing multiple locations \\
+	$\bm l$			& Landmark location in 2D space \\
+	$L$				& Set of all local (currently observable) landmark locations \\
+	$\bm o_i$		& Observation (distance measurement in 2D space) \\
+	$O_j$			& Set of all observations at time step $j$ \\
+	$d$				& Scalar (one-dimensional) distance measurement \\
+	$S$, $\Sigma$	& Covariance matrix of a normal distribution \\
+	$\bm \mu$			& Mean of a normal distribution \\
+	$\mathcal{N}(\bm \mu, \Sigma)$ & Normal distribution with mean $\bm \mu$ and covariance $\Sigma$ \\
+	$\bm m_t$		& Motion vector in 2D space at time step $t$, based on motor command \\
+	$\bm v_t$		& Speed vector in 2D space at time step $t$\\
+	$\bm c_i$		& Constraint (measured displacement) between two locations, based  \\
+	& e.g. on recognizing a previously visited place \\
+	$A$				& Ratio of covariance matrices (ratio of the uncertainty associated with  \\
+	& recognizing a previously visited place and the uncertainty of path integration) \\
+	$C$				& All available constraints \\
+	$\bm d_i$		& Discrepancy (difference between constraint $\bm c_i$ and the displacement  \\
+	& between the two location representations) \\
+	$d_m(\bm x, \bm y)$	& Metric (distance function) specifying the distance between $\bm x$ and $\bm y$ \\
+	$D$				& Distance matrix \\
+	$[\Delta \bm{x_{i,j}}]_+$ & Absolute pairwise difference vector between vectors $\bm x_i$ and $\bm x_j$ \\
+	$p(c=1|\Delta \bm x_{i_j})$ & Probability that $\bm x_i$ and $\bm x_j$ belong to the same representation (or cluster),   \\
+	& given their absolute pairwise difference\\
+	$p(c=0|\Delta \bm x_{i_j})$ & Probability that $\bm x_i$ and $\bm x_j$ do not belong to the same representation (or \\
+	& cluster), given their absolute pairwise difference\\
+	$\bm \theta$ 		& Model parameters (e.g. means and variances of Gaussians) \\
+	$\alpha$			& Learning rate of gradient descent \\
+	$\gamma$			& Normalization constant \\
+	
+\end{tabular}
+\end{table*}
+
+\clearpage
+
+\section*{Abbreviations}
+
+\begin{table*}[!htb]
+\def\arraystretch{1.2}
+\begin{tabular}{ll}
+	APD		& Absolute Pairwise Difference \\
+	BICA	& Biologically Inspired Cognitive Architecture \\
+	BVC		& Boundary Vector Cell \\
+	CA1, CA3 & Cornu Ammonis area 1 and 3 in the hippocampus \\
+	CD		& Coincidence Detection in neurons \\
+	CNN		& Convolutional Neural Network \\
+	DP-GMM	& Dirichlet Process Gaussian Mixture Model \\
+	DIRECT	& DIviding RECTangles algorithm \\
+	EC		& Entorhinal Cortex \\
+	FLOPS 	& Floating-Point Operations Per Second \\
+	fMRI	& functional Magnetic Resonance Imaging \\
+	GDA		& Gaussian Discriminant Analsis \\
+	GWT		& Global Workspace Theory \\
+	LIDA 	& Learning Intelligent Distribution Agent \\
+	LIDAR	& LIght raDAR \\
+	LTM		& Long-Term Memory \\
+	MCMC	& Markov Chain Monte Carlo \\
+	MDS		& Multi-Dimensional Scaling \\
+	MTurk	& Amazon Mechanical Turk \\
+	PAM		& Perceptual Associative Memory \\
+	PHC 	& Parahippocampal cortex \\
+	PPC 	& Probabilistic Population Code \\
+	PRC		& Perirhinal cortex \\
+	RBF		& Radial Basis Function \\
+	RF		& Random Forest \\
+	RI		& Rand Index \\
+	ROS		& Robot Operating System \\
+	SBC		& Structure-Building Codelet \\
+	SLAM 	& Simultaneous Localization and Mapping \\
+	SSE		& Sum of squared errors \\
+	STM		& Short-Term Memory \\
+	SVM 	& Support Vector Machine \\
+	t-SNE	& t-Distributed Stochastic Neighbor Embedding \\
+\end{tabular}
+\end{table*}

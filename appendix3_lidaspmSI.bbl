@@ -1,0 +1,33 @@
+\begin{thebibliography}{2}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Inproceedings
+\bibitem[{Madl et~al.(2013)Madl, Franklin, Chen \& Trappl}]{madl2013spatial}
+\bibinfo{author}{Madl, T.}, \bibinfo{author}{Franklin, S.},
+  \bibinfo{author}{Chen, K.}, \& \bibinfo{author}{Trappl, R.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{Spatial working memory in the lida cognitive
+  architecture}.
+\newblock In {\it \bibinfo{booktitle}{Proc. international conference on
+  cognitive modelling}\/}.
+%Type = Article
+\bibitem[{Wiener et~al.(2009)Wiener, Ehbauer \& Mallot}]{Wiener2009}
+\bibinfo{author}{Wiener, J.~M.}, \bibinfo{author}{Ehbauer, N.~N.}, \&
+  \bibinfo{author}{Mallot, H.~a.} (\bibinfo{year}{2009}).
+\newblock \bibinfo{title}{{Planning paths to multiple targets: memory
+  involvement and planning heuristics in spatial problem solving.}}
+\newblock {\it \bibinfo{journal}{Psychological research}\/},  {\it
+  \bibinfo{volume}{73}\/}, \bibinfo{pages}{644--58}.
+  \DOIprefix\doi{10.1007/s00426-008-0181-3}.
+
+\end{thebibliography}

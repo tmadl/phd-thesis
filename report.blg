@@ -10,37 +10,72 @@ A level-1 auxiliary file: appendix3_lidaspmSI.aux
 A level-1 auxiliary file: appendix4_pfevidence.aux
 A level-1 auxiliary file: appendix6_adsmetric.aux
 Database file #1: refs.bib
-I was expecting a `,' or a `}'---line 1106 of file refs.bib
+Repeated entry---line 302 of file refs.bib
+ : @article{zeng2012semi
+ :                      ,
+I'm skipping whatever remains of this entry
+Warning--I'm ignoring brin1995near's extra "year" field
+--line 336 of file refs.bib
+Repeated entry---line 478 of file refs.bib
+ : @inproceedings{tang2007enhancing
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 496 of file refs.bib
+ : @article{zeng2012semi
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 507 of file refs.bib
+ : @article{wang2014constraint
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 711 of file refs.bib
+ : @article{breiman2001random
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1293 of file refs.bib
+ : @article{platt1999probabilistic
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1332 of file refs.bib
+ : @inproceedings{ong2005learning
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1340 of file refs.bib
+ : @inproceedings{xing2002distance
+ :                                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1349 of file refs.bib
+ : @inproceedings{chitta2011approximate
+ :                                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1358 of file refs.bib
+ : @article{baghshah2010kernel
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1369 of file refs.bib
+ : @article{bensmail1996regularized
+ :                                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1388 of file refs.bib
+ : @inproceedings{rasmussen1999infinite
+ :                                     ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1638 of file refs.bib
  :  
  :  year={2013}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 1120 of file refs.bib
+Repeated entry---line 1652 of file refs.bib
  : @article{carr2011hippocampal
  :                             ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1347 of file refs.bib
+Repeated entry---line 1895 of file refs.bib
  : @article{pouget2013probabilistic
  :                                 ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "bellet2012similarity"
-Warning--I didn't find a database entry for "weinberger2005distance"
-Warning--I didn't find a database entry for "brin1995near"
-Warning--I didn't find a database entry for "loog2015contrastive"
-Warning--I didn't find a database entry for "gablonsky2001locally"
-Warning--I didn't find a database entry for "jones1993lipschitzian"
-Warning--I didn't find a database entry for "rasmussen2005gp"
-Warning--I didn't find a database entry for "bostrom2007estimating"
-Warning--I didn't find a database entry for "van2008visualizing"
-Warning--I didn't find a database entry for "zeng2012semi"
-Warning--I didn't find a database entry for "zhou2004learning"
-Warning--I didn't find a database entry for "hoi2006learning"
-Warning--I didn't find a database entry for "bilenko2004integrating"
-Warning--I didn't find a database entry for "tang2007enhancing"
-Warning--I didn't find a database entry for "wang2014constraint"
-Warning--I didn't find a database entry for "eaton2005clustering"
-Warning--I didn't find a database entry for "ding2007adaptive"
-Warning--I didn't find a database entry for "wang2014semi"
-Warning--I didn't find a database entry for "golub1999molecular"
+Repeated entry---line 2212 of file refs.bib
+ : @article{madl2015computational
+ :                               ,
+I'm skipping whatever remains of this entry
 Warning--can't use both volume and number fields in Hoyer2003
-(There were 3 error messages)
+(There were 16 error messages)

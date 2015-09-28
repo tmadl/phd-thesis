@@ -97,9 +97,9 @@ Towards real-world capable computational cognitive models of spatial memory}
 
 \prefacesection{Acknowledgements}
 
-I would like to warmly thank Emer.Prof. Dr. Stan Franklin, for all the support, advice, inspiring discussions, and friendly encouragement over the last years; and for very productive and enjoyable periods of external research at the University of Memphis. I am grateful and indebted to my supervisor Dr. Ke Chen and co-supervisor Prof. Dr. Daniela Montaldi, who have supported and advised me in computational/mathematical and psychological/neural matters, respectively. Many thanks also to Emer.o.Univ.-Prof.Dr. Robert Trappl, for the opportunities of external research at the Austrian Institute for Artificial Intelligence. I am also indebted to Prof. Dr. Carol A. Barnes, and Dr. Sara N. Burke, for being kind enough to share their place cell recordings with me, which have both inspired and substantiated the core hypotheses of my work. 
+I would like to warmly thank emer.Prof. Dr. Stan Franklin, for all the support, advice, inspiring discussions, and friendly encouragement over the last years; and for very productive and enjoyable periods of external research at the University of Memphis. I am grateful and indebted to my supervisor Dr. Ke Chen and co-supervisor Prof. Dr. Daniela Montaldi, who have supported and advised me in computational/mathematical and psychological/neural matters, respectively. Many thanks also to emer.Prof.Dr. Robert Trappl, for the opportunities of external research at the Austrian Institute for Artificial Intelligence, for his encouragement, and for the FWF travel grants to conferences and summer schools. I am also indebted to Prof. Dr. Carol A. Barnes, and Dr. Sara N. Burke, for being kind enough to share their place cell recordings with me, which have both inspired and substantiated the core hypotheses of my work. 
 
-I am also eternally grateful to my family and loved ones for supporting me and being patient with me even if I was unreachable for days or weeks at a time, buried in work. Thank you to my dad, whose natural curiosity, rational world-view, and well-equipped workshop have inspired a scientific mindset in me even as a child; to my mum, whose creativity and perseverance have been as inspiring as her support has been comforting; to my sister, for showing me what it means to `explore, dream, and discover'; and to my brother, for some of the best discussions I have had, and for his suggestions for improving this thesis. Thank you also to Maria for always being there for me. I also want to thank my friends, for the good times and for reminding me of what it means to be human; and for my colleagues, both at OFAI in Vienna, at the University of Manchester, and at the University of Memphis, for interesting discussions.
+I am also eternally grateful to my family and loved ones for supporting me and being patient with me even if I was unreachable for days or weeks at a time, buried in work. Thank you to my dad, whose natural curiosity, rational world-view, and well-equipped workshop have inspired a scientific mindset in me even as a child; to my mum, whose creativity and perseverance have been as inspiring as her support has been comforting; to my sister, for showing me what it means to `explore, dream, and discover'; and to my brother, for some of the best discussions I have had, and for his suggestions for improving this thesis. Thank you also to Maria for always being there for me. I could not have done it without them. I also want to thank my friends, for the good times and for reminding me of what it means to be human; and for my colleagues, both at OFAI in Vienna, at the University of Manchester, and at the University of Memphis, for interesting discussions.
 
 I take this opportunity to acknowledge my sponsors: EPSRC grant EP/I028099/1, FWF grant P25380-N23, OIST Computational Neuroscience Course 2013 accommodation and travel grant, TIMELY COST action TD0904 travel grant, and the accommodation grant for The First {\"O}rebro Winter School on Artificial Intelligence and Robotics. 
 
@@ -115,7 +115,7 @@ I take this opportunity to acknowledge my sponsors: EPSRC grant EP/I028099/1, FW
 
 \include{ch2methods} 
 
-\chapter{Review of computational cognitive models of spatial memory}
+\chapter{Review of Computational Cognitive Models of Spatial Memory}
 \label{cha:nnreview}
 
 \textbf{Publication 1 / 4.} Madl T., Chen K., Montaldi D. \& Trappl R., 2015. Computational cognitive models of spatial memory in navigation space: A review. \textit{Neural Networks, 65, 18-43.}
@@ -136,11 +136,18 @@ addtolist={
 	1, figure, {Overview of cognitive architectures evaluated in simulations 1 (p. 35)}, fig:nnrev:cogarch1,
 	1, figure, {Overview of cognitive architectures evaluated in simulations 2 (p. 35)}, fig:nnrev:cogarch2,
 	1, table, {Characteristics of the reviewed models (pp. 38-39)}, tbl:nnrev:char
+},
+addtotoc={
+	1, section, 1, {Introduction (p. 19)}, nnintro,
+	1, section, 1, {Neural correlates of spatial representations (p. 20)}, nnnc,
+	1, section, 1, {Computational cognitive models of spatial memory (p. 23)}, nnccm,
+	1, section, 1, {Discussion (p. 37)}, nnd,
+	1, section, 1, {Conclusion (p. 41)}, nnc
 }]{papers/nnreview.pdf}
 
 \addtocounter{page}{-25}
 
-\chapter{Bayesian integration of information in hippocampal place cells}
+\chapter{Bayesian Integration of Information in Hippocampal Place Cells}
 \label{cha:bayespc}
 
 \textbf{Publication 2 / 4.} Madl T., Franklin S., Chen K., Montaldi D. \& Trappl R., 2014. Bayesian Integration of Information in Hippocampal Place Cells. \textit{PLoS ONE 9(3), e89762}
@@ -162,11 +169,17 @@ addtolist={
 	1, figure, {Density of place cell spikes, and predicted uncertainty, on a circular track with objects (p. 9)}, fig:bayespc:density,
 	1, figure, {Place field sizes, and predicted uncertainty, on a circular track with objects, using the extended model (p. 10)}, fig:bayespc:pfextended,
 	1, figure, {Errors of coincidence-based multiplication based on a simple integrate-and-fire model (p. 11)}, fig:nnrev:cderr
+},
+addtotoc={
+	1, section, 1, {Introduction (p. 1)}, bpcintro,
+	1, section, 1, {Methods (p. 3)}, bpcm,
+	1, section, 1, {Results (p. 8)}, bpcr,
+	1, section, 1, {Discussion (p. 12)}, bpcd
 }]{papers/bayespc.pdf}
 
 \addtocounter{page}{-15}
 
-\chapter{The structure of spatial representations}
+\chapter{Exploring The Structure of Spatial Representations}
 \label{cha:structure}
 
 \textbf{Publication 3 / 4.} Madl T., Franklin S., Chen K., Trappl R. \& Montaldi D., submitted. Exploring the structure of spatial representations. \textit{Cognitive Processing}
@@ -192,11 +205,18 @@ addtolist={
 	1, figure, {Possible obstacles to predicting subject cognitive map structures (p. 33)}, fig:mapstructure:obstacles,
 	1, table, {Effects of spatial representation structure on distance estimation, walking time estimation, and response times (p. 13)}, tbl:mapstructure:effects,
 	1, table, {Prediction accuracies (and Rand indices) in Experiment 3 (p. 28)}, tbl:mapstructure:predacc
+},
+addtotoc={
+	1, section, 1, {Introduction (p. 1)}, strintro,
+	1, section, 1, {Experimental Paradigm (p. 5)}, strparadigm,
+	1, section, 1, {Experiments (p. 10)}, strexp,
+	1, section, 1, {General Discussion (p. 30)}, strd,
+	1, section, 1, {Conclusion (p. 34)}, strc
 }]{papers/mapstructure.pdf}
 
 \addtocounter{page}{-36}
 
-\chapter{Towards real-world capable spatial memory in the LIDA cognitive architecture}
+\chapter{Towards Real-world Capable Spatial Memory in the LIDA Cognitive Architecture}
 \label{cha:lida}
 
 \textbf{Publication 4 / 4.} Madl T, Franklin S, Chen K, Montaldi D \& Trappl R, submitted. Towards real-world capable spatial memory in the LIDA cognitive architecture. \textit{Biologically Inspired Cognitive Architectures}
@@ -215,6 +235,15 @@ addtolist={
 	1, figure, {Loop closing performed by the Map correction SBC (p. 12)}, fig:lida:loop,
 	1, figure, {Position errors and standard deviations in the cue integration experiment by Nardini et al. (2008) (p. 14)}, fig:lida:nardini,
 	1, figure, {Comparison with human and model errors over all environments (p. 15)}, fig:lida:comparison
+},
+addtotoc={
+	1, section, 1, {Introduction (p. 1)}, lspmintro,
+	1, section, 1, {Hypotheses (p. 2)}, lspmhyp,
+	1, section, 1, {Spatial memory in brains (p. 3)}, lspmbr,
+	1, section, 1, {The LIDA cognitive architecture (p. 4)}, lspml,
+	1, section, 1, {Towards real-world capable spatial memory in LIDA (p. 6)}, lspmt,
+	1, section, 1, {Results (p. 13)}, lspmr,
+	1, section, 1, {Conclusion (p. 16)}, lspmc
 }]{papers/lidaspm.pdf}
 
 \addtocounter{page}{-17}
@@ -236,6 +265,8 @@ addtolist={
 % Appendices start here
 
 \nocite{madl2013spatial, franklin2013lida, Negenborn2003, liu1996metropolized, Rossant2011, Robert1999, Hoyer2003, Paulin2005, Paulin2011, Busing2011, Jensen2000, Brette2012, breiman2001random, Wiener2009}
+
+\nocite{xing2002distance,weinberger2005distance,bellet2012similarity,ong2005learning,brin1995near,loog2015contrastive,platt1999probabilistic,jones1993lipschitzian,gablonsky2001locally,bensmail1996regularized,rasmussen2005gp,breiman2001random,bostrom2007estimating,van2008visualizing,zeng2012semi,zhou2004learning,zhou2004learning,hoi2006learning,bilenko2004integrating,zeng2012semi,bilenko2004integrating,tang2007enhancing,eaton2005clustering,wang2014constraint,wang2014semi,golub1999molecular}
 
 \appendix
 \include{appendix1_bayespcSI}

@@ -342,11 +342,14 @@ Documentation:
 }
 
 \def\abstracttitle{%
- {\centering  \singlespacing\large%
+ {\centering  
+   \vspace{-7ex}
+   \singlespacing %\large%
    \textsc{\expandafter{\@title}}\\%
    \@author\\%
    A \expandafter{\@thesis} submitted to the University of Manchester\\%
    for the degree of \degreetitle, \@submitdate\\ \mbox{}}\\%
+   \vspace{-7ex}
 }
 
 \def\copyrightpage{%
@@ -466,10 +469,10 @@ of \degreetitle.
         \pagestyle{plain}
         \titlep
         \ifsigpage\signaturepage\fi
-        \tableofcontents
+        \tableofcontents \blfootnote{Page numbers on the far right refer to the numbering used in the thesis. Page numbers in parentheses refer to the numbering used within the respective publication.}
         ~\\
         ~\\
-        Word Count: 79,848
+        Word Count: 86,338
         % Download texcount.pl from  http://app.uio.no/ifi/texcount/ and
         % uncomment following lines to have word count handled automatically
         
